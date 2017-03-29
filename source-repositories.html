@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <title>Apache OFBiz - Community - Source Repositories</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="Distribution" content="Global" />
+    <meta name="Robots" content="index,follow" />
+    <meta name="keywords" content="Open Source ERP,Open Source CRM,Open Source E-Commerce,Open Source eCommerce,Open Source SCM,Open Source MRP,Open Source CMMS,Open Source EAM,web services,workflow,ebusiness,e-business,ecommerce,e-commerce,automation,enterprise software,open source,entity engine,service engine,erp,crm,party,accounting,facility,supply,chain,management,catalog,order,project,task,work effort,financial,ledger,content management,customer,inventory"/>
+    <meta name="Description" content="Apache OFBiz (The Apache Open For Business Project) is an open source enterprise automation software project licensed under the Apache License Version 2.0. Being open source under the Apache 2.0 license and driven by a community Apache OFBiz offers both flexibility by design and by access to code, and a solution where you're not alone but rather can work with many others to get things done." />
+    <link rel="shortcut icon" type="image/x-icon"  href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/global.css" type="text/css" />
+    <script type="text/javascript" src="js/prototype.js"></script>
+    <script type="text/javascript" src="js/effects.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+    <script type="text/javascript" src="js/slides.js"></script>
+</head>
+
+<body id="full">
+<!-- wrap starts here -->
+  <div id="wrap">
+
+    <!--header -->
+    <div id="header">
+        <div id="logo">
+            <a href="#"><img src="images/logo.png" /></a>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li id="current"><a href="community.html">Community &gt;&gt; Source Repository</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--header ends-->
+
+    <!-- content-wrap starts -->
+<style>
+  /* reset the page for some reason it is set to 560px in the global.css file */
+  #main {width: 90%; font-size: 1em; padding:0 1em 0 1em; margin: 0; }
+  #main li, ul {list-style: square; padding: .2em 1em .2em 1em;}
+  #main a.downloadLink {font-size: 16px; font-weight: bold;}
+  #main a.downloadLink:hover {color: red;}
+</style>
+    <div id="content-wrap" class="clearfix">
+        <div id="main">
+          <h2>Apache OFBiz&reg; Source Repository</h2>
+
+<div class="highlights">
+  <h4>Apache Subversion</h4>
+  <p>
+     If you are not familiar with Apache Subversion and you don't have an SVN client tool, the following links will be useful:
+     <ul>
+       <li><a href="http://subversion.apache.org/" class="external-link" rel="nofollow" target="external">Apache Subversion Home</a></li>
+       <li><a href="http://subversion.apache.org/packages.html" class="external-link" rel="nofollow" target="external">SVN Client Tools</a></li>
+       <li><a href="http://subversion.apache.org/docs/" class="external-link" rel="nofollow" target="external">Documentation</a></li>
+     </ul>
+  </p>
+</div>
+
+            <h3>Public Access</h3>
+<p>
+    Anyone can checkout or browse the source code in the OFBiz public Subversion (SVN) repository.<br/>
+</p>
+<p>
+    To <b>checkout</b> the source code, simply use the following command (if you are using a GUI client, configure it appropriately).
+</p>
+<p>
+    <b>Note: </b>since the trunk was split into <b>ofbiz-framework</b> and <b>ofbiz-plugins</b>, 
+                the specialpurpose and hot-deploy directories have disappeared. 
+                New components must be put in a plugins directory which works as was the hot-deploy directory.
+                For OFBiz existing components, check them out using the Gradle tasks below.</br>
+                To check out a component, in a created on the fly plugins directory, use the <b>pullPluginSource</b> Gradle task.</br>
+                To get all components use <b>pullAllPluginsSource</b>. Beware this deletes a previously existing plugins directory.
+</p>
+      <ul>
+        <li><b>trunk framework</b>: $ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-framework/trunk ofbiz-framework</li>
+        <li><b>trunk plugins</b>: $ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-plugins/trunk ofbiz-plugins</li>
+        <li><b>release16.11</b>: $ svn co http://svn.apache.org/repos/asf/ofbiz/branches/release16.11 ofbiz.16.11</li>
+        <li><b>release15.12</b>: $ svn co http://svn.apache.org/repos/asf/ofbiz/branches/release15.12 ofbiz.15.12</li>
+        <li><b>release14.12</b>: $ svn co http://svn.apache.org/repos/asf/ofbiz/branches/release14.12 ofbiz.14.12</li>
+        <li><b>release13.07</b>: $ svn co http://svn.apache.org/repos/asf/ofbiz/branches/release13.07 ofbiz.13.07</li>
+        <li><b>release12.04</b>: $ svn co http://svn.apache.org/repos/asf/ofbiz/branches/release12.04 ofbiz.12.04</li>
+        <li><b>website</b>: $ svn co http://svn.apache.org/repos/asf/ofbiz/site ofbiz-website</li>
+      </ul>
+<p>There are also 2 type of Git repositories, one for committers and one for users at GitHub</p>
+      <ul>
+        <li><b>Git for committers</b> <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Git+for+committers" class="external-link" rel="nofollow" target="external">This wiki page explains how to use it.</a></li>
+        <li><b>GitHub for users</b>: Since the trunk was split (specialpurpose and hotdeploy merged in plugins, framework and plugins being apart), there are 3 repositories available at
+            <ul> 
+              <li>Only the framework: <a href="https://github.com/apache/ofbiz-framework" class="external-link" rel="nofollow" target="external">https://github.com/apache/ofbiz-framework</a></li>
+              <li>Only the plugins: <a href="https://github.com/apache/ofbiz-plugins" class="external-link" rel="nofollow" target="external">https://github.com/apache/ofbiz-plugins</a></li>
+              <li>Only the release branches (the rest is stuck at the split date): <a href="https://github.com/apache/ofbiz" class="external-link" rel="nofollow" target="external">https://github.com/apache/ofbiz</a></li>
+          </ul>
+          <p>Note though that an issue has been reported for GitHub once in <a href="https://issues.apache.org/jira/browse/OFBIZ-4336?focusedCommentId=13066670&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-13066670" class="external-link" rel="nofollow" target="external">this Jira comment</a></p>
+          </li>
+      </ul>
+
+<p>
+    To <b>browse</b> the repository, you can use one of the following links:<br/>
+</p>
+      <ul>
+        <!-- <li><a href="http://fisheye6.cenqua.com/browse/ofbiz" class="external-link" rel="nofollow" target="external">SVN - FishEye</a></li> -->
+        <li><a href="http://svn.apache.org/repos/asf/ofbiz/" class="external-link" rel="nofollow" target="external">SVN - WebDAV</a></li>
+        <li><a href="http://svn.apache.org/viewvc/ofbiz/" class="external-link" rel="nofollow" target="external">SVN - ViewVC</a></li>
+      </ul>
+<p>
+        As an alternative you may download a &quot;ready-made&quot; package at <a href="http://ci.apache.org/projects/ofbiz/snapshots/" class="external-link" rel="nofollow" target="external">OFBiz Nightly Trunk Snapshots</a> (using the SVN repository is the recommended way).
+</p>
+
+            <h3>OFBiz Committers</h3>
+<p>Developer access requires a special account which is provided by the OFBiz adminstrators. If you have a developer account you can access the repository through HTTPS. When checking in, you will be prompted your userID and password</p>
+<p>When you first connect you will be prompted to accept the SSL certificate. Verify the certificate is for svn.apache.org.
+   After verification, select option 'P' to permanently add to your SVN configuration.</p>
+<p>Subversion can handle keyword expansion, eol conversion as well as may other features. Most of these features are configured
+   on the client level rather than on the server (some [AUTO-PROPS] properties are handled on the server). To make this easy on developers and to provide a standard configuration, the official
+   OFBiz Subversion client configuration file can be found 
+   <a href="svn/config" class="external-link" rel="nofollow" target="external">here</a>. 
+  <br/>This file should replace, or be merged with, the config file found in your $HOME/.subversion directory
+    <ul>
+      <li><b>Windows</b>: %USERPROFILE%\Application Data\Subversion\config or %USERPROFILE%\AppData\Roaming\Subversion\config</li>
+      <li><b>Linux</b>: ~/.subversion/config</li>
+    </ul>
+</p>
+              <h4>OFBiz Website Repository and Access</h4>
+<p>To update the ofbiz.apache.org website and related xsd files:
+</p>
+<ol>
+    <li>Check out the site files from svn: <a href="https://svn.apache.org/repos/asf/ofbiz/site/" class="external-link" rel="nofollow" target="external">https://svn.apache.org/repos/asf/ofbiz/site/</a></li>
+    <li>Update the required website and xsd files and commit. You may use the copyDtds Gradle task to update the XSD files</li>
+    <li>the updates will be immediately published: therefore it is important that the changes are discussed and approved by the OFBiz PMC</li>
+</ol>
+<p>The source repository of the templates for the Buildbot pages is <a href="https://svn.apache.org/repos/infra/infrastructure/buildbot/aegis/buildmaster/master1/public_html/projects/ofbiz" class="external-link" rel="nofollow" target="external">here</a>; in order to change them you may need to change the create-ofbiz-snapshots-index.sh and create-ofbiz-archives-index.sh Puppet files. If you don't know how to do that ask the Infra team.</p>
+<p>To know more from ASF : <a href="http://www.apache.org/dev/project-site.html" class="external-link" rel="nofollow" target="external">http://www.apache.org/dev/project-site.html</a>
+</p>
+
+<h3>History</h3>
+<p>For those interested by history (pre ofbiz.org) <a href="http://sourceforge.net/news/?group_id=27173" class="external-link" rel="nofollow" target="external">this link gives you some information</a></p>
+
+        </div>
+        <!-- main ends -->
+
+   </div>
+      <!-- content-wrap -->
+  </div>
+<!-- wrap -->
+<!-- footer -->
+<div id="footer">
+      <div id="foot">
+            Copyright &copy; 2017 The Apache Software Foundation - Apache OFBiz, OFBiz, Apache, the Apache feather logo, the Apache OFBiz logo are either registered trademarks or trademarks of The Apache Software Foundation.
+      </div>
+</div>
+<!-- wrap ends here -->
+
+</body>
+</html>

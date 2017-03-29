@@ -1,0 +1,1293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+
+Copyright 2001-2014 The Apache Software Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not
+use this file except in compliance with the License. You may obtain a copy of
+the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+License for the specific language governing permissions and limitations
+under the License.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<HEAD>
+  <TITLE>The Open For Business Project - Release Notes</TITLE>
+  <link rel="stylesheet" href="images/ofbws.css" type="text/css"/>
+  <meta name="keywords" content="Open Source ERP,Open Source CRM,Open Source E-Commerce,Open Source eCommerce,Open Source POS,Open Source SCM,Open Source MRP,Open Source CMMS,Open Source EAM,web services,workflow,ebusiness,e-business,ecommerce,e-commerce,automation,enterprise software,open source,entity engine,service engine,erp,crm,party,accounting,facility,supply,chain,management,catalog,order,project,task,work effort,financial,ledger,content management,customer,inventory"/>
+  <link rel="shortcut icon" href="images/ofbiz.ico"/>    
+</HEAD>
+
+<body>
+
+<!-- start header -->
+<div class="headerboxoutside">
+    <div class="headerboxtop">
+        <div class="left">
+            <a href="http://ofbiz.apache.org/"><img src="images/ofbiz_logo.jpg" border="0" alt="The Open For Business Project"/></a>
+        </div>
+        <div class="right">
+            <a href="http://ofbiz.apache.org/"><img class="tag-button" src="images/ofbiz_powered.gif" alt="Powered By Apache OFBiz"/></a>
+        </div>
+        <div class="endcolumns"><span>&nbsp;</span></div>
+    </div>
+</div>
+<!-- end header -->
+
+<div class="centerarea contentarea">
+
+<h2 align="center">The Open For Business Project - Release Notes</h2>
+ 
+<div class='contenttext'>Written By: David E. Jones <a href="mailto:dejc@me.com">dejc@me.com</a>, Andy Zeneski <a href="mailto:jaz@ofbiz.org">jaz@ofbiz.org</a></div>
+
+<h3>Table of Contents</h3>
+<ul>
+  <li class='contenttext'><a href="#CVS">CVS - Current</a></li>
+  <li class='contenttext'><a href="#3.0.0">Release 3.0.0 - 13 March 2004</a></li>
+  <li class='contenttext'><a href="#2.1.1">Release 2.1.1 - 06 May 2003</a></li>
+  <li class='contenttext'><a href="#2.1.0">Release 2.1.0 - 24 April 2003</a></li>
+  <li class='contenttext'><a href="#2.0.0">Release 2.0.0 - 20 January 2003</a></li>
+  <li class='contenttext'><a href="#2.0Beta3">Release 2.0 Beta 3 - November 6, 2002</a></li>
+  <li class='contenttext'><a href="#2.0Beta2">Release 2.0 Beta 2 - July 2, 2002</a></li>
+  <li class='contenttext'><a href="#2.0Beta1">Release 2.0 Beta 1 - March 19, 2002</a></li>
+  <li class='contenttext'><a href="#2.0Alpha2">Release 2.0 Alpha 2 - February 11, 2002</a></li>
+  <li class='contenttext'><a href="#2.0Alpha1">Release 2.0 Alpha 1 - January 16, 2002</a></li>
+  <li class='contenttext'><a href="#1.0Beta1">Release 1.0 Beta 1 - October 29, 2001</a></li>
+  <li class='contenttext'><a href="#2001.09.29">Release 2001.09.29</a></li>
+  <li class='contenttext'><a href="#2001.07.20">Release 2001.07.20</a></li>
+  <li class='contenttext'><a href="#2001.06.30">Release 2001.06.30</a></li>
+  <li class='contenttext'><a href="#2001.06.22">Release 2001.06.22</a></li>
+  <li class='contenttext'><a href="#2001.06.01">Release 2001.06.01</a></li>
+  <li class='contenttext'><a href="#2001.05.28">Release 2001.05.28</a></li>
+  <li class='contenttext'><a href="#2001.05.24">Release 2001.05.24</a></li>
+</ul>
+<br/>
+
+<hr class='sepbar'/>
+<h3><a name="CVS">CVS - Current</a></h3>
+<hr class='sepbar'/>
+<h4>Overview</h4>
+
+<p class='contenttext'>No overview available. Work in progress.</p>
+
+<hr class='sepbar'/>
+<h3><a name="3.0.0">Release 3.0.0 - 13 March 2004</a></h3>
+<hr class='sepbar'/>
+<h4>Overview</h4>
+
+<p class='contenttext'>This is the long awaited 3.0.0 release. We have been planning on doing this release
+for quite some time now, but things have been moving so fast (a good thing), especially over the last few
+months, that there hasn't been much of a chance for new features to stabilize. But now it's here. With this
+release we are aware of various outstanding issues as can be seen in our issue tracker on the OFBiz java.net
+site, but in general things are working properly, especially the more mature parts of the system.</p>
+
+<p class='contenttext'>One of the biggest changes you will see right away in the 3.0 series is the reorganization
+of the directory structure and the componentization of the project. If you have ever wondered which entities or 
+services or other artifacts go with which parts of the project you can easily see so right now. Also, if you are
+using a fully supported application server there is a lot that can be configured much more easily, even to the
+point where you can drop in a new component into the hot-deploy directory and on start-up all artifacts will be
+available in the system, including: classpath resources, entity definitions and seed data files, service definitions,
+and web applications.</p>
+
+<p class='contenttext'>Beyond that nearly every part of the project has been updated with new features and enhanced
+functionality. In addition to significant progress in Manufacturing, WorkEffort, Accounting, and so on we have 
+established all of the basic functionality required to run a fulfillment oriented business including everything
+from purchasing and receiving to stock moves, picking, packing and shipping. Inventory reservation and issuance are 
+tracked and full support for back ordering is included. It can even send back-order notices according to the FTC 
+guidelines and is smart enough to not only look at what you have in stock, but also the in-coming shipments and it
+even does an on-the-fly assignment of outstanding back-ordered quantities by the purchase date to see which in-coming
+shipment would fill the needs of a particular order. And to make your life easier we even have an XML-based UPS 
+integration so you can get exact rates, get tracking codes immediately, and even print UPS labels on-the-fly during
+packing of shipments. There is even support for serial scales to weigh each package before sending off to get an
+exact rate.</p>
+
+<p class='contenttext'>Administration of Stores is now easier (be it a web store or a physical store) as all store
+settings are centralized through the Product Store. This includes inventory settings, payment settings, tax and shipping settings, 
+email notification settings, product search keyword overrides, administration roles, catalogs, promotions, and so on.</p>
+
+<p class='contenttext'>Another big change included in this release is internationalization and varying levels
+of localization for different components. This has been a huge effort contributed by various people in various
+party of the world (special thanks to Olivier Heintz &amp; Co. and many others). The manufacturing module also falls into 
+this category, it was developed and contributed by various parties (special thanks to Jacopo Cappellato and Olivier Heintz).
+
+<p class='contenttext'>In general, if you haven't looked at OFBiz in a while you will be amazed at what is new.
+While we have put some effort into compiling this list of new things, it is still far from complete but should
+give you a good idea about what is new and improved in OFBiz.</p>
+
+<h4>New Features &amp; Improvements</h4>
+<p class='contenttext'>New features and improvements include:</p>
+<ul>
+  <li class='contenttext'>eCommerce
+  <ul>
+    <li class='contenttext'>Shopping List enhancements: parent/child lists, add to cart from list, add to list from cart, display list totals.</li>
+    <li class='contenttext'>New payment capture (settle) functionality</li>
+    <li class='contenttext'>Payment captures will now attempt re-auth the credit card on failure</li>
+    <li class='contenttext'>Added last viewed items to ecommerce</li>
+    <li class='contenttext'>Integration with ClearCommerce payment gateway</li>
+    <li class='contenttext'>Integration with ValueLink for Gift Cards, including support for purchasing cards, re-charging cards, balance inquiries and using cards for payment</li>
+    <li class='contenttext'>Promotion engine totally re-written; now supports use limits per promotion/customer/order; 
+    	can require promotion codes limited by association with Party or email address and with use limit by code/customer;
+    	now supports new types of conditions and actions limited by associated products and/or categories;
+    	supports promotions such as buy X get Y for Z% discount, but X for Y dollars, and many many more (includes improved versions of old ones such as order discounts, free shipping, etc)</li>
+    <li class='contenttext'>New Product Search functionality can search by a List of constraints including 
+    	category, feature, and keyword constraints for a full parametric search (others can be easily added), 
+    	also supports multiple result ordering options including by keyword relevancy and by product name (others can be easily added)</li>
+    <li class='contenttext'>All search constraints are shown with search results and can be individually removed for a broader search, or you can refine the
+    	search because any time you go back to the advanced search page it remembers your last search and allows you to refine the previous search, or start fresh</li>
+    <li class='contenttext'>Can now use multiple payment methods for a given order; for example multiple credit cards, electronic checks, gift cards, etc</li>
+    <li class='contenttext'>Self service order returns, cancellation, and allowing order split for faster shipping of available inventory</li>
+  </ul>
+  <li class='contenttext'>Content Management
+  <ul>
+    <li class='contenttext'>URL settings for HTTP/HTTPS now configurable by WebSite</li>
+    <li class='contenttext'>Survey implementation to flexibly gather information associated with different parts of the system; examples include gathering information when a product is purchased or getting extra information about custumers on an ad-hoc basis</li>
+    <li class='contenttext'>New Form Widget: describe your form in XML, auto-create fields from services and entities, do create/edit/list/lookup-popup and many other types of forms</li>
+    <li class='contenttext'>DataResource and Content creation and editing</li>
+    <li class='contenttext'>Supports localized content</li>
+    <li class='contenttext'>New layout editor can be used to easily create new content from existing templates and new or existing content and data resources</li>
+    <li class='contenttext'>Content can be mounted and rendered as part of any web application</li>
+  </ul>
+  <li class='contenttext'>Catalog Management
+  <ul>
+    <li class='contenttext'>Implemented ProductStore; moved inventory/shipping/tax/payment/email settings to here</li>
+    <li class='contenttext'>Shipping and Tax rates now configurable by ProductStore</li>
+    <li class='contenttext'>Payment and Email notification settings now configurable by ProductStore</li>
+    <li class='contenttext'>Content can now be flexibly associated with Products for names, descriptions, images, and any additional information desired</li>
+    <li class='contenttext'>Can now setup and fulfill digital goods, or combination finished (physical) and digital goods (findig goods;)</li>
+  </ul>
+  <li class='contenttext'>Order Management
+  <ul>
+    <li class='contenttext'>Refactor Order Entry &amp; added support for purchase orders</li>
+    <li class='contenttext'>Refactor of order processing workflow to handle getting sales and purchase orders to approved status only (optional)</li>
+    <li class='contenttext'>Order status changes to Completed or Cancelled now automatic based on the status of the items</li>
+    <li class='contenttext'>Refactor Find Order page; now uses a filtering approach and runs much more efficiently</li>
+  </ul>
+  <li class='contenttext'>Party Management
+  <ul>
+    <li class='contenttext'>Refactor Find Party page; now uses a filtering approach with dynamic view entities and runs much more efficiently</li>
+    <li class='contenttext'>Initial implementation of communication event tracking and management</li>
+  </ul>
+  <li class='contenttext'>Facility Management
+  <ul>
+    <li class='contenttext'>Implemented Inventory Receive PO and Receive Shipment</li>
+    <li class='contenttext'>New Shipment functionality</li>
+    <li class='contenttext'>Integration with UPS shipping services (using XPCI, the XML-based UPS interface)</li>
+    <li class='contenttext'>New order return functionality supports refunds and credits</li>
+    <li class='contenttext'>New customizable JasperReport for shipping manifest (packing slip)</li>
+    <li class='contenttext'>New pick list and stock move functionality (pick list creates PDF files using XSL:FO and FOP)</li>
+  </ul>
+  <li class='contenttext'>Accounting Management
+  <ul>
+    <li class='contenttext'>Billing account implementation to allow payment by account with credit limit and later billing; can associate payments and invoices with this account; direct tracking (not yet through GL) of accounts receivable</li>
+    <li class='contenttext'>Create Invoice triggered on shipment status change</li>
+    <li class='contenttext'>Capture payment triggered on invoice creation</li>
+    <li class='contenttext'>Started Chart of Accounts functionality and infrastructure for the GL</li>
+  </ul>
+  <li class='contenttext'>Manufacturing Management
+  <ul>
+    <li class='contenttext'>Bill of materials management, including flexible substitutions or option selection using the virtual/variant product model</li>
+    <li class='contenttext'>Job resource management and scheduling</li>
+  </ul>
+  <li class='contenttext'>Service Engine
+  <ul>
+    <li class='contenttext'>Implemented RMI remote service engine and dispatcher that uses a compressed socket for efficient remote service calls</li>
+    <li class='contenttext'>New auto-attributes functionality; will import fields from entities into service definitions; also can exclude and override attributes now</li>
+    <li class='contenttext'>New option in service definition to set the timeout for the transaction; only if the service starts a transaction</li>
+    <li class='contenttext'>New option in service definition to set the timeout for the transaction; only if the service starts a transaction</li>
+    <li class='contenttext'>New debug mode on services; will enable verbose debugging until the service completes</li>
+    <li class='contenttext'>Now printing the service name in many error messages; helps with debugging</li>
+    <li class='contenttext'>Service validation errors can be more flexibly handled through a new service validation exception that contains extra information about the error(s)</li>
+  </ul>
+  <li class='contenttext'>Entity Engine
+  <ul>
+    <li class='contenttext'>Better support for various databases including Oracle, Sybase, SQL Server, Postgres, SAP/Max DB, and others</li>
+    <li class='contenttext'>Various extensions and new features for view entities</li>
+    <li class='contenttext'>Dynamic view entities now allow you to create your view entities on the fly for improved flexibility and efficiency</li>
+    <li class='contenttext'>Updated TransactionUtil.begin() to accept the transaction timeout in seconds</li>
+    <li class='contenttext'>New Entity Synchronization tool does large scale one-way timestamp based synchronization; supports multiple target systems, flexible specification of entities and entity packages to include or exclude, full tracking of sync history and statistics, and various other features; does remote synchronization using the Service Engine</li>
+  </ul>
+  <li class='contenttext'>Workflow Engine
+  <ul>
+    <li class='contenttext'>Workflow will now auto version packages/processes if no version is passed</li>
+    <li class='contenttext'>Process/Activity names/description can include variables from the context '${variable}'</li>
+    <li class='contenttext'>Changed some workflow exceptions to be more informative</li>
+    <li class='contenttext'>Implemented activity/process functionality</li>
+    <li class='contenttext'>New participantId can be used as the partyId or roleTypeId depending on the participantTypeId</li>
+    <li class='contenttext'>Refactor of WfFactory to no longer hold created objects; fixes many bugs with caching deleted assignments and re-loading new versions of workflows</li>
+  </ul>
+  <li class='contenttext'>General &amp; Infrastructure
+  <ul>
+    <li class='contenttext'>Updated lastest versions of Jetty, JPublish, JOTM; added Minerva for the default XA-aware connection pool</li>
+    <li class='contenttext'>Security improvements; logging out of one application will now log out of all, can automatically login to other applications through a temporary external login key generated for each page request.</li>
+    <li class='contenttext'>Added new JPublishWrapper class available in the ServletContext</li>
+    <li class='contenttext'>Refactor JPublishViewHandler to use the JPublishWrapper (better reuse)</li>  
+    <li class='contenttext'>Added jpublish.xml to all applications</li>
+    <li class='contenttext'>Added base actions and FTL templates to all applications in preparation for migration</li>
+    <li class='contenttext'>Migrated OrderMgr, Catalog, PartyMgr, WorkEffort and most other applications to use JP/FTL/BSH</li>
+    <li class='contenttext'>Added shutdown hook in ofbiz.jar</li>
+    <li class='contenttext'>New configurable options for logs dir, log4j configuration, plus all options can be overridden on the command line</li>
+    <li class='contenttext'>Now prints all connections to the admin port of ofbiz.jar</li>
+    <li class='contenttext'>All debug statements now pass log4j category, we can now filter to the class level using log4j</li>
+    <li class='contenttext'>HttpClient now supports SSL client certificate authentication</li>
+  </ul>
+</ul>
+
+<hr class='sepbar'/>
+<h3><a name="2.1.1">Release 2.1.1 - 06 May 2003</a></h3>
+<hr class='sepbar'/>
+<h4>Overview</h4>
+
+<p class='contenttext'>This is one of those releases you always hope you never
+have to do, but hey bugs happen. So yes, this is a maintenance release that
+fixes a number of bugs. There are also a couple of new features, but not many.</p>
+
+<h4>Bug Fixes</h4>
+<p class='contenttext'>Bug Fixes include:</p>
+<ul>
+    <li class='contenttext'>Service ECAs no longer ignore the first eca rule in
+    each file (yeah, that was pretty bad)</li>
+    <li class='contenttext'>The call-simple-method tag now calls the specified
+    method in the same file when the xml-resource attribute is left off, instead
+    of not calling it and also not telling you about it.</li>
+    <li class='contenttext'>Fixed field types for various *ByUserLogin fields on
+    content entities, ie changed from id to id-vlong</li>
+    <li class='contenttext'>Blob types should finally be fixed. When a Java type
+    of java.lang.Object or Object is declared in the field types XML file the
+    Object will now be serialised using Java serialization and then passed to the
+    JDBC driver as a BinaryStream to be stored in a blob. The old method just
+    passed the Object to the JDBC driver, but that doesn't have the desired
+    effect. Thanks to Juergen Donnerstag for help with this.</li>
+    <li class='contenttext'>Fixed possible NPEs in conditions for Service and
+    Entity ECAs</li>
+    <li class='contenttext'>Added missing ofbcore-extentity.jar reference for
+    Jetty (in the not usually used ofbiz.sh file) and for Tomcat in the Tomcat
+    deploy section of the Ant build script.</li>
+    <li class='contenttext'>The result-to-result, result-to-request and result-to-session
+    sub-operations of the call-service operation now use the ContextAccessor and
+    ServletAccessor helper classes to support the flexible syntax, and no longer
+    put the name of the result in place instead of the value (bad bug making the
+    profile pages not work, among other things).</li>    
+</ul>
+
+<h4>New Features &amp; Improvements</h4>
+<p class='contenttext'>New features and improvements include:</p>
+<ul>
+    <li class='contenttext'>Added initial shopping list implementation (mostly
+    done as a training example, so only so complete for more advanced features)</li>
+    <li class='contenttext'>Schema names specified for datasources in the
+    entityengine.xml file will now be used on all operations instead of just
+    meta data related ops</li>
+</ul>
+
+<hr class='sepbar'/>
+<h3><a name="2.1.0">Release 2.1.0 - 24 April 2003</a></h3>
+<hr class='sepbar'/>
+<h4>Overview</h4>
+
+<p class='contenttext'>Once again we have another great release. This release includes a number 
+of new features and a major refactoring and cleanup of the ecommerce application. Most of that
+refactoring and cleanup was part of our move away from JSPs and toward a new presentation view
+architecture using JPublish, FreeMarker, and BeanShell. As with all components used/included in OFBiz 
+these tools are freely available open source projects with active and accessible development and user
+communities. Because of all of the new features including this new architecture, this release will not
+be a maintenance release following the 2.0.x series, but rather a new minor release starting the 2.1.x
+series.</p>
+
+<p class='contenttext'>All of the ecommerce webapp has been changed from the old JSP/Regions 
+architecture to the new JPublish/FreeMarker/BeanShell architecture. The ControlServlet and events
+are all the same as before, this just replace the "view" portion of the presentation layer. Very
+few pieces of the other applications have been migrated to this new architecture, but that will
+be done over the coming months.</p>
+
+<p class='contenttext'>Another major new change is the integration with the JOTM transaction 
+manager which is a replacement for Tyrex. This means that a very simple configuration can now
+be deployed with only a servlet container and a stand-alone transaction manager, and without the
+difficulties that Tyrex brings with it.</p>
+
+<p class='contenttext'>This release is the first that includes our new recommended open source
+platform which now consists of Jetty and JOTM instead of Tomcat and Tyrex. Jetty makes deployment
+of OFBiz much easier than it was under Tomcat because there is no longer a need to copy the nearly
+100 jar libraries and configuration files into the app server directory as was necessary with Tomcat.
+In addition to moving to Jetty, we are also introducing the new ofbiz.jar startup program. This new
+executable jar embeds Jetty/JOTM with OFBiz, auto-sets all classpath and required settings. By running
+java -jar ofbiz.jar from the root OFBiz directory will fully start OFBiz in a cross-platfrom way.</p>
+
+<h4>New Features &amp; Improvements</h4>
+<p class='contenttext'>New features and improvements include:</p>
+<ul>
+    <li class='contenttext'>e-Commerce related</li>
+    <ul>
+    	<li class='contenttext'>product and category URLs are now search engine spyder friendly</li>
+    	<li class='contenttext'>meta keywords and descriptions on categories and products for better search engine ranking</li>
+    	<li class='contenttext'>advanced search now available which includes parametric search based on ProductFeatures</li>
+    	<li class='contenttext'>can now use advanced search for searching in any category, not just the search categories for the catalog</li>
+    	<li class='contenttext'>much easier to customize and change the look &amp; feel with the new FreeMarker templates 
+    	and improved separation of content, layout, and logic</li>
+        <li class='contenttext'>new B2B features make it possible to check out with billing accounts</li>
+        <li class='contenttext'>invoices are now created once a product is shipped; if a credit card is used
+        to pay the invoice will be immediately marked paid, but invoices are always created so that
+        current and future accounting functionality will be consistently used</li>
+        <li class='contenttext'>enhanced tax calculation so that specific tax information in the database can 
+        be effective dated; this makes it easy to allow for blackout dates for specific tax categories</li>
+        <li class='contenttext'>added customer product reviews; now customers can rate and review products</li>
+    </ul>
+    <li class='contenttext'>Catalog &amp; Facility related</li>
+    <ul>
+    	<li class='contenttext'>added the new calendar popup button for nearly all timestamp
+    	entry fields in the Catalog and Facility managers</li>
+    	<li class='contenttext'>new limited permissions make it possible to allow limited 
+    	administration of specific products and categories</li>
+    	<li class='contenttext'>ProductFeatureCategories can now be associated with ProductCateogories
+    	for parametric search, cleaner product creation, etc.</li>
+    	<li class='contenttext'>special categories can now be associated with catalogs to limit which
+    	products can be viewed and purchased for that catalog</li>
+    	<li class='contenttext'>Products and Categories no longer require the ID to be passed; if no ID is 
+    	passed when the record is created, a sequenced value will be used</li>
+    </ul>
+    <li class='contenttext'>Accounting related</li>
+    <ul>
+    	<li class='contenttext'>added billing account administration</li>
+    	<li class='contenttext'>began invoice administration</li>
+    </ul>
+    <li class='contenttext'>Party Manager related</li>
+    <ul>
+        <li class='contenttext'>added visit tracking screens; shows all visits and includes tracking of all hits during a visit</li>
+        <li class='contenttext'>party group enhancements; viewprofile can now notice different types of party groups</li>
+    </ul>
+    <li class='contenttext'>Misc</li>
+    <ul>    	
+        <li class='contenttext'>new look and feel for all admin applications</li>
+        <li class='contenttext'>added new secure way of doing auto-login between applications</li>
+    </ul>    
+    <li class='contenttext'>Core Framework Related</li>
+    <ul>
+    	<li class='contenttext'>MiniLang simple-method</li>
+        <ul>
+            <li class='contenttext'>added ${} (dollar-sign curly-brace) syntax to nearly all attributes in 
+            simple-method operations to insert data from environment fields</li>
+            <li class='contenttext'>added support for "." (dot, for map entries) and "[]" (square-brace, for list elements) 
+            syntax for ${} strings and environment variable names such as field-names, map-names, list-names, etc.</li>
+            <li class='contenttext'>added new <b>if</b> simple-method operation that contains a condition element, 
+            a then element, zero to many else-if elements and an optional else element; the condition block supports
+            combinations of conditions using and, or, xor, and not elements and supports the previously available
+            if-* comparator operations such as if-empty, if-compare, if-compare-field, if-has-permission, etc;
+            for examples of this see the ProductServices.xml file in commonapp/src/org/ofbiz/commonapp/product/product</li>
+        </ul>
+    	<li class='contenttext'>WebApp (ControlServlet, etc)</li>
+        <ul>
+            <li class='contenttext'>added support for FreeMarker and JPublish as view types</li>
+            <li class='contenttext'>added special FreeMarker wrapper for JPublish to setup OFBiz context</li>
+            <li class='contenttext'>added some FreeMarker transforms for ofbizUrl and ofbizContentUrl</li>
+            <li class='contenttext'>added cache plugin for FreeMarker and JPublish to use the OFBiz UtilCache</li>
+            <li class='contenttext'>added special BeanShell BSF engine that implements a compiled script cache</li>
+        </ul>
+    	<li class='contenttext'>Entity Engine</li>
+        <ul>
+            <li class='contenttext'>added Entity ECA rule definitions (like the Sevice Engine ECA rules), began implementation</li>
+            <li class='contenttext'>added index declarations for entities, with unique index option</li>
+            <li class='contenttext'>added support for schemas; overrides the JDBC username if specified; necessary for databases like the new Postgres that don't default the same way as Oracle, etc</li>
+            <li class='contenttext'>added page to WebTools to test the performance of the DB/JDBC Driver/JTA through the entity engine</li>
+            <li class='contenttext'>refactor of the entityengine.xml configuration file (see new DTD)</li>
+        </ul>
+        <li class='contenttext'>Workflow Engine</li>
+        <ul>
+            <li class='contenttext'>fixed bug in the completeAllAssignment feature; now actually works</li>
+            <li class='contenttext'>added new TransitionCondition interface for building complex conditions</li>
+            <li class='contenttext'>create a ServiceCondition implementation of the TransitionCondition interface; this allows calling a service for condition evaluation rather then using BSH</li>
+        </ul>
+        <li class='contenttext'>Other Core Related</li>
+        <ul>
+            <li class='contenttext'>added new start package which when built creates an executable ofbiz.jar which uses Jetty/JOTM and will auto-set classpath and all default options; this should allow running of OFBiz on Windows 2000/98 and other platforms which were having troubles setting the classpaths</li>
+    </ul>
+</ul>
+<br>
+
+<hr class='sepbar'/>
+<h3><a name="2.0.0">Release 2.0.0 - 20 January 2003</a></h3>
+<hr class='sepbar'/>
+<h4>Overview</h4>
+
+<p class='contenttext'>There have been a lot of incremental improvements in this release, and some 
+major additions as well. Considering what has been worked on you can all
+probably guess that we are starting to take a new direction with the project.
+The framework and many of the existing applications are maturing well and are
+quite stable.</P
+
+<p class='contenttext'>So, we are doing a "stable" release and starting to push effort
+in the direction of filling in the gaps in the applications. Soon to come are
+major improvements to the Work Effort application and we'll be starting on the
+Accounting and Content Management (also includes knowledge management)
+applications. Other applications and components will receive attention and be
+incrementally improved, especially as they are more widely adopted.</P>
+
+<p class='contenttext'>The Order Management and the order related pieces of
+e-commerce are incredibly improved. The Workflow Engine is now used for order
+management and will be used for many other processes in the future. The setup
+pages have been improved and better organized to make it easer to start taking
+orders. More reporting and statistics have been added, but these are just
+getting started. Expect a lot more reports in the near future.</P>
+
+<p class='contenttext'>The Catalog Manager has been improved, but the most work in that area has
+been done on the Facility Manager which now handles shipping, receiving,
+inventory transfers and store, warehouse and inventory management.</P>
+
+<h4>New Features &amp; Improvements</h4>
+<p class='contenttext'>New features and improvements include:</p>
+<ul>
+    <li class='contenttext'>e-Commerce related</li>
+    <ul>
+    	<li class='contenttext'>product catalogs can now have custom style sheets and logos</li>
+    	<li class='contenttext'>added co-branding features utilizing tracking codes from the marketing component</li>
+    	<li class='contenttext'>added support for WorldPay and PayPal payment processors</li>
+        <li class='contenttext'>parties can now have catalogs associated with in addition to the
+        ones associate with the website</li>
+    </ul>
+    <li class='contenttext'>Order Manager related</li>
+    <ul>
+    	<li class='contenttext'>major refactor on the order manger; now uses the workflow engine for processing</li>
+    	<li class='contenttext'>added sales entry component</li>
+    	<li class='contenttext'>added payment setup for setting payment services used by website</li>
+    	<li class='contenttext'>can now update status on a per item level</li>
+    	<li class='contenttext'>can now add adjustments to the order</li>
+    </ul>
+    <li class='contenttext'>Marketing Manager related</li>
+    <ul>
+    	<li class='contenttext'>tracking codes can now be associated with a default product catalog</li>
+    	<li class='contenttext'>tracking codes can now have overriding logo and css style sheet (co-branding)</li>
+    </ul>
+    <li class='contenttext'>Catalog and Facility Manager related</li>
+    <ul>
+    	<li class='contenttext'>Facility pages have been moved to the Facility Manager</li>
+        <li class='contenttext'>Warehouse management features such as location maintenance have been added</li>
+        <li class='contenttext'>Inventory transfer functionality is implemented, with shipping and receiving coming</li>
+    	<li class='contenttext'>Product pricing can now be based on a facility group, allowing for
+        regional or store specific pricing</li>
+        <li class='contenttext'>a number of other improvements</li>
+    </ul>
+    <li class='contenttext'>Common Application Components</li>
+    <ul>
+    	<li class='contenttext'>user login history is now linked to a visit for more information</li>
+    	<li class='contenttext'>added a user login session entity for persisiting user specific configurations</li>
+    </ul>
+</ul>
+<br/>
+
+<hr class='sepbar'/>
+<h3><a name="2.0Beta3">Release 2.0 Beta 3 - November 6, 2002</a></h3>
+<hr class='sepbar'/>
+<h4>Overview</h4>
+<p class='contenttext'>It's amazing that another four months have passed since we did the last OFBiz release.
+August through October are always the big crunch times for e-commerce sites hoping to go
+live before Christmas, and this has resulted in some significant improvements in the
+feature set and stability of OFBiz. In addition to all of the e-commerce features that
+got pushed forward, or along with them really, we have started getting into marketing and
+many extensions have been added to the WorkEffort and Party Managers.</p>
+
+<p class='contenttext'>Some of the future directions mentioned before are starting to take place, but there is
+a lot left to do there. Note that we are not planning on getting all of these done for the 
+2.0 final release, in fact we aren't planning anything really huge for 2.0 final. Actually,
+we are planning on going to a new versioning scheme where the initial "stable" 2.0 release
+will be 2.0.0, and then we will do minor and major version increments as seems appropriate
+given the work done since the previous release.</p>
+
+<p class='contenttext'>There are a few more third party packages included in this release: 
+the JasperReports and DataVision reporting tools with ViewHandler implementations for the web controller and
+the WEKA data analysis package which is really best used as a stand alone Java GUI application hitting a database or exported data files directly.
+There will be more third party packages and more use of these packages as the project continues.</p>
+
+<p class='contenttext'>We have tested a number of additional app servers for production, and because of the difficulties we
+have had with Tyrex as a transaction manager we recommend using something else. The best commercial
+options we found were Orion (www.orionserver.com) and JRun4 (www.macromedia.com). In addition to
+these commercial products the newer versions of Tomcat (in the 4.1.X series) are running extremely
+well and are close to Orion and Resin in speed. For Tomcat you can run with Tyrex if it is sufficient
+for you, but you may want to consider using parts of JBoss for transaction management, JMS, etc. Adjustments
+have been made to OFBiz to be able to handle various quirks and funny things in these and other app servers.</p>
+
+<h4>New Features &amp; Improvements</h4>
+<p class='contenttext'>New features and improvements include:</p>
+<ul>
+    <li class='contenttext'>e-Commerce related
+    <ul>
+    	<li class='contenttext'>expanded use of product features and order adjustments
+    	<li class='contenttext'>improved payment processing options and capabilities; it's also easier to add new payment processors
+    	<li class='contenttext'>numerous keyword search improvements (weighted keywords and improved indexing, order by total weight, stop words, suffix removal, etc)
+    	<li class='contenttext'>
+    </ul>
+    <li class='contenttext'>NEW Marketing features
+    <ul>
+    	<li class='contenttext'>marketing manager for data sources, marketing campaigns, tracking codes, and contact lists (mail, phone, email, etc)
+    	<li class='contenttext'>optional events automatically handle passed tracking codes and attach them to visits and orders and maintain information needed for affiliates, internal tracking,etc.
+    	<li class='contenttext'>note that much of this functionality is not yet complete
+    </ul>
+	<li class='contenttext'>Web Controller related
+	<ul>
+		<li class='contenttext'>implemented visit tracking and attached all server hits, orders, keyword search results, etc to visits
+		<li class='contenttext'>events can be run at the start of each visit in addition to before or after each request hit
+	</ul>
+	<li class='contenttext'>Service Engine related
+	<ul>
+		<li class='contenttext'>Service ECA (Event-Condition-Action) rules that can trigger other services at various points of a call to a service and under specific conditions
+		<li class='contenttext'>More distributed service options: improved JMS and HTTP direct without SOAP
+		<li class='contenttext'>Service Groups that are services which simply call a group of other services in flexible ways
+		<li class='contenttext'>Interface services that are used to simply define a set of parameter attributes and are not implemented directly
+		<li class='contenttext'>Services can extend other services, inheriting all parameter attributes from the services extended
+		<li class='contenttext'>Improved scheduling options
+	</ul>
+	<li class='contenttext'>Entity Engine related
+	<ul>
+		<li class='contenttext'>distributed cache clearing using the distributed call mechanisms of the Service Engine (JMS, HTTP, SOAP, etc)
+		<li class='contenttext'>fixed transaction issues with sequence id generator, now runs in own transaction to avoid deadlocks on this commonly used entity
+		<li class='contenttext'>expanded view-entities
+		<ul>
+			<li class='contenttext'>optional member entities (uses left joins)
+			<li class='contenttext'>grouping by aliased fields
+			<li class='contenttext'>functions on aliased fields (such as count, sum, min, max, avg, etc)
+		</ul>
+		<li class='contenttext'>addition query options including lists of expressions and other conditions combinable in many ways, introduced generic EntityCondition
+		<li class='contenttext'>EntityListIterator based find method are now available on the delegator and can be used to handle large result sets
+	</ul>
+	<li class='contenttext'>Workflow Engine related
+	<ul>
+		<li class='contenttext'>a great deal of refactoring and bug fixing has been done, including the integration of many contributions
+	</ul>
+	<li class='contenttext'>MiniLang simple-method related
+	<ul>
+		<li class='contenttext'>many new tags/operations have been added and expanded
+		<li class='contenttext'>method call operations have been added for calling static or class methods, passing general parameters and handling return values; these run much faster than BeanShell and address most situations where BeanShel would otherwise be necessary; also makes it easy to write code in Java and invoke it from and MiniLang simple-method
+		<li class='contenttext'>log and return operations have added to make these common tasks easier
+	</ul>
+	<li class='contenttext'>General Core features
+	<ul>
+		<li class='contenttext'>some i18n/l10n features have been added to UtilProperties and other areas to help get the ball rolling for internationalization which is getting an increasing amount of attention
+		<li class='contenttext'>the Service Engine and MiniLang components now make the Locale available for use with localized messages
+		<li class='contenttext'>a best practice static method now exists for getting the Locale either from an attribute in the user's session, or if not there then the request, if not there then the default
+	</ul>
+</ul>
+<br>
+
+<hr class='sepbar'>
+<h3><a name="2.0Beta2">Release 2.0 Beta 2 - July 2, 2002</a></h3>
+<hr class='sepbar'>
+<h4>Overview</h4>
+<p class='contenttext'>Since Beta 1 of 2.0 was released in March a lot has been added to OFBiz. We
+were planning on doing cleanups and stabilization work and moving towards a
+2.0 Final release, but some contracts came up. This is both good and bad. The
+bad part is that 2.0 Final is getting delayed, the good part is that a whole lot
+has been cleaned up and completed, and even more has been added.</p>
+
+<h4>New Features</h4>
+
+<p class='contenttext'>Most of the new features are centered around making a feature rich eCommerce package
+that competes nicely with commercial alternatives. The
+Catalog, Order and Party Management applications have matured right along with
+eCommerce and are now sufficient for managing data behind the eCommerce
+site.</p>
+
+<p class='contenttext'>New eCommerce related features include:</p>
+<ul>
+    <li class='contenttext'>Variant Product Support (unlimited features and feature types)
+    <li class='contenttext'>Psuedo-rules Based Product Pricing
+    <li class='contenttext'>Effective Dated, Multiple Currency Product Prices
+    <li class='contenttext'>Psuedo-rules Based Promotions (free shipping, gift with purchase, discounts, etc)
+    <li class='contenttext'>Inventory Support
+    <ul>
+        <li class='contenttext'>Checking (can require for purchase or show time estimate)
+        <li class='contenttext'>Reservation (FIFO/LIFO based on arrival or expiration)
+    </ul>
+    <li class='contenttext'>Payment Processing Support
+    <ul>
+        <li class='contenttext'>Cybersource
+        <li class='contenttext'>Verisign Payflow Pro
+    </ul>
+    <li class='contenttext'>Taxware Integration
+    <li class='contenttext'>Enhanced Security Options (encrypted passwords, automatic disable/reenable accounts, etc)
+    <li class='contenttext'>Improved Product Keyword Search
+    <li class='contenttext'>Improved Multi-Catalog Functionality
+    <li class='contenttext'>Improved Order Information (includes adjustments, contact mechanisms, inventory reservations, price calculation trace, payment info, etc)
+</ul>
+
+<p class='contenttext'>In addition to all of these the data model has been cleaned up and added to a
+great deal and many pieces of the project have been refactored or completed.</p>
+
+<h4>Near Future Direction</h4>
+
+<p class='contenttext'>So, what's next? There are a few areas we are planning on focusing on (the key
+word being "planning"):</p>
+
+<ul>
+    <li class='contenttext'>Content Management (based on JPublish and WSP from eInnovation)
+    <li class='contenttext'>Portal Framework (basicly an extension to the Control Servlet and Regions components)
+    <li class='contenttext'>Data migration and warehousing tool (ETL style)
+    <li class='contenttext'>Reporting Tool (probably DataVision or JasperReports) and various Reports
+    <li class='contenttext'>A WEKA based Data Analysis package
+    <li class='contenttext'>Point of Sale (POS) integration (probably with Mercator)
+    <li class='contenttext'>More back-office functionality including:
+    <ul>
+        <li class='contenttext'>Order accessories like invoices and shipments
+        <li class='contenttext'>GL based accounting
+        <li class='contenttext'>Warehouse Management and inventory improvements
+    </ul>
+</ul>
+
+<p class='contenttext'>Some of this functionality will not be a lot of work and may be included
+before 2.0 Final is released, but this list is really more of a near term set of
+goals from our long term list that will realistically take a few months to get in 
+place initially and refinements and improvements may continue for years.</p>
+
+<p class='contenttext'>Onward and upward!</p>
+
+<hr class='sepbar'>
+<h3><a name="2.0Beta1">Release 2.0 Beta 1 - March 19, 2002</a></h3>
+<hr class='sepbar'>
+<h4>Overview</h4>
+<p class='contenttext'>This first beta release of version 2.0 represents the completion of all of the main components of the
+OFBiz framework. Other framework components will be added as the project progresses,
+but the most important architectural enablers are now in place.</p>
+
+<p class='contenttext'>A number of people have contributed to this release that are regular users of
+Open For Business, including (in no particular order) Chris Nelson, Chris Worley, 
+Mike Cannon-Brookes, Victor Salaman, Dustin Caldwell, and Ian Pojman. In addition
+to these people we have received recommendations and feedback from dozens of users
+and enthusiasts of OFBiz. Thanks everyone!</p>
+
+<p class='contenttext'>This release includes a number of bug fixes and cleanups that have been uncovered
+by use of the software in the project, and now that it is in beta we would like
+even more help making sure things work as expected, and as desired.</p>
+
+<h4>Configuration</h4>
+<p class='contenttext'>There are a few changes in the way things work in this release. Both the Entity
+Engine and the Service Engine are now configured through XML files instead of 
+properties files, which makes the configuration easier, and enabled some additional
+options. One of the main additional options for both is the ability to load the
+entity and service definition files through various loaders, including file, URL
+and classpath loaders. This allows applications to be completely contained in
+JARs, WARs, and/or other archives.</p>
+
+<h4>Webapp Framework</h4>
+<p class='contenttext'>The Webapp Framework now includes an implementation of the Composite View pattern
+with a Regions package very similar to the one in the book "Advanced Java Server Pages"
+by David M. Geary. Along with the addition of support for Velocity views that makes
+a total of three view types available: JSP, Velocity and Regions.</p>
+
+<p class='contenttext'>The set of available events types now includes 4 options: java, soap, service 
+and simple. The simple-method MiniLang can now be used for both events and services.</p>
+
+<h4>MiniLang: simple-method</h4>
+<p class='contenttext'>The simple-method MiniLang has been greatly expanded and improved. MiniLangs
+are Ant-like scripting languages used in OFBiz to perform high level tasks and tie
+together and simplify components.</p>
+
+<p class='contenttext'>Simple methods can now be called as either Events or Services. Tags for 
+conditional execution, Entity Engine operations, executing BeanShell scripts, 
+executing inlined simple-map-processors (or external ones), performing various
+environment operations, and even calling other simple-methods in the same context
+have been added.</p>
+
+<h4>Workflow and Service Engines</h4>
+<p class='contenttext'>A number of improvements have been made to the Workflow and Service Engines. A
+number of fixes and flexibility features have been added to the Workflow Engine. Both
+engines have improved support for scalability and running multiple identically
+configured servers against the same database. This includes support for having all
+servers in a "cluster" sharing the load of asynchronous execution of services and
+workflow processes.</p>
+
+<h4>Rule Engine</h4>
+<p class='contenttext'>The Rule Engine is still not mature, but many features are complete and can
+be used for a number of purposes. Numerous examples of using the engine are 
+included and a document is now in place describing the Rule Engine, the concepts
+behind it, it's current state and future plans, and an explanation of how to use
+the API.</p>
+
+<h4>Applications</h4>
+<p class='contenttext'>A number of improvements have been made to the applications. The most notable
+changes include the user of the Regions (Composite View) package, and the more
+consistent use of CSS for the look and feel of the applications.</p>
+<p class='contenttext'>A few features and improvement have been added to eCommerce, the Catalog Mgr, 
+the WorkEffort Mgr and the Order Mgr.</p>
+<p class='contenttext'>The focus for version 2.0 has been the completion of the basic components
+of the framework. The future focus will be more on the implementation and expansion 
+of applications. This will especially be the case after the 2.0 final version is released.</p>
+
+
+<hr class='sepbar'>
+<h3><a name="2.0Alpha2">Release 2.0 Alpha 2 - February 11, 2002</a></h3>
+<hr class='sepbar'>
+<h4>Overview</h4>
+<p class='contenttext'>This release includes many cleanups and adds the capability of running on
+various J2EE app servers including Tomcat4, Jetty4, JBoss, Resin, Orion, and 
+Weblogic. Some profiling has been done on this release and changes were made
+that result in a performance increase of many time. On Orion, the fastest
+container that we've tested, we got a volume of 400 dynamic catalog browse pages per
+second on a PIII 1Ghz with 20 continuous threads hitting the machine. Caucho Resin was
+the second fastest (the two being far faster than the rest tested) and came in
+close behind.</p>
+
+<p class='contenttext'>A number of cleanups and refactorings have also been done. The profile code
+in the eCommerce package is now uses the new Party module services through the
+SimpleEvent and SimpleMapProcessor Mini-Languages. Other components are moving
+in this direction.</p>
+
+<p class='contenttext'>In addition to the cleanups, performance increase, and deployment options a 
+number of new features are included in this release in the Catalog Manager and
+eCommerce applications and various parts of the core framework. The Control
+Servlet also now gathers statistics about resource hits and response times.
+Logging is now done through Log4J and is more granular than before with more
+useful and less verbose (unless verbose is turned on) logging has been adopted
+in many parts of OFBiz.</p>
+
+<h4>Tasks Completed</h4>
+<p class='contenttext'>A number of tasks have been planned and completed for this release, in addition
+to the many smaller refinements and changes that have been done. These tasks include:</p>
+<ul>
+<li class='contenttext'><b>Core Subproject</b>
+  <ul>
+  <li class='contenttext'>41462 - Have GenericEntity Implement Comparable &amp; Cloneable
+  </ul>
+</ul>
+
+<hr class='sepbar'>
+<h3><a name="2.0Alpha1">Release 2.0 Alpha 1 - January 16, 2002</a></h3>
+<hr class='sepbar'>
+<h4>Overview</h4>
+<p class='contenttext'>The 2.0 Alpha 1 release represents a MAJOR step forward for Open For Business,
+as have many releases before this. This release is an Alpha release because
+there are so many new pieces that have not been extensively tested, and in some
+cases are missing some functionality. Other pieces are beta quality or stable,
+like the Entity Engine and the eCommerce application.</p>
+
+<h4>Web Controller Improvements</h4> 
+<p class='contenttext'>The Web Controller includes the controller servlet, the request processing classes as
+  well as the event handling classes. The request mappings XML DTD has been revised,
+  supporting improved response handling, the event handling has been re-designed 
+  to allow for different types of event handlers. New event handlers have been implemented
+  to support features such as the SOAP interface listener for the Service Engine (see below) and the 
+  new SimpleService Mini-Language (see below). <i>(stable)</i></p>
+ 
+<h4>Service Engine Introduction</h4> 
+<p class='contenttext'>The Service Engine is the tool that allows us to
+  organize our applications around internal services that can seamlessly be exposed
+  as web services, or can be implemented using remote web services. It provides a
+  simple interface so that the caller does not have to know what language the service
+  is implemented in or where that service is located. Service definitions are done in XML. 
+  <i>(stable)</i></p>
+
+<h4>Entity Engine Improvements</h4> 
+<p class='contenttext'>The Entity Engine now support JTA transactions. The default implementation
+is done with Tyrex from Exolab, but can easily be adapted to run with J2EE
+application servers like JBoss, Weblogic, etc. The Entity Engine now also provides
+an easy way to do joins with View Entities and has more flexible find methods,
+especially the findByAnd that accepts a List of EntityExpr objects to constrain
+the query. <i>(stable)</i></p>
+
+<h4>Workflow Engine Introduction</h4> 
+<p class='contenttext'>The Workflow Engine makes it easy to layout and
+execute business processes as part of a J2EE application. It is based in the XPDL and other
+specifications from WfMC and the Workflow Management Facility Specification from OMG. It takes
+advantage of and is well integrated with the OFBiz Service and Entity Engines. Workflows can be
+invoked synchronously or asynchronously and locally or remotely through the Service Engine, and
+any activity in a process can be implemented as a service. <i>(alpha)</i></p>
+
+<h4>Mini-Languages Introduction</h4> 
+<p class='contenttext'>The Mini-Languages are XML files that describe simple
+  processes making common operations fast and easy to write and maintain. At the moment
+  the existing languages make it easy to create events to validate and convert form input
+  and pass it on to a service. Future extensions will allow complete applications to be
+  written using JSP, XML Mini-Languages, and Entity and Service definitions. This will be
+  anywhere from 5-10 times as efficient as coding these common components in Java. <i>(beta)</i></p>
+
+<h4>Rule Engine Introduction</h4> 
+<p class='contenttext'>The Rule Engine makes it easy to express and execute business
+rules and constraints. It is based on modern standards like RuleML and the mature language Prolog.
+It is written in Java and runs with an application in the same JVM, and can be invoked locally or 
+remotely through the Service or Entity Engines. It can also call back into Services as sensors or
+effectors and integrates seamlessly with the Entity Engine to expand your knowledgebase in a ruleset
+to all of the data in your relational database. The Rule Engine is only partially in place
+and certain features are still in planning. <i>(alpha)</i></p>
+
+<h4>Tasks Completed</h4>
+<p class='contenttext'>A number of tasks have been planned and completed for this release, in addition
+to the many smaller refinements and changes that have been done. These tasks include:</p>
+<ul>
+<li class='contenttext'><b>Core Subproject</b>
+  <ul>
+  <li class='contenttext'>41462 - Have GenericEntity Implement Comparable &amp; Cloneable
+  <li class='contenttext'>40657 - Get properties and xml files to relead when removed from cache
+  <li class='contenttext'>41692 - Improve GenericEntity serialization/deserialization
+  <li class='contenttext'>41463 - Add change notification listeners to GenericEntity
+  <li class='contenttext'>41679 - Find By And with operator list
+  <li class='contenttext'>41678 - Find By Like
+  <li class='contenttext'>41891 - Calendar Recurrence Rules
+  <li class='contenttext'>41892 - Job Scheduler Overhaul
+  <li class='contenttext'>39716 - View Entities (Really Cool)
+  <li class='contenttext'>42176 - Data File read Utilities
+  <li class='contenttext'>40656 - Entity - XML String &amp; Stream in and out routines
+  <li class='contenttext'>42495 - Add string/stream in/out routines to DataFile
+  <li class='contenttext'>42493 - Add code to write a DataFile object out to a file
+  <li class='contenttext'>42199 - Document View Entities
+  <li class='contenttext'>42200 - Document findByAnd using EntityExpr &amp; other new finds
+  <li class='contenttext'>40013 - Services Engine (Framework)
+  <li class='contenttext'>43044 - Update Entity Engine BMP Entity Bean
+  <li class='contenttext'>43465 - BeanShell Script Service Engine
+  <li class='contenttext'>43464 - SOAP Interface to the Services Framework
+  <li class='contenttext'>43524 - Event Processing Overhaul - Implement EventHandler as interface
+  <li class='contenttext'>43638 - SOAP Client Service Engine
+  <li class='contenttext'>44084 - removeAll method on delegator, etc
+  <li class='contenttext'>44085 - JTA Transaction support with XADataSources
+  <li class='contenttext'>44276 - Use JTA in delegator storeAll and removeAll
+  <li class='contenttext'>44379 - Add security methods for service dispatcher
+  <li class='contenttext'>44377 - Remove preStoreOther and change all code using it
+  <li class='contenttext'>44466 - Add environment access to FlexibleProperties
+  <li class='contenttext'>44889 - Change StringProcessor to SimpleMapProcessor
+  <li class='contenttext'>44862 - MiniLang: SimpleEvent
+  <li class='contenttext'>45593 - Add use-transaction to SimpleEvent
+  <li class='contenttext'>45860 - Add security check to change delegator/dispatcher events.
+  <li class='contenttext'>45859 - Change delegator event for webapps
+  <li class='contenttext'>45855 - New Request Processing Response Types
+  <li class='contenttext'>45853 - Add basic job scheduling to the dispatcher
+  <li class='contenttext'>45807 - inputvalue tag: param optional, fullattrs attribute
+  </ul>
+<li class='contenttext'><b>CommonApp Subproject</b>
+  <ul>
+  <li class='contenttext'>42494 - Create a page to view Data File records
+  <li class='contenttext'>41350 - Entity definitions for Workflow Persisted Entities
+  <li class='contenttext'>43241 - Create page to import/read/update XPDL files
+  <li class='contenttext'>40658 - Add string in/out to the XML import/export pages
+  <li class='contenttext'>43243 - Rule engine interaction page - backward chaining
+  <li class='contenttext'>43639 - Order Processing Services
+  <li class='contenttext'>40545 - Finish GenericView Page
+  <li class='contenttext'>45771 - Fix add order role service
+  </ul>
+<li class='contenttext'><b>Workflow Subproject</b>
+  <ul>
+  <li class='contenttext'>41351 - Create Interfaces from OMG IDL
+  <li class='contenttext'>41523 - Create simple interface implementations
+  <li class='contenttext'>41711 - Create workmgr webapp skeleton
+  <li class='contenttext'>41896 - Create Workflow Service Engine
+  <li class='contenttext'>41762 - Work Effort Manager - Scheduled event editor page
+  <li class='contenttext'>42173 - Upcoming events view, separated by day
+  <li class='contenttext'>41754 - Context &amp; Results Map serialization to XML
+  <li class='contenttext'>41354 - XPDL Parser to Create Process Def Entities
+  <li class='contenttext'>41760 - Work Effort Manager - "Task" viewing &amp; editing
+  <li class='contenttext'>43641 - Create Client API
+  <li class='contenttext'>44368 - Read all assignments params from XPDL
+  <li class='contenttext'>44381 - Refactor workeffort events to make services
+  <li class='contenttext'>44380 - Call workflow services in Activty page events
+  <li class='contenttext'>44800 - Update WorkEffort Events for StringProcessor &amp; SimpleEvent
+  <li class='contenttext'>45770 - Update Context on Manual Activities
+  <li class='contenttext'>45405 - Add Role and Group Activities to Task List
+  </ul>
+<li class='contenttext'><b>Rule Subproject</b>
+  <ul>
+  <li class='contenttext'>42496 - Import Building Parsers with Java code
+  <li class='contenttext'>45911 - Create webtools page to run rulesets
+  </ul>
+<li class='contenttext'><b>Documentation Subproject</b>
+  <ul>
+  <li class='contenttext'>45914 - Create Service Engine Guide
+  <li class='contenttext'>45912 - Update control servlet docs for new features
+  <li class='contenttext'>45360 - Update website for release: blurb and rel notes
+  <li class='contenttext'>45402 - MiniLang Guide with sections for SimpleMapProcessor, SimpleEvent
+  <li class='contenttext'>45358 - Update setup docs for 2.0 alpha 1
+  </ul>
+</ul>
+
+<hr class='sepbar'>
+<h3><a name="1.0Beta1">Release 1.0 Beta 1 - October 29, 2001</a></h3>
+<hr class='sepbar'>
+<h4>Major Cleanups and Feature Enhancements</h4>
+<p class='contenttext'>This release includes a number of clean ups and refactorings in addition to
+many new features in the eCommerce application, the Catalog Manager application, 
+and the many tools included to make development, maintenance, and administration
+faster and easier.</p>
+<h4>Version 1.0 Beta 1</h4>
+<p class='contenttext'>We are calling this release 1.0 Beta 1 and it is being released in preparation
+for the final version 1.0 release of Open For Business. Version 1.0 will include
+the eCommerce application, the Catalog Manager, and the many tools and components 
+in the framework such as the Entity Engine, the Control Servlet, and the Data Model.
+It will also contain a "sneak peak" at the upcoming Generic Services Framework, the
+Workflow Engine and the Rules Engine which will be the primary elements of the 
+version 2.0 release.</p>
+<h4>Complete Download - Quick Setup Package</h4>
+<p class='contenttext'>The complete download is now configured to use the Hypersonic SQL Java database
+so that a complete installation is included in the release. This means that installation
+for a demonstration or playing with it is as easy as 1) download it, 2) put it 
+/ofbiz/work and 3) run it! This includes a sample database which is prebuilt
+so you can run the various applications immediately.</p>
+<p class='contenttext'>Of course, all of the configuration
+options are available still, including using various other databases. Starting from
+nothing with a new database is easy because the Entity Engine can create all of its
+own tables and check them, and initial data is included in XML and SQL files.</p>
+<h4>Tasks Completed</h4>
+<p class='contenttext'>A number of tasks have been planned and completed for this release, in addition
+to the many smaller refinements and changes that have been done. These tasks include:</p>
+<ul>
+<li class='contenttext'><b>eCommerce Subproject</b>
+  <ul>
+  <li class='contenttext'>39628 - Associated Products
+  <li class='contenttext'>39630 - Support Multiple "Catalogs"
+  <li class='contenttext'>39635 - ecommerce.properties from URL
+  <li class='contenttext'>39655 - Shipping Calculation
+  <li class='contenttext'>39681 - Order History based Quick Reorder
+  <li class='contenttext'>40613 - Quick add products from special category
+  <li class='contenttext'>40896 - Make ecommerce.properties visual settings more flexible
+  <li class='contenttext'>41070 - Only show associated products within date range
+  </ul>
+<li class='contenttext'><b>Catalog Subproject</b>
+  <ul>
+  <li class='contenttext'>39631 - Support keyword groups
+  <li class='contenttext'>39632 - Category &amp; Product: Browse &amp; Search
+  <li class='contenttext'>39633 - Associated Products Editor
+  <li class='contenttext'>39634 - Visually organize prod &amp; cat pages
+  <li class='contenttext'>40588 - Support multiple top level categories
+  </ul>
+<li class='contenttext'><b>CommonApp Subproject</b>
+  <ul>
+  <li class='contenttext'>40342 - Reserved word checker in entityref_main.jsp
+  <li class='contenttext'>40343 - Fix reserved word warnings
+  <li class='contenttext'>40475 - Change .sql data init files to XML files
+  <li class='contenttext'>40495 - Add ISO Country and Currency Codes
+  <li class='contenttext'>40496 - Another Round of Reserved Word Resolutions
+  <li class='contenttext'>40529 - Entity from Database tool JSP
+  <li class='contenttext'>40553 - When writing entity model, also write entity group file
+  <li class='contenttext'>40816 - Tighten security in commonapp entity pages
+  <li class='contenttext'>40975 - Make entity ref fast by making warning checking optional
+  </ul>
+<li class='contenttext'><b>Core Subproject</b>
+  <ul>
+  <li class='contenttext'>39440 - Updates to the RequestHandler
+  <li class='contenttext'>39441 - Update ConfigXMLReader and all scheduler/request XML files
+  <li class='contenttext'>39593 - New JSP Tag - Tag for GenericValue attributes
+  <li class='contenttext'>39636 - Change FlexibleProperties to use Factory pattern
+  <li class='contenttext'>39710 - Multiple Entity Definition XML Files
+  <li class='contenttext'>39713 - findAllByPrimaryKeys
+  <li class='contenttext'>39962 - Add column type warnings to DAO database checker
+  <li class='contenttext'>40012 - XML import/export functions in value objects
+  <li class='contenttext'>40341 - Add storeAll method to delegator
+  </ul>
+</ul>
+
+<hr class='sepbar'>
+<h3><a name="2001.09.29">Release 2001.09.29</a></h3>
+<hr class='sepbar'>
+<h4>First Major Release</h4>
+<p class='contenttext'>This release is the first major release of the Open For Business Project. The
+last two months have been very busy for those involved with development. The
+current software is now being used in commercial projects and will soon have a
+number of deployed sites. Because of the many changed in this release, I am
+going to keep these release notes on a higher level and not put too much detail
+in about specific features.</p>
+<p class='contenttext'>The first real user facing application (eCommerce) is essentially stable and
+now available for use. The catalog management tool is in place with very basic
+features and more to come soon. After running into some major design
+inconveniences and doing some refactoring, the data handling layer is not
+looking very good. There are also a number of tools available for management of
+data and data definitions.</p>
+<h4>New Lighter Weight Default Deployment</h4>
+<p class='contenttext'>This release of Open For Business can run entirely on Tomcat and the default
+platform is Tomcat 4.0, or Catalina. With the new Entity Engine CMP Entity Beans
+are no longer necessary for persistence, so JBoss is not required for simple
+deployments. For larger scaled deployments JBoss or any other EJB container can
+be used by the Entity Engine as a persistence server to take the persistence
+related transaction load off the JSP/Servlet servers. This can be done through
+some simple configuration changes.</p>
+<h4>eCommerce Application Added</h4>
+<p class='contenttext'>The first release of the eCommerce Application is included in this release of
+Open For Business. It has been tested a fair amount and is running very nicely.
+There are three integrated modules in the current eCommerce application:
+catalog, user profile, and order. The catalog module provides all of the product
+and product category browsing and finding products through a keyword search that
+supports wildcards, and a separate web application is included for editing
+catalog information. The user profile module has general contact information
+functionality in addition to personal information, credit card information, and
+user login or login account information. The order module allows customers to
+place orders using a shopping cart, view their order history and status, and
+even reuse old orders by adding them to the cart.</p>
+<h4>Entity Engine Added</h4>
+<p class='contenttext'>The old Entity Code Generator has been deprecated in favor of the new dynamic
+Entity Engine. The OFBiz Entity Engine is the first of the major Common Tool
+Components of the Open For Business Architecture. The Entity Engine is dynamic
+in that none of the code in the engine is entity definition specific. It is all
+generic code that supports the persistence of any entity defined in its XML
+files. These defined entities can be communicated over any interface and to or
+from any data source the has an implementation of the GenericHelper interface.
+Documentation for the Entity Engine is located in ofbiz/core/docs/entity.html.</p>
+<hr class='sepbar'>
+<h3><a name="2001.07.20">Release 2001.07.20</a></h3>
+<hr class='sepbar'>
+<h4>New Controller Servlet Added</h4>
+<p class='contenttext'>The architecture used in commonapp for separating presentation logic from 
+other logic and handling authorization was done with a dispatcher that was 
+invoked by each JSP. The new servlet controller handles not only the separation 
+of presentation logic from other logic and security authorization, but also 
+provides a way to control the flow of the application and externalize that
+from the events and views.&nbsp;</p>
+
+<p class='contenttext'> The definitions to control the servlet controller
+are specified in an XML file whose location is specified in the web.xml file.
+This file can be used to define requests and the events and views that
+correspond to them, the security settings for them, and is also used to define
+view maps. The controller is designed to be flexible so that many advanced
+things can be done easily with it, such as logging in or adding an item to the
+shopping cart, and staying on the same page. It also provides added simplicity
+for the JSPs by allowing the combination of views and events in a request such
+as the UpdateUserLogin request which calls the UserLogin update event, and on
+success forward the user to the ViewUserLogin view, which is then mapped to the
+appropriate JSP.</p>
+
+<p class='contenttext'>The servlet not only acts as a controller for the web application and its
+views and events, but also has a job scheduler so that events can be run
+repeatedly. An XML file is used to specify optional start and stop date/times,
+intervals and interval units, the event to invoke, and parameters to pass to the
+event. The location of this XML file is also specified in web.xml.</p>
+
+<p class='contenttext'>The servlet controller is in the new 'core' module. A number of classes have 
+been moved from the commonapp module into this module, namely from commonapp.common
+to core.util. This is part of a move to remove from commonapp everything that
+does not fit the definition of its purpose. The commonapp module is meant to 
+contain the Common Application Components as described in the architecture
+documents. It will contain the entities shared by all of the other applications
+in the ofbiz project. This includes the entity beans, administration pages, and
+other pieces that are entity based.</p>
+
+<h4>Various Enhancements to the Entity Code Generator</h4>
+<p class='contenttext'>A number of enhancement have been made to the entitygen module, and the code
+in the commonapp module has been regenerated to reflect the changes to the 
+templates in the entitygen module. Following is a list of those changes, and
+their corresponding task ids on the SourceForge site.</p>
+<ul>
+<li class='contenttext'>34237: Merge ViewEntity.jsp.jsp &amp; EditEntity.jsp.jsp
+<li class='contenttext'>34259: Optimize entitygen DefReader.java for speed
+<li class='contenttext'>32122: Entity relation support
+<li class='contenttext'>33906: Add isModified() to EntityBean.java.jsp
+<li class='contenttext'>34129: Enhance User Interface: tabs in ViewEntity
+<li class='contenttext'>33869: Improve ViewEntity.jsp relation use
+<li class='contenttext'>34019: Add title Field to Relation
+<li class='contenttext'>33870: Support order-by in Finder definitions
+</ul>
+<p class='contenttext'>A number of other small changes have been made that are not associated with
+tasks. These include making EntityHelper generated classes more thread safe,
+and the use of the core.util.Debug class for logging debug messages.</p>
+
+<hr class='sepbar'>
+<h3><a name="2001.06.30">Release 2001.06.30</a></h3>
+<hr class='sepbar'>
+<h4>Added Cache to Speed Up the Entity Code Generator</h4>
+<p class='contenttext'>Entitygen now uses a cache for each entity definition it reads from the XML data descriptor file.
+This dramatically speeds up the generation of source code, especially for large
+definition files and generation of all files and snippets for each, or for all,
+entities.</p>
+
+<h4>Updated CommonApp for the new Data Model, and Tested/Refined the Data Model</h4>
+<p class='contenttext'>The CommonApp module now uses the basic user login and security entities from
+the big Data Model. Also, the data model has been organized, expanded, debugged
+and partially tested. All files and snippets generate succesfully, and all Java
+files compile successfully and with the generated deployment descriptors they
+deploy successfully in JBoss. Even with all 401 of the entities, JBoss starts up
+in less than a minute on my 500Mhz Athlon. All SQL files run successfully in
+MySQL.</p>
+<p class='contenttext'>The Data Model has been cleaned up and expanded. The datamodel-data.sql file
+is now cleaned up and works with the data model definition in the new
+datamodel.xml file. Part of this included adding tables to make the main
+entities extensible, and cleaning up the tables that are already there. Also,
+the Content module has been enhanced significantly to support very flexible
+content organization. Relations have been defined for the Content module, and
+for the entities which implement the extensibility of the main entities.&nbsp;</p>
+<p class='contenttext'>All of this brings the total number of entities in the data model to 401. The
+datamodel.xml file is now almost 9,000 lines long and is about 540Kb large. With
+the speed ups and all of these entities it takes about 45 minutes to generate
+all of the files on my 500Mhz Athlon. It generates 2630 Java files, 1203 JSP
+files, and about 2Mb of snippets in 8 files. Running wc on these files shows a
+count of 954,865 lines, 3,074,034 words, and 35,290,606 characters.</p>
+<p class='contenttext'>With this progress in place the Open For Business Data Model is now ready to
+be used as a basis for the various applications that we wish to build. As each
+application is built it will probably require various changes to the data model,
+but the basis is in place and is essentially bug free.</p>
+<h4>Bugs Fixed and Ease of Generated Entity Deployment Enhanced</h4>
+<p class='contenttext'>A number of lurking bugs have been fixed in this release in the entitygen
+templates and some of the commonapp support code. While generating and test
+compiling and deploying all of the Data Model entities a number of bugs and
+omissions were found and corrected. Also, some small restructurings (especially
+with EntityWebEvent.java) and additions to the templates make deploying the
+generated entities into an application is much more simple.</p>
+
+<hr class='sepbar'>
+<h3><a name="2001.06.22">Release 2001.06.22</a></h3>
+<hr class='sepbar'>
+<p class='contenttext'>It's been a while since the last release, but I assure you, this one will be
+worth the wait! Actually the biggest reason for the delay was my two week
+vacation to the United Kingdom, mostly Wales and Scotland. Enjoy this new stuff!</p>
+<h4>Auto Generate JSP and Java Files for One Entity or All Entities in a XML
+Data Descriptor File</h4>
+<p class='contenttext'>Instead of right clicking on each file and saving from the entitygen main
+page, you can now specify a root directory and generate all Java or JSP files in
+directories under the root directory which correspond to the package name for
+each entity. The files are generated in a ready to use state (given no bugs in
+the templates or data definitions). This is done with a JSP which uses an open
+source library to retrieve the contents of a URL, and then saves those contents
+to the corresponding file under the specified root directory and package
+directory. The library used for this is from the open source project JoBo which
+can be found at <a href="http://www.matuschek.net/software/jobo/index.html">http://www.matuschek.net/software/jobo/index.html</a>.
+Thanks for making some cool stuff Daniel!</p>
+<h4>Extensive Data Model Introduced</h4>
+<p class='contenttext'>This is a very exciting new part of the project. The file ofbiz/commonapp/entitydef/datamodel.xml
+contains definitions for about 288 entities covering common areas of business
+data. This effort stems from browsing a bookstore a finding two excellent books
+by Len Silverston called The Data Model Resource Book Revised Edition - Volumes
+1 &amp; 2, published by John Wiley &amp; Sons. This is a good starting point for
+any enterprise system development effort. Changes will be made to this model
+over time to expand and (hopefully) improve it. Industry specific models to be
+used along with the main model will also be added to the project over time. Many
+Thanks to Len Silverston. Anyone using these models will no doubt benefit from
+having a copy of his books on hand. These models include models for: parties
+(persons, companies, etc.) products &amp; catalogs, ordering, invoicing,
+shipping, accounting, human resources, work effort &amp; flow, and content
+management.</p>
+<p class='contenttext'>Using the new automated code generator, it is easy to build the EJBs, JSPs
+and other code related to these entities. A few interesting stats: 292 entities,
+877 JSPs, 1606 Java Files, 9 snippet files (one for each type of snippet, just to get
+a size on them), totaling ~23 Mb, ~650,000 lines, ~2,100,000 words, ~23,800,000 characters. The XML definition
+file alone is about 4500 lines long. And yes, it does take my poor little
+500Mhz Athlon a while to generate all of this code (around 2.5 hours for all of it). I am
+not including all of this generated code right now, and I don't plan to until
+the definitions settle down more and some of this stuff is actually tested, if
+ever. I may create a separate distribution for it too.</p>
+<h4>Relation Support in ViewEntity.jsp</h4>
+<p class='contenttext'>All generated ViewEntity.jsp files now take advantage of the relation
+definitions in the XML descriptor file. There are two types of relations: one
+and many. For a one relation, a view of the related entity similar to the normal
+view is created and a links as well. For a many relation, the corresponding
+finder is called and all results are listed in the page. This is a neat thing to
+see. You can now create an order entity, an order line item entity, and link
+them up to create a fully functional order entry system, or catalog browsing, or
+whatever you might want to do with relational entities. Note that the relations
+for the data model mentioned above are not yet finished. I can't wait untill
+they are!</p>
+<h4>A Few Other Small Changes</h4>
+<p class='contenttext'>More data types are now supported in the generated JSP files for field entry
+and display, including primary key fields. Also, the ValueUpdate methods in the
+EntityHelper and EntityBean files are changes so that they only update a field
+when it is not null. This is an easy way to specify whether or not each field
+should be updated. To set a field to null, simply use the field specific setter.</p>
+<hr class='sepbar'>
+<h3><a name="2001.06.01">Release 2001.06.01</a></h3>
+<hr class='sepbar'>
+<h4>New Versions of JBoss and Tomcat</h4>
+<p class='contenttext'>This release includes updates for the new versions of JBoss and Tomcat. JBoss
+version 2.2.2 and Tomcat version 3.2.2 are now being used.</p>
+<h4>Input Validation</h4>
+<p class='contenttext'>All EditEntity.jsp files from the Entity Code Generator (including the
+current entity admin pages) now support server-side input validation. The
+validation routines can be found in commonapp/src/org/ofbiz/common/UtilValidate.java.
+Many of these validation routines are based on the Netscape JavaScript
+validation package (FormChek.js). They have all been converted to Java and
+modified to work in the server-side validation context. Some additional
+validation routines have also been added. The current library of validators
+includes everything from not being empty to algorithmic verification of credit
+card numbers to a validator for email addresses.<p class='contenttext'>The Entity Code Generator
+automatically uses the validators specified in the XML entity descriptor file.
+This file for commonapp can be found in /commonapp/entitydef/commonapp.xml. Any
+number of validators can be specified for each field of an entity.<p class='contenttext'>In the JSP
+when the user has an error, all of the data on the page is maintained and a full
+list of all current errors is displayed in a red list at the top.<h4>Field Type
+Shorthand in XML Entity Descriptor</h4>
+<p class='contenttext'>Field types can be defined in each XML entity descriptor file. Each field
+type definition specifies a field-type name, and a java-type, a sql-type, and
+any number of validate elements. Once a field-type is defined it can be used by
+any field definition of an entity definition in the descriptor file. The
+field-type is used in place of the sql-type, the java-type, and may specify some
+validators. If a sql-type or java-type is used in the cmp-field definition, they
+will override the field-type defaults. If validators are specified in the cmp-field
+definition they are added to the validators from the field-type.</p>
+
+<p class='contenttext'>A first attempt at a list of common field types has been added to the
+beginning of /commonapp/entitydef/commonapp.xml. Some version of these field
+types will be used in every entity definition file in the project. This makes
+the XML descriptor code more concise and provides for more consistency in data
+type definitions.</p>
+
+<h4>Data Layout for Entity Relation</h4>
+
+<p class='contenttext'>The data layout of the XML Entity Descriptor file for specifying entity
+relations has been defined. the /commonapp/entitydef/commonapp.xml has a number
+of examples of how this feature might be used. It supports nested relations and
+relations where one or many instances of the related entity may be returned
+depending on how the relation is defined.</p>
+
+<p class='contenttext'>Entity relation definitions will be used in two main places: the JSP
+ViewEntity.jsp file to show information related to the current entity and
+provide for easy access to viewing and editing related entities; and in the
+Entity.java file to provide convenient methods of looking up related entities.
+NOTE: These have NOT been implemented yet. The relation data model is in place
+in the current release of ofbiz, but it is not used in any of the templates.</p>
+
+<hr class='sepbar'>
+<h3><a name="2001.05.28">Release 2001.05.28</a></h3>
+<hr class='sepbar'>
+<h4>No Cookie Session Management Support</h4>
+<p class='contenttext'>A call to reponse.encodeURL has been added to all <font SIZE="2" COLOR="#0000c0">&lt;a
+href&gt;</font>s and all <font SIZE="2" COLOR="#0000c0">&lt;form action&gt;</font>s to support session management
+with cookies turned off. All existing JSPs in the project support this, and all JSPs generated by entitygen support this.
+
+<h4>Cache Management</h4>
+<p class='contenttext'>Three JSPs have been added along with a number of web event handlers and
+extensions to the UtilCache class.&nbsp;</p>
+
+<p class='contenttext'>First of all, a number of bugs have been fixed in the UtilCache class making
+the caches actually work now.&nbsp;</p>
+
+<p class='contenttext'>The expire feature has been enhanced so that whenever get() or containsKey()
+are called hasExpired() is checked and on expiration the element is removed from
+the cache. The get() method will then return null, not being able to find the
+element, and the containsKey() method will return false, also not being able to
+find the element. This becomes simply a cache hit and the routine which uses the
+cache will load the value the normal way.</p>
+
+<p class='contenttext'>All caches have a name that they pass to the constructor and then
+initialization parameters are loaded from the conf/cache.properties file. If no
+name is passed, a default name is used with a number appended to it to make it
+unique. A Hashtable now stores a collection of all of the caches so that they
+can be maintained easily through a generic maintenance utility.</p>
+
+<p class='contenttext'>The JSPs that have been added are common/FindUtilCache.jsp, common/EditUtilCache.jsp,
+and common/FindUtilCacheElements.jsp. All cache parameters can now be viewed in
+real time including cache size, hitCount and missCount, and maxSize and
+expireTime can not only be viewed by changed through the JSP interface. The
+pages are permission protected using the security system. Individual cache lines
+can now also be viewed, and removed, through the JSP interface.</p>
+
+<h4>Security Speed Enhancements</h4>
+<p class='contenttext'>The Security class now has two caches (using UtilCache) to speed up the
+hasPermission() and hasEntityPermission() methods. The first cache stores a
+collection of security groups for each person. If a person belongs to no
+security groups, an empty collection is put into the cache so that those look
+ups will be fast too. The second cache corresponds to the
+SecurityGroupPermission entity and caches Boolean values keyed on a
+SecurityGroupPermissionPK. The Boolean value is true if the corresponding
+SecurityGroupPermission entity exists in the database, or false if it does not.</p>
+
+<h4>EntityPK Class Enhancement</h4>
+<p class='contenttext'>All EntityPK, or primary key, classes now override the toString() method to make display of primary key information more simple and consistent.</p>
+
+<hr class='sepbar'>
+<h3><a name="2001.05.24">Release 2001.05.24</a></h3>
+<hr class='sepbar'>
+<h4>Initial Release</h4>
+<p class='contenttext'>This initial release includes the first version of the Entity Code Generator (entitygen) module 
+and the basic pieces of the Common Application Components (commonapp) module.</p>
+<p class='contenttext'>The entitygen module represents a first round attempt using JSPs as templates to generate Java code (including Entity EJBs), 
+SQL table creation code, XML deployment descriptors, and JSP user interfaces to manage entities defined in XML descriptor files
+which resemble the ejb-jar.xml deployment descriptor.
+<p class='contenttext'>The commonapp module will eventually contain all of the core entities that any enterprise would likely need to run their business.
+At the moment it is only the frameword to support the code generated by entitygen. This includes a security framework, a caching framework,
+output formatting utilities, the web event handler (removes non-display logic from JSPs), and a basic user interface layout.
+
+</div>
+</body>
+</html>
