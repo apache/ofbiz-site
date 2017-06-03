@@ -68,8 +68,8 @@
     To <b>checkout</b> the source code, simply use the following command (if you are using a GUI client, configure it appropriately).
 </p>
 <p>
-    <b>Note: </b>since the trunk was split into <b>ofbiz-framework</b> and <b>ofbiz-plugins</b>, 
-                the specialpurpose and hot-deploy directories have disappeared. 
+    <b>Note: </b>since the trunk was split into <b>ofbiz-framework</b> and <b>ofbiz-plugins</b>,
+                the specialpurpose and hot-deploy directories have disappeared.
                 New components must be put in a plugins directory which works as was the hot-deploy directory.
                 For OFBiz existing components, check them out using the Gradle tasks below.</br>
                 To check out a component, in a created on the fly plugins directory, use the <b>pullPluginSource</b> Gradle task.</br>
@@ -89,7 +89,7 @@
       <ul>
         <li><b>Git for committers</b> <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Git+for+committers" class="external-link" rel="nofollow" target="external">This wiki page explains how to use it.</a></li>
         <li><b>GitHub for users</b>: Since the trunk was split (specialpurpose and hotdeploy merged in plugins, framework and plugins being apart), there are 3 repositories available at
-            <ul> 
+            <ul>
               <li>Only the framework: <a href="https://github.com/apache/ofbiz-framework" class="external-link" rel="nofollow" target="external">https://github.com/apache/ofbiz-framework</a></li>
               <li>Only the plugins: <a href="https://github.com/apache/ofbiz-plugins" class="external-link" rel="nofollow" target="external">https://github.com/apache/ofbiz-plugins</a></li>
               <li>Only the release branches (the rest is stuck at the split date): <a href="https://github.com/apache/ofbiz" class="external-link" rel="nofollow" target="external">https://github.com/apache/ofbiz</a></li>
@@ -106,7 +106,7 @@
         <li><a href="http://svn.apache.org/repos/asf/ofbiz/" class="external-link" rel="nofollow" target="external">SVN - WebDAV</a></li>
         <li><a href="http://svn.apache.org/viewvc/ofbiz/" class="external-link" rel="nofollow" target="external">SVN - ViewVC</a></li>
         <!-- <li><a href="https://fisheye.apache.org/browse/ofbiz" class="external-link" rel="nofollow" target="external">SVN - Fisheye</a></li> WIP: INFRA-13865-->
-        
+
       </ul>
 
             <h3>OFBiz Committers</h3>
@@ -115,8 +115,8 @@
    After verification, select option 'P' to permanently add to your SVN configuration.</p>
 <p>Subversion can handle keyword expansion, eol conversion as well as may other features. Most of these features are configured
    on the client level rather than on the server (some [AUTO-PROPS] properties are handled on the server). To make this easy on developers and to provide a standard configuration, the official
-   OFBiz Subversion client configuration file can be found 
-   <a href="svn/config" class="external-link" rel="nofollow" target="external">here</a>. 
+   OFBiz Subversion client configuration file can be found
+   <a href="svn/config" class="external-link" rel="nofollow" target="external">here</a>.
   <br/>This file should replace, or be merged with, the config file found in your $HOME/.subversion directory
     <ul>
       <li><b>Windows</b>: %USERPROFILE%\Application Data\Subversion\config or %USERPROFILE%\AppData\Roaming\Subversion\config</li>
@@ -128,10 +128,9 @@
 </p>
 <ol>
     <li>Check out the site files from svn: <a href="https://svn.apache.org/repos/asf/ofbiz/site/" class="external-link" rel="nofollow" target="external">https://svn.apache.org/repos/asf/ofbiz/site/</a></li>
-    <li>Update the required website and xsd files and commit. You may use the copyDtds Gradle task to update the XSD files</li>
+    <li>Update the required website and xsd files and commit. You may use the tools\copyDtds.bat script to update the XSD files (currently no *nix version exists)</li>
     <li>the updates will be immediately published: therefore it is important that the changes are discussed and approved by the OFBiz PMC</li>
 </ol>
-<p>The source repository of the templates for the Buildbot pages is <a href="https://svn.apache.org/repos/infra/infrastructure/buildbot/aegis/buildmaster/master1/public_html/projects/ofbiz" class="external-link" rel="nofollow" target="external">here</a>; in order to change them you may need to change the create-ofbiz-snapshots-index.sh and create-ofbiz-archives-index.sh Puppet files. If you don't know how to do that ask the Infra team.</p>
 <p>To know more from ASF : <a href="http://www.apache.org/dev/project-site.html" class="external-link" rel="nofollow" target="external">http://www.apache.org/dev/project-site.html</a>
 </p>
 
