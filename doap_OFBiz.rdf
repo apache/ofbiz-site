@@ -43,7 +43,6 @@
     <repository>
       <SVNRepository>
         <location rdf:resource="http://svn.apache.org/repos/asf/ofbiz/ofbiz-framework/trunk"/>
-        <location rdf:resource="http://svn.apache.org/repos/asf/ofbiz/ofbiz-plugins/trunk"/>
         <browse rdf:resource="http://ofbiz.apache.org/source-repositories.html"/>
       </SVNRepository>
     </repository>
