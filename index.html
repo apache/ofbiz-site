@@ -1,299 +1,420 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
 <head>
-    <title>The Apache OFBiz&reg; Project</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="Distribution" content="Global" />
-    <meta name="Robots" content="index,follow" />
-    <meta name="keywords" content="Open Source ERP,Open Source CRM,Open Source E-Commerce,Open Source eCommerce,Open Source SCM,Open Source MRP,Open Source CMMS,Open Source EAM,web services,workflow,ebusiness,e-business,ecommerce,e-commerce,automation,enterprise software,open source,entity engine,service engine,erp,crm,party,accounting,facility,supply,chain,management,catalog,order,project,task,work effort,financial,ledger,content management,customer,inventory"/>
-    <meta name="Description" content="Apache OFBiz (The Apache Open For Business Project) is an open source enterprise automation software project licensed under the Apache License Version 2.0. Being open source under the Apache 2.0 license and driven by a community Apache OFBiz offers both flexibility by design and by access to code, and a solution where you're not alone but rather can work with many others to get things done." />
-    <link rel="shortcut icon" type="image/x-icon"  href="images/favicon.ico" />
-    <link rel="stylesheet" href="css/global.css" type="text/css" />
-    <script type="text/javascript" src="js/prototype.js"></script>
-    <script type="text/javascript" src="js/effects.js"></script>
-    <script type="text/javascript" src="js/search.js"></script>
-    <script type="text/javascript" src="js/slides.js"></script>
+<meta charset="utf-8">
+<title>The Apache OFBiz&reg; Project</title>
+<meta name="description" content="Apache OFBiz (The Apache Open For Business
+    Project) is an open source enterprise automation software project licensed
+    under the Apache License Version 2.0. Being open source under the Apache 2.0
+    license and driven by a community Apache OFBiz offers both flexibility by
+    design and by access to code, and a solution where you're not alone but
+    rather can work with many others to get things done.">
+<meta name="keywords" content="Open Source ERP,Open Source CRM,
+    Open Source E-Commerce,Open Source eCommerce,Open Source POS,Open Source SCM,
+    Open Source MRP,Open Source CMMS,Open Source EAM,web services,workflow,
+    ebusiness,e-business,ecommerce,e-commerce,automation,enterprise software,
+    open source,entity engine,service engine,erp,crm,party,accounting,facility,
+    supply,chain,management,catalog,order,project,task,work effort,financial,
+    ledger,content management,customer,inventory"/>
+
+<meta name="Robots" content="index,follow" />
+<!-- Mobile Specific Metas
+    ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS
+    ================================================== -->
+<!-- Bootstrap  -->
+<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<!-- web font  -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,800" rel="stylesheet" type="text/css">
+<!-- plugin css  -->
+<link rel="stylesheet" type="text/css" href="js-plugin/pretty-photo/css/prettyPhoto.css" />
+<link rel="stylesheet" type="text/css" href="js-plugin/rs-plugin/css/settings.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="js-plugin/hoverdir/css/style.css">
+<!-- icon fonts -->
+<link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons.css">
+<link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons-ie7.css">
+<!-- Custom css -->
+<link type="text/css" rel="stylesheet" href="css/layout.css">
+<link type="text/css" id="colors" rel="stylesheet" href="css/colors.css">
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if gte IE 9]><style type="text/css">.iconBig, .active, .hover a , .Shover a { filter: none !important; } </style> <![endif]-->
+<script src="js/modernizr-2.6.1.min.js"></script>
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
 </head>
-
-<body id="home">
-<!-- wrap starts here -->
-  <div id="wrap">
-
-    <!--header -->
-    <div id="header">
-        <div id="logo">
-            <a href="#"><img src="images/logo.png" alt="images/logo.png" /></a>
-        </div>
-        <div id="nav">
-            <ul>
-                <li id="current"><a href="index.html">Home</a></li>
-                <li><a href="download.html">Download</a></li>
-                <li><a href="community.html">Community</a></li>
-                <li><a href="documentation.html">Documentation</a></li>
-            </ul>
-        </div>
-        <div id="slides">
-            <div class="slideshow" id="mantleSlides">
-                <div id="slide1">
-                    <div class="callout">
-                        The best things in life<br />
-                        are FREE.<br />
-                    </div>
-                    <div class="description">
-                        Apache OFBiz is a community-driven open source project. That means, no licensing fees.
-                        For many, OFBiz is also the best e-commerce and Enterprise Resource Planning (ERP) software available.
-                    </div>
-                    <div class="mantle">
-                        <img src="images/mantle.png" alt="images/mantle.png" />
-                    </div>
-                </div>
-                <div id="slide2" style="display:none">
-                    <div class="callout">
-                        Lower Costs,<br />
-                        Higher Margins.<br />
-                    </div>
-                    <div class="description">
-                        Achieve a system that is as good or better than those available
-                        from major proprietary ERPs at a significantly lower total project cost.
-                        You can budget for custom features and added value rather than license and maintenance fees.
-                    </div>
-                    <div class="mantle">
-                        <img src="images/mantle2.png" alt="images/mantle2.png" />
-                    </div>
-                </div>
-                <div id="slide3" style="display:none">
-                    <div class="callout">
-                        OPEN yourself up to all<br />
-                        of the possibilities<br />
-                    </div>
-                    <div class="description">
-                        Enjoy freedom from indefinite vendor lock; with Apache OFBiz, you can fully leverage internal
-                        resources and/or any of the dozens of organizations offering quality Apache OFBiz
-                        implementation and support services.
-                    </div>
-                    <div class="mantle">
-                        <img src="images/mantle3.png" alt="images/mantle3.png" />
-                    </div>
-                </div>
-                <div id="slide4" style="display:none">
-                    <div class="callout">
-                        We have<br />
-                        street cred.<br />
-                    </div>
-                    <div class="description">
-                       Apache OFBiz users can rely on the organizational, legal, and financial stability
-                       that comes with Apache OFBiz being a top-level project at the Apache Software Foundation (ASF).
-                    </div>
-                    <div class="mantle">
-                        <img src="images/mantle4.png" alt="images/mantle4.png" />
-                    </div>
-                </div>
-                <div id="slide5" style="display:none">
-                    <div class="callout">
-                        Just like muscles,<br />
-                        e-commerce should<br />
-                        be flexible.
-                    </div>
-                    <div class="description">
-                        Because you will have complete access to source code, you will eliminate "proprietary system" limitations.
-                        The entire open source community benefits from making Apache OFBiz as clear, flexible, and reusable as possible.
-                    </div>
-                    <div class="mantle">
-                        <img src="images/mantle5.png" alt="images/mantle5.png" />
-                    </div>
-                </div>
-            </div>
-            <div class="controls">
-              <a class="next" id="next" title="Next" href="#">Next</a>
-              <a class="previous" id="previous" title="Previous" href="#">Previous</a>
-              <a class="start" id="start" title="Start" href="#">Start</a>
-              <a class="stop" id="stop" title="Stop" href="#">Stop</a>
-            </div>
-        </div>
-
-        <script type="text/javascript">
-          function StartSlides() {
-            new Slides('mantleSlides');
-          }
-          document.observe ('dom:loaded', StartSlides);
-        </script>
-
-    </div>
-    <!--header ends-->
-
-
-    <!-- content-wrap starts -->
-    <div id="content-wrap" class="clearfix">
-        <div id="main">
-
-            <h2>Apache OFBiz&reg;</h2>
-        <div class="highlights">
-          <h4>Apache OFBiz offers a great deal of functionality, including:</h4>
+<body>
+<!-- header -->
+<header id="mainHeader" class="clearfix">
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container"> <a href="index.html" class="brand"><img src="images/OFBiz-logoV3-apache.png" alt="Apache OFBiz Logo"/></a>
+        <nav id="mainMenu" class="clearfix">
           <ul>
-            <li>advanced e-commerce</li>
-            <li>catalog management</li>
-            <li>promotion &amp; pricing management</li>
-            <li>order management (sales &amp; purchase)</li>
-            <li>customer management (part of general party management)</li>
-            <li>warehouse management</li>
-            <li>fulfillment (auto stock moves, batched pick, pack &amp; ship)</li>
-            <li>accounting (invoice, payment &amp; billing accounts, fixed assets)</li>
-            <li>manufacturing management</li>
-            <li>general work effort management (events, tasks, projects, requests, etc)</li>
-            <li>content management (for product content, web sites, general content, blogging, forums, etc)</li>
-            <li>and much more all in an open source package!</li>
-          </ul>
-        </div>
-
-        <p>Apache OFBiz&reg; is an open source product for the automation of enterprise
-           processes that includes framework components and business applications for
-           ERP (Enterprise Resource Planning),
-           CRM (Customer Relationship Management),
-           E-Business / E-Commerce, SCM (Supply Chain Management),
-           MRP (Manufacturing Resource Planning),
-           MMS/EAM (Maintenance Management System/Enterprise Asset Management).
-        </p>
-
-        <p>Apache OFBiz provides a foundation and starting point for reliable, secure and
-           scalable enterprise solutions. Use it out-of-the-box, customize it or use it as
-           a framework to implement your most challenging business needs. With OFBiz, you
-           can get started right away without the huge deployment and maintenance costs of
-           traditional enterprise automation systems. As your business grows, you can
-           extend the functionality to meet your more sophisticated needs.
-        </p>
-
-        <p>Apache OFBiz is licensed under the <a href="http://www.apache.org/licenses/" target="_blank">Apache License Version 2.0</a>.</p>
-        <p>The Apache OFBiz project is part of <a href="http://www.apache.org/" target="_blank">The Apache Software Foundation</a>.</p>
-        <p>OFBiz stands for Open For Business.</p>
-<!--
-        <p>Being open source under the Apache 2.0 license and driven by a community Apache OFBiz offers both flexibility by design and by access to code, and a solution where you're not alone but rather can work with many others to get things done.
-        It's hard to say who and how many organizations are using Apache OFBiz because they don't have to tell us when they use it.
-        In the <a href="documentation.html">documentation</a> page you'll find link to a Wiki page with the list of known sites and products based on OFBiz we know about (&quot;Users of Apache OFBiz&quot;).</p>
-
-        <p>For answers to your questions you might find the following documents useful:</p>
-        <ul>
-            <li><a href="documentation.html">Documentation</a></li>
-            <li><a href="apache-ofbiz-project-overview.html">Documentation - Project Overview</a></li>
-            <li><a href="apache-ofbiz-getting-started.html">Documentation - Getting Started</a></li>
-        </ul>
--->
-        <div>
-          <h3>News</h3>
- 	<p class="postmeta">
-            <span class="date">July 3, 2017</span> "Apache OFBiz 16.11.03" Released
-          </p>
-          <p>
-          Apache OFBiz 16.11.03 is the third release of the 16.11 series, the latest and greatest OFBiz version that has been stabilized since November 2016.
-          Please refer to the <a href="release-notes-16.11.03.html">Release Notes</a> for the details.
-          <br/>
-          The releases can be downloaded from the <a href="download.html">download page</a>.
-          </p>
-          <p class="postmeta">
-            <span class="date">May 22, 2017</span> "Apache OFBiz 16.11.02" Released
-          </p>
-          <p>
-          Apache OFBiz 16.11.02 is the second release of the 16.11 series, the latest and greatest OFBiz version that has been stabilized since November 2016.
-          Please refer to the <a href="release-notes-16.11.02.html">Release Notes</a> for the details.
-          <br/>
-          The releases can be downloaded from the <a href="download.html">download page</a>.
-          </p>
-          <p class="postmeta">
-            <span class="date">March 29, 2017</span> "Help Support The Apache Software Foundation!"
-          </p>
-          <p>
-          The Apache Software Foundation announces <a href="https://s.apache.org/TRc7" target="_blank">18 years of Open Source Leadership.</a>
-          <br/>
-          If you use or depend on Apache OFBiz or any other Apache software then please consider supporting us with a donation. Click on the image for more information.
-          <br/>
-          <br/>
-          <a href="https://donate.apache.org" target="_blank"><img src="images/SupportApache-small.jpg" alt="images/logo.png" /></a>
-          </p>
-          <p class="postmeta">
-            <span class="date">November 28, 2016</span> "Apache OFBiz 16.11.01" Released
-          </p>
-          <p>
-          Apache OFBiz 16.11.01 is the first release of the 16.11 series, the latest and greatest OFBiz version that has been stabilized since November 2016.
-          Please refer to the <a href="release-notes-16.11.01.html">Release Notes</a> for the details.
-          <br/>
-          The releases can be downloaded from the <a href="download.html">download page</a>.
-          </p>
-         </div>
-    </div>
-        <!-- main ends -->
-
-
-        <!-- sidebar starts -->
-        <div id="sidebar">
-
-            <div class="downloadNow"><a href="download.html"><img src="images/download.jpg" alt="images/download.jpg" /></a></div>
-            <h3>Resources &amp; Tools</h3>
-            <ul class="sidemenu">
+            <li><a href="index.html" class="firstLevel active">Home</a></li>
+            <li><a href="" class="firstLevel">Getting Started</a>
+              <ul>
+                <li><a href="developers.html" class="">Developers</a></li>
+                <li><a href="business-users.html" class="last">Business Users</a></li>
+              </ul>
+            </li>
+            <li><a href="" class="firstLevel">News</a>
+              <ul>
+                <li><a href="https://twitter.com/apacheofbiz" target="external">Twitter</a></li>
+                <li><a href="https://blogs.apache.org/ofbiz/" target="external" class="last">Blog</a></li>                
+              </ul>
+            </li>
+            <li><a href="" class="firstLevel">Documentation</a>
+              <ul>
+                <li><a href="https://cwiki.apache.org/confluence/display/OFBIZ/Documentation#Documentation-End-UserDocumentation" target="external" class="">User Documentation</a></li>
+                <li><a href="https://cwiki.apache.org/confluence/display/OFBIZ/Technical+Documentation" target="external" class="">Technical Documentation</a></li>
+                <li><a href="https://cwiki.apache.org/confluence/display/OFBIZ/Home" target="external" class="">Wiki</a></li>
+                <li><a href="https://ci.apache.org/projects/ofbiz/site/javadocs/" target="external" class="last">API Reference</a></li>
+              </ul>
+            </li>
+            <li><a href="" class="firstLevel">Community</a>
+              <ul>
+                <li><a href="getting-involved.html">Getting Involved</a></li>                
                 <li><a href="mailing-lists.html">Mailing Lists</a></li>
-                <li><a href="source-repositories.html">Source Repository (SVN)</a></li>
-                <li><a href="https://issues.apache.org/jira/browse/OFBIZ" target="_blank">Issue Tracker (Jira)</a></li>
-                <li><a href="http://ci.apache.org/projects/ofbiz/site/javadocs/" target="_blank">API Reference (Javadoc)</a></li>
-                <li><a href="https://www.hipchat.com/gGlwdXZZl" target="_blank">OFBiz Chat Room (HipChat)</a></li>
-                <!-- <b><font color="red">Demos will soon have a trusted certificate, for now you can safely accept the self-signed one.</font></b> -->
-                <li>16.11 Release Branch Demo (stable)
-                    <ul>
-                        <li><a href="http://demo-stable.ofbiz.apache.org/ecommerce/control/main" target="_blank">Front-End Store</a></li>
-                        <li><a href="http://demo-stable.ofbiz.apache.org/catalog/control/main?USERNAME=admin&amp;PASSWORD=ofbiz&amp;JavaScriptEnabled=Y" target="_blank">Management Apps</a></li>
-                    <!--
-                        <li><a href="https://ofbiz-vm2.apache.org:18443/ecommerce/control/main">Front-End Store</a></li>
-                        <li><a href="https://ofbiz-vm2.apache.org:18443/catalog/control/main?USERNAME=admin&amp;PASSWORD=ofbiz&amp;JavaScriptEnabled=Y">Management Apps</a></li>
-                    -->
-                    </ul>
-                </li>
-                <li>13.07 Release Branch Demo (old)
-                    <ul>
-                    <b><font color="red">Old will later use a trusted certificate, for now you can safely accept the self-signed one.</font></b>
-                    <!--
-                        <li><a href="http://demo-old.ofbiz.apache.org/ecommerce/control/main" target="_blank">Front-End Store</a></li>
-                        <li><a href="http://demo-old.ofbiz.apache.org/catalog/control/main?USERNAME=admin&amp;PASSWORD=ofbiz&amp;JavaScriptEnabled=Y" target="_blank">Management Apps</a></li>
-                    -->
-                        <li><a href="http://ofbiz-vm2.apache.org:28080/ecommerce/control/main">Front-End Store</a></li>
-                        <li><a href="https://ofbiz-vm2.apache.org:28443/catalog/control/main?USERNAME=admin&amp;PASSWORD=ofbiz&amp;JavaScriptEnabled=Y">Management Apps</a></li>
-                    </ul>
-                </li>
-                <li>For developers: trunk
-                    <ul>
-                        <li><a href="http://demo-trunk.ofbiz.apache.org/ecomseo" target="_blank">Front-End Store</a></li>
-                        <li><a href="http://demo-trunk.ofbiz.apache.org/catalog/control/main?USERNAME=admin&amp;PASSWORD=ofbiz&amp;JavaScriptEnabled=Y" target="_blank">Management Apps</a></li>
+                <li><a href="source-repositories.html">Source Repository</a></li>
+                <li><a href="download.html">Downloads</a></li>
+                <li><a href="https://issues.apache.org/jira/browse/OFBIZ/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel" target="external" >Issue Tracker</a></li>
+                <li><a href="faqs.html" class="last">FAQ</a></li>
+              </ul>
+            </li>
+            <li><a href="ofbiz-demos.html" class="firstLevel">Demos</a></li>            
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- header -->
+<!-- globalWrapper -->
+<div id="globalWrapper">
 
-                <!--<li><strike>For developers: trunk</strike> (temporary unavailable)
-                    <ul>
-                        <li><a href="http://demo-trunk.ofbiz.apache.org/ecomseo" target="_blank"><strike>Front-End Store</strike></a></li>
-                        <li><a href="http://demo-trunk.ofbiz.apache.org/catalog/control/main?USERNAME=admin&amp;PASSWORD=ofbiz&amp;JavaScriptEnabled=Y" target="_blank"><strike>Management Apps</strike></a></li>-->
-                    <!--
-                        <li><a href="https://ofbiz-vm2.apache.org:8443/ecomseo">Front-End Store</a></li>
-                        <li><a href="https://ofbiz-vm2.apache.org:8443/catalog/control/main?USERNAME=admin&amp;PASSWORD=ofbiz&amp;JavaScriptEnabled=Y">Management Apps</a></li>
-                    -->
-                    </ul>
-                </li>
-            </ul>
-            <!--/strike-->
-            <h3>Apache Software Foundation</h3>
-            <ul class="sidemenu">
-                <li><a href="http://www.apache.org/licenses/" target="_blank">License</a></li>
-                <li><a href="http://www.apache.org/foundation/sponsorship.html" target="_blank">Sponsorship</a></li>
-                <li><a href="http://www.apache.org/foundation/thanks.html" target="_blank">Thanks</a></li>
-                <li><a href="download.html#vulnerabilities">Security</a></li>
-            </ul>
-            <a class="twitter-timeline"  width="300" href="https://twitter.com/ApacheOfbiz" data-widget-id="588661945194192896">Tweets by @ApacheOfbiz</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!-- slider -->
+<section  id="sliderWrapperRS">
+  <!-- background slider dark bloc -->
+  <div id="bgSliderBlocWrapper">
+    <div class="container">
+      <div id="bgSliderBloc">&nbsp;</div>
+    </div>
+  </div>
+  <!-- background slider dark bloc -->
+  <div class="fullwidthbanner-container">
+    <div class="fullwidthbanner" >
+      <ul>
+        <li data-transition="fade" data-slotamount="1"  data-masterspeed="2000"> <img src="images/slider/rs/thumb.png" alt="slide"/>
+          <div class="caption lfr" data-x="0" data-y="46" data-speed="1000" data-start="300" data-easing="easeOutExpo"><img src="images/slider/rs/CatalogPromotions-SaphirTheme.png" alt="slide" class="ie8PngFix" style="max-width: 500px;"/></div>
+          <div class="caption sft" data-x="495" data-y="50" data-speed="300" data-start="600" data-easing="easeOutExpo" >
+            <h2>What our users are saying..</h2>
+          </div>
+          <div class="caption sfb hidden-phone" data-x="495" data-y="125" data-speed="300" data-start="700" data-easing="easeOutExpo">
+            <h3><i class="icon-right-circle"></i>&nbsp;Powerful, flexible and free....what more could a developer ask for?</h3>
+          </div>
+          <div class="caption sfl hidden-phone" data-x="495" data-y="159" data-speed="500" data-start="1000" data-easing="easeOutBounce" >
+            <h3><i class="icon-right-circle"></i>&nbsp;I highly recommend OFBiz. I finished my project in 6 months working solo</h3>
+          </div>
+          <div class="caption sfl hidden-phone" data-x="495" data-y="193" data-speed="500" data-start="1250" data-easing="easeOutBounce" >
+            <h3><i class="icon-right-circle"></i>&nbsp;I love this framework and the freedom it gives</h3>
+          </div>
+          <div class="caption sfl hidden-phone" data-x="495" data-y="227" data-speed="500" data-start="1500" data-easing="easeOutBounce" >
+            <h3><i class="icon-right-circle"></i>&nbsp;the community support is amazing...</h3>
+          </div>
+        </li>
+        <li data-transition="fade" data-slotamount="2"> <img src="images/slider/rs/thumb.png" alt="slide"/>
+          <div class="caption lfl" data-x="450" data-y="65" data-speed="900" data-start="800" data-easing="easeOutBack"><img src="images/slider/rs/InventoryItems-SaphirTheme.png" alt="slide" class="ie8PngFix" style="max-width: 500px;"/></div>
+          <div class="caption sft" data-x="70" data-y="120" data-speed="300" data-start="1600" data-easing="easeOutExpo" >
+            <h2>Enjoy the benefits</h2>
+          </div>        
+          <div class="caption lfr hidden-phone" data-x="72" data-y="194" data-speed="500" data-start="1500" data-easing="easeInExpo" >
+            <h3><i class="icon-right-circle"></i>&nbsp;Freedom from vendor lock-in</h3>
+          </div>
+          <div class="caption lfr hidden-phone" data-x="72" data-y="228" data-speed="500" data-start="1700" data-easing="easeInExpo" >
+            <h3><i class="icon-right-circle"></i>&nbsp;Flexible enough to fit any business</h3>
+          </div>
+        </li>
+        <li data-transition="fade" data-slotamount="1"> <img src="images/slider/rs/thumb.png" alt="slide"/>
+          <div class="caption lfr" data-x="0" data-y="60" data-speed="800" data-start="300" data-easing="easeOutBack"><img src="images/slider/rs/Project-SaphirTheme.png" alt="slide" class="ie8PngFix" style="max-width: 500px;"/></div>
+          <div class="caption sft" data-x="495" data-y="48" data-speed="300" data-start="500" data-easing="easeOutExpo" >
+            <h2>Flexible OFBiz Solutions, </h2>
+          </div>
+          <div class="caption sft" data-x="495" data-y="102" data-speed="300" data-start="700" data-easing="easeOutExpo" >
+            <h2>choose yours...</h2>
+          </div>
+         
+          <div class="caption sfl hidden-phone" data-x="495" data-y="176" data-speed="500" data-start="900" data-easing="easeOutBounce" >
+            <h3><i class="icon-right-circle"></i>&nbsp;ERP with integrated E-Commerce</h3>
+          </div>
+          <div class="caption sfl hidden-phone" data-x="495" data-y="210" data-speed="500" data-start="1100" data-easing="easeOutBounce" >
+            <h3><i class="icon-right-circle"></i>&nbsp;Manufacturing and Warehouse Management</h3>
+          </div>
+          <div class="caption sfl hidden-phone" data-x="495" data-y="244" data-speed="500" data-start="1300" data-easing="easeOutBounce" >
+            <h3><i class="icon-right-circle"></i>&nbsp;CRM,Human Resources,WebPOS and much more </h3>
+          </div>
+        </li>
+        <li data-transition="fade" data-slotamount="2"> <img src="images/slider/rs/thumb.png" alt="slide"/>
+          <div class="caption lfl" data-x="450" data-y="130" data-speed="900" data-start="800" data-easing="easeOutBack"><img src="images/slider/rs/SalesOrder-SaphirTheme.png" alt="slide" class="ie8PngFix" style="max-width: 500px;"/></div>
+          <div class="caption sft" data-x="50" data-y="60" data-speed="300" data-start="1600" data-easing="easeOutExpo" >
+            <h2>The best things in life are free!</h2>
+          </div>
+          <div class="caption lfr hidden-phone" data-x="52" data-y="134" data-speed="500" data-start="1500" data-easing="easeInExpo" >
+            <h3><i class="icon-right-circle"></i>&nbsp;Download and it's yours....free</h3>
+          </div>
+          <div class="caption lfr hidden-phone" data-x="52" data-y="168" data-speed="500" data-start="1700" data-easing="easeInExpo" >
+            <h3><i class="icon-right-circle"></i>&nbsp;Enjoy the benefits and freedom</h3>
+          </div>
+          <div class="caption lfr hidden-phone" data-x="52" data-y="202" data-speed="500" data-start="1800" data-easing="easeInExpo" >
+            <h3><i class="icon-right-circle"></i>&nbsp;No licensing fees....ever</h3>
+          </div>
+        </li>
+      </ul>
+      <div class="tp-bannertimer"></div>
+    </div>
+  </div>
+</section>
+<!-- slider -->
+<!-- content -->
+<!-- three blocs -->
+  <section class="sliceTop">
+    <div class="container">
+      <div class="row">
+        <div class="span12 drop-shadow lifted">
+          <div class="topQuote">
+            <h1> <strong>Apache OFBiz</strong> is a suite of business 
+                applications flexible enough to be used across any industry.
+               A common architecture allows developers to easily extend or
+               enhance it to create custom features.
+            </h1>
+          </div>
+          <div class="topBox clearfix">
+            <div class="bigIconsColumnsWrapper">
+              <article class="one_third"> <a href="" class="iconWrapper iconBig ch-item"> <i class=" icon-cog-alt"></i>
+                   <div class="ch-info"> <span> Java </span> </div>
+                </a>
+                <h2 class="smallHeading"><span>Powerful Java Web Framework</span></h2>
+                <p>
+                  OFBiz is a Java based web framework including an entity engine,
+                  a service engine and a widget based UI allowing you to
+                  quickly prototype and develop your web application.
+                </p>
+              </article>
+              <article class="one_third"> <a href="" class="iconWrapper iconBig ch-item"> <i class=" icon-th-list"></i>
+                  <div class="ch-info"> <span> CRM & ERP </span> </div>
+                </a>
+                <h2 class="smallHeading">Mature CRM &  ERP Solution</h2>
+                <p>An Apache top level project for  10 years, OFBiz has shown it's stability and maturity as an enterprise-wide 
+                  ERP solution that is flexible enough to change with your business.</p>
+              </article>
+              <article class="one_third last"> <a href="" class="iconWrapper iconBig ch-item"> <i class=" icon-edit"></i>
+                  <div class="ch-info"> <span> Develop </span> </div>
+                </a>
+                <h2 class="smallHeading">Developer Friendly</h2>
+                <p>
+                  OFBiz architecture is extremely flexible allowing developers
+                  to quickly and easily extend and enhance the framework with
+                  custom features.
+                </p>
+              </article>
+            </div>
+          </div>
         </div>
-        <!-- sidebar -->
       </div>
-      <!-- content-wrap -->
-</div>
-<!-- wrap -->
+    </div>
+  </section>
+
+
+ 
+  <!-- three blocs -->
+  <!-- carousel works-->
+  <section class="slice">
+    <div class="container">
+      <div class="row">
+
+  <div class="span12">
+          <h2><span>Where to Start?</span></h2>
+            <div class="divider"><span></span></div>
+    <p>Developer or Business User, getting started with OFBiz is easy!. We have a range of information about OFBiz modules and features as well as an online demo that you can try.</p>
+    <ul class="iconsList">
+        <li><i class="icon-pin"></i> Developers can get started on our <a href="developers.html"><strong> Developers page</strong></a> </li>
+        <li><i class="icon-pin"></i> Business Users can get started on our <a href="business-users.html"><strong>Business Users page</strong></a> </li>
+      <li><i class="icon-pin"></i> To see what OFBiz looks like and how it works, please try our <a href="ofbiz-demos.html"><strong>Online Demos</strong></a></li>
+    </ul>
+           </div> 
+
+         <div class="span12">
+          <h2><span>Features and Benefits</span></h2>
+            <div class="divider"><span></span></div>
+        </div>
+         <section class="span12 mb15">
+            <div class="row-fluid">
+              <div class="span4">
+                <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-users" ></i></span> Modules</h3>
+          <p>Apache OFBiz comes with a range of core modules out-of-the-box (OOTB) including:</p>
+           <ol class="iconsList">
+                  <li><i class="icon-pin"></i></span> Accounting (GL,AR,AP,FA)</li>
+      <li><i class="icon-pin"></i></span> CRM,Order Management & E-Commerce</li>
+        <li><i class="icon-pin"></i></span> Warehousing and Inventory</li>
+       <li><i class="icon-pin"></i></span> Manufacturing & MRP</li>
+      </ol>
+    </div>
+       <div class="span4">
+                  <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-cog-alt"></i></span> Features</h3>
+                   <p>Apache OFBiz has a full set useful business features including:</p>
+     <ol class="iconsList">
+      <li><i class="icon-pin"></i></span> Product & Catalog Management</li>
+        <li><i class="icon-pin"></i></span> Promotion & Pricing Management</li>
+        <li><i class="icon-pin"></i></span> Supply Chain Fulfillment</li>
+        <li><i class="icon-pin"></i></span> Contracts, Payments & Billing</li>
+      </ol>
+    </div>
+                <div class="span4">
+                  <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-resize-full-alt"></i></span> Benefits</h3>
+                  <p>There are a range of benefits associated with using Apache OFBiz including:.</p>
+     <ol class="iconsList">
+        <li><i class="icon-pin"></i></span> Free and open source - No upfront costs</li>
+      <li><i class="icon-pin"></i></span> Scalable, reliable enterprise solution</li>
+        <li><i class="icon-pin"></i></span> Fully Customisable</li>
+        <li><i class="icon-pin"></i></span> Flexible to grow with your business</li>
+     </ol>
+                </div>
+            </div>
+  <p></p>
+  <p></p>
+   <p>If you are still unsure or have any questions then please feel free to use our <a href="https://lists.apache.org/list.html?user@ofbiz.apache.org" target="_blank"><strong>User Mailing List</strong></a> </p>
+          </section>   
+
+      </div>
+    </div>
+  </section>
+  <!-- carousel works-->
+<!-- Call to download action -->
+  <section class="slice">
+    <div  class="container">
+      <div class="row-fluid callToActionBoxed">
+        <div class="span7">
+          <div class="ctaText">
+            <h3>Go ahead and take OFBiz for a spin!</h3>
+            <p>Download <strong>OFBiz</strong> and try it out for yourself.
+             All you need is to install the Java Development Kit and then follow
+              the instructions in the README file.</p>
+          </div>
+        </div>
+        <div class="span5">
+          <div class="btnWrapper">
+            <a href="download.html" class="iconBtn" title="Download OFBiz">
+              <i class="icon-download"></i>Download OFBiz 
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Call to download action -->
+
+</section>
+<!-- content -->
 <!-- footer -->
-<div id="footer">
-      <div id="foot">
-            Copyright &copy; 2017 The Apache Software Foundation - Apache OFBiz, OFBiz, Apache, the Apache feather logo, the Apache OFBiz logo are either registered trademarks or trademarks of The Apache Software Foundation.
+<footer class="footer1">
+  <div class="container" id="footer">
+    <div class="row">
+      <div class="span6 timelineWidget">
+        <h2>Latest tweets</h2>
+        <div class="divider"><span></span></div>
+        <ul class="socialNetwork nav">
+          <li>
+            <a href="https://twitter.com/ApacheOfbiz" class="icon-twitter-bird socialIcon tips"
+              target="_blank" title="follow us on Twitter"><span>twitter</span></a>
+          </li>
+          <li><a href="https://www.youtube.com/user/ofbiz" class="icon-play socialIcon tips"  title="follow us on Youtube"><span>Youtube</span></a></li>
+          <li><a href="https://www.facebook.com/Apache-OFBiz-1478219232210477/?ref=page_internal" class="icon-facebook socialIcon tips"  title="follow us on Facebook"><span>facebook</span></a></li>
+          <!--<li><a href="#" class="icon-rss socialIcon tips"  title="Our rss feed"><span>rss feed</span></a></li>         
+          <li><a href="#" class="icon-gplus socialIcon tips"  title="follow us on Google +"><span>google +</span></a></li>
+          <li><a href="#" class="icon-instagram socialIcon tips"  title="follow us on Instagram"><span>instagram</span></a></li>
+          <li><a href="#" class="icon-linkedin socialIcon tips"  title="follow us on Linkedin"><span>linkedin</span></a></li>
+          <li><a href="#" class="icon-pinterest-circled socialIcon tips"  title="follow us on Pinterest"><span>Pinterest</span></a></li>-->
+        </ul>
+        <div id="twitterFrame"> <a class="twitter-timeline" href="https://twitter.com/ApacheOfbiz?height=250" data-widget-id="588661945194192896"  data-tweet-limit="2" data-theme="dark" data-chrome="nofooter noheader transparent" >Tweets by @ApacheOfbiz</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
       </div>
+      <div class="span3 contactWidget">
+        <h2>Contact Community</h2>
+        <div class="divider"><span></span></div>
+        <ul>
+          <li><a href="mailing-lists.html">Mailing Lists</a></li>
+          <li><a href="source-repositories.html">Source Repository (SVN)</a></li>
+          <li><a href="https://issues.apache.org/jira/browse/OFBIZ" target="external">Issue Tracker (Jira)</a></li>
+          <li><a href="https://www.youtube.com/user/ofbiz" target="external">OFBiz Youtube Channel</a></li>
+          <li><a href="https://vimeo.com/channels/apacheofbiz" target="external">OFBiz Vimeo Channel</a></li>
+          <li><a href="https://www.hipchat.com/gGlwdXZZl" target="external">OFBiz HipChat Room</a></li>
+        </ul>
+      </div>
+      <div class="span3 sociallWidget">
+        <h2>ASF Information</h2>
+        <div class="divider"><span></span></div>
+        <ul>
+          <li><a href="http://www.apache.org/foundation/" target="external">Apache Software Foundation</a></li>
+          <li><a href="http://www.apache.org/foundation/sponsorship.html" target="external">Sponsorship</a></li>
+          <li><a href="http://www.apache.org/foundation/thanks.html" target="external">Thanks</a></li>
+          <li><a href="download.html">Security</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<footer class="footer2" id="footerRights">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <p>
+          Copyright © 2017 The Apache Software Foundation. Licensed under the
+          Apache License, Version 2.0. Apache OFBiz, OFBiz, the project logo
+          and the Apache feather logo are trademarks of The Apache Software
+          Foundation.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer -->
 </div>
-<!-- wrap ends here -->
+<!-- globalWrapper -->
+<script type="text/javascript" src="js-plugin/respond/respond.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="js-plugin/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+<!-- third party plugins  -->
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap-carousel.js"></script>
+<script type="text/javascript" src="js-plugin/easing/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js-plugin/pretty-photo/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js-plugin/hoverdir/jquery.hoverdir.js"></script>
+<!-- jQuery KenBurn Slider  -->
+<script type="text/javascript" src="js-plugin/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="js-plugin/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!-- Custom  -->
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', UA]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
 </body>
 </html>

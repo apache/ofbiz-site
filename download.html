@@ -1,150 +1,303 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
 <head>
-    <title>Apache OFBiz - Download Releases</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="Distribution" content="Global" />
-    <meta name="Robots" content="index,follow" />
-    <meta name="keywords" content="Open Source ERP,Open Source CRM,Open Source E-Commerce,Open Source eCommerce,Open Source SCM,Open Source MRP,Open Source CMMS,Open Source EAM,web services,workflow,ebusiness,e-business,ecommerce,e-commerce,automation,enterprise software,open source,entity engine,service engine,erp,crm,party,accounting,facility,supply,chain,management,catalog,order,project,task,work effort,financial,ledger,content management,customer,inventory"/>
-    <meta name="Description" content="Apache OFBiz (The Apache Open For Business Project) is an open source enterprise automation software project licensed under the Apache License Version 2.0. Being open source under the Apache 2.0 license and driven by a community Apache OFBiz offers both flexibility by design and by access to code, and a solution where you're not alone but rather can work with many others to get things done." />
-    <link rel="shortcut icon" type="image/x-icon"  href="images/favicon.ico" />
-    <link rel="stylesheet" href="css/global.css" type="text/css" />
-    <script type="text/javascript" src="js/prototype.js"></script>
-    <script type="text/javascript" src="js/effects.js"></script>
-    <script type="text/javascript" src="js/search.js"></script>
-    <script type="text/javascript" src="js/slides.js"></script>
+<meta charset="utf-8">
+<title>The Apache OFBiz&reg; Project</title>
+<meta name="description" content="Apache OFBiz (The Apache Open For Business
+    Project) is an open source enterprise automation software project licensed
+    under the Apache License Version 2.0. Being open source under the Apache 2.0
+    license and driven by a community Apache OFBiz offers both flexibility by
+    design and by access to code, and a solution where you're not alone but
+    rather can work with many others to get things done.">
+<meta name="keywords" content="Open Source ERP,Open Source CRM,
+    Open Source E-Commerce,Open Source eCommerce,Open Source POS,Open Source SCM,
+    Open Source MRP,Open Source CMMS,Open Source EAM,web services,workflow,
+    ebusiness,e-business,ecommerce,e-commerce,automation,enterprise software,
+    open source,entity engine,service engine,erp,crm,party,accounting,facility,
+    supply,chain,management,catalog,order,project,task,work effort,financial,
+    ledger,content management,customer,inventory"/>
+
+<meta name="Robots" content="index,follow" />
+<!-- Mobile Specific Metas
+    ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS
+    ================================================== -->
+<!-- Bootstrap  -->
+<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<!-- web font  -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,800" rel="stylesheet" type="text/css">
+<!-- plugin css  -->
+<link rel="stylesheet" type="text/css" href="js-plugin/pretty-photo/css/prettyPhoto.css" />
+<link rel="stylesheet" type="text/css" href="js-plugin/rs-plugin/css/settings.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="js-plugin/hoverdir/css/style.css">
+<!-- icon fonts -->
+<link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons.css">
+<link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons-ie7.css">
+<!-- Custom css -->
+<link type="text/css" rel="stylesheet" href="css/layout.css">
+<link type="text/css" id="colors" rel="stylesheet" href="css/colors.css">
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if gte IE 9]><style type="text/css">.iconBig, .active, .hover a , .Shover a { filter: none !important; } </style> <![endif]-->
+<script src="js/modernizr-2.6.1.min.js"></script>
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
 </head>
+<body>
+<!-- header -->
+<header id="mainHeader" class="clearfix">
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container"> <a href="index.html" class="brand"><img src="images/OFBiz-logoV3-apache.png" alt="Apache OFBiz Logo"/></a>
+        <nav id="mainMenu" class="clearfix">
+          <ul>
+            <li><a href="index.html" class="firstLevel">Home</a></li>
+            <li><a href="" class="firstLevel">Getting Started</a>
+              <ul>
+                <li><a href="developers.html" class="">Developers</a></li>
+                <li><a href="business-users.html" class="last">Business Users</a></li>
+              </ul>
+            </li>
+            <li><a href="" class="firstLevel">News</a>
+              <ul>
+                <li><a href="https://twitter.com/apacheofbiz" target="external">Twitter</a></li>
+                <li><a href="https://blogs.apache.org/ofbiz/" target="external" class="last">Blog</a></li>                
+              </ul>
+            </li>
+            <li><a href="" class="firstLevel">Documentation</a>
+              <ul>
+                <li><a href="https://cwiki.apache.org/confluence/display/OFBIZ/Documentation#Documentation-End-UserDocumentation" target="external" class="">User Documentation</a></li>
+                <li><a href="https://cwiki.apache.org/confluence/display/OFBIZ/Technical+Documentation" target="external" class="">Technical Documentation</a></li>
+                <li><a href="https://cwiki.apache.org/confluence/display/OFBIZ/Home" target="external" class="">Wiki</a></li>
+                <li><a href="https://ci.apache.org/projects/ofbiz/site/javadocs/" target="external" class="last">API Reference</a></li>
+              </ul>
+            </li>
+            <li><a href="" class="firstLevel">Community</a>
+              <ul>
+                <li><a href="getting-involved.html">Getting Involved</a></li>                
+                <li><a href="mailing-lists.html">Mailing Lists</a></li>
+                <li><a href="source-repositories.html">Source Repository</a></li>
+     <li><a href="download.html">Downloads</a></li>
+                <li><a href="https://issues.apache.org/jira/browse/OFBIZ/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel" target="external" >Issue Tracker</a></li>
+                <li><a href="faqs.html" class="last">FAQ</a></li>
+              </ul>
+            </li>
+            <li><a href="ofbiz-demos.html" class="firstLevel">Demos</a></li>            
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- header -->
+<!-- globalWrapper -->
+<div id="globalWrapper">
 
-<body id="full">
-<!-- wrap starts here -->
-  <div id="wrap">
-
-    <!--header -->
-    <div id="header">
-        <div id="logo">
-            <a href="#"><img src="images/logo.png" /></a>
+<!-- content -->
+  <!-- page content -->
+  <section id="content" class="sidebar">
+    <header class="headerPage">
+      <div class="container clearfix">
+        <div class="row">
+          <h1 class="span8">Downloads</h1>
+          <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="#">Community</a><span>/</span> <span class="current">Downloads</span> </div>
         </div>
-        <div id="nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li id="current"><a href="download.html">Download</a></li>
-                <li><a href="community.html">Community</a></li>
-                <li><a href="documentation.html">Documentation</a></li>
+      </div>
+    </header>
+    <div class="slice clearfix">
+      <div class="container">
+        <div class="row">
+          <!-- sidebar -->
+          <aside class="span4" id="sidebar">
+         
+            <section class="widget blogUpdates">
+              <h2>Releases for Download</h2>
+              <div class="divider"><span></span></div>
+              <ul class="nav nav-tabs " id="myTab">
+                <li class="active"><a href="#tabs-1" data-toggle="tab">Downloads</a></li>
+                <li><a href="#tabs-2" data-toggle="tab">Release Notes</a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane active" id="tabs-1">
+                  <ul>
+                    <li>
+                      <h2>OFBiz 16.11.03</h2>
+                      <a href="http://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-16.11.03.zip" target="external" class="moreLink">&rarr; Download</a> </li>
+                    <li>
+                      <h2>OFBiz 13.07</h2>
+                      <a href="http://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-13.07.03.zip" target="external" class="moreLink">&rarr; Download</a> </li>
+                     </ul>
+                </div>
+                <div class="tab-pane" id="tabs-2">
+                  <ul>
+                    <li data-load="release-notes-16.11.03.html"></li>
+                    <li data-load="release-notes-13.07.03.html"></li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </aside>
+          <!-- sidebar -->
+          <div class="span8">
+            <h2>Download Apache OFBiz</h2>
+            <div class="divider"><span></span></div>
+            <div class="imgWrapper"> <img src="images/Download.jpg" alt="image fullwidth"> </div>
+            <p> <strong> Use the links below to download Apache OFBiz releases from the "Apache Download Mirrors" page. The download page also includes instructions on how to verify the integrity of the release file using the signature and hashes (PGP, MD5, SHA512) available for each release. </strong> </p>
+            <p> <strong>PLEASE NOTE:</strong> Despite our best efforts to maintain up to three active release branches, support for older branches can decrease because our project volunteers may be focused on other issues. We recommend using releases from the most recent branch wherever possible. </p>
+            <h2>Apache OFBiz 16.11.03</h2>
+            <div class="divider"><span></span></div>
+            <p> Released in June 2017, this is the third release of the 16.11 series, that has been stabilized since November 2016. </p>
+            <a href ="http://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-16.11.03.zip" target="external" >Download OFBiz 16.11.03</a>
+            <a href ="http://www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.asc" target="_blank">[PGP]</a>
+      <a href ="http://www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.md5" target="_blank">[MD5]</a>
+            <a href ="http://www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.sha" target="_blank">[SHA12]</a>
+            <a href ="#">[Release Notes]</a></p>
+            <h2>Apache OFBiz 13.07.03</h2>
+            <div class="divider"><span></span></div>
+            <p> Released in April 2016, is the third and final release of the 13.07 series, that has been stabilized with bug fixes since July 2013. </p>
+      <p> Please note that in the 13.07 series the specialpurpose components are no longer inccluded as part of the release files. The only exception is the the ecommerce component due to specific dependencies. </p>
+       <a href ="http://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-13.07.03.zip" target="external">Download OFBiz 13.07.03</a>
+            <a href ="http://www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.asc" target="_blank">[PGP]</a>
+      <a href ="http://www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.md5" target="_blank">[MD5]</a>
+            <a href ="http://www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.sha" target="_blank">[SHA12]</a>
+            <a href ="#">[Release Notes]</a></p>     
+       <h2>Special Notice Regarding Branches 14.12 and 15.12</h2>
+            <p>The branches 14.12 and 15.12 contain the complete codebase including the specialpurpose components and will remain as unreleased branches so will be accessible for developers and service providers to support their client base. The project has changed the Apache OFBiz build system from Apache Ant to Gradle beginning with the 16.11* series of releases so 14.12 and 15.12 are still using Ant.</p>
+      <p>Branches 14.12 and 15.12 will be supported until <strong>July 2017</strong> and during this period bug fixes will be backported to them</p>
+
+
+            <h2>Apache OFBiz 12.04 and earlier</h2>
+            <div class="divider"><span></span></div>
+            <p>Older superseded releases of Apache OFBiz can be found in the <a href="http://archive.apache.org/dist/ofbiz/" target="external">Apache OFBiz archive</a></p>
+            <p><strong>NOTE: To avoid any security vulnerabilities the Apache OFBiz community highly recommend that all users upgrade to the latest stable release.</strong></p>
+      <p> A descriptions of each release in the history of OFBiz can be <a href="http://www.apache.org/dist/ofbiz/" target="external">found here</a></p>
+      <h2>Security Vulnerabilities</h2>
+            <div class="divider"><span></span></div>
+            <p> <strong> We strongly encourage OfBiz users to report security problems affecting OFBiz to the private security mailing lists (either security@ofbiz.apache.org or security@apache.org), before disclosing them in a public forum.</strong></p>
+<p>Please see the  <a href="http://www.apache.org/security/" target="external">ASF Security Team webpage</a> for further information about reporting a security vulnerability as well as their contact information. </p>
+ 
+            <h3>List of Known Vulnerabilities</h3>
+            <ul class="iconsList">
+        <li><i class="icon-pin"></i> <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6800" target="external">CVE-2016-6800</a>; affected releases: 13.07.*, 12.04.*, 11.04.*; fixed in 16.11.01</li>
+        <li><i class="icon-pin"></i> <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4462" target="external">CVE-2016-4462</a>; affected releases: 13.07.*, 12.04.*, 11.04.*; fixed in 16.11.01</li>
+        <li><i class="icon-pin"></i> <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2170" target="external">CVE-2016-2170</a>; affected releases: 13.07.02 and earlier versions (13.07.*), 12.04.05 and earlier versions (12.04.*); fixed in 13.07.03 and 12.04.06</li>
+        <li><i class="icon-pin"></i> <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3268" target="external">CVE-2015-3268</a>; affected releases: 13.07.02 and earlier versions (13.07.*), 12.04.05 and earlier versions (12.04.*); fixed in 13.07.03 and 12.04.06</li>
+        <li><i class="icon-pin"></i> <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0232" target="external">CVE-2014-0232</a>; affected releases: 12.04.03 and earlier versions (12.04.*), 11.04.04 and earlier versions (11.04.*); fixed in 12.04.04 and 11.04.05</li>
+        <li><i class="icon-pin"></i> <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2250" target="external">CVE-2013-2250</a>; affected releases: 12.04.01, 11.04.02 and earlier versions (11.04.*), 10.04.05 and earlier versions (10.04.*); fixed in 12.04.02, 11.04.03 and 10.04.06</li>
+        <li><i class="icon-pin"></i> <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2137" target="external">CVE-2013-2137</a>; affected releases: 12.04.01, 11.04.02 and earlier versions (11.04.*), 10.04.05 and earlier versions (10.04.*); fixed in 12.04.02, 11.04.03 and 10.04.06</li>
+        <li><i class="icon-pin"></i> <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0177" target="external">CVE-2013-0177</a>; affected releases: 11.04.01, 10.04.04 and earlier versions (10.04.*); fixed in 11.04.02 and 10.04.05</li>
+        <li><i class="icon-pin"></i> <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3506" target="external">CVE-2012-3506</a>; affected releases: 10.04.02, 10.04 (10.04.01); fixed in 10.04.03</li>
+        <li><i class="icon-pin"></i> <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1622" target="external">CVE-2012-1622</a>; affected releases: 10.04 (10.04.01); fixed in 10.04.02</li>
+        <li><i class="icon-pin"></i> <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1621" target="external">CVE-2012-1621</a>; affected releases: 10.04 (10.04.01); fixed in 10.04.02</li>
+        <li><i class="icon-pin"></i> <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0432" target="external">CVE-2010-0432</a>; affected releases: 09.04; fixed in 09.04.01</li>
             </ul>
         </div>
-    </div>
-    <!--header ends-->
-    <!-- content-wrap starts -->
-<style>
-  /* reset the page for some reason it is set to 560px in the global.css file */
-  #main {width: 90%; font-size: 1em; padding:0 1em 0 1em; margin: 0; }
-  #main li, ul {list-style: square; padding: .2em 1em .2em 1em;}
-  #main a.downloadLink {font-size: 16px; font-weight: bold;}
-  #main a.downloadLink:hover {color: red;}
-</style>
-    <div id="content-wrap" class="clearfix">
-        <div id="main">
-<h2>Download Apache OFBiz&reg;</h2>
-<div class="highlights">
-  <h4>Quick start</h4>
-  <ul>
-    <li>Java 1.8 (minimum) SDK</li>
-    <li>unpack the release file and go into the newly created directory</li>
-    <li>using the command line, build the system (with demo data) and run it with the following command:
-    </li>
-    <li style="list-style: none">
-      <h5>gradlew loadDefault ofbiz</h5> (on Linux and like use "./gradlew" rather than "gradlew")
-    </li>
-    <li>point your browser to http://localhost:8080/catalog and login with username &quot;admin&quot; and password &quot;ofbiz&quot;</li>
-    <li>refer to the README file for further details
-  </ul>
-</div>
-<p>
-Apache OFBiz&reg; is an open source product for the automation of enterprise
-processes that includes framework components and business applications.
-</p>
-<p>
-Use the links below to download Apache OFBiz releases from the "Apache Download Mirrors" page; in that page you'll also
-find instructions on how to verify the integrity of the release file using the signature and hashes (PGP, MD5, SHA512) available for each release.</p>
-<p>Despite our best efforts to maintain up to three active release branches, support for older branches can decrease because our project volunteers may be focused on other issues. We recommend using releases from the most recent branch wherever possible.</p>
-
-<h3>Apache OFBiz 16.11.03</h3>
-<p>Released in June 2017, this is the third release of the 16.11 series, that has been stabilized since November 2016.</p>
-<p>
-<a class="downloadLinks" href="http://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-16.11.03.zip" target="_blank">Download Apache OFBiz 16.11.03</a>
-[<a href="http://www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.asc" target="_blank">PGP</a>]
-[<a href="http://www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.md5" target="_blank">MD5</a>]
-[<a href="http://www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.sha" target="_blank">SHA512</a>] [<a target="external" href="release-notes-16.11.03.html">Release Notes</a>]
-</p>
-<h3>Other downloads</h3>
-<ul>
-<li><a href="http://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-13.07.03.zip" target="_blank">Apache OFBiz 13.07.03</a>
-[<a href="http://www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.asc" target="_blank">PGP</a>]
-[<a href="http://www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.md5" target="_blank">MD5</a>]
-[<a href="http://www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.sha" target="_blank">SHA512</a>] [<a target="external" href="release-notes-13.07.03.html">Release Notes</a>], released in April 2016, is the latest bug fix release in the 13.07 series that contains all the features of the trunk up to June 2013; it is the final release of this series.</li>
-
-<li>Old superseded releases can be found in the OFBiz <a href="http://archive.apache.org/dist/ofbiz/" target="_blank">archive</a></li>
-<li>A description of each release in the history of OFBiz can be found <a href="http://www.apache.org/dist/ofbiz/">here</a></li>
-</ul>
-<h3>Release Information</h3>
-<ul>The naming convention for OFBiz releases is <b>&lt;Release Freeze Date&gt;.&lt;Minor Release Number&gt;</b> for example &lt;13.07&gt;.&lt;04&gt; where:
-<li>&lt;Release Freeze Date&gt; is in the format of &lt;YY.MM&gt; where YY and MM are the year and month of the date of the feature freeze;</li>
-<li>&lt;Minor Release Number&gt; is a two digit sequential number: 01 is the first release from the branch; 02 is the second etc...;
-    for a given Release Freeze Date you should always use the release with the highest Minor Release Number because it represents the latest bug fix release for the Release Freeze Date you are using.</li>
-</ul>
-
-<ul><b>Special Notice Regarding Branches 14.12 and 15.12:</b>
-<li>The branches 14.12 and 15.12 contain the complete codebase including the specialpurpose components and will remain as unreleased branches so will be accessible for developers and service providers to support their client base</li>
-<li>The project has changed the build system from Apache Ant to Gradle, but this change will not affect branches 14.12 or 15.12; the new build system is available since the 16.11.* series.</li>
-<li>Branches 14.12 and 15.12 will be supported until July 2017 and during this period bug fixes will be backported to them</li>
-</ul>
-
-<a name="vulnerabilities"></a>
-<h3>Security Vulnerabilities</h3>
-<p><b>We strongly encourage OfBiz users to report security problems affecting OFBiz to the private security mailing lists (either security@ofbiz.apache.org or security@apache.org), before disclosing them in a public forum.
-</b> Please see the page of the <a href="http://www.apache.org/security/">ASF
-Security Team</a> for further information and contact information.
-<ul>This is the list of all security vulnerabilities fixed in released versions of Apache OFBiz:
-<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6800" target="external">CVE-2016-6800</a>; affected releases: 13.07.*, 12.04.*, 11.04.*; fixed in 16.11.01</li>
-<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4462" target="external">CVE-2016-4462</a>; affected releases: 13.07.*, 12.04.*, 11.04.*; fixed in 16.11.01</li>
-<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2170" target="external">CVE-2016-2170</a>; affected releases: 13.07.02 and earlier versions (13.07.*), 12.04.05 and earlier versions (12.04.*); fixed in 13.07.03 and 12.04.06</li>
-<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3268" target="external">CVE-2015-3268</a>; affected releases: 13.07.02 and earlier versions (13.07.*), 12.04.05 and earlier versions (12.04.*); fixed in 13.07.03 and 12.04.06</li>
-<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0232" target="external">CVE-2014-0232</a>; affected releases: 12.04.03 and earlier versions (12.04.*), 11.04.04 and earlier versions (11.04.*); fixed in 12.04.04 and 11.04.05</li>
-<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2250" target="external">CVE-2013-2250</a>; affected releases: 12.04.01, 11.04.02 and earlier versions (11.04.*), 10.04.05 and earlier versions (10.04.*); fixed in 12.04.02, 11.04.03 and 10.04.06</li>
-<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2137" target="external">CVE-2013-2137</a>; affected releases: 12.04.01, 11.04.02 and earlier versions (11.04.*), 10.04.05 and earlier versions (10.04.*); fixed in 12.04.02, 11.04.03 and 10.04.06</li>
-<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0177" target="external">CVE-2013-0177</a>; affected releases: 11.04.01, 10.04.04 and earlier versions (10.04.*); fixed in 11.04.02 and 10.04.05</li>
-<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3506" target="external">CVE-2012-3506</a>; affected releases: 10.04.02, 10.04 (10.04.01); fixed in 10.04.03</li>
-<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1622" target="external">CVE-2012-1622</a>; affected releases: 10.04 (10.04.01); fixed in 10.04.02</li>
-<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1621" target="external">CVE-2012-1621</a>; affected releases: 10.04 (10.04.01); fixed in 10.04.02</li>
-<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0432" target="external">CVE-2010-0432</a>; affected releases: 09.04; fixed in 09.04.01</li>
-</ul>
-</p>
-<!--
-<ul>Tentative release schedule for the YY.04 series:
-<li>April YYYY - creation of the release branch for YY.04 (this is not a release yet)</li>
-<li>February YYYY+1 - Apache OFBiz YY.04.01</li>
-<li>August  YYYY+1 - Apache OFBiz YY.04.02</li>
-<li>March  YYYY+2 - Apache OFBiz YY.04.03</li>
-<li>September  YYYY+2 - Apache OFBiz YY.04.04</li>
-<li>April  YYYY+3 - Apache OFBiz YY.04.05 (last release of the YY.04 series)</li>
-</ul>
--->
         </div>
-        <!-- main ends -->
-
-   </div>
-      <!-- content-wrap -->
-  </div>
-<!-- wrap -->
-<!-- footer -->
-<div id="footer">
-      <div id="foot">
-            Copyright &copy; 2017 The Apache Software Foundation - Apache OFBiz, OFBiz, Apache, the Apache feather logo, the Apache OFBiz logo are either registered trademarks or trademarks of The Apache Software Foundation.
-            <br /> Java is a registered trademark of Oracle and/or its affiliates
       </div>
-</div>
-<!-- wrap ends here -->
+    </div>
+  </section>
 
+<!-- content -->
+<!-- footer -->
+<footer class="footer1">
+  <div class="container" id="footer">
+    <div class="row">
+      <div class="span6 timelineWidget">
+        <h2>Latest tweets</h2>
+        <div class="divider"><span></span></div>
+        <ul class="socialNetwork nav">
+          <li>
+            <a href="https://twitter.com/ApacheOfbiz" class="icon-twitter-bird socialIcon tips"
+              target="_blank" title="follow us on Twitter"><span>twitter</span></a>
+          </li>
+   <li><a href="https://www.youtube.com/user/ofbiz" class="icon-play socialIcon tips"  title="follow us on Youtube"><span>Youtube</span></a></li>
+    <li><a href="https://www.facebook.com/Apache-OFBiz-1478219232210477/?ref=page_internal" class="icon-facebook socialIcon tips"  title="follow us on Facebook"><span>facebook</span></a></li>
+          <!--<li><a href="#" class="icon-rss socialIcon tips"  title="Our rss feed"><span>rss feed</span></a></li>         
+          <li><a href="#" class="icon-gplus socialIcon tips"  title="follow us on Google +"><span>google +</span></a></li>
+          <li><a href="#" class="icon-instagram socialIcon tips"  title="follow us on Instagram"><span>instagram</span></a></li>
+          <li><a href="#" class="icon-linkedin socialIcon tips"  title="follow us on Linkedin"><span>linkedin</span></a></li>
+          <li><a href="#" class="icon-pinterest-circled socialIcon tips"  title="follow us on Pinterest"><span>Pinterest</span></a></li>-->
+        </ul>
+        <div id="twitterFrame"> <a class="twitter-timeline" href="https://twitter.com/ApacheOfbiz?height=250" data-widget-id="588661945194192896"  data-tweet-limit="2" data-theme="dark" data-chrome="nofooter noheader transparent" >Tweets by @ApacheOfbiz</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+      </div>
+      <div class="span3 contactWidget">
+        <h2>Contact Community</h2>
+        <div class="divider"><span></span></div>
+        <ul>
+          <li><a href="mailing-lists.html">Mailing Lists</a></li>
+          <li><a href="source-repositories.html">Source Repository (SVN)</a></li>
+          <li><a href="https://issues.apache.org/jira/browse/OFBIZ" target="external">Issue Tracker (Jira)</a></li>
+          <li><a href="https://www.youtube.com/user/ofbiz" target="external">OFBiz Youtube Channel</a></li>
+          <li><a href="https://vimeo.com/channels/apacheofbiz" target="external">OFBiz Vimeo Channel</a></li>
+          <li><a href="https://www.hipchat.com/gGlwdXZZl" target="external">OFBiz HipChat Room</a></li>
+        </ul>
+      </div>
+      <div class="span3 sociallWidget">
+        <h2>ASF Information</h2>
+        <div class="divider"><span></span></div>
+        <ul>
+          <li><a href="http://www.apache.org/foundation/" target="external">Apache Software Foundation</a></li>
+          <li><a href="http://www.apache.org/foundation/sponsorship.html" target="external">Sponsorship</a></li>
+          <li><a href="http://www.apache.org/foundation/thanks.html" target="external">Thanks</a></li>
+          <li><a href="download.html">Security</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<footer class="footer2" id="footerRights">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <p>
+          Copyright © 2017 The Apache Software Foundation. Licensed under the
+          Apache License, Version 2.0. Apache OFBiz, OFBiz, the project logo
+          and the Apache feather logo are trademarks of The Apache Software
+          Foundation.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer -->
+</div>
+<!-- globalWrapper -->
+<script type="text/javascript" src="js-plugin/respond/respond.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="js-plugin/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+<!-- third party plugins  -->
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap-carousel.js"></script>
+<script type="text/javascript" src="js-plugin/easing/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js-plugin/pretty-photo/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js-plugin/hoverdir/jquery.hoverdir.js"></script>
+<!-- jQuery KenBurn Slider  -->
+<script type="text/javascript" src="js-plugin/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="js-plugin/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!-- Custom  -->
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', UA]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
 </body>
 </html>
