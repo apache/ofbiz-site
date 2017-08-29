@@ -15,8 +15,8 @@
             <a href="https://twitter.com/ApacheOfbiz" class="icon-twitter-bird socialIcon tips"
               target="_blank" title="follow us on Twitter"><span>twitter</span></a>
           </li>
-   <li><a href="https://www.youtube.com/user/ofbiz" class="icon-play socialIcon tips"  title="follow us on Youtube"><span>Youtube</span></a></li>
-    <li><a href="https://www.facebook.com/Apache-OFBiz-1478219232210477/?ref=page_internal" class="icon-facebook socialIcon tips"  title="follow us on Facebook"><span>facebook</span></a></li>
+          <li><a href="https://www.youtube.com/user/ofbiz" class="icon-play socialIcon tips"  title="follow us on Youtube"><span>Youtube</span></a></li>
+          <li><a href="https://www.facebook.com/Apache-OFBiz-1478219232210477/?ref=page_internal" class="icon-facebook socialIcon tips"  title="follow us on Facebook"><span>facebook</span></a></li>
           <!--<li><a href="#" class="icon-rss socialIcon tips"  title="Our rss feed"><span>rss feed</span></a></li>         
           <li><a href="#" class="icon-gplus socialIcon tips"  title="follow us on Google +"><span>google +</span></a></li>
           <li><a href="#" class="icon-instagram socialIcon tips"  title="follow us on Instagram"><span>instagram</span></a></li>

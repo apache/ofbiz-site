@@ -102,7 +102,7 @@
               <article class="one_third"> <a href="" class="iconWrapper iconBig ch-item"> <i class=" icon-cog-alt"></i>
                    <div class="ch-info"> <span> Java </span> </div>
                 </a>
-                <h2 class="smallHeading"><span>Powerful Java Web Framework</h2>
+                <h2 class="smallHeading"><span>Powerful Java Web Framework</span></h2>
                 <p>
                   OFBiz is a Java based web framework including an entity engine,
                   a service engine and a widget based UI allowing you to

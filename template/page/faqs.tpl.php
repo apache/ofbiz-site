@@ -60,6 +60,7 @@
         </div>
       </div>
     </div>
+    </div>
   </section>
   <!-- page content -->
 

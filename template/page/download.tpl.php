@@ -3,7 +3,6 @@
 ?>
 
 <!-- content -->
-   <div id="globalWrapper">
   <!-- page content -->
   <section id="content" class="sidebar">
     <header class="headerPage">
