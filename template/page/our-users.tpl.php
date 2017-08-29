@@ -27,9 +27,9 @@
                 <li><a href="#" data-filter=".ecommerce">e-Commerce</a></li>
                 <li><a href="#" data-filter=".manufacturing">Manufacturing</a></li>
                 <li><a href="#" data-filter=".retail">Retail</a></li>
- 		<li><a href="#" data-filter=".distribution">Distribution</a></li>
- 		<li><a href="#" data-filter=".serviceind">Service Industries</a></li>
- 		<li><a href="#" data-filter=".other">Other</a></li>
+     <li><a href="#" data-filter=".distribution">Distribution</a></li>
+     <li><a href="#" data-filter=".serviceind">Service Industries</a></li>
+     <li><a href="#" data-filter=".other">Other</a></li>
                </ul>
               <div class="littleShadow"></div>
             </nav>

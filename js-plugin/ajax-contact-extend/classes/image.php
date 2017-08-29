@@ -10,9 +10,9 @@ $_SESSION['jigowatt']['ajax-extended-form']['verify'] = $hash_md5;
 // Verification Image Background Selection
 $dir = dirname( dirname( __FILE__ ) ) . '/assets/';
 $bgs = array(
-	$dir . 'img/verify/1.png',
-	$dir . 'img/verify/2.png',
-	$dir . 'img/verify/3.png'
+  $dir . 'img/verify/1.png',
+  $dir . 'img/verify/2.png',
+  $dir . 'img/verify/3.png'
 );
 $background = array_rand( $bgs, 1 );
 

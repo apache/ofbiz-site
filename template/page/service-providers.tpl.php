@@ -20,11 +20,11 @@
             </li>
             <li><a href="" class="current btn btn-3d btnSmall" data-filter="*">All</a></li>
             <li><a href="" class="btn btn-3d btnSmall"  data-filter=".global">Global</a></li>
-	    <li><a href="" class="btn btn-3d btnSmall"  data-filter=".europe">Europe</a></li>
-	    <li><a href="" class="btn btn-3d btnSmall"  data-filter=".africa">Africa</a></li>
-	    <li><a href="" class="btn btn-3d btnSmall"  data-filter=".asia">Asia</a></li>
-	    <li><a href="" class="btn btn-3d btnSmall"  data-filter=".america">America</a></li>
-	    <li><a href="" class="btn btn-3d btnSmall"  data-filter=".australasia">Australasia</a></li>
+      <li><a href="" class="btn btn-3d btnSmall"  data-filter=".europe">Europe</a></li>
+      <li><a href="" class="btn btn-3d btnSmall"  data-filter=".africa">Africa</a></li>
+      <li><a href="" class="btn btn-3d btnSmall"  data-filter=".asia">Asia</a></li>
+      <li><a href="" class="btn btn-3d btnSmall"  data-filter=".america">America</a></li>
+      <li><a href="" class="btn btn-3d btnSmall"  data-filter=".australasia">Australasia</a></li>
           </ul>
         </nav>
       </div>
