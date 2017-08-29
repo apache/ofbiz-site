@@ -20,16 +20,16 @@
             </li>
             <li><a href="" class="firstLevel<?php if (basename($page_name) == 'news.tpl.php'):?> active<?php endif;?>">News</a>
               <ul>
-                <li><a href="https://twitter.com/apacheofbiz" target="external">Twitter</a></li>
-                <li><a href="https://blogs.apache.org/ofbiz/" target="external" class="last">Blog</a></li>                
+                <li><a href="//twitter.com/apacheofbiz" target="external">Twitter</a></li>
+                <li><a href="//blogs.apache.org/ofbiz/" target="external" class="last">Blog</a></li>
               </ul>
             </li>
             <li><a href="" class="firstLevel<?php if (basename($page_name) == 'documentation.tpl.php'):?> active<?php endif;?>">Documentation</a>
               <ul>
-                <li><a href="https://cwiki.apache.org/confluence/display/OFBIZ/Documentation#Documentation-End-UserDocumentation" target="external" class="">User Documentation</a></li>
-                <li><a href="https://cwiki.apache.org/confluence/display/OFBIZ/Technical+Documentation" target="external" class="">Technical Documentation</a></li>
-                <li><a href="https://cwiki.apache.org/confluence/display/OFBIZ/Home" target="external" class="">Wiki</a></li>
-                <li><a href="https://ci.apache.org/projects/ofbiz/site/javadocs/" target="external" class="last">API Reference</a></li>
+                <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Documentation#Documentation-End-UserDocumentation" target="external" class="">User Documentation</a></li>
+                <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Technical+Documentation" target="external" class="">Technical Documentation</a></li>
+                <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="external" class="">Wiki</a></li>
+                <li><a href="//ci.apache.org/projects/ofbiz/site/javadocs/" target="external" class="last">API Reference</a></li>
               </ul>
             </li>
             <li><a href="" class="firstLevel<?php if (basename($page_name) == 'community.tpl.php'):?> active<?php endif;?>">Community</a>
@@ -38,7 +38,7 @@
                 <li><a href="mailing-lists.html">Mailing Lists</a></li>
                 <li><a href="source-repositories.html">Source Repository</a></li>
                 <li><a href="download.html">Downloads</a></li>
-                <li><a href="https://issues.apache.org/jira/browse/OFBIZ/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel" target="external" >Issue Tracker</a></li>
+                <li><a href="//issues.apache.org/jira/browse/OFBIZ/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel" target="external" >Issue Tracker</a></li>
                 <li><a href="faqs.html" class="last">FAQ</a></li>
               </ul>
             </li>

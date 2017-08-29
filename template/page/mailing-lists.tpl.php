@@ -20,7 +20,7 @@
             <div class="span6">
               <h2>Subscribe to Our Mailing Lists</h2>
               <div class="divider"><span></span></div>
-              <p>We welcome everyone who would like to join our community and participate in our mailing lists. We expect that everyone respects the <a href="http://www.apache.org/dev/contrib-email-tips.html">mailing list participation guidelines </a> and the <a href="http://apache.org/foundation/policies/conduct.html">ASF Code of Conduct </a>.</p>
+              <p>We welcome everyone who would like to join our community and participate in our mailing lists. We expect that everyone respects the <a href="//www.apache.org/dev/contrib-email-tips.html">mailing list participation guidelines </a> and the <a href="//apache.org/foundation/policies/conduct.html">ASF Code of Conduct </a>.</p>
         <p>To subscribe to a mailing list please:
     <ul class="iconsList">
     <li><i class="icon-pin"></i>Click the button of the mailing list you want to subscribe to</li>
@@ -43,20 +43,20 @@
                   <li><i class="icon-check"></i> What did you expect as results?</li>
                   <li><i class="icon-check"></i> What you actually got as results?</li>
                  </ul>  
-                <a class="btn btnSmall" href="http://lists.apache.org/list.html?user@ofbiz.apache.org">User List</a> </div>
+                <a class="btn btnSmall" href="//lists.apache.org/list.html?user@ofbiz.apache.org">User List</a> </div>
        <div class="span4">
                   <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-cog-alt"></i></span> Developer Mailing List</h3>
                    <p>The developer list is strictly for topics related to the design and development of the OFBiz Project itself.</p>
       <p><i class="icon-info-circle"></i>Please don't ask questions relevant to User Mailing List in this Mailing List.</p>
        <p>If you are not sure to which list to post to then use the User Mailing List..</p>
-                  <a class="btn btnSmall" href="http://lists.apache.org/list.html?dev@ofbiz.apache.org">Developer List</a> 
+                  <a class="btn btnSmall" href="//lists.apache.org/list.html?dev@ofbiz.apache.org">Developer List</a>
     </div>
                 <div class="span4">
                   <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-resize-full-alt"></i></span> Commit Mailing List</h3>
                   <p>The commits list is used to notify subscribers of commits to the OFBiz SVN repository. It is only used for reference.</p>
       <p><i class="icon-info-circle"></i>Please don't ask any questions on this list. It is not used for discussions. </p>
               <p>If you are not sure to which list to post to then use the User Mailing List.</p>
-      <a class="btn btnSmall" href="http://lists.apache.org/list.html?commits@ofbiz.apache.org">Commits List</a>
+      <a class="btn btnSmall" href="//lists.apache.org/list.html?commits@ofbiz.apache.org">Commits List</a>
                 </div>
             </div>
           </section>

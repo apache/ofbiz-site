@@ -30,7 +30,7 @@
 <!-- Bootstrap  -->
 <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 <!-- web font  -->
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,800" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,800" rel="stylesheet" type="text/css">
 <!-- plugin css  -->
 <link rel="stylesheet" type="text/css" href="js-plugin/pretty-photo/css/prettyPhoto.css" />
 <link rel="stylesheet" type="text/css" href="js-plugin/rs-plugin/css/settings.css" media="screen" />
@@ -41,7 +41,7 @@
 <!-- Custom css -->
 <link type="text/css" rel="stylesheet" href="css/layout.css">
 <link type="text/css" id="colors" rel="stylesheet" href="css/colors.css">
-<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <!--[if gte IE 9]><style type="text/css">.iconBig, .active, .hover a , .Shover a { filter: none !important; } </style> <![endif]-->
 <script src="js/modernizr-2.6.1.min.js"></script>
 <!-- Favicons

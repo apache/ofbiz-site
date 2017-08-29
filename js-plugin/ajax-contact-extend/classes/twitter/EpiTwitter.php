@@ -2,10 +2,10 @@
 class EpiTwitter extends EpiOAuth
 {
   const EPITWITTER_SIGNATURE_METHOD = 'HMAC-SHA1';
-  protected $requestTokenUrl = 'http://twitter.com/oauth/request_token';
-  protected $accessTokenUrl = 'http://twitter.com/oauth/access_token';
-  protected $authorizeUrl = 'http://twitter.com/oauth/authorize';
-  protected $apiUrl = 'http://twitter.com';
+  protected $requestTokenUrl = '//twitter.com/oauth/request_token';
+  protected $accessTokenUrl = '//twitter.com/oauth/access_token';
+  protected $authorizeUrl = '//twitter.com/oauth/authorize';
+  protected $apiUrl = '//twitter.com';
 
   public function __call($name, $params = null)
   {

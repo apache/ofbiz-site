@@ -4,7 +4,7 @@
  */
 ?>
 <script type="text/javascript" src="js-plugin/respond/respond.min.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="js-plugin/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
 <!-- third party plugins  -->
 <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>

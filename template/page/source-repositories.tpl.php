@@ -32,14 +32,14 @@
                 <div class="divider"><span></span></div>
                 <p>You can browse the repository using any of the following links.</p>
                 <ul class="iconsList">
-                   <li><i class="icon-pin"></i> <a href="http://svn.apache.org/repos/asf/ofbiz/" target="_blank"><strong>SVN - WebDAV</strong></a></li>
-        <li><i class="icon-pin"></i> <a href="http://svn.apache.org/viewvc/ofbiz/" target="_blank"><strong>SVN - ViewVC</strong></a></li>
+                   <li><i class="icon-pin"></i> <a href="//svn.apache.org/repos/asf/ofbiz/" target="_blank"><strong>SVN - WebDAV</strong></a></li>
+        <li><i class="icon-pin"></i> <a href="//svn.apache.org/viewvc/ofbiz/" target="_blank"><strong>SVN - ViewVC</strong></a></li>
     </ul>
     <p></p>
     <p>Our ofbiz-framework trunk and ofbiz-plugins trunk are also available on Git at the links below:</p>
     <ul class="iconsList">
-        <li><i class="icon-pin"></i> <a href="https://github.com/apache/ofbiz-framework" target="external"><strong>ofbiz-framework trunk on Github</strong></a></li>
-       <li><i class="icon-pin"></i> <a href="https://github.com/apache/ofbiz-plugins" target="external"><strong>ofbiz-plugins trunk on Github</strong></a></li>
+        <li><i class="icon-pin"></i> <a href="//github.com/apache/ofbiz-framework" target="external"><strong>ofbiz-framework trunk on Github</strong></a></li>
+       <li><i class="icon-pin"></i> <a href="//github.com/apache/ofbiz-plugins" target="external"><strong>ofbiz-plugins trunk on Github</strong></a></li>
     </ul>
 
     <h3>Checking out the Repository Source Code</h3>
@@ -50,7 +50,7 @@
     <ul class="iconsList">
                   <li><i class="icon-pin"></i> <strong>ofbiz-framework trunk</strong> : <code>$ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-framework/trunk ofbiz-framework</code></li>
       <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-plugins/trunk ofbiz-plugins </code></li>
-       <li><i class="icon-pin"></i> <strong>ofbiz tools</strong> : <code>$ svn co https://svn.apache.org/repos/asf/ofbiz/tools ofbiz-tools </code></li>
+       <li><i class="icon-pin"></i> <strong>ofbiz tools</strong> : <code>$ svn co //svn.apache.org/repos/asf/ofbiz/tools ofbiz-tools </code></li>
       <li><i class="icon-pin"></i> <strong>branch release16.11 (stable)</strong>: <code>$ svn co http://svn.apache.org/repos/asf/ofbiz/branches/release16.11 ofbiz.16.11</code></li>
        <li><i class="icon-pin"></i> <strong>ofbiz website</strong> : <code>$ website: $ svn co http://svn.apache.org/repos/asf/ofbiz/site ofbiz-website </code></li>
                </ul>

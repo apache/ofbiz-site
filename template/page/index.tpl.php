@@ -191,7 +191,7 @@
             </div>
   <p></p>
   <p></p>
-   <p>If you are still unsure or have any questions then please feel free to use our <a href="https://lists.apache.org/list.html?user@ofbiz.apache.org" target="_blank"><strong>User Mailing List</strong></a> </p>
+   <p>If you are still unsure or have any questions then please feel free to use our <a href="//lists.apache.org/list.html?user@ofbiz.apache.org" target="_blank"><strong>User Mailing List</strong></a> </p>
           </section>   
 
       </div>
