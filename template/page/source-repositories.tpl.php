@@ -43,9 +43,9 @@
     </ul>
 
     <h3>Checking out the Repository Source Code</h3>
-    <p><strong>NOTE: </strong> Apache OFBiz uses <a href="http://subversion.apache.org/" target="_blank"><strong>Apache Subversion</strong></a> for version control of our source repository. If you are not familiar with Apache Subversion and you don't have an SVN client tool, then following links could be useful:</p>
-    <p><i class="icon-pin"></i><a href="http://subversion.apache.org/packages.html" target="_blank"><strong>SVN Client Tools</strong></a></p>
-    <p><i class="icon-pin"></i><a href="http://subversion.apache.org/docs/" target="_blank"><strong>SVN Documenentation</strong></a></p>
+    <p><strong>NOTE: </strong> Apache OFBiz uses <a href="//subversion.apache.org/" target="_blank"><strong>Apache Subversion</strong></a> for version control of our source repository. If you are not familiar with Apache Subversion and you don't have an SVN client tool, then following links could be useful:</p>
+    <p><i class="icon-pin"></i><a href="//subversion.apache.org/packages.html" target="_blank"><strong>SVN Client Tools</strong></a></p>
+    <p><i class="icon-pin"></i><a href="//subversion.apache.org/docs/" target="_blank"><strong>SVN Documenentation</strong></a></p>
     <p>To checkout the source code, simply use the following command (if you are using a GUI client, configure it appropriately).</p>
     <ul class="iconsList">
                   <li><i class="icon-pin"></i> <strong>ofbiz-framework trunk</strong> : <code>$ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-framework/trunk ofbiz-framework</code></li>

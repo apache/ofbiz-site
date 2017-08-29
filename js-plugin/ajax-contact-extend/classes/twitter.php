@@ -14,7 +14,7 @@
   <?php } else {
 
     function twittermessage($user,$pass,$message) {
-      $url = "http://twitter.com/direct_messages/new.xml";
+      $url = "//twitter.com/direct_messages/new.xml";
       $ch = curl_init();
       curl_setopt($ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1);
       curl_setopt($ch, CURLOPT_USERPWD, "$user:$pass");
