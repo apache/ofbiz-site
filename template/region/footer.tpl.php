@@ -46,7 +46,7 @@
           <li><a href="//www.apache.org/foundation/" target="external">Apache Software Foundation</a></li>
           <li><a href="//www.apache.org/foundation/sponsorship.html" target="external">Sponsorship</a></li>
           <li><a href="//www.apache.org/foundation/thanks.html" target="external">Thanks</a></li>
-          <li><a href="download.html">Security</a></li>
+          <!--<li><a href="download.html">Security</a></li>-->
         </ul>
       </div>
     </div>
