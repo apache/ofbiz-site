@@ -51,10 +51,10 @@
     <p>Anyone can checkout or <a href="#DevRepo">browse the source code </a>in the OFBiz public Subversion (SVN) repository.</p>
     <p>To checkout the source code, simply use the following command (if you are using a GUI client, configure it appropriately).</p>
     <ul class="iconsList">
-                  <li><i class="icon-pin"></i> <strong>ofbiz-framework trunk</strong> : <code>$ svn co //svn.apache.org/repos/asf/ofbiz/ofbiz-framework/trunk ofbiz-framework</code></li>
-      <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ svn co //svn.apache.org/repos/asf/ofbiz/ofbiz-plugins/trunk ofbiz-plugins</code></li>
-      <li><i class="icon-pin"></i> <strong>branch release16.11 (stable)</strong>: <code>$ svn co //svn.apache.org/repos/asf/ofbiz/branches/release16.11 ofbiz.16.11</code></li>
-               </ul>
+      <li><i class="icon-pin"></i> <strong>ofbiz-framework trunk</strong> : <code>$ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-framework/trunk ofbiz-framework</code></li>
+      <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-plugins/trunk plugins</code></li>
+      <li><i class="icon-pin"></i> <strong>branch release16.11 (stable)</strong>: <code>$ svn co http://svn.apache.org/repos/asf/ofbiz/branches/release16.11 ofbiz.16.11</code></li>
+    </ul>
     </div>
             </section>
       <section  id="DevBldRun" class="slice row clearfix">
