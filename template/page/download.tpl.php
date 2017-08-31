@@ -33,17 +33,19 @@
                       <h2>OFBiz 16.11.03</h2>
                       <a href="//www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-16.11.03.zip" target="external" class="moreLink">&rarr; Download</a> </li>
                     <li>
-                      <h2>OFBiz 13.07</h2>
+                      <h2>OFBiz 13.07.03</h2>
                       <a href="//www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-13.07.03.zip" target="external" class="moreLink">&rarr; Download</a> </li>
                      </ul>
                 </div>
                 <div class="tab-pane" id="tabs-2">
                   <ul>
                     <li>
-                    <?php include ('releases/release-notes-16.11.03.html');?>
+                      <h2>OFBiz 16.11.03</h2>
+                      <a href="release-notes-16.11.03.html" class="moreLink">&rarr; View</a></li>
                     </li>
                     <li>
-                    <?php include ('releases/release-notes-13.07.03.html');?>
+                    <h2>OFBiz 13.07.03</h2>
+                    <a href="release-notes-13.07.03.html" class="moreLink">&rarr; View</a></li>
                     </li>
                   </ul>
                 </div>

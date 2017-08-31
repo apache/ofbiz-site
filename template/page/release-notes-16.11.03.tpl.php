@@ -1,10 +1,22 @@
+<?php //Variable declarations for region templates
+  $head_title = '<title>The Apache OFBiz&reg; Project</title>';
+?>
+ <!-- page content -->
+ <section id="content" class="fullWidth">
+    <header class="headerPage">
+      <div class="container clearfix">
+        <div class="row">
+          <h1 class="span8">Release Notes 16.11.03</h1>
+      <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="download.html">Download</a><span>/</span><span class="current">Release Notes 16.11.03</span> </div>
+        </div>
+      </div>
+    </header>
+  <section id="content" class="features" >
+  <div class="slice clearfix">
+      <div class="container">
 <div class="row">
-  <div class="one_fourth">
-    <div class="imgWrapper"><img alt="client" src="images/OFBiz-logoV3-apache.png"></div>
-  </div>
-  <div class="three_fourths last">
-    <h3>16.11.03</h3>
-    <h4>Bug</h4>
+  <div>
+    <h3>Bug</h3>
     <ul>
       <li><a href="//issues.apache.org/jira/browse/OFBIZ-9286" target="external">[OFBIZ-9286]</a> - ERROR: Cannot do a find that returns an EntityListIterator with no transaction in place</li>
       <li><a href="//issues.apache.org/jira/browse/OFBIZ-9305" target="external">[OFBIZ-9305]</a> - change debug.properties property value cause ofbiz can't start</li>
@@ -17,7 +29,7 @@
       <li><a href="//issues.apache.org/jira/browse/OFBIZ-9410" target="external">[OFBIZ-9410]</a> - Software not usable all standard installs failed</li>
       <li><a href="//issues.apache.org/jira/browse/OFBIZ-9425" target="external">[OFBIZ-9425]</a> - createShipment code logic error</li>
     </ul>
-    <h4>Improvement</h4>
+    <h3>Improvement</h3>
     <ul>
       <li><a href="//issues.apache.org/jira/browse/OFBIZ-8202" target="external">[OFBIZ-8202]</a> - Use try-with-resources statement wherever it's possible</li>
       <li><a href="//issues.apache.org/jira/browse/OFBIZ-9380" target="external">[OFBIZ-9380]</a> - renderDateTimeField works in IE, not working with lastest Chrome</li>
@@ -25,9 +37,13 @@
       <li><a href="//issues.apache.org/jira/browse/OFBIZ-9413" target="external">[OFBIZ-9413]</a> - Update Currency Uom data</li>
       <li><a href="//issues.apache.org/jira/browse/OFBIZ-9422" target="external">[OFBIZ-9422]</a> -  Accounting Manager \ Fixed Assets, press button [NEW FIXED ASSET], but action button is [Update], not [Save]</li>
     </ul>
-    <h4>New Feature</h4>
+    <h3>New Feature</h3>
     <ul>
       <li><a href="//issues.apache.org/jira/browse/OFBIZ-7120" target="external"">[OFBIZ-7120]</a> - Multisite support in specialpurpose/cmssite</li>
     </ul>
   </div>
 </div>
+</div>
+</div>
+</section>
+</section>
