@@ -24,4 +24,5 @@ If change is done to the header or footer then regenerate all the html pages.
 `php template/html.tpl.php template/page/our-users.tpl.php >our-users.html `
 `php template/html.tpl.php template/page/service-providers.tpl.php > service-providers.html `
 `php template/html.tpl.php template/page/source-repositories.tpl.php > source-repositories.html` 
-`php template/html.tpl.php template/page/user-stories.tpl.php > user-stories.html` 
+`php template/html.tpl.php template/page/user-stories.tpl.php > user-stories.html`
+`php template/html.tpl.php template/page/404.tpl.php > 404.html` 

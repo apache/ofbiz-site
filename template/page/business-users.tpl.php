@@ -190,10 +190,10 @@
         <li><i class="icon-pin"></i> navigate to the OFBiz directory then:</li>
     </ul>
     <p>Run the following command for Unix-like OS</p>
-    <code>./gradlew ofbiz loadDefault</code>
+    <code>./gradlew loadDefault ofbiz</code>
     <p></p>
        <p>Run the following command for Windows</p>
-    <code>gradlew ofbiz loadDefault</code>
+    <code>gradlew loadDefault ofbiz</code>
     <p></p>
     <p><strong>NOTE</strong>: It is completely normal for the command line window to remain active while OFBiz is running (e.g at 91%).</p>
     <p>To log into OFBiz, navigate with your browser to </p>
