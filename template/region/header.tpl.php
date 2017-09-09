@@ -42,8 +42,7 @@
                 <li><a href="faqs.html" class="last">FAQ</a></li>
               </ul>
             </li>
-            <li><a href="ofbiz-demos.html" class="firstLevel<?php if (basename($page_name) == 'ofbiz-demos.tpl.php'):?> active<?php endif;?>">Demos</a></li>            
-            </li>
+            <li><a href="ofbiz-demos.html" class="firstLevel<?php if (basename($page_name) == 'ofbiz-demos.tpl.php'):?> active<?php endif;?>">Demos</a></li>
           </ul>
         </nav>
       </div>
