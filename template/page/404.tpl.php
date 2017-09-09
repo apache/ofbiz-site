@@ -1,5 +1,5 @@
 <?php //Variable declarations for region templates
-  $head_title = '<title>The Apache OFBiz&reg; Project</title>';
+  $head_title = '<title>The Apache OFBiz&reg; Project - Page Not Found</title>';
 ?>
 <section id="content" class="errorpage">
   <header class="headerPage">

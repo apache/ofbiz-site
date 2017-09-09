@@ -1,5 +1,5 @@
 <?php //Variable declarations for region templates
-  $head_title = '<title>The Apache OFBiz&reg; Project</title>';
+  $head_title = '<title>The Apache OFBiz&reg; Project - Release Notes 16.11.03</title>';
 ?>
  <!-- page content -->
  <section id="content" class="fullWidth">
