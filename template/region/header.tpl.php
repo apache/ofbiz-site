@@ -12,19 +12,19 @@
         <nav id="mainMenu" class="clearfix">
           <ul>
             <li><a href="index.html" class="firstLevel<?php if (basename($page_name) == 'index.tpl.php'):?> active<?php endif;?>">Home</a></li>
-            <li><a href="" class="firstLevel<?php if ($page_name == 'getting-started.tpl.php'):?> active<?php endif;?>">Getting Started</a>
+            <li><a href="#" class="firstLevel<?php if ($page_name == 'getting-started.tpl.php'):?> active<?php endif;?>">Getting Started</a>
               <ul>
                 <li><a href="developers.html" class="">Developers</a></li>
                 <li><a href="business-users.html" class="last">Business Users</a></li>
               </ul>
             </li>
-            <li><a href="" class="firstLevel<?php if (basename($page_name) == 'news.tpl.php'):?> active<?php endif;?>">News</a>
+            <li><a href="#" class="firstLevel<?php if (basename($page_name) == 'news.tpl.php'):?> active<?php endif;?>">News</a>
               <ul>
                 <li><a href="//twitter.com/apacheofbiz" target="external">Twitter</a></li>
                 <li><a href="//blogs.apache.org/ofbiz/" target="external" class="last">Blog</a></li>
               </ul>
             </li>
-            <li><a href="" class="firstLevel<?php if (basename($page_name) == 'documentation.tpl.php'):?> active<?php endif;?>">Documentation</a>
+            <li><a href="#" class="firstLevel<?php if (basename($page_name) == 'documentation.tpl.php'):?> active<?php endif;?>">Documentation</a>
               <ul>
                 <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Documentation#Documentation-End-UserDocumentation" target="external" class="">User Documentation</a></li>
                 <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Technical+Documentation" target="external" class="">Technical Documentation</a></li>
@@ -32,7 +32,7 @@
                 <li><a href="//ci.apache.org/projects/ofbiz/site/javadocs/" target="external" class="last">API Reference</a></li>
               </ul>
             </li>
-            <li><a href="" class="firstLevel<?php if (basename($page_name) == 'community.tpl.php'):?> active<?php endif;?>">Community</a>
+            <li><a href="#" class="firstLevel<?php if (basename($page_name) == 'community.tpl.php'):?> active<?php endif;?>">Community</a>
               <ul>
                 <li><a href="getting-involved.html">Getting Involved</a></li>                
                 <li><a href="mailing-lists.html">Mailing Lists</a></li>
