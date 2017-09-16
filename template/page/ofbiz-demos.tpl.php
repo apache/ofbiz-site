@@ -73,7 +73,7 @@
                 <p>This demo is for the previous OFBiz release. </p>
 
     <p><i class="icon-pin"></i><a href="//ofbiz-vm2.apache.org:28443/ordermgr/control/main?USERNAME=admin&PASSWORD=ofbiz&JavaScriptEnabled=Y" target="_blank"><strong>Backend Management (ERP) Applications</strong></a> </p>
-    <p><i class="icon-pin"></i><a href=" //ofbiz-vm2.apache.org:28080/ecommerce/control/main" target="_blank"><strong>Front End E-Commerce Webstore</strong></a> </p>
+    <p><i class="icon-pin"></i><a href="http://ofbiz-vm2.apache.org:28080/ecommerce/control/main" target="_blank"><strong>Front End E-Commerce Webstore</strong></a> </p>
 
         </div>
             </section>
