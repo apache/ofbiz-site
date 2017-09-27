@@ -66,7 +66,7 @@
             <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.asc" target="_blank">[PGP]</a>
       <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.md5" target="_blank">[MD5]</a>
             <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.sha" target="_blank">[SHA12]</a>
-            <a href ="#">[Release Notes]</a></p>
+            <a href ="release-notes-16.11.03.html">[Release Notes]</a></p>
             <h2>Apache OFBiz 13.07.03</h2>
             <div class="divider"><span></span></div>
             <p> Released in April 2016, is the third and final release of the 13.07 series, that has been stabilized with bug fixes since July 2013. </p>
@@ -75,10 +75,10 @@
             <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.asc" target="_blank">[PGP]</a>
       <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.md5" target="_blank">[MD5]</a>
             <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.sha" target="_blank">[SHA12]</a>
-            <a href ="#">[Release Notes]</a></p>     
+            <a href ="release-notes-13.07.03.html">[Release Notes]</a></p>
        <h2>Special Notice Regarding Branches 14.12 and 15.12</h2>
             <p>The branches 14.12 and 15.12 contain the complete codebase including the specialpurpose components and will remain as unreleased branches so will be accessible for developers and service providers to support their client base. The project has changed the Apache OFBiz build system from Apache Ant to Gradle beginning with the 16.11* series of releases so 14.12 and 15.12 are still using Ant.</p>
-      <p>Branches 14.12 and 15.12 will be supported until <strong>July 2017</strong> and during this period bug fixes will be backported to them</p>
+      <p>Branches 14.12 and 15.12 will be no longer supported</p>
 
 
             <h2>Apache OFBiz 12.04 and earlier</h2>
