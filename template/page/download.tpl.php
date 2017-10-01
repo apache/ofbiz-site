@@ -86,7 +86,7 @@
             <p>Older superseded releases of Apache OFBiz can be found in the <a href="//archive.apache.org/dist/ofbiz/" target="external">Apache OFBiz archive</a></p>
             <p><strong>NOTE: To avoid any security vulnerabilities the Apache OFBiz community highly recommend that all users upgrade to the latest stable release.</strong></p>
       <p> A descriptions of each release in the history of OFBiz can be <a href="//www.apache.org/dist/ofbiz/" target="external">found here</a></p>
-      <h2>Security Vulnerabilities</h2>
+      <h2><a id="security"></a>Security Vulnerabilities</h2>
             <div class="divider"><span></span></div>
             <p> <strong> We strongly encourage OfBiz users to report security problems affecting OFBiz to the private security mailing lists (either security@ofbiz.apache.org or security@apache.org), before disclosing them in a public forum.</strong></p>
 <p>Please see the  <a href="//www.apache.org/security/" target="external">ASF Security Team webpage</a> for further information about reporting a security vulnerability as well as their contact information. </p>
