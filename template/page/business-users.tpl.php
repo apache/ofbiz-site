@@ -36,7 +36,7 @@
         <li><i class="icon-pin"></i> To get details about what modules and features Apache OFBiz has, please take a look at <a href="#UsrModules"><strong>Modules and Features</strong></a> </li>
         <li><i class="icon-pin"></i> To download your own version of Apache OFBiz, please take a look at <a href="#UsrInstall"><strong>Download and Install OFBiz</strong></a> </li>
     </ul>
-                <p>If you are still unsure or have any questions then please feel free to use our <a href="//lists.apache.org/list.html?user@ofbiz.apache.org" target="_blank"><strong>User Mailing List</strong></a> </p>
+                <p>If you are still unsure or have any questions then please feel free to use our <a href="//lists.apache.org/list.html?user@ofbiz.apache.org" target="external"><strong>User Mailing List</strong></a> </p>
     </div>
             </section>
        <section  id="UsrDemo" class="slice row clearfix">
@@ -209,7 +209,7 @@
                 <div class="divider"><span></span></div>
     <p><a href="//cwiki.apache.org/confluence/display/OFBIZ/Documentation#Documentation-End-UserDocumentation" target="external"><strong>User Documentation</strong></a></p>
                 <p><a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="external"><strong>OFBiz Wiki</strong></a></p>
-    <p><a href="faqs.html" target="_blank"><strong>OFBiz Frequently Asksed Questions (FAQs)</strong></a></p>
+    <p><a href="faqs.html" target="external"><strong>OFBiz Frequently Asksed Questions (FAQs)</strong></a></p>
 
             </div>
             </section>

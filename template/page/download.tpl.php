@@ -63,18 +63,18 @@
             <div class="divider"><span></span></div>
             <p> Released in June 2017, this is the third release of the 16.11 series, that has been stabilized since November 2016. </p>
             <a href ="//www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-16.11.03.zip" target="external" >Download OFBiz 16.11.03</a>
-            <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.asc" target="_blank">[PGP]</a>
-      <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.md5" target="_blank">[MD5]</a>
-            <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.sha" target="_blank">[SHA12]</a>
+            <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.asc" target="external">[PGP]</a>
+      <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.md5" target="external">[MD5]</a>
+            <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.03.zip.sha" target="external">[SHA12]</a>
             <a href ="release-notes-16.11.03.html">[Release Notes]</a></p>
             <h2>Apache OFBiz 13.07.03</h2>
             <div class="divider"><span></span></div>
             <p> Released in April 2016, is the third and final release of the 13.07 series, that has been stabilized with bug fixes since July 2013. </p>
       <p> Please note that in the 13.07 series the specialpurpose components are no longer inccluded as part of the release files. The only exception is the the ecommerce component due to specific dependencies. </p>
        <a href ="//www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-13.07.03.zip" target="external">Download OFBiz 13.07.03</a>
-            <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.asc" target="_blank">[PGP]</a>
-      <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.md5" target="_blank">[MD5]</a>
-            <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.sha" target="_blank">[SHA12]</a>
+            <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.asc" target="external">[PGP]</a>
+      <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.md5" target="external">[MD5]</a>
+            <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-13.07.03.zip.sha" target="external">[SHA12]</a>
             <a href ="release-notes-13.07.03.html">[Release Notes]</a></p>
        <h2>Special Notice Regarding Branches 14.12 and 15.12</h2>
             <p>The branches 14.12 and 15.12 contain the complete codebase including the specialpurpose components and will remain as unreleased branches so will be accessible for developers and service providers to support their client base. The project has changed the Apache OFBiz build system from Apache Ant to Gradle beginning with the 16.11* series of releases so 14.12 and 15.12 are still using Ant.</p>

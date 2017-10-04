@@ -36,7 +36,7 @@
       <li><i class="icon-pin"></i> For 16.11, the ofbiz-framework trunk and ofbiz-plugins trunk the minimum requirement you need installed is Java 1.8 SDK.</li>
       <li><i class="icon-pin"></i> Apache OFBiz can be downloaded and run on both Unix based and Windows based systems</li>
     </ul>
-                 <p><strong>NOTE:</strong> If you are running an older release or branch then please refer to <a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="_blank" >our Wiki</a> for details</p>
+                 <p><strong>NOTE:</strong> If you are running an older release or branch then please refer to <a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="external" >our Wiki</a> for details</p>
                 </div>
             </section>
        <section  id="DevDownld" class="slice row clearfix">
@@ -105,8 +105,8 @@
                 <div class="divider"><span></span></div>
                 <p>You can browse the repository using any of the following links.</p>
                 <ul class="iconsList">
-                   <li><i class="icon-pin"></i> <a href="//svn.apache.org/repos/asf/ofbiz/" target="_blank"><strong>SVN - WebDAV</strong></a></li>
-        <li><i class="icon-pin"></i> <a href="//svn.apache.org/viewvc/ofbiz/" target="_blank"><strong>SVN - ViewVC</strong></a></li>
+                   <li><i class="icon-pin"></i> <a href="//svn.apache.org/repos/asf/ofbiz/" target="external"><strong>SVN - WebDAV</strong></a></li>
+        <li><i class="icon-pin"></i> <a href="//svn.apache.org/viewvc/ofbiz/" target="external"><strong>SVN - ViewVC</strong></a></li>
     </ul>
     <p></p>
     <p>Our ofbiz-framework trunk and ofbiz-plugins trunk are also available on Git at the links below:</p>
@@ -133,9 +133,9 @@
                 <div class="divider"><span></span></div>
                 <p>We have a range of technical documenentation and help for developers. Please see the links below.</p>
     <ul class="iconsList">
-                  <li><i class="icon-pin"></i> <a href="//cwiki.apache.org/confluence/display/OFBIZ/Technical+Documentation" target="_blank"><strong>OFBiz Technical Documentation</strong></a></li>
-        <li><i class="icon-pin"></i> <a href="//ci.apache.org/projects/ofbiz/site/javadocs/" target="_blank"><strong>OFBiz API Reference</strong></a></li>
-        <li><i class="icon-pin"></i> <a href="//cwiki.apache.org/confluence/display/OFBIZ/FAQ+-+Tips+-+Tricks+-+Cookbook+-+HowTo" target="_blank"><strong>Developer and Technical FAQs</strong></a></li>
+                  <li><i class="icon-pin"></i> <a href="//cwiki.apache.org/confluence/display/OFBIZ/Technical+Documentation" target="external"><strong>OFBiz Technical Documentation</strong></a></li>
+        <li><i class="icon-pin"></i> <a href="//ci.apache.org/projects/ofbiz/site/javadocs/" target="external"><strong>OFBiz API Reference</strong></a></li>
+        <li><i class="icon-pin"></i> <a href="//cwiki.apache.org/confluence/display/OFBIZ/FAQ+-+Tips+-+Tricks+-+Cookbook+-+HowTo" target="external"><strong>Developer and Technical FAQs</strong></a></li>
     </ul>
     <p>After consulting the documentation you still have questions,please feel free to post questions on our development mailing list.</p>
             </div>
