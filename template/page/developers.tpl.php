@@ -95,7 +95,7 @@
     <p>Run the following command for MS Windows</p>
     <code>gradlew ofbiz --shutdown</code>
     <p></p>
-    <p><strong>NOTE</strong>: That quotes are needed for the Unix based command. For further details and a full list of all available OFBiz Gradle commands, please take a look at the readme.md file</p>
+    <p><strong>NOTE</strong>: That quotes are needed for the Unix based command. For further details and a full list of all available OFBiz Gradle commands, please take a look at the main <a href="//svn.apache.org/repos/asf/ofbiz/tools/wiki-files/README.md.html" target="external"><strong>README.md file</strong></a></p>
     <p></p>
             </div>
             </section>            
