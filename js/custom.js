@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     var s = document.createElement("script");
     s.type = "text/javascript";
-    s.src = "js-plugin/jquery-cookie/jquery.cookie.js";
+    s.src = "js/plugins/jquery-cookie/jquery.cookie.js";
     $("body").append(s);  
 
     if($.cookie("css")) {

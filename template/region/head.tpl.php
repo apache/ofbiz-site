@@ -32,9 +32,9 @@
 <!-- web font  -->
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,800" rel="stylesheet" type="text/css">
 <!-- plugin css  -->
-<link rel="stylesheet" type="text/css" href="js-plugin/pretty-photo/css/prettyPhoto.css" />
-<link rel="stylesheet" type="text/css" href="js-plugin/rs-plugin/css/settings.css" media="screen" />
-<link type="text/css" rel="stylesheet" href="js-plugin/hoverdir/css/style.css">
+<link rel="stylesheet" type="text/css" href="js/plugins/pretty-photo/css/prettyPhoto.css" />
+<link rel="stylesheet" type="text/css" href="js/plugins/rs-plugin/css/settings.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="js/plugins/hoverdir/css/style.css">
 <!-- icon fonts -->
 <link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons.css">
 <link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons-ie7.css">

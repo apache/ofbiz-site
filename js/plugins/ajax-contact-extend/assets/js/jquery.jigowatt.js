@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
 		var action = $(this).attr('action');
 		var values = $(this).serialize();
 
-		$('#submit').attr('disabled', 'disabled').after('<img src="js-plugin/ajax-contact-extend/assets/img/ajax-loader.gif" class="loader" />');
+		$('#submit').attr('disabled', 'disabled').after('<img src="js/plugins/ajax-contact-extend/assets/img/ajax-loader.gif" class="loader" />');
 
 		$("#message").slideUp(750, function() {
 

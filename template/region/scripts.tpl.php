@@ -3,18 +3,18 @@
  * arguments:
  */
 ?>
-<script type="text/javascript" src="js-plugin/respond/respond.min.js"></script>
+<script type="text/javascript" src="js/plugins/respond/respond.min.js"></script>
 <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-<script type="text/javascript" src="js-plugin/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+<script type="text/javascript" src="js/plugins/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
 <!-- third party plugins  -->
 <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap-carousel.js"></script>
-<script type="text/javascript" src="js-plugin/easing/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js-plugin/pretty-photo/js/jquery.prettyPhoto.js"></script>
-<script type="text/javascript" src="js-plugin/hoverdir/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="js/plugins/easing/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/plugins/pretty-photo/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/plugins/hoverdir/jquery.hoverdir.js"></script>
 <!-- jQuery KenBurn Slider  -->
-<script type="text/javascript" src="js-plugin/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-<script type="text/javascript" src="js-plugin/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="js/plugins/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="js/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 <!-- Custom  -->
 <script type="text/javascript" src="js/custom.js"></script>
 <script type="text/javascript">
