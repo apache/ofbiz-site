@@ -9,7 +9,7 @@
     <div class="row">
       <div class="span6 timelineWidget">
         <h2>Latest tweets</h2>
-        <div class="divider"><span></span></div>
+        <!--div class="divider"><span></span></div>
         <ul class="socialNetwork nav">
           <li>
             <a href="//twitter.com/ApacheOfbiz" class="icon-twitter-bird socialIcon tips"
@@ -22,7 +22,7 @@
           <li><a href="#" class="icon-instagram socialIcon tips"  title="follow us on Instagram"><span>instagram</span></a></li>
           <li><a href="#" class="icon-linkedin socialIcon tips"  title="follow us on Linkedin"><span>linkedin</span></a></li>
           <li><a href="#" class="icon-pinterest-circled socialIcon tips"  title="follow us on Pinterest"><span>Pinterest</span></a></li>-->
-        </ul>
+        </ul-->
         <div id="twitterFrame"> <a class="twitter-timeline" href="//twitter.com/ApacheOfbiz?height=250" data-widget-id="588661945194192896"  data-tweet-limit="2" data-theme="dark" data-chrome="nofooter noheader transparent" >Tweets by @ApacheOfbiz</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
