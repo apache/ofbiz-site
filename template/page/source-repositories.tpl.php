@@ -47,14 +47,32 @@
     <p><i class="icon-pin"></i><a href="//subversion.apache.org/packages.html" target="external"><strong>SVN Client Tools</strong></a></p>
     <p><i class="icon-pin"></i><a href="//subversion.apache.org/docs/" target="external"><strong>SVN Documenentation</strong></a></p>
     <p>To checkout the source code, simply use the following command (if you are using a GUI client, configure it appropriately).</p>
-    <ul class="iconsList">
-                  <li><i class="icon-pin"></i> <strong>ofbiz-framework trunk</strong> : <code>$ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-framework/trunk ofbiz-framework</code></li>
-      <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-plugins/trunk ofbiz-plugins </code></li>
-       <li><i class="icon-pin"></i> <strong>ofbiz tools</strong> : <code>$ svn co //svn.apache.org/repos/asf/ofbiz/tools ofbiz-tools </code></li>
-      <li><i class="icon-pin"></i> <strong>branch release16.11 (stable)</strong>: <code>$ svn co http://svn.apache.org/repos/asf/ofbiz/branches/release16.11 ofbiz.16.11</code></li>
-       <li><i class="icon-pin"></i> <strong>ofbiz website</strong> : <code>$ website: $ svn co http://svn.apache.org/repos/asf/ofbiz/site ofbiz-website </code></li>
-               </ul>
-
+    <h2>Trunk</h2>
+     <dl class="iconsList">
+        <dt><i class="icon-pin"></i> <strong>ofbiz-framework trunk</strong></dt>
+        <dd><code>$ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-framework/trunk ofbiz-framework</code></dd>
+        <dt><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong></dt>
+        <dd><code>$ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-plugins/trunk ofbiz-plugins </code></dd>
+    </dl>
+    <h2>Releases</h2>
+    <dl class="iconsList">
+        <dt><i class="icon-pin"></i> <strong>ofbiz-framework branch release17.12 </strong></dt>
+        <dd><code>$ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-framework/branches/release17.12 release17.12</code></dd>
+        <dt><i class="icon-pin"></i> <strong>ofbiz-plugins branch release17.12 </strong></dt>
+        <dd><code>$ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-plugins/branches/release17.12 ofbiz-plugins </code></dd>
+        <dt><i class="icon-pin"></i> <strong>branch release16.11 (stable)</strong><dt>
+        <dd><code>$ svn co http://svn.apache.org/repos/asf/ofbiz/branches/release16.11 ofbiz.16.11</code></dd>
+    </dl>
+    <h2>Tools</h2>
+    <dl class="iconsList">
+      <dt><i class="icon-pin"></i> <strong>ofbiz tools</strong></dt>
+      <dd><code>$ svn co http//svn.apache.org/repos/asf/ofbiz/tools ofbiz-tools </code></dd>
+    </dl>
+    <h2>WebSite</h2>
+    <dl class="iconsList">
+      <dt><i class="icon-pin"></i> <strong>ofbiz website</strong></dt>
+      <dd><code>$ svn co http//svn.apache.org/repos/asf/ofbiz/site ofbiz-website </code></dd>
+    </dl>
     </div>
             </section> 
 
