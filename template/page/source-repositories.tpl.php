@@ -80,17 +80,9 @@
               <div class="span10">
                 <h2>Committer Access</h2>
                 <div class="divider"><span></span></div>
-    <p>Committer access requires a special account which is provided by the OFBiz adminstrators. If you have a Committer account you can access the repository through HTTPS. When checking in, you will be prompted your userID and password</p>
-    <p>When you first connect you will be prompted to accept the SSL certificate. Verify the certificate is for svn.apache.org. After verification, select option 'P' to permanently add to your SVN configuration.</p>
-    <p>Subversion can handle keyword expansion, eol conversion as well as may other features. Most of these features are configured on the client level rather than on the server (some [AUTO-PROPS] properties are handled on the server). To make this easy on developers and to provide a standard configuration, the official OFBiz Subversion client configuration file can be found here.
-This file should replace, or be merged with, the config file found in your $HOME/.subversion directory </p>
-
-    <ul class="iconsList">
-                  <li><i class="icon-pin"></i> <strong>Windows</strong> : <code>%USERPROFILE%\Application Data\Subversion\config or %USERPROFILE%\AppData\Roaming\Subversion\config</code></li>
-      <li><i class="icon-pin"></i> <strong>Linux</strong> : <code>~/.subversion/config</code></li>
-               </ul>
-
-   
+		    <p>Committer access requires a special account which is provided by the OFBiz adminstrators. If you have a Committer account you can access the repository through HTTPS. When checking in, you will be prompted your userID and password</p>
+		    <p>When you first connect you will be prompted to accept the SSL certificate. Verify the certificate is for svn.apache.org. After verification, select option 'P' to permanently add to your SVN configuration.</p>
+		    <p>Subversion can handle keyword expansion, eol conversion as well as many other features. These features are configured at the server level (actually only in the OFBiz repository branch), so you don't have to worry about them</p>   
               </div> 
             </section>
 
