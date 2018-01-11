@@ -8,7 +8,7 @@
 <header id="mainHeader" class="clearfix">
   <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
-      <div class="container"> <a href="index.html" class="brand"><img src="images/OFBiz-logo.png" alt="Apache OFBiz Logo"/></a>
+      <div class="container"> <a href="index.html" class="brand"><img src="images/ofbiz_logo.png" alt="Apache OFBiz Logo"/></a>
         <nav id="mainMenu" class="clearfix">
           <ul>
             <li><a href="index.html" class="firstLevel<?php if (basename($page_name) == 'index.tpl.php'):?> active<?php endif;?>">Home</a></li>
