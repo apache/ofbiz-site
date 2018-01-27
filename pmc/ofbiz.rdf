@@ -28,6 +28,7 @@ Apache OFBiz is an open source product for the automation of enterprise processe
 Apache OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise solutions.
     </asfext:charter>
     <asfext:chair><foaf:Person><foaf:name>Jacopo Cappellato</foaf:name></foaf:Person></asfext:chair>
+    <asfext:member><foaf:Person><foaf:name>Taher A. Alkhateeb</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Hans Bakker</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Michael Brohl</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Deepak Dixit</foaf:name></foaf:Person></asfext:member>
