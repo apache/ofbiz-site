@@ -46,5 +46,6 @@ Apache OFBiz provides a foundation and starting point for reliable, secure and s
     <asfext:member><foaf:Person><foaf:name>Ashish Vijaywargiya</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>David Welton</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Andrew Zeneski</foaf:name></foaf:Person></asfext:member>
+    <asfext:member><foaf:Person><foaf:name>Paul Foxworthy</foaf:name></foaf:Person></asfext:member>
   </asfext:pmc>
 </rdf:RDF>
