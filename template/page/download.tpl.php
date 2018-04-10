@@ -71,7 +71,7 @@
       <h2><a id="security"></a>Security Vulnerabilities</h2>
             <div class="divider"><span></span></div>
             <p> <strong> We strongly encourage OfBiz users to report security problems affecting OFBiz to the private security mailing lists (either security@ofbiz.apache.org or security@apache.org), before disclosing them in a public forum.</strong></p>
-<p>Please see the  <a href="//www.apache.org/security/" target="external">ASF Security Team webpage</a> for further information about reporting a security vulnerability as well as their contact information. </p>
+<p>Please see the  <a href="https://www.apache.org/security" target="external">ASF Security Team webpage</a> for further information about reporting a security vulnerability as well as their contact information. </p>
  
             <h3>List of Known Vulnerabilities</h3>
             <ul class="iconsList">
