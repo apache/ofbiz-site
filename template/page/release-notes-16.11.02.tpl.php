@@ -16,7 +16,7 @@
       <div class="container">
 <div class="row">
   <div>
-      <p>Apache OFBiz 16.11.02, released in 2017-05-22, is the second release of the 16.11 series, that has been stabilized since November 2016.</p>
+      <p>Apache OFBiz&reg; 16.11.02, released in 2017-05-22, is the second release of the 16.11 series, that has been stabilized since November 2016.</p>
 <h2>Bug</h2>
 <ul>
  <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-6386'>OFBIZ-6386</a>] - compareBigDecimals in org.ofbiz.minilang.method.conditional.Compare does not compare certain values correctly</li>

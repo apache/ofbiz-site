@@ -16,7 +16,7 @@
       <div class="container">
 <div class="row">
   <div>
-        <p>Apache OFBiz 13.07.01, released in 2015-10-06, is the first release of the 13.07 series, that has been stabilized with bug fixes since July 2013. It is the OFBiz current stable release and users of the previous releases are encouraged to migrate to it.</p>
+        <p>Apache OFBiz&reg; 13.07.01, released in 2015-10-06, is the first release of the 13.07 series, that has been stabilized with bug fixes since July 2013. It is the OFBiz current stable release and users of the previous releases are encouraged to migrate to it.</p>
         <p>Please notice that in the 13.07 series the specialpurpose components are no more included with the only exception of the ecommerce component (because there are still some dependencies on it): the specialpurpose components may be released in a separate package in the future.</p>
     
 <h2>Bug</h2>
