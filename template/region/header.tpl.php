@@ -38,13 +38,10 @@
                 <li><a href="mailing-lists.html">Mailing Lists</a></li>
                 <li><a href="source-repositories.html">Source Repository</a></li>
                 <li><a href="download.html">Downloads</a></li>
-                <li><a href="security.html">Security</a></li>
                 <li><a href="//issues.apache.org/jira/browse/OFBIZ/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel" target="external" >Issue Tracker</a></li>
                 <li><a href="faqs.html" class="last">FAQ</a></li>
               </ul>
             </li>
-        <div id="logo">
-
             <li><a href="ofbiz-demos.html" class="firstLevel<?php if (basename($page_name) == 'ofbiz-demos.tpl.php'):?> active<?php endif;?>">Demos</a></li>
 		  <li>
 		    <a href="//twitter.com/ApacheOfbiz" class="icon-twitter-bird socialIcon tips"
