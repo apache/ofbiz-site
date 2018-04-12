@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<head>
+<meta charset="utf-8">
+<title>The Apache OFBiz&reg; Project - Release Notes 16.11.02</title>
+<meta name="Description" content="OFBiz is an open source enterprise automation software project licensed under the Apache License. It means you are not alone and can work with many others." />
+<meta name="Robots" content="index,follow" />
+<!-- Mobile Specific Metas
+    ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS
+    ================================================== -->
+<!-- Bootstrap  -->
+<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<!-- web font  -->
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,800" rel="stylesheet" type="text/css">
+<!-- plugin css  -->
+<link rel="stylesheet" type="text/css" href="js/plugins/pretty-photo/css/prettyPhoto.css" />
+<link rel="stylesheet" type="text/css" href="js/plugins/rs-plugin/css/settings.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="js/plugins/hoverdir/css/style.css">
+<!-- icon fonts -->
+<link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons.css">
+<link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons-ie7.css">
+<!-- Custom css -->
+<link type="text/css" rel="stylesheet" href="css/layout.css">
+<link type="text/css" id="colors" rel="stylesheet" href="css/colors.css">
+<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if gte IE 9]><style type="text/css">.iconBig, .active, .hover a , .Shover a { filter: none !important; } </style> <![endif]-->
+<script src="js/modernizr-2.6.1.min.js"></script>
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+</head>
+<body>
+<!-- header -->
+<header id="mainHeader" class="clearfix">
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container"> <a href="index.html" class="brand"><img src="images/ofbiz_logo.png" alt="Apache OFBiz Logo"/></a>
+        <nav id="mainMenu" class="clearfix">
+          <ul>
+            <li><a href="index.html" class="firstLevel">Home</a></li>
+            <li><a href="#" class="firstLevel">Getting Started</a>
+              <ul>
+                <li><a href="developers.html" class="">Developers</a></li>
+                <li><a href="business-users.html" class="last">Business Users</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="firstLevel">News</a>
+              <ul>
+                <li><a href="//twitter.com/apacheofbiz" target="external">Twitter</a></li>
+                <li><a href="//blogs.apache.org/ofbiz/" target="external" class="last">Blog</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="firstLevel">Documentation</a>
+              <ul>
+                <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Documentation#Documentation-End-UserDocumentation" target="external" class="">User Documentation</a></li>
+                <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Technical+Documentation" target="external" class="">Technical Documentation</a></li>
+                <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="external" class="">Wiki</a></li>
+                <li><a href="//ci.apache.org/projects/ofbiz/site/javadocs/" target="external" class="last">API Reference</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="firstLevel">Community</a>
+              <ul>
+                <li><a href="getting-involved.html">Getting Involved</a></li>                
+                <li><a href="mailing-lists.html">Mailing Lists</a></li>
+                <li><a href="source-repositories.html">Source Repository</a></li>
+                <li><a href="download.html">Downloads</a></li>
+                <li><a href="//issues.apache.org/jira/browse/OFBIZ/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel" target="external" >Issue Tracker</a></li>
+                <li><a href="faqs.html" class="last">FAQ</a></li>
+              </ul>
+            </li>
+            <li><a href="ofbiz-demos.html" class="firstLevel">Demos</a></li>
+		  <li>
+		    <a href="//twitter.com/ApacheOfbiz" class="icon-twitter-bird socialIcon tips"
+		      target="external" title="follow us on Twitter"><span>twitter</span></a>
+		  </li>
+		  <li><a href="//www.youtube.com/user/ofbiz" class="icon-play socialIcon tips"  title="follow us on Youtube"><span>Youtube</span></a></li>
+		  <li><a href="//www.facebook.com/Apache-OFBiz-1478219232210477/?ref=page_internal" class="icon-facebook socialIcon tips"  title="follow us on Facebook"><span>facebook</span></a></li>
+		  <!--<li><a href="#" class="icon-rss socialIcon tips"  title="Our rss feed"><span>rss feed</span></a></li>         
+		  <li><a href="#" class="icon-gplus socialIcon tips"  title="follow us on Google +"><span>google +</span></a></li>
+		  <li><a href="#" class="icon-instagram socialIcon tips"  title="follow us on Instagram"><span>instagram</span></a></li>
+		  <li><a href="#" class="icon-linkedin socialIcon tips"  title="follow us on Linkedin"><span>linkedin</span></a></li>
+		  <li><a href="#" class="icon-pinterest-circled socialIcon tips"  title="follow us on Pinterest"><span>Pinterest</span></a></li>-->
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- header -->
+<!-- globalWrapper -->
+<div id="globalWrapper">
+ <!-- page content -->
+ <section id="content" class="fullWidth">
+    <header class="headerPage">
+      <div class="container clearfix">
+        <div class="row">
+          <h1 class="span8">Release Notes 16.11.02</h1>
+      <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="download.html">Download</a><span>/</span><span class="current">Release Notes 16.11.02</span> </div>
+        </div>
+      </div>
+    </header>
+  <section id="content" class="features" >
+  <div class="slice clearfix">
+      <div class="container">
+<div class="row">
+  <div>
+      <p>Apache OFBiz 16.11.02, released in 2017-05-22, is the second release of the 16.11 series, that has been stabilized since November 2016.</p>
+<h2>Bug</h2>
+<ul>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-6386'>OFBIZ-6386</a>] - compareBigDecimals in org.ofbiz.minilang.method.conditional.Compare does not compare certain values correctly</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-7066'>OFBIZ-7066</a>] - temporal expression screen missing date dialogbox</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-7265'>OFBIZ-7265</a>] - Could not obtain Lock on lucene index Lock</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-7375'>OFBIZ-7375</a>] - Routing should not be allow to update with empty routing name</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-8266'>OFBIZ-8266</a>] - From Date and Thru Date doesn&#39;t reflect on List Quote Roles screen.</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-8318'>OFBIZ-8318</a>] - Error on scrum main page</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9125'>OFBIZ-9125</a>] - Errormessage is displayed twice in LoginEvents.java</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9126'>OFBIZ-9126</a>] - SimpleMethod: Problem with Variables in key-fields</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9133'>OFBIZ-9133</a>] - catalog/control/FindReviews does not render proper column data</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9152'>OFBIZ-9152</a>] - SimpleMethod: FindByAnd never using EntityListIterator</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9155'>OFBIZ-9155</a>] - JobPoller does not run and hence scheduled/async jobs are never run</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9157'>OFBIZ-9157</a>] - &quot;View Order&quot; throws exception in getReturnableQuantity</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9178'>OFBIZ-9178</a>] - deprecation messages in console output</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9184'>OFBIZ-9184</a>] - In entitymodel.xsd entity-alias for condition-expr must be required</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9191'>OFBIZ-9191</a>] - Navigate Accounts tree does not work</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9195'>OFBIZ-9195</a>] - Error in glAccountId retrieval for fixed asset depreciations </li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9196'>OFBIZ-9196</a>] - Regression: a commit between R15 and the Gradle switch uses/blocks the ports</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9201'>OFBIZ-9201</a>] - Birt logging unlogical high</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9204'>OFBIZ-9204</a>] - Cancelled OrderItems are still included in orderGrandTotal</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9208'>OFBIZ-9208</a>] - reinstate url cache in UtilURL.fromResource</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9216'>OFBIZ-9216</a>] - report GL Account Trial Balance</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9220'>OFBIZ-9220</a>] - Employment Applications in Party manager does not list any record even if they exist.</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9224'>OFBIZ-9224</a>] - 16.11 ofbizUrl include host+port and break some reverse-proxy / docker setups</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9225'>OFBIZ-9225</a>] - Editing quantity of configurable products changes actual product </li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9228'>OFBIZ-9228</a>] - Create an Accounting Transaction page not found</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9230'>OFBIZ-9230</a>] - Missing reference to the delegator in framework/widget/templates/HtmlFormMacroLibrary.ftl</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9234'>OFBIZ-9234</a>] - The ecommerce breadcrumb fails when you come from the catalog product link</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9252'>OFBIZ-9252</a>] - While re-ordering an order, order terms doesn&#39;t set</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9261'>OFBIZ-9261</a>] - Handle only labels with the &quot;_&quot; separator between languages and countries</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9265'>OFBIZ-9265</a>] - Error in accounting report inventory valuation with through date with an empty value.</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9280'>OFBIZ-9280</a>] - Sort Links in Lookup for Data Resource Id causes unwanted behaviour on Find Content page</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9309'>OFBIZ-9309</a>] - Ecommerce component showing error screen on searchContent from showcontenttree page</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9311'>OFBIZ-9311</a>] - The help button or link does not show for the Birt, BI and example components</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9314'>OFBIZ-9314</a>] - WorkEffort shows error on party assignment</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9315'>OFBIZ-9315</a>] - WorkEffort Keywords does not list after adding.</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9324'>OFBIZ-9324</a>] - Accounting_quantity_diff &lt;-- Item variance</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9345'>OFBIZ-9345</a>] - Error viewing tomahawk-themed page when externalLoginKey is not enabled</li>
+</ul>
+                    
+<h2>Improvement</h2>
+<ul>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9144'>OFBIZ-9144</a>] - refactor javadocs in OFBiz to be standards compliant</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9175'>OFBIZ-9175</a>] - Build OFBIZ as EAR with Gradle EAR Plugin</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9289'>OFBIZ-9289</a>] - SOAPEventHandler only outputs error to log when secureSoapAnswer = false</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9318'>OFBIZ-9318</a>] - Create New Quote button is duplicated on View Quote page</li>
+</ul>
+                                                                        
+<h2>Task</h2>
+<ul>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9323'>OFBIZ-9323</a>] - Remove the birt.tld file and all related files and lines</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9326'>OFBIZ-9326</a>] - Running and Debugging OFBiz in Intellij IDEA</li>
+</ul> 
+<h2>Sub-task</h2>
+<ul>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9198'>OFBIZ-9198</a>] - Missing file results in error</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9310'>OFBIZ-9310</a>] - On setting verbose true, UtilHttp.getParameterMap() method prints username and password in logs</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9313'>OFBIZ-9313</a>] - Update Tomcat to 8.0.42 because of CVE-2017-5648</li>
+ <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9331'>OFBIZ-9331</a>] - Convert QuoteRole entity related service from simple to entity auto. </li>
+</ul>
+  </div>
+</div>
+</div>
+</div>
+</section>
+</section><!-- footer -->
+<footer class="footer1">
+  <div class="container" id="footer">
+    <div class="row">
+      <div class="span6 timelineWidget">
+        <h2>Latest tweets</h2>
+        <!--div class="divider"><span></span></div>
+        <ul class="socialNetwork nav">
+          <li>
+            <a href="//twitter.com/ApacheOfbiz" class="icon-twitter-bird socialIcon tips"
+              target="external" title="follow us on Twitter"><span>twitter</span></a>
+          </li>
+          <li><a href="//www.youtube.com/user/ofbiz" class="icon-play socialIcon tips"  title="follow us on Youtube"><span>Youtube</span></a></li>
+          <li><a href="//www.facebook.com/Apache-OFBiz-1478219232210477/?ref=page_internal" class="icon-facebook socialIcon tips"  title="follow us on Facebook"><span>facebook</span></a></li>
+          <!--<li><a href="#" class="icon-rss socialIcon tips"  title="Our rss feed"><span>rss feed</span></a></li>         
+          <li><a href="#" class="icon-gplus socialIcon tips"  title="follow us on Google +"><span>google +</span></a></li>
+          <li><a href="#" class="icon-instagram socialIcon tips"  title="follow us on Instagram"><span>instagram</span></a></li>
+          <li><a href="#" class="icon-linkedin socialIcon tips"  title="follow us on Linkedin"><span>linkedin</span></a></li>
+          <li><a href="#" class="icon-pinterest-circled socialIcon tips"  title="follow us on Pinterest"><span>Pinterest</span></a></li>-->
+        </ul-->
+        <div id="twitterFrame"> <a class="twitter-timeline" href="//twitter.com/ApacheOfbiz?height=250" data-widget-id="588661945194192896"  data-tweet-limit="2" data-theme="dark" data-chrome="nofooter noheader transparent" >Tweets by @ApacheOfbiz</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+      </div>
+      <div class="span3 contactWidget">
+        <h2>Contact Community</h2>
+        <div class="divider"><span></span></div>
+        <ul>
+          <li><a href="mailing-lists.html">Mailing Lists</a></li>
+          <li><a href="source-repositories.html">Source Repository (SVN)</a></li>
+          <li><a href="//issues.apache.org/jira/browse/OFBIZ" target="external">Issue Tracker (Jira)</a></li>
+          <li><a href="//www.youtube.com/user/ofbiz" target="external">OFBiz Youtube Channel</a></li>
+          <li><a href="//vimeo.com/channels/apacheofbiz" target="external">OFBiz Vimeo Channel</a></li>
+          <li><a href="//www.hipchat.com/gGlwdXZZl" target="external">OFBiz HipChat Room</a></li>
+        </ul>
+      </div>
+      <div class="span3 sociallWidget">
+        <h2>ASF Information</h2>
+        <div class="divider"><span></span></div>
+        <ul>
+          <li><a href="https://www.apache.org/foundation/" target="external">Apache Software Foundation</a></li>
+          <li><a href="https://www.apache.org/events/current-event" target="external">Events</a></li>
+          <li><a href="https://www.apache.org/foundation/sponsorship.html" target="external">Sponsorship</a></li>
+          <li><a href="https://www.apache.org/foundation/thanks.html" target="external">Thanks</a></li>
+          <li><a href="download.html#security">Security</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<footer class="footer2" id="footerRights">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <p>
+          Copyright © 2018 The Apache Software Foundation.
+          <a href="https://www.apache.org/licenses/" target="external">Licensed under the  Apache License, Version 2.0</a>.<br/>
+          Apache OFBiz, OFBiz, the project logo and the Apache feather logo are trademarks of <a href="https://www.apache.org/" target="external">The Apache Software Foundation.</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer -->
+</div>
+<!-- globalWrapper -->
+<script type="text/javascript" src="js/plugins/respond/respond.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/plugins/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+<!-- third party plugins  -->
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap-carousel.js"></script>
+<script type="text/javascript" src="js/plugins/easing/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/plugins/pretty-photo/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/plugins/hoverdir/jquery.hoverdir.js"></script>
+<!-- jQuery KenBurn Slider  -->
+<script type="text/javascript" src="js/plugins/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="js/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!-- Custom  -->
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', UA]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</body>
+</html>
