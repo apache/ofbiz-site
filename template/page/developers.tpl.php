@@ -98,7 +98,7 @@
     <p>
     	<strong>NOTE</strong>: That quotes are needed for the Unix based command. For further details and a full list of all available OFBiz Gradle commands, please take a look at the main 
     		<a href="//svn.apache.org/repos/asf/ofbiz/tools/wiki-files/README.md.html" target="external"><strong>README.md file.</strong></a>
-    		</br>
+    		<br/>
     		If you are an user migrating from a  version which uses Ant you might be interested by:    		
     		<a href="//cwiki.apache.org/confluence/display/OFBIZ/From+Ant+to+Gradle+-+trunk+version" target="external"><strong>From Ant to Gradle</strong></a> 
     		
@@ -130,7 +130,7 @@
                 <p>To help you getting started we have put together a beginners OFBiz development tutorial to get familiar with with OFBiz.</p>
     <p>It covers the fundamentals of the OFBiz application development process. The goal of this tutorial is to acquaint a developer with best practices, coding conventions. the control flow and things that the developer needs to know in order to modify OFBiz</p>
     <ul class="iconsList">
-                  <li><i class="icon-pin"></i> <a href="//cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Tutorial+-+A+Beginners+Development+Guide" target=_blank"><strong>Developer Tutorial</strong></a></li>
+                  <li><i class="icon-pin"></i> <a href="//cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Tutorial+-+A+Beginners+Development+Guide" target="_blank"><strong>Developer Tutorial</strong></a></li>
     </ul>
             </div>
             </section>
