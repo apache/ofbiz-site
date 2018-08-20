@@ -51,14 +51,13 @@
             <h2>Download Apache OFBiz</h2>
             <div class="divider"><span></span></div>
             <div class="imgWrapper"> <img src="images/Download.jpg" alt="image fullwidth"> </div>
-            <p> <strong> Use the links below to download Apache OFBiz releases from the "Apache Download Mirrors" page. The download page also includes instructions on how to verify the integrity of the release file using the signature and hashes (PGP, MD5, SHA512) available for each release. </strong> </p>
+            <p> <strong> Use the links below to download Apache OFBiz releases from the "Apache Download Mirrors" page. The download page also includes instructions on how to verify the integrity of the release file using the signature and hash (PGP, SHA512) available for each release. </strong> </p>
             <p> <strong>PLEASE NOTE:</strong> Despite our best efforts to maintain up to three active release branches, support for older branches can decrease because our project volunteers may be focused on other issues. We recommend using releases from the most recent branch wherever possible. </p>
             <h2>Apache OFBiz 16.11.04</h2>
             <div class="divider"><span></span></div>
             <p> Released in January 2018, this is the fourth release of the 16.11 series, that has been stabilized since November 2016. </p>
             <a href ="//www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-16.11.04.zip" target="external" >Download OFBiz 16.11.04</a>
             <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.04.zip.asc" target="external">[PGP]</a>
-            <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.04.zip.md5" target="external">[MD5]</a>
             <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.04.zip.sha" target="external">[SHA512]</a>
             <a href ="//www.apache.org/dist/ofbiz/KEYS" target="external">[KEYS]</a>
             <a href ="release-notes-16.11.04.html">[Release Notes]</a>
