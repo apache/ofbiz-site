@@ -58,7 +58,7 @@
             <p> Released in January 2018, this is the fourth release of the 16.11 series, that has been stabilized since November 2016. </p>
             <a href ="//www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-16.11.04.zip" target="external" >Download OFBiz 16.11.04</a>
             <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.04.zip.asc" target="external">[PGP]</a>
-            <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.04.zip.sha" target="external">[SHA512]</a>
+            <a href ="//www.apache.org/dist/ofbiz/apache-ofbiz-16.11.04.zip.sha512" target="external">[SHA512]</a>
             <a href ="//www.apache.org/dist/ofbiz/KEYS" target="external">[KEYS]</a>
             <a href ="release-notes-16.11.04.html">[Release Notes]</a>
 
