@@ -46,7 +46,7 @@
                 <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-twitter"></i></span> Developer Mailing List</h3>
                 <p>The developer list is strictly for topics related to the design and development of the OFBiz Project itself.</p>
     <p>Please don't ask questions relevant to User Mailing List in this Mailing List.</p>
-     <p>If you are not sure to which list to post to then use the User Mailing List..</p>
+     <p>If you are not sure to which list to post to then use the User Mailing List.</p>
                 <a class="btn btnSmall" href="//ofbiz.135035.n4.nabble.com/OFBiz-Dev-f165671.html">Developer List</a> </div>
               <div class="span4">
                 <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-star"></i></span> Commit Mailing List</h3>

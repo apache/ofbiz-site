@@ -48,7 +48,7 @@
                   <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-cog-alt"></i></span> Developer Mailing List</h3>
                    <p>The developer list is strictly for topics related to the design and development of the OFBiz Project itself.</p>
       <p><i class="icon-info-circle"></i>Please don't ask questions relevant to User Mailing List in this Mailing List.</p>
-       <p>If you are not sure to which list to post to then use the User Mailing List..</p>
+       <p>If you are not sure to which list to post to then use the User Mailing List.</p>
                   <a class="btn btnSmall" href="//lists.apache.org/list.html?dev@ofbiz.apache.org">Developer List</a>
     </div>
                 <div class="span4">
