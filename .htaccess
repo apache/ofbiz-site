@@ -1,4 +1,7 @@
 ErrorDocument 404 /404.html
 
+RewriteCond %{HTTPS} off
+RewriteRule ^\/?(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
 RewriteRule ^documentation.html /index.html [R=301,NC,L]
 RewriteRule ^community.html /getting-involved.html [R=301,NC,L] 
