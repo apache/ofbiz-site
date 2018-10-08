@@ -34,6 +34,7 @@
     <category rdf:resource="http://projects.apache.org/category/xml" />
     <category rdf:resource="http://projects.apache.org/category/http" />
     <category rdf:resource="http://projects.apache.org/category/content" />
+    <category rdf:resource="http://projects.apache.org/category/geospatial" />
     <homepage rdf:resource="http://ofbiz.apache.org" />
     <license rdf:resource="http://www.apache.org/licenses/" />
     <asfext:pmc rdf:resource="http://ofbiz.apache.org/pmc/ofbiz.rdf" />
