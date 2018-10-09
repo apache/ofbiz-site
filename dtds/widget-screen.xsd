@@ -266,7 +266,7 @@ under the License.
             <xs:attribute type="xs:string" name="type">
                 <xs:annotation>
                     <xs:documentation>With the type it is possible to render different containers
-                        than div like section, nav, header etc.
+                        than div like section.
                     </xs:documentation>
                 </xs:annotation>
             </xs:attribute>
