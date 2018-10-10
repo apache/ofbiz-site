@@ -62,8 +62,8 @@
     <release>
         <Version>
             <name>Apache OFBiz R16.11</name>
-            <created>2018-01-02</created>
-            <revision>16.11.04</revision>
+            <created>2018-10-02</created>
+            <revision>16.11.05</revision>
         </Version>
     </release>
     <release>
