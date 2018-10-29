@@ -34,6 +34,7 @@ Apache OFBiz provides a foundation and starting point for reliable, secure and s
     <asfext:member><foaf:Person><foaf:name>Deepak Dixit</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Erwan de Ferrieres</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Sharan Foga</foaf:name></foaf:Person></asfext:member>
+    <asfext:member><foaf:Person><foaf:name>Paul Foxworthy</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Christian Geisert</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Scott Gray</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Adam Heath</foaf:name></foaf:Person></asfext:member>
@@ -46,6 +47,5 @@ Apache OFBiz provides a foundation and starting point for reliable, secure and s
     <asfext:member><foaf:Person><foaf:name>Ashish Vijaywargiya</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>David Welton</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Andrew Zeneski</foaf:name></foaf:Person></asfext:member>
-    <asfext:member><foaf:Person><foaf:name>Paul Foxworthy</foaf:name></foaf:Person></asfext:member>
   </asfext:pmc>
 </rdf:RDF>
