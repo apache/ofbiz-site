@@ -218,6 +218,10 @@ a.iconWrapper:hover{        background-color:#777777;    color:white;}
     color:#BBBBBB;
 }
 #footer .divider{border:none; background:#777;}
+
+.footer-note {
+    color: #fff;
+}
 /*********************** END FOOTER ***********************/
 
 /*********************** SLIDERS ***********************/
