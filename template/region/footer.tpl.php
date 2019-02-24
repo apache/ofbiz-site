@@ -55,7 +55,9 @@
         <ul>
           <li><a href="https://www.apache.org/foundation/" target="external">Apache Software Foundation</a></li>
           <li><a href="https://www.apache.org/events/current-event" target="external">Events</a></li>
-          <li><a href="https://www.apache.org/foundation/sponsorship.html" target="external">Sponsorship</a></li>
+          <li><a href="https://www.apache.org/foundation/sponsorship.html" target="external">Sponsorship</a>
+          		and <a href="https://www.apache.org/foundation/contributing.html" target="external">Donations</a>
+          </li>
           <li><a href="https://www.apache.org/foundation/thanks.html" target="external">Thanks</a></li>
           <li><a href="https://ofbiz.apache.org/security.html">Security</a></li>
         </ul>
