@@ -42,10 +42,11 @@
     <mailing-list rdf:resource="http://ofbiz.apache.org/mailing-lists.html" />
     <download-page rdf:resource="http://ofbiz.apache.org/download.html" />
     <repository>
-      <SVNRepository>
-        <location rdf:resource="http://svn.apache.org/repos/asf/ofbiz/ofbiz-framework/trunk"/>
+      <GitRepository>
+        <location rdf:resource="https://gitbox.apache.org/repos/asf/ofbiz-framework.git"/>
+        <location rdf:resource="https://gitbox.apache.org/repos/asf/ofbiz-plugins.git"/>
         <browse rdf:resource="http://ofbiz.apache.org/source-repositories.html"/>
-      </SVNRepository>
+      </GitRepository>
     </repository>
     <maintainer>
       <foaf:Person>
