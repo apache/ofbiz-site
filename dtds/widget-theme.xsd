@@ -34,7 +34,7 @@ under the License.
         </xs:complexType>
     </xs:element>
     <xs:element name="visual-themes">
-        <xs:annotation><xs:documentation>List all visual themes embedded by this theme</xs:documentation></xs:annotation>
+        <xs:annotation><xs:documentation>List all visual themes embded by this theme</xs:documentation></xs:annotation>
         <xs:complexType>
             <xs:sequence>
                 <xs:element minOccurs="1" maxOccurs="unbounded" ref="visual-theme" />
@@ -54,7 +54,7 @@ under the License.
     </xs:element>
     <xs:element name="description"/>
     <xs:element name="screenshot">
-        <xs:annotation><xs:documentation>List all screenshot images with the path to use from web site (ex '/mytheme/screenshot1.jpg' for an image in ofbiz/themes/mytheme/webapp/screenshot1.jpg)</xs:documentation></xs:annotation>
+        <xs:annotation><xs:documentation>List all screenshots image with the path to use from web site (ex '/mytheme/screenshot1.jpg' for an image in ofbiz/themes/mytheme/webapp/screenshot1.jpg)</xs:documentation></xs:annotation>
         <xs:complexType>
             <xs:attribute type="xs:string" name="location" use="required" />
         </xs:complexType>
@@ -67,7 +67,7 @@ under the License.
     </xs:element>
     <xs:element name="widget-properties">
         <xs:annotation><xs:documentation>
-            This element contains all properties used by the screen engine so that the theme can be dedicate some values
+            This element contains all properties use by the screen engine that the theme can be dedicate some values
         </xs:documentation></xs:annotation>
         <xs:complexType>
             <xs:sequence>
@@ -127,7 +127,7 @@ under the License.
         </xs:complexType>
     </xs:element>
     <xs:annotation><xs:documentation>
-        This element contains all properties dedicated with the theme technology
+        This element contains all properties dedicate with the theme technology
     </xs:documentation></xs:annotation>
     <xs:element name="property">
         <xs:complexType>
@@ -148,7 +148,7 @@ under the License.
         </xs:complexType>
     </xs:element>
     <xs:annotation><xs:documentation>
-        This element contains all ftl macro templates supported by this theme
+        This element contains all ftl macro template supported by this theme
     </xs:documentation></xs:annotation>
     <xs:element name="template">
         <xs:complexType>
@@ -181,7 +181,7 @@ under the License.
     </xs:element>
     <xs:element name="common-screens">
         <xs:annotation><xs:documentation>
-            List the location of each common screens that the theme implements
+            List the location of each common screens that the theme implement
         </xs:documentation></xs:annotation>
         <xs:complexType>
             <xs:sequence>
@@ -193,7 +193,7 @@ under the License.
     </xs:element>
     <xs:element name="common-forms">
         <xs:annotation><xs:documentation>
-            List the location of each common form that the theme implements
+            List the location of each common forms that the theme implement
         </xs:documentation></xs:annotation>
         <xs:complexType>
             <xs:sequence>
@@ -203,7 +203,7 @@ under the License.
     </xs:element>
     <xs:element name="common-menus">
         <xs:annotation><xs:documentation>
-            List the location of each common menu that the theme implements
+            List the location of each common menus that the theme implement
         </xs:documentation></xs:annotation>
         <xs:complexType>
             <xs:sequence>
