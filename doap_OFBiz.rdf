@@ -51,7 +51,7 @@
     <maintainer>
       <foaf:Group>
         <foaf:name>The Apache OFBiz PMC</foaf:name>
-        <foaf:mbox rdf:resource="mailto:private@ofbiz.apache.org"/>
+        <foaf:mbox rdf:resource="mailto:dev@ofbiz.apache.org"/>
       </foaf:Group>
     </maintainer>
     <release>
