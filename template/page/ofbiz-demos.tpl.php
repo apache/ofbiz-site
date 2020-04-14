@@ -19,9 +19,9 @@
           <aside class="span2 PortfolioStickyMenu" id="sidebar">
             <ul  id="subnav" class="nav nav-stacked sidenav scrollspyNav">
               <li> <a href="#OFDemoAbout"> About our Demos </a> </li>
-           <li> <a href="#OFDemoCurrent"> Release 16.11 </a> </li>
+           <li> <a href="#OFDemoCurrent"> Release 17.12 </a> </li>
               <li> <a href="#OFDemoTrunk"> Trunk</a> </li>
-         <li> <a href="#OFDemoPrevious"> Release 13.07 </a> </li>
+         <li> <a href="#OFDemoPrevious"> Release 16.11 </a> </li>
           </ul>
           </aside>
           <div class="span10">
@@ -45,7 +45,7 @@
 
       <section  id="OFDemoCurrent" class="slice row clearfix">
               <div class="span10">
-                <h2>Current Stable Release 16.11 - Demo</h2>
+                <h2>Current Stable Release 17.12 - Demo</h2>
                 <div class="divider"><span></span></div>
 
     <p><i class="icon-pin"></i><a href="//demo-stable.ofbiz.apache.org/ordermgr/control/main?USERNAME=admin&PASSWORD=ofbiz&JavaScriptEnabled=Y" target="external"><strong>Backend Management (ERP) Applications</strong></a> </p>
@@ -68,7 +68,7 @@
 
      <section  id="OFDemoPrevious" class="slice row clearfix">
               <div class="span10">
-                <h2>Previous Stable Release 13.07 - Demo</h2>
+                <h2>Previous Stable Release 16.11 - Demo</h2>
                 <div class="divider"><span></span></div>
                 <p>This demo is for the previous OFBiz release. </p>
 
