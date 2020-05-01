@@ -30,16 +30,16 @@
                 <div class="tab-pane active" id="tabs-1">
                   <ul>
                     <li>
-                      <h2>OFBiz 16.11.06</h2>
-                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-16.11.06.zip" target="external" class="moreLink">&rarr; Download</a>
+                      <h2>OFBiz 17.12.03</h2>
+                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.03.zip" target="external" class="moreLink">&rarr; Download</a>
                     </li>
                   </ul>
                 </div>
                 <div class="tab-pane" id="tabs-2">
                   <ul>
                     <li>
-                      <h2>OFBiz 16.11.06</h2>
-                      <a href="release-notes-16.11.06.html" class="moreLink">&rarr; View</a>
+                      <h2>OFBiz 17.12.03</h2>
+                      <a href="release-notes-17.12.03.html" class="moreLink">&rarr; View</a>
                     </li>
                   </ul>
                 </div>
@@ -54,20 +54,20 @@
             <p> <strong> Use the links below to download Apache OFBiz releases from the "Apache Download Mirrors" page. The download page also includes instructions on how to verify the integrity of the release file using the signature and hash (PGP, SHA512) available for each release. If you need more information about why and how to verify the integrity of the release file <a href="http://www.apache.org/info/verification.html" class="moreLink">this &rarr; page is what you look for</a></strong> </p>
 
             <p> <strong>PLEASE NOTE:</strong> Despite our best efforts to maintain up to three active release branches, support for older branches can decrease because our project volunteers may be focused on other issues. We recommend using releases from the most recent branch wherever possible. </p>
-            <h2>Apache OFBiz 16.11.06</h2>
+            <h2>Apache OFBiz 17.12.03</h2>
             <div class="divider"><span></span></div>
-            <p> Released in September 2019, this is the sixth release of the 16.11 series, that has been stabilized since November 2016. </p>
-            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-16.11.06.zip" target="external" >Download OFBiz 16.11.06</a>
-            <a href="https://www.apache.org/dist/ofbiz/apache-ofbiz-16.11.06.zip.asc" target="external">[PGP]</a>
-            <a href="https://www.apache.org/dist/ofbiz/apache-ofbiz-16.11.06.zip.sha512" target="external">[SHA512]</a>
-            <a href="https://www.apache.org/dist/ofbiz/KEYS" target="external">[KEYS]</a>
-            <a href="release-notes-16.11.06.html">[Release Notes]</a>
+            <p> Released in April 2020, this is the third release of the 17.12 series, that has been stabilized since December 2017.</p>
+            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.03.zip" target="external" >Download OFBiz 17.12.03</a>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.03.zip.asc" target="external">[PGP]</a>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.03.zip.sha512" target="external">[SHA512]</a>
+            <a href="https://downloads.apache.org/ofbiz/KEYS" target="external">[KEYS]</a>
+            <a href="release-notes-17.12.03.html">[Release Notes]</a>
 
             <h2>Earlier Releases</h2>
             <div class="divider"><span></span></div>
             <p>Older superseded releases of Apache OFBiz can be found in the <a href="//archive.apache.org/dist/ofbiz/" target="external">Apache OFBiz archive</a></p>
             <p><strong>NOTE: To avoid any security vulnerabilities the Apache OFBiz community highly recommend that all users upgrade to the latest stable release.</strong></p>
-            <p> A descriptions of each release in the history of OFBiz can be <a href="//www.apache.org/dist/ofbiz/" target="external">found here</a></p>
+            <p> A descriptions of each release in the history of OFBiz can be <a href="//downloads.apache.org/ofbiz/" target="external">found here</a></p>
         </div>
         </div>
       </div>
