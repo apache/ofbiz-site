@@ -99,7 +99,7 @@
 <!-- header -->
 <!-- globalWrapper -->
 <div id="globalWrapper">
-   
+
   <!-- page content -->
  <section id="content" class="fullWidth">
     <header class="headerPage">
@@ -131,7 +131,7 @@
                 <h2>Pre-Requisites</h2>
                 <div class="divider"><span></span></div>
      <ul class="iconsList">
-      <li><i class="icon-pin"></i> For 16.11, the ofbiz-framework trunk and ofbiz-plugins trunk the minimum requirement you need installed is Java 1.8 SDK.</li>
+      <li><i class="icon-pin"></i> For 17.12, the ofbiz-framework trunk and ofbiz-plugins trunk the minimum requirement you need installed is Java 1.8 SDK.</li>
       <li><i class="icon-pin"></i> Apache OFBiz can be downloaded and run on both Unix based and Windows based systems</li>
     </ul>
                  <p><strong>NOTE:</strong> If you are running an older release or branch then please refer to <a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="external" >our Wiki</a> for details</p>
@@ -146,13 +146,27 @@
     <p>Download your required version from one of our <a href="download.html">download mirrors</a> and extract the zip file </p>
     <h3>2. Checkout the Source Code</h3>
     <p>Checkout the source code from the repository</p>
-    <p>Anyone can checkout or <a href="#DevRepo">browse the source code </a>in the OFBiz public Subversion (SVN) repository.</p>
+    <p>Anyone can checkout or <a href="#DevRepo">browse the source code </a>in the OFBiz public gitbox or GitHub repositories.</p>
     <p>To checkout the source code, simply use the following command (if you are using a GUI client, configure it appropriately).</p>
+    <p>We have split OFBiz into ofbiz-framework and ofbiz-plugins, so if you want to use the ofbiz-plugins you need to checkout both trunks.</p>
     <ul class="iconsList">
-      <li><i class="icon-pin"></i> <strong>ofbiz-framework trunk</strong> : <code>$ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-framework/trunk ofbiz-framework</code></li>
-      <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ svn co http://svn.apache.org/repos/asf/ofbiz/ofbiz-plugins/trunk plugins</code></li>
-      <li><i class="icon-pin"></i> <strong>branch release16.11 (stable)</strong>: <code>$ svn co http://svn.apache.org/repos/asf/ofbiz/branches/release16.11 ofbiz.16.11</code></li>
+      <li><i class="icon-pin"></i> <strong>ofbiz-framework trunk</strong> : <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-framework.git ofbiz-framework </code></li>
+      <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git plugins </code></li>
+      <li><i class="icon-pin"></i> <strong>branch release17.12 (stable)</strong>: <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-framework.git ofbiz-framework</code></li>
+      <li><code>$ git checkout release17.12.01 </code></li>
+      <li><i class="icon-pin"></i> <strong>branch release17.12 (stable)</strong>: <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git ofbiz-plugins</code></li>
+      <li><code>$ git checkout release17.12.01 </code></li>
     </ul>
+<p>Or from GitHub:</p>
+<ul class="iconsList">
+  <li><i class="icon-pin"></i> <strong>ofbiz-framework trunk</strong> : <code>$ git clone https://github.com/apache/ofbiz-framework.git ofbiz-framework </code></li>
+  <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ git clone https://github.com/apache/ofbiz-plugins.git plugins </code></li>
+  <li><i class="icon-pin"></i> <strong>branch release17.12 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-framework.git ofbiz-framework</code></li>
+  <li><code>$ git checkout release17.12.01 </code></li>
+  <li><i class="icon-pin"></i> <strong>branch release17.12 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-plugins.git ofbiz-plugins</code></li>
+  <li><code>$ git checkout release17.12.01 </code></li>
+</ul>
+
     </div>
             </section>
       <section  id="DevBldRun" class="slice row clearfix">
@@ -160,23 +174,21 @@
                 <h2>Build and Run</h2>
                 <div class="divider"><span></span></div>
                 <p>Once you have downloaded the source code it will need to be built. The command to built.</p>
-    <h3>Building Release 16.11</h3>
-    <p>Release 16.11  and our ofbiz-framework trunk uses Gradle as it's build system so the commands to build and run it are different to the previous releases. </p>
-    <p>To build 16.11 release,navigate to the OFBiz or framework-trunk directory and;</p>
+    <h3>Building Release 17.12</h3>
+    <p>To build 17.12 release, navigate to the OFBiz or framework-trunk directory and;</p>
     <p>Run the following command for Unix-like OS</p>
     <code>./gradlew cleanAll loadDefault</code><p></p>
     <p>Run the following command for MS Windows</p>
     <code>gradlew cleanAll loadDefault</code>
     <p></p>
     <h3>Building the Trunk</h3>
-    <p>After the 16.11 release a minor change has been made to the Gradle build command for building OFBiz.</p>
     <p>To build the trunk, navigate to the framework-trunk directory and;</p>
     <p>Run the following command for Unix-like OS</p>
     <code>./gradlew cleanAll loadAll</code><p></p>
     <p>Run the following command for MS Windows</p>
     <code>gradlew cleanAll loadAll</code>
     <p></p>
-    <h3>Starting and Running 16.11 or the ofbiz-framework trunk</h3>
+    <h3>Starting and Running 17.12 or the ofbiz-framework trunk</h3>
     <p>To start OFBiz running locally, navigate to the trunk directory and;</p>
     <p>Run the following command for Unix-like OS</p>
     <code>./gradlew ofbiz</code><p></p>
@@ -194,30 +206,32 @@
     <code>gradlew ofbiz --shutdown</code>
     <p></p>
     <p>
-    	<strong>NOTE</strong>: That quotes are needed for the Unix based command. For further details and a full list of all available OFBiz Gradle commands, please take a look at the main 
+    	<strong>NOTE</strong>: That quotes are needed for the Unix based command. For further details and a full list of all available OFBiz Gradle commands, please take a look at the main
     		<a href="//svn.apache.org/repos/asf/ofbiz/tools/wiki-files/README.md.html" target="external"><strong>README.md file.</strong></a>
     		<br/>
-    		If you are an user migrating from a  version which uses Ant you might be interested by:    		
-    		<a href="//cwiki.apache.org/confluence/display/OFBIZ/From+Ant+to+Gradle+-+trunk+version" target="external"><strong>From Ant to Gradle</strong></a> 
-    		
+    		If you are an user migrating from a  version which uses Ant you might be interested by:
+    		<a href="//cwiki.apache.org/confluence/display/OFBIZ/From+Ant+to+Gradle+-+trunk+version" target="external"><strong>From Ant to Gradle</strong></a>
+
     </p>
     <p></p>
             </div>
-            </section>            
+            </section>
             <section  id="DevRepo" class="slice row clearfix">
               <div class="span10">
                 <h2>Browse Repository</h2>
                 <div class="divider"><span></span></div>
                 <p>You can browse the repository using any of the following links.</p>
                 <ul class="iconsList">
-                   <li><i class="icon-pin"></i> <a href="//svn.apache.org/repos/asf/ofbiz/" target="external"><strong>SVN - WebDAV</strong></a></li>
-        <li><i class="icon-pin"></i> <a href="//svn.apache.org/viewvc/ofbiz/" target="external"><strong>SVN - ViewVC</strong></a></li>
+                   <li><i class="icon-pin"></i> <a href="https://gitbox.apache.org/repos/asf/ofbiz-framework.git" target="external"><strong>ofbiz-framework on gitbox</strong></a></li>
+        <li><i class="icon-pin"></i> <a href="https://gitbox.apache.org/repos/asf/ofbiz-plugins.git" target="external"><strong>ofbiz-plugins on gitbox</strong></a></li>
+        <li><i class="icon-pin"></i> <a href="https://gitbox.apache.org/repos/asf/ofbiz-site.git" target="external"><strong>ofbiz-site on gitbox</strong></a></li>
+        <li><i class="icon-pin"></i> <a href="https://gitbox.apache.org/repos/asf/ofbiz-tools.git" target="external"><strong>ofbiz-tools on gitbox</strong></a></li>
     </ul>
     <p></p>
     <p>Our ofbiz-framework trunk and ofbiz-plugins trunk are also available on Git at the links below:</p>
     <ul class="iconsList">
-        <li><i class="icon-pin"></i> <a href="//github.com/apache/ofbiz-framework" target="external"><strong>ofbiz-framework trunk on Github</strong></a></li>
-       <li><i class="icon-pin"></i> <a href="//github.com/apache/ofbiz-plugins" target="external"><strong>ofbiz-plugins trunk on Github</strong></a></li>
+        <li><i class="icon-pin"></i> <a href="https://github.com/apache/ofbiz-framework" target="external"><strong>ofbiz-framework trunk on Github</strong></a></li>
+       <li><i class="icon-pin"></i> <a href="https://github.com/apache/ofbiz-plugins" target="external"><strong>ofbiz-plugins trunk on Github</strong></a></li>
     </ul>
             </div>
             </section>
@@ -259,7 +273,6 @@
    </section>
  </section>
   <!-- page content -->
- 
 <!-- footer -->
 <footer class="footer1">
   <div class="container" id="footer">
