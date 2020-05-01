@@ -57,7 +57,7 @@
                 <h3 class="mediumIconH3">
                   <span class="iconWrapper iconMedium"><i class="icon-resize-full-alt"></i></span> Commit Mailing List
                 </h3>
-                <p>The commits list is used to notify subscribers of commits to the OFBiz SVN repository.
+                <p>The commits list is used to notify subscribers of commits to the OFBiz repositories.
                   It is only used for reference.
                 </p>
                 <p><i class="icon-info-circle"></i>Please don't ask any questions on this list. It is not used for discussions.</p>
