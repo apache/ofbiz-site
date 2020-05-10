@@ -96,8 +96,8 @@
                 <h2>Committer Access</h2>
                 <div class="divider"><span></span></div>
 		    <p>Committer access requires a special account which is provided by the OFBiz adminstrators. If you have a Committer account you can access the repository through HTTPS. When checking in, you will be prompted your userID and password</p>
-		    <p>When you first connect you will be prompted to accept the SSL certificate. Verify the certificate is for svn.apache.org. After verification, select option 'P' to permanently add to your SVN configuration.</p>
-		    <p>Subversion can handle keyword expansion, eol conversion as well as many other features. These features are configured at the server level (actually only in the OFBiz repository branch), so you don't have to worry about them</p>   
+		    <p>When you first connect you will be prompted to accept the SSL certificate. Verify the certificate. .</p>
+		    <p>Git handles keyword expansion, EOL conversion as well as many other features. These features are configured at the server level, so you don't have to worry about them </p>   
               </div> 
             </section>
 
