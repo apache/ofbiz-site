@@ -187,7 +187,7 @@
                  <p>Once you have downloaded OFBiz it needs to be built before you can run it. To build OFBiz and start it running, you will need to:</p>
     <ul class="iconsList">
         <li><i class="icon-pin"></i>open a command line window and;</li>
-        <li><i class="icon-pin"></i>navigate to the OFBiz directory then.</li>
+        <li><i class="icon-pin"></i>navigate to the OFBiz directory.</li>
         <li><i class="icon-pin"></i>Open the INSTALL text file and follow the directives.</li>
     
     </div>
