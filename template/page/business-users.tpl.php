@@ -187,19 +187,9 @@
                  <p>Once you have downloaded OFBiz it needs to be built before you can run it. To build OFBiz and start it running, you will need to:</p>
     <ul class="iconsList">
         <li><i class="icon-pin"></i>open a command line window and;</li>
-        <li><i class="icon-pin"></i> navigate to the OFBiz directory then:</li>
-    </ul>
-    <p>Run the following command for Unix-like OS</p>
-    <code>./gradlew loadDefault ofbiz</code>
-    <p></p>
-       <p>Run the following command for Windows</p>
-    <code>gradlew loadDefault ofbiz</code>
-    <p></p>
-    <p><strong>NOTE</strong>: It is completely normal for the command line window to remain active while OFBiz is running (e.g at 91%).</p>
-    <p>To log into OFBiz, navigate with your browser to </p>
-    <p><code><a href="https://localhost:8443/accounting">https://localhost:8443/accounting</a></code></p>
-    <p>and login with username <strong>"admin" </strong>and password <strong>"ofbiz"</strong></p>
-    <p><strong>NOTE:</strong> These commands will build OFBiz and include demo data. For further details of how to build OFBiz without any demo data and a full list of all available commands, please take a look at the readme.md file</p>
+        <li><i class="icon-pin"></i>navigate to the OFBiz directory then.</li>
+        <li><i class="icon-pin"></i>Open the INSTALL text file and follow the directives.</li>
+    
     </div>
             </section>
             
