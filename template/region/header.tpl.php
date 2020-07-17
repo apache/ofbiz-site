@@ -40,7 +40,7 @@
                     <li title="Next Release API Reference">
                       <a href="//ci.apache.org/projects/ofbiz/site/next/javadocs/" target="external">Next Release API</a></li>
                     </li>
-                  </ul>/home/pawan/ofbiz_dev/ofbiz-site/template/region/header.tpl.php
+                  </ul>
                 </li>
               </ul>
             </li>

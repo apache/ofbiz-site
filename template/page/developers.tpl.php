@@ -157,7 +157,7 @@
                   <li><i class="icon-pin"></i> <a href="//cwiki.apache.org/confluence/display/OFBIZ/Technical+Documentation" target="external"><strong>OFBiz Technical Documentation</strong></a></li>
         <li><i class="icon-pin"></i> <a href="//cwiki.apache.org/confluence/display/OFBIZ/FAQ+-+Tips+-+Tricks+-+Cookbook+-+HowTo" target="external"><strong>Developer and Technical FAQs</strong></a></li>
     </ul>
-    <strong>OFBiz API Reference</strong>
+    <h3>OFBiz API Reference</h3>
     <ul class="iconsList">
       <li title="Trunk API Reference">
         <i class="icon-pin"></i> <a href="//ci.apache.org/projects/ofbiz/site/trunk/javadocs/" target="external"><strong>Trunk API Reference</strong></a></li>
