@@ -29,7 +29,19 @@
                 <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Documentation#Documentation-End-UserDocumentation" target="external" class="">User Documentation</a></li>
                 <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Technical+Documentation" target="external" class="">Technical Documentation</a></li>
                 <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="external" class="">Wiki</a></li>
-                <li><a href="//ci.apache.org/projects/ofbiz/site/javadocs/" target="external" class="last">API Reference</a></li>
+                <li><a href="#" class="firstLevel">API Reference</a>
+                  <ul>
+                    <li title="Trunk API Reference">
+                      <a href="//ci.apache.org/projects/ofbiz/site/trunk/javadocs/" target="external">Trunk API</a></li>
+                    </li>
+                    <li title="Release 17.12 API Reference">
+                      <a href="//ci.apache.org/projects/ofbiz/site/stable/javadocs/" target="external">Release 17.12 API</a></li>
+                    </li>
+                    <li title="Next Release API Reference">
+                      <a href="//ci.apache.org/projects/ofbiz/site/next/javadocs/" target="external">Next Release API</a></li>
+                    </li>
+                  </ul>/home/pawan/ofbiz_dev/ofbiz-site/template/region/header.tpl.php
+                </li>
               </ul>
             </li>
             <li><a href="#" class="firstLevel<?php if (basename($page_name) == 'community.tpl.php'):?> active<?php endif;?>">Community</a>
