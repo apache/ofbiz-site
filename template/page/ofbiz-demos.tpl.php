@@ -18,7 +18,7 @@
         <div class="row ">
           <aside class="span2 PortfolioStickyMenu" id="sidebar">
             <ul  id="subnav" class="nav nav-stacked sidenav scrollspyNav">
-              <li> <a href="#OFDemoAbout"> About our Demos </a> </li>
+              <li> <a href="#OFDemoAbout"> <strike>About our Demos</strike>  Our demos are currently disabled for security reason</a> </li>
            <li> <a href="#OFDemoCurrent"> Release 17.12 </a> </li>
               <li> <a href="#OFDemoTrunk"> Trunk</a> </li>
          <li> <a href="#OFDemoPrevious"> Release 16.11 </a> </li>
