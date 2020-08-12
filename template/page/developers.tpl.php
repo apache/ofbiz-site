@@ -159,14 +159,14 @@
     </ul>
     <h3>OFBiz API Reference</h3>
     <ul class="iconsList">
-      <li title="Trunk API Reference">
-        <i class="icon-pin"></i> <a href="//ci.apache.org/projects/ofbiz/site/trunk/javadocs/" target="external"><strong>Trunk API Reference</strong></a></li>
+      <li title="Trunk API">
+        <i class="icon-pin"></i> <a href="//ci.apache.org/projects/ofbiz/site/trunk/javadocs/" target="external"><strong>Trunk API</strong></a></li>
       </li>
-      <li title="Release 17.12 API Reference">
-        <i class="icon-pin"></i> <a href="//ci.apache.org/projects/ofbiz/site/stable/javadocs/" target="external"><strong>Release 17.12 API Reference</strong></a></li>
+      <li title="Stable release API">
+        <i class="icon-pin"></i> <a href="//ci.apache.org/projects/ofbiz/site/stable/javadocs/" target="external"><strong>Stable release API</strong></a></li>
       </li>
-      <li title="Next Release API Reference">
-        <i class="icon-pin"></i> <a href="//ci.apache.org/projects/ofbiz/site/next/javadocs/" target="external"><strong>Next Release API Reference</strong></a></li>
+      <li title="Next Release API">
+        <i class="icon-pin"></i> <a href="//ci.apache.org/projects/ofbiz/site/next/javadocs/" target="external"><strong>Next release API</strong></a></li>
       </li>
     </ul>
     <p>After consulting the documentation you still have questions,please feel free to post questions on our development mailing list.</p>
