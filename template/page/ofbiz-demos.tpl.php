@@ -18,7 +18,7 @@
         <div class="row ">
           <aside class="span2 PortfolioStickyMenu" id="sidebar">
             <ul  id="subnav" class="nav nav-stacked sidenav scrollspyNav">
-              <li> <a href="#OFDemoAbout"> <strike>About our Demos</strike>  Our demos are currently disabled for security reason</a> </li>
+              <li> <a href="#OFDemoAbout">About our Demos</li>
            <li> <a href="#OFDemoCurrent"> Release 17.12 </a> </li>
               <li> <a href="#OFDemoTrunk"> Trunk</a> </li>
          <li> <a href="#OFDemoPrevious"> Release 16.11 </a> </li>
@@ -27,7 +27,7 @@
           <div class="span10">
             <section  id="OFDemoAbout" class="slice row clearfix">
               <div class="span10">
-                <h2><strike>About our Demos</strike>  Our demos are currently disabled for security reason</h2>
+                <h2>About our Demos</h2>
                 <div class="divider"><span></span></div>
     <p>We have several online OFBiz demos that you can try out. Each demo is split into two areas:
 <ul class="iconsList">
