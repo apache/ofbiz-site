@@ -2025,20 +2025,6 @@ form .error {
     .tp-bullets.simplebullets.last {
         margin-right:0;
     }
-    /*CAMERA SLIDER */
-    .camera_wrap .camera_pag .camera_pag_ul {
-        text-align:center;
-    }
-
-    /*replace background images with icon font for Camera slider UI*/
-
-    .camera_prev > span, .camera_next > span, .camera_commands > .camera_stop,.camera_commands > .camera_play {background:none; font-family: 'custom-icons';color:#fff; font-size:1.75em;text-align:center;}
-    .camera_prev > span:before{content: '\e75d'; }
-
-    .camera_next > span:before{ content: '\e75e'; }
-    .camera_commands > .camera_stop:before{ content: '\2389';}
-    /*replace background images with icon font for Camera slider UI*/
-
 
 /* =============== FLEX SLIDER =================*/
 

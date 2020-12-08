@@ -228,12 +228,6 @@ a.iconWrapper:hover{        background-color:#777777;    color:white;}
 .bgNoSlider {
     border-top:1px solid #40b6b6;
 }
-/*CAMERA*/
-.camera_prevThumbs, .camera_nextThumbs, .camera_prev, .camera_next, .camera_commands, .camera_thumbs_cont {
-    background-color:#E05D30;
-}
-.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span, .camera_wrap .camera_pag .camera_pag_ul li:hover > span{background-color:#E05D30;}
-.camera_thumbs_cont, .camera_wrap .camera_pag .camera_pag_ul li{background-color:#EDEDED;}
 
 /*FLEX*/
 
