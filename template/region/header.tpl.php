@@ -59,8 +59,9 @@
 		    <a href="//twitter.com/ApacheOfbiz" class="icon-twitter-bird socialIcon tips"
 		      target="external" title="follow us on Twitter"><span>twitter</span></a>
 		  </li>
-		  <li><a href="//www.youtube.com/user/ofbiz" class="icon-play socialIcon tips"  title="follow us on Youtube"><span>Youtube</span></a></li>
-		  <li><a href="//www.facebook.com/Apache-OFBiz-1478219232210477/?ref=page_internal" class="icon-facebook socialIcon tips"  title="follow us on Facebook"><span>facebook</span></a></li>
+		  <li><a href="//www.linkedin.com/company/apache-ofbiz/" target="external"  class="icon-linkedin socialIcon tips"  title="follow us on Linkedin"><span>linkedin</span></a></li>
+		  <li><a href="//www.facebook.com/Apache-OFBiz-1478219232210477/?ref=page_internal" target="external" class="icon-facebook socialIcon tips"  title="follow us on Facebook"><span>facebook</span></a></li>
+		  <li><a href="//www.youtube.com/user/ofbiz" class="icon-play socialIcon tips" target="external" title="follow us on Youtube"><span>Youtube</span></a></li>
 		  <!--<li><a href="#" class="icon-rss socialIcon tips"  title="Our rss feed"><span>rss feed</span></a></li>         
 		  <li><a href="#" class="icon-gplus socialIcon tips"  title="follow us on Google +"><span>google +</span></a></li>
 		  <li><a href="#" class="icon-instagram socialIcon tips"  title="follow us on Instagram"><span>instagram</span></a></li>
