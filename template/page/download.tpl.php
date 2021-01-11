@@ -30,16 +30,16 @@
                 <div class="tab-pane active" id="tabs-1">
                   <ul>
                     <li>
-                      <h2>OFBiz 17.12.04</h2>
-                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.04.zip" target="external" class="moreLink">&rarr; Download</a>
+                      <h2>OFBiz 17.12.05</h2>
+                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.05.zip" target="external" class="moreLink">&rarr; Download</a>
                     </li>
                   </ul>
                 </div>
                 <div class="tab-pane" id="tabs-2">
                   <ul>
                     <li>
-                      <h2>OFBiz 17.12.04</h2>
-                      <a href="release-notes-17.12.04.html" class="moreLink">&rarr; View</a>
+                      <h2>OFBiz 17.12.05</h2>
+                      <a href="release-notes-17.12.05.html" class="moreLink">&rarr; View</a>
                     </li>
                   </ul>
                 </div>
@@ -54,14 +54,14 @@
             <p> <strong> Use the links below to download Apache OFBiz releases from the "Apache Download Mirrors" page. The download page also includes instructions on how to verify the integrity of the release file using the signature and hash (PGP, SHA512) available for each release. If you need more information about why and how to verify the integrity of the release file <a href="http://www.apache.org/info/verification.html" class="moreLink">this &rarr; page is what you look for</a></strong> </p>
 
             <p> <strong>PLEASE NOTE:</strong> Despite our best efforts to maintain up to three active release branches, support for older branches can decrease because our project volunteers may be focused on other issues. We recommend using releases from the most recent branch wherever possible. </p>
-            <h2>Apache OFBiz 17.12.04</h2>
+            <h2>Apache OFBiz 17.12.05</h2>
             <div class="divider"><span></span></div>
-            <p> Released in July 2020, this is the fourth release of the 17.12 series, that has been stabilized since December 2017.</p>
-            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.04.zip" target="external" >Download OFBiz 17.12.04</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.04.zip.asc" target="external">[PGP]</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.04.zip.sha512" target="external">[SHA512]</a>
+            <p> Released on January 2021, this is the fifth and final release of the 17.12 series, that has been stabilized since December 2017.</p>
+            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.05.zip" target="external" >Download OFBiz 17.12.05</a>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.05.zip.asc" target="external">[PGP]</a>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.05.zip.sha512" target="external">[SHA512]</a>
             <a href="https://downloads.apache.org/ofbiz/KEYS" target="external">[KEYS]</a>
-            <a href="release-notes-17.12.04.html">[Release Notes]</a>
+            <a href="release-notes-17.12.05.html">[Release Notes]</a>
 
             <h2>Earlier Releases</h2>
             <div class="divider"><span></span></div>

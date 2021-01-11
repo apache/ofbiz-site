@@ -6,7 +6,7 @@
 <!--[if (gte IE 9)|!(IE)]><!-->
 <head>
 <meta charset="utf-8">
-<title>The Apache OFBiz&reg; Project - Downloads</title>
+<title>The Apache OFBiz&reg; Project - Release Notes 17.12.05</title>
 <meta name="Description" content="OFBiz is an open source enterprise automation software project licensed under the Apache License. It means you are not alone and can work with many others." />
 <meta name="Robots" content="index,follow" />
 <!-- Mobile Specific Metas
@@ -112,81 +112,157 @@
 <!-- header -->
 <!-- globalWrapper -->
 <div id="globalWrapper">
-
-<!-- content -->
-  <!-- page content -->
-  <section id="content" class="sidebar">
+ <!-- page content -->
+ <section id="content" class="fullWidth">
     <header class="headerPage">
       <div class="container clearfix">
         <div class="row">
-          <h1 class="span8">Downloads</h1>
-          <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="#">Community</a><span>/</span> <span class="current">Downloads</span> </div>
+          <h1 class="span8">Release Notes 17.12.05</h1>
+      <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="download.html">Download</a><span>/</span><span class="current">Release Notes 17.12.05</span> </div>
         </div>
       </div>
     </header>
-    <div class="slice clearfix">
+  <section id="content" class="features" >
+  <div class="slice clearfix">
       <div class="container">
-        <div class="row">
-          <!-- sidebar -->
-          <aside class="span4" id="sidebar">
-         
-            <section class="widget blogUpdates">
-              <h2>Releases for Download</h2>
-              <div class="divider"><span></span></div>
-              <ul class="nav nav-tabs " id="myTab">
-                <li class="active"><a href="#tabs-1" data-toggle="tab">Downloads</a></li>
-                <li><a href="#tabs-2" data-toggle="tab">Release Notes</a></li>
-              </ul>
-              <div class="tab-content">
-                <div class="tab-pane active" id="tabs-1">
-                  <ul>
-                    <li>
-                      <h2>OFBiz 17.12.05</h2>
-                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.05.zip" target="external" class="moreLink">&rarr; Download</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="tab-pane" id="tabs-2">
-                  <ul>
-                    <li>
-                      <h2>OFBiz 17.12.05</h2>
-                      <a href="release-notes-17.12.05.html" class="moreLink">&rarr; View</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-          </aside>
-          <!-- sidebar -->
-          <div class="span8">
-            <h2>Download Apache OFBiz</h2>
-            <div class="divider"><span></span></div>
-            <div class="imgWrapper"> <img src="images/Download.jpg" alt="image fullwidth"> </div>
-            <p> <strong> Use the links below to download Apache OFBiz releases from the "Apache Download Mirrors" page. The download page also includes instructions on how to verify the integrity of the release file using the signature and hash (PGP, SHA512) available for each release. If you need more information about why and how to verify the integrity of the release file <a href="http://www.apache.org/info/verification.html" class="moreLink">this &rarr; page is what you look for</a></strong> </p>
+<div class="row">
+  <div>
+  <p>Apache OFBiz&reg; 17.12.05, released on January 2021, is the fifth and final release of the 17.12 series, that has been stabilized since December 2017.</p>
 
-            <p> <strong>PLEASE NOTE:</strong> Despite our best efforts to maintain up to three active release branches, support for older branches can decrease because our project volunteers may be focused on other issues. We recommend using releases from the most recent branch wherever possible. </p>
-            <h2>Apache OFBiz 17.12.05</h2>
-            <div class="divider"><span></span></div>
-            <p> Released on January 2021, this is the fifth and final release of the 17.12 series, that has been stabilized since December 2017.</p>
-            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.05.zip" target="external" >Download OFBiz 17.12.05</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.05.zip.asc" target="external">[PGP]</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.05.zip.sha512" target="external">[SHA512]</a>
-            <a href="https://downloads.apache.org/ofbiz/KEYS" target="external">[KEYS]</a>
-            <a href="release-notes-17.12.05.html">[Release Notes]</a>
+    
+<h2>        Sub-task
+</h2>
+<ul>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11840'>OFBIZ-11840</a>] -         Reflected XSS in content component
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11871'>OFBIZ-11871</a>] -         Server-Side Template Injection using Static
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12055'>OFBIZ-12055</a>] -         Prevent possible post-auth RCE from webtools/control/ProgramExport
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12057'>OFBIZ-12057</a>] -         Prevent arbitary file write using webtools/control/EntitySQLProcessor.
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12080'>OFBIZ-12080</a>] -         Secure the uploads
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12096'>OFBIZ-12096</a>] -         Post-auth XSS vulnerability at catalog/control/EditProductPromo
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12098'>OFBIZ-12098</a>] -         Make ruleName field in PriceForms.xml#AddPriceRules safe
+</li>
+</ul>
+            
+<h2>        Bug
+</h2>
+<ul>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-7249'>OFBIZ-7249</a>] -         Error on removing scrum members
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-8302'>OFBIZ-8302</a>] -         Sorting of lists generates undesired results
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9687'>OFBIZ-9687</a>] -         Bug in order manager main page when using Arab language
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9901'>OFBIZ-9901</a>] -         Unable to create event in SFA component
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-10302'>OFBIZ-10302</a>] -         Display/functionality  improvement in findParty of OOTB regarding classification group
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-10532'>OFBIZ-10532</a>] -         Default value flags not working for configurable and variant products at the time of order entry
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-10536'>OFBIZ-10536</a>] -         Giant Widget with variant explosion: a &quot;Select Unit of Measure&quot; dropdown box appears with no reason.
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-10669'>OFBIZ-10669</a>] -         Getting Insecure connection error while navigating from product link
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-10834'>OFBIZ-10834</a>] -         Uploading image to data resource
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11168'>OFBIZ-11168</a>] -         Issue in creating promotion action
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11582'>OFBIZ-11582</a>] -         Required fields for party content upload are not checked
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11734'>OFBIZ-11734</a>] -         View Image button on order view page fails to render the image
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11735'>OFBIZ-11735</a>] -         Product link on Order confirmation page is not responding
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11788'>OFBIZ-11788</a>] -         Edit button(s) are shown for shipments received or shipped
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11838'>OFBIZ-11838</a>] -         One page checkout is broken because of ordermgr::getAssociatedStateList
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11881'>OFBIZ-11881</a>] -         Wrong image name in css
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11906'>OFBIZ-11906</a>] -         product summary looks bad in the promotion products list
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11910'>OFBIZ-11910</a>] -         product summary cards don&#39;t have uniform height
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11920'>OFBIZ-11920</a>] -         Distorted Final Checkout Review page when Credit card is selected as Payment option
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11971'>OFBIZ-11971</a>] -         Incorrect data for InvoiceItemTypeMap and ReturnItemTypeMap
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11972'>OFBIZ-11972</a>] -         wrong quote marks
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11976'>OFBIZ-11976</a>] -         svg files not removed on clean
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11977'>OFBIZ-11977</a>] -         multiflex css is linking to wrong location
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11978'>OFBIZ-11978</a>] -         &quot;cart&quot; should be &quot;card&quot;
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11984'>OFBIZ-11984</a>] -         MessagingException in sendShipmentScheduledNotification service
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11993'>OFBIZ-11993</a>] -         display/selection of unit of measure is broken/plugins
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12014'>OFBIZ-12014</a>] -         Error while decoding url parameters with percent character
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12019'>OFBIZ-12019</a>] -         variant product selection trashes image
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12023'>OFBIZ-12023</a>] -         Label issue on List Companies page
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12026'>OFBIZ-12026</a>] -         Hyperlink title under form widget doesn&#39;t support character encoding for special characters
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12039'>OFBIZ-12039</a>] -         Flexible reports use an old noNamespaceSchemaLocation
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12044'>OFBIZ-12044</a>] -         Issue: Displaying company and product information at product backlog, subcomponent of Scrum Application
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12045'>OFBIZ-12045</a>] -         Single product tile is displayed on one row in product search
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12050'>OFBIZ-12050</a>] -         NotSerializableException using uploadPartyContentFile service
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12066'>OFBIZ-12066</a>] -         init-gradle-wrapper.sh fails to install wrapper files using wget
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12078'>OFBIZ-12078</a>] -         Remove hardcoded product category on CategoryWorker.getCatalogTopCategory
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12082'>OFBIZ-12082</a>] -         Unique form names for promo actions
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12087'>OFBIZ-12087</a>] -         Lucene TopScoreDocCollector::create wrong call the 2 in Search.groovy scripts
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12100'>OFBIZ-12100</a>] -         Gradle build of 17.12.04 crashes on Centos 8
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12101'>OFBIZ-12101</a>] -         partymgr fails to upload image
+</li>
+</ul>
+                
+<h2>        Improvement
+</h2>
+<ul>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9254'>OFBIZ-9254</a>] -         Inconsistent String Comparisons
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-9978'>OFBIZ-9978</a>] -         Upgrade jQuery 1.11.0 to jQuery 3.2.1
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11882'>OFBIZ-11882</a>] -         Rename a few map files
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11891'>OFBIZ-11891</a>] -         Hard coded label in ProductUomDropDownOnly
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11892'>OFBIZ-11892</a>] -         Add missing jGrowl map file
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11950'>OFBIZ-11950</a>] -         Add a title to Javadoc overview
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12029'>OFBIZ-12029</a>] -         Handle special characters like single quote in Freemarker template (prevent encoding)
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12067'>OFBIZ-12067</a>] -         Update IND Geo data as per 2020-11-24  notification
+</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12085'>OFBIZ-12085</a>] -          Gradle logging hygiene
+</li>
+</ul>   
 
-            <h2>Earlier Releases</h2>
-            <div class="divider"><span></span></div>
-            <p>Older superseded releases of Apache OFBiz can be found in the <a href="//archive.apache.org/dist/ofbiz/" target="external">Apache OFBiz archive</a></p>
-            <p><strong>NOTE: To avoid any security vulnerabilities the Apache OFBiz community highly recommend that all users upgrade to the latest stable release.</strong></p>
-            <p> A descriptions of each release in the history of OFBiz can be <a href="//downloads.apache.org/ofbiz/" target="external">found here</a></p>
-        </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<!-- content -->
-<!-- footer -->
+  </div>
+</div>
+</div>
+</div>
+</section>
+</section><!-- footer -->
 <footer class="footer1">
   <div class="container" id="footer">
     <div class="row">
