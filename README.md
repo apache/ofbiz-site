@@ -1,4 +1,4 @@
-##Update Site 
+##Update Site  
 If anyone is going to do any fixes - please do not just do any changes or fixes in the html page itself. 
 It needs to be done in the php template, located under template/page, or template/region. Once you are done 
 with changes please compile these file and generate html using following command ./php2html.sh
