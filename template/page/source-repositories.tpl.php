@@ -67,10 +67,10 @@
     <dl class="iconsList">
         <dt><i class="icon-pin"></i> <strong>ofbiz-framework branch release17.12 (stable)</strong><dt>
         <dd><code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-framework.git ofbiz-framework </code></dd>
-        <dd><code>$ git checkout release17.12.01</code></dd>
+        <dd><code>$ git checkout origin/release17.12</code></dd>
         <dt><i class="icon-pin"></i> <strong>ofbiz-plugins branch release17.12 (stable)</strong><dt>
         <dd><code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git plugins </code></dd>
-        <dd><code>$ git checkout release17.12.01</code></dd>
+        <dd><code>$ git checkout origin/release17.12</code></dd>
         <dt><i class="icon-pin"></i> <strong>ofbiz-framework branch release18.12 </strong></dt>
         <dd><code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-framework.git ofbiz-framework </code></dd>
         <dd><code>$ git checkout origin/release18.12</code></dd>
