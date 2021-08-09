@@ -53,7 +53,7 @@
             <div class="imgWrapper"> <img src="images/Download.jpg" alt="image fullwidth"> </div>
             <p> <strong> Use the links below to download Apache OFBiz releases from the "Apache Download Mirrors" page. The download page also includes instructions on how to verify the integrity of the release file using the signature and hash (PGP, SHA512) available for each release. If you need more information about why and how to verify the integrity of the release file <a href="http://www.apache.org/info/verification.html" class="moreLink">this &rarr; page is what you look for</a></strong> </p>
             
-            <p> <strong> Then, to install OFBiz, follow the explanations in the "INSTALL" file found in the main directory.</strong> </p>
+            <p> <strong> Then, to install OFBiz, follow the explanations in the "INSTALL" file found in the just downloaded/extracted OFBiz main directory.</strong> </p>
 
             <p> <strong>PLEASE NOTE:</strong> Despite our best efforts to maintain up to three active release branches, support for older branches can decrease because our project volunteers may be focused on other issues. We recommend using releases from the most recent branch wherever possible. </p>
             <h2>Apache OFBiz 17.12.07</h2>
