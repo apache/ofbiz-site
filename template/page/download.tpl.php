@@ -30,16 +30,16 @@
                 <div class="tab-pane active" id="tabs-1">
                   <ul>
                     <li>
-                      <h2>OFBiz 17.12.07</h2>
-                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.07.zip" target="external" class="moreLink">&rarr; Download</a>
+                      <h2>OFBiz 17.12.08</h2>
+                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.08.zip" target="external" class="moreLink">&rarr; Download</a>
                     </li>
                   </ul>
                 </div>
                 <div class="tab-pane" id="tabs-2">
                   <ul>
                     <li>
-                      <h2>OFBiz 17.12.07</h2>
-                      <a href="release-notes-17.12.07.html" class="moreLink">&rarr; View</a>
+                      <h2>OFBiz 17.12.08</h2>
+                      <a href="release-notes-17.12.08.html" class="moreLink">&rarr; View</a>
                     </li>
                   </ul>
                 </div>
@@ -56,14 +56,14 @@
             <p> <strong> Then, to install OFBiz, follow the explanations in the "INSTALL" file found in the just downloaded/extracted OFBiz main directory.</strong> </p>
 
             <p> <strong>PLEASE NOTE:</strong> Despite our best efforts to maintain up to three active release branches, support for older branches can decrease because our project volunteers may be focused on other issues. We recommend using releases from the most recent branch wherever possible. </p>
-            <h2>Apache OFBiz 17.12.07</h2>
+            <h2>Apache OFBiz 17.12.08</h2>
             <div class="divider"><span></span></div>
-            <p> Released on April 2021, this is the seventh and final release of the 17.12 series, that has been stabilized since December 2017.</p>
-            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.07.zip" target="external" >Download OFBiz 17.12.07</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.07.zip.asc" target="external">[PGP]</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.07.zip.sha512" target="external">[SHA512]</a>
+            <p> Released on August 2021, this is the eighth and final release of the 17.12 series, that has been stabilized since December 2017.</p>
+            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.08.zip" target="external" >Download OFBiz 17.12.08</a>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.08.zip.asc" target="external">[PGP]</a>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.08.zip.sha512" target="external">[SHA512]</a>
             <a href="https://downloads.apache.org/ofbiz/KEYS" target="external">[KEYS]</a>
-            <a href="release-notes-17.12.07.html">[Release Notes]</a>
+            <a href="release-notes-17.12.08.html">[Release Notes]</a>
 
             <h2>Earlier Releases</h2>
             <div class="divider"><span></span></div>
