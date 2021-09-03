@@ -75,7 +75,7 @@
       <li>[<a href="//issues.apache.org/jira/browse/OFBIZ-6683" target="external">[OFBIZ-6683]</a>] - Type-ahead regarding workeffort in AddCommEventWorkEffort throws an error</li>
       <li>[<a href="//issues.apache.org/jira/browse/OFBIZ-6687" target="external">[OFBIZ-6687]</a>] - org.ofbiz.entity.GenericModelException: Could not find definition for entity name FixedAssetMaintWorkEffort</li>
       <li>[<a href="//issues.apache.org/jira/browse/OFBIZ-6697" target="external">[OFBIZ-6697]</a>] - CommunicationServices.createAttachmentContent duplicates attachments for existing CommunicationEvents</li>
-      <li>[<a href="//issues.apache.org/jira/browse/OFBIZ-6706" target="external">[OFBIZ-6706]</a>] - The Widget-style of a menuItem in his link when the menu is selected</li>
+      <li>[<a href="//issues.apache.org/jira/browse/OFBIZ-6706" target="external">[OFBIZ-6706]</a>] - The Widget-style of a menuItem in its link when the menu is selected</li>
       <li>[<a href="//issues.apache.org/jira/browse/OFBIZ-6707" target="external">[OFBIZ-6707] </a>] - WebtoolsUiLabels went missing</li>
       <li>[<a href="//issues.apache.org/jira/browse/OFBIZ-6708" target="external">[OFBIZ-6708]</a>] -  Missing userLogin error on party profile screen when 1st content is non public</li>
       <li>[<a href="//issues.apache.org/jira/browse/OFBIZ-6725" target="external">[OFBIZ-6725]</a>] - Best Selling Products section in main order page takes into account cancelled orders</li>

@@ -233,7 +233,7 @@
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-6687'>OFBIZ-6687</a>] -  org.ofbiz.entity.GenericModelException: Could not find definition for entity name FixedAssetMaintWorkEffort </li>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-6698'>OFBIZ-6698</a>] -  sendCommEventAsEmail does not filter CommEventContentAssoc</li>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-6703'>OFBIZ-6703</a>] -  Cannot create more than one lead in the SFA component by same user</li>
-<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-6706'>OFBIZ-6706</a>] -  The Widget-style of a menuItem in his link when the menu is selected</li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-6706'>OFBIZ-6706</a>] -  The Widget-style of a menuItem in its link when the menu is selected</li>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-6707'>OFBIZ-6707</a>] -  WebtoolsUiLabels went missing</li>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-6708'>OFBIZ-6708</a>] -  Missing userLogin error on party profile screen when 1st content is non public</li>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-6725'>OFBIZ-6725</a>] -  Best Selling Products section in main order page takes into account cancelled orders</li>
