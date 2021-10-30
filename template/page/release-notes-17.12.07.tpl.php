@@ -1,4 +1,4 @@
-17.12.06<?php //Variable declarations for region templates
+<?php //Variable declarations for region templates
   $head_title = '<title>The Apache OFBiz&reg; Project - Release Notes 17.12.07</title>';
 ?>
  <!-- page content -->
