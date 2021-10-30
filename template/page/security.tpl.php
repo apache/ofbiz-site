@@ -18,13 +18,19 @@
         <div class="row">
             <h2><a id="security"></a>Security Vulnerabilities</h2>
             <div class="divider"><span></span></div>
-            <p> <strong> We strongly encourage OfBiz users to report security problems affecting OFBiz to the private security mailing lists (either security@ofbiz.apache.org or security@apache.org), before disclosing them in a public forum.</strong></p>
-            <p>Note that we no longer create CVEs for post-auth attacks done using demo credentials, notably using the admin user. <a href="https://s.apache.org/dsj2p">Rather create bugs reports in our issue tracker (Jira) for that.</a> The main reason why we no longer create CVEs for post-auth attacks done using demo credentials is because <a href="https://ci.apache.org/projects/ofbiz/site/trunk/readme/html5/README.html#security">we highly suggest to OFBiz users to not use credentials demo in production</a> and we expect OFBiz users to do so.</p>
-            <p>We also reject post-auth vulnerabilities because we have a solid CSRF defense.</p>
-            
             <p>Please see the  <a href="https://www.apache.org/security" target="external">ASF Security Team webpage</a> for further information about reporting a security vulnerability as well as their contact information. </p>
+            
+            <p><strong>We strongly encourage OfBiz users to report security problems affecting OFBiz to the private security mailing lists (either security@ofbiz.apache.org or security@apache.org), before disclosing them in a public forum.</strong></p>
+            
+            <p>Note that we no longer create CVEs for post-auth attacks done using demo credentials, notably using the admin user. 
+            <strong> <a href="https://s.apache.org/dsj2p"> Rather create bugs reports in our issue tracker (Jira) for that.</a></strong></p>
+            
+            <p>The main reason why we no longer create CVEs for post-auth attacks done using demo credentials is because 
+            <a href="https://ci.apache.org/projects/ofbiz/site/trunk/readme/html5/README.html#security"> we highly suggest to OFBiz users to not use credentials demo in production</a>
+             and we expect OFBiz users to do so.<br> We also reject post-auth vulnerabilities because we have a solid CSRF defense.</p>
+            
             <p>You might be interested by our <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external">Keeping OFBiz secure wiki page.</a></p>
- 
+            
             <h3>List of Known Vulnerabilities</h3>
             <ul class="iconsList">
                 <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37608" target="external">CVE-2021-37608</a>; affected all releases before 17.12.08; fixed in 17.12.08 with commit <a href="https://github.com/apache/ofbiz-framework/commit/8d49af4/" target="external">8d49af4</a>
