@@ -30,8 +30,8 @@
                 <div class="tab-pane active" id="tabs-1">
                   <ul>
                     <li>
-                      <h2>OFBiz 18.12.01</h2>
-                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.01.zip" target="external" class="moreLink">&rarr; Download</a>
+                      <h2>OFBiz 18.12.02</h2>
+                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.02.zip" target="external" class="moreLink">&rarr; Download</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.08</h2>
@@ -42,8 +42,8 @@
                 <div class="tab-pane" id="tabs-2">
                   <ul>
                     <li>
-                      <h2>OFBiz 18.12.01</h2>
-                      <a href="release-notes-18.12.01.html" class="moreLink">&rarr; View</a>
+                      <h2>OFBiz 18.12.02</h2>
+                      <a href="release-notes-18.12.02.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.08</h2>
@@ -64,14 +64,14 @@
             <p> <strong> Then, to install OFBiz, follow the explanations in the "INSTALL" file found in the just downloaded/extracted OFBiz main directory.</strong> </p>
 
             <p> <strong>PLEASE NOTE:</strong> Despite our best efforts to maintain up to three active release branches, support for older branches can decrease because our project volunteers may be focused on other issues. We recommend using releases from the most recent branch wherever possible. </p>
-            <h2>Apache OFBiz 18.12.01</h2>
+            <h2>Apache OFBiz 18.12.02</h2>
             <div class="divider"><span></span></div>
-            <p> Released on October 2021, this is the first release of the 18.12 series, that has been stabilized since December 2018.</p>
-            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.01.zip" target="external" >Download OFBiz 18.12.01</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.01.zip.asc" target="external">[PGP]</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.01.zip.sha512" target="external">[SHA512]</a>
+            <p> Released on November 2021, this is the first release of the 18.12 series, that has been stabilized since December 2018.</p>
+            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.02.zip" target="external" >Download OFBiz 18.12.02</a>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.02.zip.asc" target="external">[PGP]</a>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.02.zip.sha512" target="external">[SHA512]</a>
             <a href="https://downloads.apache.org/ofbiz/KEYS" target="external">[KEYS]</a>
-            <a href="release-notes-18.12.01.html">[Release Notes]</a>
+            <a href="release-notes-18.12.02.html">[Release Notes]</a>
 
             <h2>Apache OFBiz 17.12.08</h2>
             <div class="divider"><span></span></div>
