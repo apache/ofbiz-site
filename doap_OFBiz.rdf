@@ -56,6 +56,13 @@
     </maintainer>
     <release>
         <Version>
+            <name>Apache OFBiz R18.12</name>
+            <created>2021-12-12</created>
+            <revision>18.12.03</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
             <name>Apache OFBiz R17.12</name>
             <created>2021-08-18</created>
             <revision>17.12.08</revision>
