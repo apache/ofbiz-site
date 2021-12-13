@@ -70,7 +70,7 @@
             <p> <strong>PLEASE NOTE:</strong> Despite our best efforts to maintain up to three active release branches, support for older branches can decrease because our project volunteers may be focused on other issues. We recommend using releases from the most recent branch wherever possible. </p>
             <h2>Apache OFBiz 18.12.03</h2>
             <div class="divider"><span></span></div>
-            <p> Released on October 2021, this is the first release of the 18.12 series, that has been stabilized since December 2018.</p>
+            <p> Released on December 2021, this is the third release of the 18.12 series, that has been stabilized since December 2018.</p>
             <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.03.zip" target="external" >Download OFBiz 18.12.01</a>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.03.zip.asc" target="external">[PGP]</a>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.03.zip.sha512" target="external">[SHA512]</a>
