@@ -33,7 +33,7 @@
                 <h2>Pre-Requisites</h2>
                 <div class="divider"><span></span></div>
      <ul class="iconsList">
-      <li><i class="icon-pin"></i> For 17.12, the ofbiz-framework trunk and ofbiz-plugins trunk the minimum requirement you need installed is Java 1.8 SDK.</li>
+      <li><i class="icon-pin"></i> For 18.12, the ofbiz-framework trunk and ofbiz-plugins trunk the minimum requirement you need installed is Java 1.8 SDK.</li>
       <li><i class="icon-pin"></i> Apache OFBiz can be downloaded and run on both Unix based and Windows based systems</li>
     </ul>
                  <p><strong>NOTE:</strong> If you are running an older release or branch then please refer to <a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="external" >our Wiki</a> for details</p>
@@ -54,19 +54,21 @@
     <ul class="iconsList">
       <li><i class="icon-pin"></i> <strong>ofbiz-framework trunk</strong> : <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-framework.git ofbiz-framework </code></li>
       <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git plugins </code></li>
-      <li><i class="icon-pin"></i> <strong>branch release17.12 (stable)</strong>: <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-framework.git ofbiz-framework</code></li>
-      <li><code>$ git checkout release17.12.01 </code></li>
-      <li><i class="icon-pin"></i> <strong>branch release17.12 (stable)</strong>: <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git ofbiz-plugins</code></li>
-      <li><code>$ git checkout release17.12.01 </code></li>
+      <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-framework.git ofbiz-framework</code></li>
+      <li>You may need to update the tags before: <code>git fetch --all --tags</code></li>
+      <li><code>$ git checkout release18.12.03 </code></li>
+      <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git ofbiz-plugins</code></li>
+      <li><code>$ git checkout release18.12.03 </code></li>
     </ul>
 <p>Or from GitHub:</p>
 <ul class="iconsList">
   <li><i class="icon-pin"></i> <strong>ofbiz-framework trunk</strong> : <code>$ git clone https://github.com/apache/ofbiz-framework.git ofbiz-framework </code></li>
   <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ git clone https://github.com/apache/ofbiz-plugins.git plugins </code></li>
-  <li><i class="icon-pin"></i> <strong>branch release17.12 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-framework.git ofbiz-framework</code></li>
-  <li><code>$ git checkout release17.12.01 </code></li>
-  <li><i class="icon-pin"></i> <strong>branch release17.12 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-plugins.git ofbiz-plugins</code></li>
-  <li><code>$ git checkout release17.12.01 </code></li>
+  <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-framework.git ofbiz-framework</code></li>
+  <li>You may need to update the tags before: <code>git fetch --all --tags</code></li>
+  <li><code>$ git checkout release18.12.03 </code></li>
+  <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-plugins.git ofbiz-plugins</code></li>
+  <li><code>$ git checkout release18.12.03 </code></li>
 </ul>
 
     </div>
@@ -76,8 +78,8 @@
                 <h2>Build and Run</h2>
                 <div class="divider"><span></span></div>
                 <p>Once you have downloaded the source code it will need to be built. The command to built.</p>
-    <h3>Building Release 17.12</h3>
-    <p>To build 17.12 release, navigate to the OFBiz or framework-trunk directory and;</p>
+    <h3>Building Release 18.12</h3>
+    <p>To build 18.12 release, navigate to the OFBiz or framework-trunk directory and;</p>
     <p>Run the following command for Unix-like OS</p>
     <code>./gradlew cleanAll loadDefault</code><p></p>
     <p>Run the following command for MS Windows</p>
@@ -90,7 +92,7 @@
     <p>Run the following command for MS Windows</p>
     <code>gradlew cleanAll loadAll</code>
     <p></p>
-    <h3>Starting and Running 17.12 or the ofbiz-framework trunk</h3>
+    <h3>Starting and Running 18.12 or the ofbiz-framework trunk</h3>
     <p>To start OFBiz running locally, navigate to the trunk directory and;</p>
     <p>Run the following command for Unix-like OS</p>
     <code>./gradlew ofbiz</code><p></p>
