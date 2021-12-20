@@ -56,9 +56,9 @@
       <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git plugins </code></li>
       <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-framework.git ofbiz-framework</code></li>
       <li>You may need to update the tags before: <code>git fetch --all --tags</code></li>
-      <li><code>$ git checkout release18.12.03 </code></li>
+      <li><code>$ git checkout release18.12.04 </code></li>
       <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git ofbiz-plugins</code></li>
-      <li><code>$ git checkout release18.12.03 </code></li>
+      <li><code>$ git checkout release18.12.04 </code></li>
     </ul>
 <p>Or from GitHub:</p>
 <ul class="iconsList">
@@ -66,9 +66,9 @@
   <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ git clone https://github.com/apache/ofbiz-plugins.git plugins </code></li>
   <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-framework.git ofbiz-framework</code></li>
   <li>You may need to update the tags before: <code>git fetch --all --tags</code></li>
-  <li><code>$ git checkout release18.12.03 </code></li>
+  <li><code>$ git checkout release18.12.04 </code></li>
   <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-plugins.git ofbiz-plugins</code></li>
-  <li><code>$ git checkout release18.12.03 </code></li>
+  <li><code>$ git checkout release18.12.04 </code></li>
 </ul>
 
     </div>
