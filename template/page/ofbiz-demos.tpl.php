@@ -18,17 +18,16 @@
         <div class="row ">
           <aside class="span2 PortfolioStickyMenu" id="sidebar">
             <ul  id="subnav" class="nav nav-stacked sidenav scrollspyNav">
-              <li> <a href="#OFDemoAbout">About our Demos</li>
-              	<a class="image" href="https://qpkb254zxeu.montastic.io"><img src="https://qpkb254zxeu.montastic.io/badge" alt="badge"></a>              	
-           		<li> <a href="#OFDemoCurrent"> Release 17.12 </a> </li>
-              	<li> <a href="#OFDemoTrunk"> Trunk</a> </li>
-         		<li> <a href="#OFDemoPrevious"> Release 16.11 </a> </li>
+              <h2><strike>About our Demos</strike>  Our demos are currently disabled for security reason</h2>
+                <li> <a href="#OFDemoCurrent"> Release 18.12 </a> </li>
+                <li> <a href="#OFDemoTrunk"> Trunk</a> </li>
+                <li> <a href="#OFDemoPrevious"> Release 17.11 </a> </li>
           </ul>
           </aside>
           <div class="span10">
             <section  id="OFDemoAbout" class="slice row clearfix">
               <div class="span10">
-                <h2>About our Demos</h2>
+                <h2><strike>About our Demos</strike>  Our demos are currently disabled for security reason</h2>
                 <div class="divider"><span></span></div>
     <p>We have several online OFBiz demos that you can try out. Each demo is split into two areas:
 <ul class="iconsList">
@@ -46,7 +45,7 @@
 
       <section  id="OFDemoCurrent" class="slice row clearfix">
               <div class="span10">
-                <h2>Current Stable Release 17.12 - Demo</h2>
+                <h2>Current Stable Release 18.12 - Demo</h2>
                 <div class="divider"><span></span></div>
 
     <p><i class="icon-pin"></i><a href="//demo-stable.ofbiz.apache.org/ordermgr/control/main?USERNAME=admin&PASSWORD=ofbiz&JavaScriptEnabled=Y" target="external"><strong>Backend Management (ERP) Applications</strong></a> </p>
@@ -69,7 +68,7 @@
 
      <section  id="OFDemoPrevious" class="slice row clearfix">
               <div class="span10">
-                <h2>Previous Stable Release 16.11 - Demo</h2>
+                <h2>Previous Stable Release 17.11 - Demo</h2>
                 <div class="divider"><span></span></div>
                 <p>This demo is for the previous OFBiz release. </p>
 
