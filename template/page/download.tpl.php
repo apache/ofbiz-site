@@ -87,7 +87,7 @@
 
             <h2>Apache OFBiz 17.12.08</h2>
             <div class="divider"><span></span></div>
-            <p> Released on August 2021, this is the eighth and final release of the 17.12 series, that has been stabilized since December 2017. That means that the release17.12 branch has reached its End Of Life (EOL) and is no longer supported from a security perspective</p>
+            <p> Released on August 2021, this is the eighth and final release of the 17.12 series, that has been stabilized since December 2017. That means that the release17.12 branch has reached its End Of Life (EOL) and is no longer supported from a security perspective.</p>
             <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.08.zip" target="external" >Download OFBiz 17.12.08</a>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.08.zip.asc" target="external">[PGP]</a>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.08.zip.sha512" target="external">[SHA512]</a>
