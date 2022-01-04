@@ -33,6 +33,7 @@
             
             <h3>List of Known Vulnerabilities</h3>
             <ul class="iconsList">
+                <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44832" target="external">CVE-2021-44832</a>; affected all releases before 18.12.05; fixed in 18.12.05 with commit <a href="https://github.com/apache/ofbiz-framework/commit/5b6e427" target="external">5b6e427</a>
                 <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-45105" target="external">CVE-2021-45105</a>; affected all releases before 18.12.04; fixed in 18.12.04 with commit <a href="https://github.com/apache/ofbiz-framework/commit/4442c2a" target="external">4442c2a</a>
                 <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228" target="external">CVE-2021-44228</a>; affected all releases before 18.12.03; fixed in 18.12.03 with commit <a href="https://github.com/apache/ofbiz-framework/commit/bccf140" target="external">bccf140</a>
                 <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37608" target="external">CVE-2021-37608</a>; affected all releases before 17.12.08; fixed in 17.12.08 with commit <a href="https://github.com/apache/ofbiz-framework/commit/8d49af4/" target="external">8d49af4</a>
