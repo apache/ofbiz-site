@@ -61,6 +61,78 @@
                       <h2>OFBiz 17.12.08</h2>
                       <a href="release-notes-17.12.08.html" class="moreLink">&rarr; View</a>
                     </li>
+                    <li>
+                      <h2>OFBiz 17.12.07</h2>
+                      <a href="release-notes-17.12.07.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 17.12.06</h2>
+                      <a href="release-notes-17.12.06.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 17.12.05</h2>
+                      <a href="release-notes-17.12.05.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 17.12.04</h2>
+                      <a href="release-notes-17.12.04.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 17.12.03</h2>
+                      <a href="release-notes-17.12.03.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 17.12.02</h2>
+                      <a href="release-notes-17.12.02.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 17.12.01</h2>
+                      <a href="release-notes-17.12.01.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 16.11.07</h2>
+                      <a href="release-notes-16.11.07.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 16.11.06</h2>
+                      <a href="release-notes-16.11.06.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 16.11.05</h2>
+                      <a href="release-notes-16.11.05.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 16.11.04</h2>
+                      <a href="release-notes-16.11.04.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 16.11.03</h2>
+                      <a href="release-notes-16.11.03.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 16.11.02</h2>
+                      <a href="release-notes-16.11.02.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 16.11.01</h2>
+                      <a href="release-notes-16.11.01.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 13.07.03</h2>
+                      <a href="release-notes-13.07.03.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 13.07.02</h2>
+                      <a href="release-notes-13.07.02.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 13.07.01</h2>
+                      <a href="release-notes-13.07.01.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 12.04.06</h2>
+                      <a href="release-notes-12.04.06.html" class="moreLink">&rarr; View</a>
+                    </li>
                   </ul>
                 </div>
               </div>
