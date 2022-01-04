@@ -30,17 +30,17 @@
                 <div class="tab-pane active" id="tabs-1">
                   <ul>
                     <li>
-                      <h2>OFBiz 18.12.04</h2>
-                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.04.zip" target="external" class="moreLink">&rarr; Download</a>
-                    </li>
-                    <li>
-                      <h2>OFBiz 17.12.08</h2>
-                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.08.zip" target="external" class="moreLink">&rarr; Download</a>
+                      <h2>OFBiz 18.12.05</h2>
+                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.05.zip" target="external" class="moreLink">&rarr; Download</a>
                     </li>
                   </ul>
                 </div>
                 <div class="tab-pane" id="tabs-2">
                   <ul>
+                    <li>
+                      <h2>OFBiz 18.12.05</h2>
+                      <a href="release-notes-18.12.05.html" class="moreLink">&rarr; View</a>
+                    </li>
                     <li>
                       <h2>OFBiz 18.12.04</h2>
                       <a href="release-notes-18.12.04.html" class="moreLink">&rarr; View</a>
@@ -61,6 +61,78 @@
                       <h2>OFBiz 17.12.08</h2>
                       <a href="release-notes-17.12.08.html" class="moreLink">&rarr; View</a>
                     </li>
+                    <li>
+                      <h2>OFBiz 17.12.07</h2>
+                      <a href="release-notes-17.12.07.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 17.12.06</h2>
+                      <a href="release-notes-17.12.06.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 17.12.05</h2>
+                      <a href="release-notes-17.12.05.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 17.12.04</h2>
+                      <a href="release-notes-17.12.04.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 17.12.03</h2>
+                      <a href="release-notes-17.12.03.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 17.12.02</h2>
+                      <a href="release-notes-17.12.02.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 17.12.01</h2>
+                      <a href="release-notes-17.12.01.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 16.11.07</h2>
+                      <a href="release-notes-16.11.07.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 16.11.06</h2>
+                      <a href="release-notes-16.11.06.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 16.11.05</h2>
+                      <a href="release-notes-16.11.05.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 16.11.04</h2>
+                      <a href="release-notes-16.11.04.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 16.11.03</h2>
+                      <a href="release-notes-16.11.03.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 16.11.02</h2>
+                      <a href="release-notes-16.11.02.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 16.11.01</h2>
+                      <a href="release-notes-16.11.01.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 13.07.03</h2>
+                      <a href="release-notes-13.07.03.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 13.07.02</h2>
+                      <a href="release-notes-13.07.02.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 13.07.01</h2>
+                      <a href="release-notes-13.07.01.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
+                      <h2>OFBiz 12.04.06</h2>
+                      <a href="release-notes-12.04.06.html" class="moreLink">&rarr; View</a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -76,29 +148,24 @@
             <p> <strong> Then, to install OFBiz, follow the explanations in the "INSTALL" file found in the just downloaded/extracted OFBiz main directory.</strong> </p>
 
             <p> <strong>PLEASE NOTE:</strong> Despite our best efforts to maintain up to three active release branches, support for older branches can decrease because our project volunteers may be focused on other issues. We recommend using releases from the most recent branch wherever possible. </p>
-            <h2>Apache OFBiz 18.12.04</h2>
-            <div class="divider"><span></span></div>
-            <p> Released on December 2021, this is the fourth release of the 18.12 series, that has been stabilized since December 2018.</p>
-            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.04.zip" target="external" >Download OFBiz 18.12.04</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.04.zip.asc" target="external">[PGP]</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.04.zip.sha512" target="external">[SHA512]</a>
-            <a href="https://downloads.apache.org/ofbiz/KEYS" target="external">[KEYS]</a>
-            <a href="release-notes-18.12.04.html">[Release Notes]</a>
 
-            <h2>Apache OFBiz 17.12.08</h2>
+            <p><strong>NOTE: To minimize the risk of security vulnerabilities the Apache OFBiz community highly recommends that all users upgrade to the latest stable release.</strong></p>
+            <p>The history of security related fixes included in each release is
+available <a href="security.html">here</a></p>
+
+            <h2>Apache OFBiz 18.12.05</h2>
             <div class="divider"><span></span></div>
-            <p> Released on August 2021, this is the eighth and final release of the 17.12 series, that has been stabilized since December 2017. That means that the release17.12 branch has reached its End Of Life (EOL) and is no longer supported from a security perspective.</p>
-            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-17.12.08.zip" target="external" >Download OFBiz 17.12.08</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.08.zip.asc" target="external">[PGP]</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-17.12.08.zip.sha512" target="external">[SHA512]</a>
+            <p> Released on January 2022, this is the fifth release of the 18.12 series, that has been stabilized since December 2018.</p>
+            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.05.zip" target="external" >Download OFBiz 18.12.05</a>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.05.zip.asc" target="external">[PGP]</a>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.05.zip.sha512" target="external">[SHA512]</a>
             <a href="https://downloads.apache.org/ofbiz/KEYS" target="external">[KEYS]</a>
-            <a href="release-notes-17.12.08.html">[Release Notes]</a>
+            <a href="release-notes-18.12.05.html">[Release Notes]</a>
 
             <h2>Earlier Releases</h2>
             <div class="divider"><span></span></div>
             <p>Older superseded releases of Apache OFBiz can be found in the <a href="//archive.apache.org/dist/ofbiz/" target="external">Apache OFBiz archive</a></p>
-            <p><strong>NOTE: To avoid any security vulnerabilities the Apache OFBiz community highly recommend that all users upgrade to the latest stable release.</strong></p>
-            <p> A descriptions of each release in the history of OFBiz can be <a href="//downloads.apache.org/ofbiz/" target="external">found here</a></p>
+            <p>A description of each release in the history of OFBiz can be <a href="//downloads.apache.org/ofbiz/" target="external">found here</a></p>
         </div>
         </div>
       </div>
