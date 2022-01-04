@@ -169,8 +169,10 @@
             <h2>Earlier Releases</h2>
             <div class="divider"><span></span></div>
             <p>Older superseded releases of Apache OFBiz can be found in the <a href="//archive.apache.org/dist/ofbiz/" target="external">Apache OFBiz archive</a></p>
-            <p><strong>NOTE: To avoid any security vulnerabilities the Apache OFBiz community highly recommend that all users upgrade to the latest stable release.</strong></p>
-            <p> A descriptions of each release in the history of OFBiz can be <a href="//downloads.apache.org/ofbiz/" target="external">found here</a></p>
+            <p><strong>NOTE: To minimize the risk of security vulnerabilities the Apache OFBiz community highly recommends that all users upgrade to the latest stable release.</strong></p>
+            <p>The history of security related fixes included in each release is
+available <a href="security.html">here</a></p>
+            <p>A description of each release in the history of OFBiz can be <a href="//downloads.apache.org/ofbiz/" target="external">found here</a></p>
         </div>
         </div>
       </div>
