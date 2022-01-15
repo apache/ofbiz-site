@@ -58,6 +58,10 @@
                       <a href="release-notes-18.12.01.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
+                      <h2>OFBiz 17.12.09</h2>
+                      <a href="release-notes-17.12.09.html" class="moreLink">&rarr; View</a>
+                    </li>
+                    <li>
                       <h2>OFBiz 17.12.08</h2>
                       <a href="release-notes-17.12.08.html" class="moreLink">&rarr; View</a>
                     </li>
