@@ -43,8 +43,7 @@
     <download-page rdf:resource="http://ofbiz.apache.org/download.html" />
     <repository>
       <GitRepository>
-        <location rdf:resource="https://gitbox.apache.org/repos/asf/ofbiz-framework.git"/>
-        <location rdf:resource="https://gitbox.apache.org/repos/asf/ofbiz-plugins.git"/>
+        <location rdf:resource="http://ofbiz.apache.org/source-repositories.html"/>
         <browse rdf:resource="http://ofbiz.apache.org/source-repositories.html"/>
       </GitRepository>
     </repository>
