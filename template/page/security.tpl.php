@@ -25,9 +25,11 @@
             <p>Note that we no longer create CVEs for post-auth attacks done using demo credentials, notably using the admin user. 
             <strong> <a href="https://s.apache.org/dsj2p"> Rather create bugs reports in our issue tracker (Jira) for that.</a></strong></p>
             
-            <p>The main reason we no longer create CVEs for post-auth attacks done using demo credentials is because 
-            <a href="https://ci.apache.org/projects/ofbiz/site/trunk/readme/html5/README.html#security"> we highly suggest to OFBiz users to not use credentials demo in production</a>
-             and we expect OFBiz users to do so. We also reject post-auth vulnerabilities because we have a solid CSRF defense.</p>
+            <p>One of the reasosn we no longer create CVEs for post-auth attacks done using demo credentials is because 
+            <a href="https://nightlies.apache.org/ofbiz/trunk/readme/html5/#security"> we highly suggest to OFBiz users to not use credentials demo in production</a>
+             and we expect OFBiz users to do so.</br>
+            <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure#KeepingOFBizsecure-Tomcat9&AJP"> We also warn our users on this wiki page.</br>             
+            And finally, mostly we reject post-auth vulnerabilities because we have a solid CSRF defense.</p>
             
             <p>You might be interested by our <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external">Keeping OFBiz secure wiki page.</a></p>
             
