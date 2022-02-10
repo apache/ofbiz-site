@@ -136,14 +136,12 @@
             <p>Note that we no longer create CVEs for post-auth attacks done using demo credentials, notably using the admin user. 
             <strong> <a href="https://s.apache.org/dsj2p"> Rather create bugs reports in our issue tracker (Jira) for that.</a></strong></p>
             
-            <p>One of the reasosn we no longer create CVEs for post-auth attacks done using demo credentials is because 
-            <a href="https://nightlies.apache.org/ofbiz/trunk/readme/html5/#security"> we highly suggest to OFBiz users to not use credentials demo in production</a>
-             and we expect OFBiz users to do so.</br>
-            <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure#KeepingOFBizsecure-Tomcat9&AJP"> We also warn our users on this wiki page.</br>             
+            <p>One of the reason we no longer create CVEs for post-auth attacks done using demo credentials is because 
+            <a href="https://nightlies.apache.org/ofbiz/trunk/readme/html5/#security" target="external"> we highly suggest to OFBiz users to not use credentials demo in production</a>
+             and we expect OFBiz users to do so.
+            <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external"> We also warn our users on the "Keeping OFBiz secure wiki page".</a>             
             And finally, mostly we reject post-auth vulnerabilities because we have a solid CSRF defense.</p>
-            
-            <p>You might be interested by our <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external">Keeping OFBiz secure wiki page.</a></p>
-            
+                        
             <h3>List of Known Vulnerabilities</h3>
             <ul class="iconsList">
                 <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44832" target="external">CVE-2021-44832</a>; affected all releases before 17.12.09 and 18.12.05; fixed in 17.12.09 and 18.12.05 with commits <a href="https://github.com/apache/ofbiz-framework/commit/00896e7" target="external">00896e7</a>, <a href="https://github.com/apache/ofbiz-plugins/commit/c69bc8f" target="external">c69bc8f</a>, <a href="https://github.com/apache/ofbiz-framework/commit/5b6e427" target="external">5b6e427</a>
