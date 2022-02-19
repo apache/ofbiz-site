@@ -166,6 +166,18 @@ available <a href="security.html">here</a></p>
             <a href="https://downloads.apache.org/ofbiz/KEYS" target="external">[KEYS]</a>
             <a href="release-notes-18.12.05.html">[Release Notes]</a>
 
+            <p><strong>We strongly encourage OfBiz users to report security problems affecting OFBiz to the private security mailing lists (either security@ofbiz.apache.org or security@apache.org), before disclosing them in a public forum.</strong></p>
+            
+            <p>Note that we no longer create CVEs for post-auth attacks done using demo credentials, notably using the admin user. 
+            <strong> <a href="https://s.apache.org/dsj2p"> Rather create bugs reports in our issue tracker (Jira) for that.</a></strong></p>
+            
+            <p>One of the reason we no longer create CVEs for post-auth attacks done using demo credentials is because 
+            <a href="https://nightlies.apache.org/ofbiz/trunk/readme/html5/#security" target="external"> we highly suggest to OFBiz users to not use credentials demo in production</a>
+             and we expect OFBiz users to do so.
+            <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external"> We also warn our users on the "Keeping OFBiz secure wiki page".</a>             
+            And finally, mostly we reject post-auth vulnerabilities because we have a solid CSRF defense.</p>
+            
+
             <h2>Earlier Releases</h2>
             <div class="divider"><span></span></div>
             <p>Older superseded releases of Apache OFBiz can be found in the <a href="//archive.apache.org/dist/ofbiz/" target="external">Apache OFBiz archive</a></p>
