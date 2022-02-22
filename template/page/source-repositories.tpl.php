@@ -65,18 +65,18 @@
     </dl>
     <h2>Releases</h2>
     <dl class="iconsList">
-        <dt><i class="icon-pin"></i> <strong>ofbiz-framework branch release17.12 (stable)</strong><dt>
-        <dd><code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-framework.git ofbiz-framework </code></dd>
-        <dd><code>$ git checkout origin/release17.12</code></dd>
-        <dt><i class="icon-pin"></i> <strong>ofbiz-plugins branch release17.12 (stable)</strong><dt>
-        <dd><code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git plugins </code></dd>
-        <dd><code>$ git checkout origin/release17.12</code></dd>
-        <dt><i class="icon-pin"></i> <strong>ofbiz-framework branch release18.12 </strong></dt>
+        <dt><i class="icon-pin"></i> <strong>ofbiz-framework branch release18.12 (stable)</strong><dt>
         <dd><code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-framework.git ofbiz-framework </code></dd>
         <dd><code>$ git checkout origin/release18.12</code></dd>
-        <dt><i class="icon-pin"></i> <strong>ofbiz-plugins branch release18.12 </strong><dt>
+        <dt><i class="icon-pin"></i> <strong>ofbiz-plugins branch release18.12 (stable)</strong><dt>
         <dd><code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git plugins </code></dd>
-        <dd><code>$ git checkout origin/release18.12 </code></dd>
+        <dd><code>$ git checkout origin/release18.12</code></dd>
+        <dt><i class="icon-pin"></i> <strong>ofbiz-framework branch release22.01 </strong></dt>
+        <dd><code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-framework.git ofbiz-framework </code></dd>
+        <dd><code>$ git checkout origin/release22.01</code></dd>
+        <dt><i class="icon-pin"></i> <strong>ofbiz-plugins branch release22.01 </strong><dt>
+        <dd><code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git plugins </code></dd>
+        <dd><code>$ git checkout origin/release22.01 </code></dd>
     </dl>
     <h2>Tools</h2>
     <dl class="iconsList">
@@ -95,10 +95,10 @@
               <div class="span10">
                 <h2>Committer Access</h2>
                 <div class="divider"><span></span></div>
-		    <p>Committer access requires a special account which is provided by the OFBiz adminstrators. If you have a Committer account you can access the repository through HTTPS. When checking in, you will be prompted your userID and password</p>
-		    <p>When you first connect you will be prompted to accept the SSL certificate. Verify the certificate. .</p>
-		    <p>Git handles keyword expansion, EOL conversion as well as many other features. These features are configured at the server level, so you don't have to worry about them </p>   
-              </div> 
+                  <p>Committer access requires a special account which is provided by the OFBiz adminstrators. If you have a Committer account you can access the repository through HTTPS. When checking in, you will be prompted your userID and password</p>
+                  <p>When you first connect you will be prompted to accept the SSL certificate. Verify the certificate. .</p>
+                  <p>Git handles keyword expansion, EOL conversion as well as many other features. These features are configured at the server level, so you don't have to worry about them </p>
+              </div>
             </section>
 
           </div>
@@ -108,4 +108,4 @@
    </section>
  </section>
   <!-- page content -->
- 
+
