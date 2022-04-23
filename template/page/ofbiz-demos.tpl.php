@@ -1,7 +1,7 @@
 <?php //Variable declarations for region templates
   $head_title = '<title>The Apache OFBiz&reg; Project - Demos</title>';
 ?>
-   
+
   <!-- page content -->
  <section id="content" class="fullWidth">
     <header class="headerPage">
@@ -19,7 +19,7 @@
           <aside class="span2 PortfolioStickyMenu" id="sidebar">
             <ul  id="subnav" class="nav nav-stacked sidenav scrollspyNav">
               <!-- h2><strike>About our Demos</strike>  Our demos are currently disabled for security reason</h2-->
-              <h2>About our Demos</h2>
+              <h2>About our Demos <a href="https://qpkb254zxeu.montastic.io" target="_blank"><img src="https://qpkb254zxeu.montastic.io/badge" alt="Montastic status badge"></a></h2>
                 <li> <a href="#OFDemoCurrent"> Release 18.12 </a> </li>
                 <li> <a href="#OFDemoTrunk"> Trunk</a> </li>
                 <li> <a href="#OFDemoNext"> Release 22.01 </a> </li>
@@ -43,7 +43,7 @@
 
 <blockquote><strong>NOTE:</strong> The default user login is <strong>"admin"</strong> and password <strong> "ofbiz"</strong>. All demo user logins such as DemoCustomer, DemoSupplier, DemoEmployee etc have the default password <strong> "ofbiz"</strong></blockquote>
     </div>
-            </section> 
+            </section>
 
       <section  id="OFDemoCurrent" class="slice row clearfix">
               <div class="span10">
@@ -53,7 +53,7 @@
     <p><i class="icon-pin"></i><a href="//demo-stable.ofbiz.apache.org/ordermgr/control/main?USERNAME=admin&PASSWORD=ofbiz&JavaScriptEnabled=Y" target="external"><strong>Backend Management (ERP) Applications</strong></a> </p>
     <p><i class="icon-pin"></i><a href="//demo-stable.ofbiz.apache.org/ecommerce/control/main" target="external"><strong>Front End E-Commerce Webstore</strong></a> </p>
 
-              </div> 
+              </div>
             </section>
 
        <section  id="OFDemoTrunk" class="slice row clearfix">
@@ -87,4 +87,4 @@
    </section>
  </section>
   <!-- page content -->
- 
+
