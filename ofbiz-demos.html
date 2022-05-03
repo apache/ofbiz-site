@@ -82,7 +82,7 @@
             </li>
             <li><a href="#" class="firstLevel">Community</a>
               <ul>
-                <li><a href="getting-involved.html">Getting Involved</a></li>
+                <li><a href="getting-involved.html">Getting Involved</a></li>                
                 <li><a href="mailing-lists.html">Mailing Lists</a></li>
                 <li><a href="source-repositories.html">Source Repository</a></li>
                 <li><a href="download.html">Downloads</a></li>
@@ -91,18 +91,18 @@
               </ul>
             </li>
             <li><a href="ofbiz-demos.html" class="firstLevel active">Demos</a></li>
-          <li>
-            <a href="//twitter.com/ApacheOfbiz" class="icon-twitter-bird socialIcon tips"
-              target="external" title="follow us on Twitter"><span>twitter</span></a>
-          </li>
-          <li><a href="//www.linkedin.com/company/apache-ofbiz/" target="external"  class="icon-linkedin socialIcon tips"  title="follow us on Linkedin"><span>linkedin</span></a></li>
-          <li><a href="//www.facebook.com/Apache-OFBiz-1478219232210477/?ref=page_internal" target="external" class="icon-facebook socialIcon tips"  title="follow us on Facebook"><span>facebook</span></a></li>
-          <li><a href="//www.youtube.com/user/ofbiz" class="icon-play socialIcon tips" target="external" title="follow us on Youtube"><span>Youtube</span></a></li>
-          <!--<li><a href="#" class="icon-rss socialIcon tips"  title="Our rss feed"><span>rss feed</span></a></li>
-          <li><a href="#" class="icon-gplus socialIcon tips"  title="follow us on Google +"><span>google +</span></a></li>
-          <li><a href="#" class="icon-instagram socialIcon tips"  title="follow us on Instagram"><span>instagram</span></a></li>
-          <li><a href="#" class="icon-linkedin socialIcon tips"  title="follow us on Linkedin"><span>linkedin</span></a></li>
-          <li><a href="#" class="icon-pinterest-circled socialIcon tips"  title="follow us on Pinterest"><span>Pinterest</span></a></li>-->
+		  <li>
+		    <a href="//twitter.com/ApacheOfbiz" class="icon-twitter-bird socialIcon tips"
+		      target="external" title="follow us on Twitter"><span>twitter</span></a>
+		  </li>
+		  <li><a href="//www.linkedin.com/company/apache-ofbiz/" target="external"  class="icon-linkedin socialIcon tips"  title="follow us on Linkedin"><span>linkedin</span></a></li>
+		  <li><a href="//www.facebook.com/Apache-OFBiz-1478219232210477/?ref=page_internal" target="external" class="icon-facebook socialIcon tips"  title="follow us on Facebook"><span>facebook</span></a></li>
+		  <li><a href="//www.youtube.com/user/ofbiz" class="icon-play socialIcon tips" target="external" title="follow us on Youtube"><span>Youtube</span></a></li>
+		  <!--<li><a href="#" class="icon-rss socialIcon tips"  title="Our rss feed"><span>rss feed</span></a></li>         
+		  <li><a href="#" class="icon-gplus socialIcon tips"  title="follow us on Google +"><span>google +</span></a></li>
+		  <li><a href="#" class="icon-instagram socialIcon tips"  title="follow us on Instagram"><span>instagram</span></a></li>
+		  <li><a href="#" class="icon-linkedin socialIcon tips"  title="follow us on Linkedin"><span>linkedin</span></a></li>
+		  <li><a href="#" class="icon-pinterest-circled socialIcon tips"  title="follow us on Pinterest"><span>Pinterest</span></a></li>-->
           </ul>
         </nav>
       </div>
@@ -250,9 +250,10 @@
         <div class="divider"><span></span></div>
         <ul>
           <li><a href="https://www.apache.org/foundation/" target="external">Apache Software Foundation</a></li>
+          <li><a href="https://privacy.apache.org/policies/privacy-policy-public.html" target="external">Privacy Policy</a></li>
           <li><a href="https://www.apache.org/events/current-event" target="external">Events</a></li>
           <li><a href="https://www.apache.org/foundation/sponsorship.html" target="external">Sponsorship</a>
-                and <a href="https://www.apache.org/foundation/contributing.html" target="external">Donations</a>
+          		and <a href="https://www.apache.org/foundation/contributing.html" target="external">Donations</a>
           </li>
           <li><a href="https://www.apache.org/foundation/thanks.html" target="external">Thanks</a></li>
           <li><a href="https://ofbiz.apache.org/security.html">Security</a></li>
@@ -293,16 +294,23 @@
 <script type="text/javascript" src="js/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 <!-- Custom  -->
 <script type="text/javascript" src="js/custom.js"></script>
+<!-- Matomo -->
 <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', UA]);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before
+"trackPageView" */
+  /* We explicitly disable cookie tracking to avoid privacy issues */
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '21']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
+<!-- End Matomo Code -->
 </body>
 </html>

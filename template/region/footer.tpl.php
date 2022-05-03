@@ -54,6 +54,7 @@
         <div class="divider"><span></span></div>
         <ul>
           <li><a href="https://www.apache.org/foundation/" target="external">Apache Software Foundation</a></li>
+          <li><a href="https://privacy.apache.org/policies/privacy-policy-public.html" target="external">Privacy Policy</a></li>
           <li><a href="https://www.apache.org/events/current-event" target="external">Events</a></li>
           <li><a href="https://www.apache.org/foundation/sponsorship.html" target="external">Sponsorship</a>
           		and <a href="https://www.apache.org/foundation/contributing.html" target="external">Donations</a>
