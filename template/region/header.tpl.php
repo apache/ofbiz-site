@@ -32,13 +32,13 @@
                 <li><a href="#" class="firstLevel">API Reference</a>
                   <ul>
                     <li title="Trunk API">
-                      <a href="//ci.apache.org/projects/ofbiz/site/trunk/javadocs/" target="external">Trunk API</a></li>
+                      <a href="https://nightlies.apache.org/ofbiz/trunk/javadoc/" target="external">Trunk API</a></li>
                     </li>
                     <li title="Stable release  API">
-                      <a href="//ci.apache.org/projects/ofbiz/site/stable/javadocs/" target="external">Stable Release API</a></li>
+                      <a href="https://nightlies.apache.org/ofbiz/stable/javadoc/" target="external">Stable Release API</a></li>
                     </li>
                     <li title="Next release API">
-                      <a href="//ci.apache.org/projects/ofbiz/site/next/javadocs/" target="external">Next Release API</a></li>
+                      <a href="https://nightlies.apache.org/ofbiz/next/javadoc/" target="external">Next Release API</a></li>
                     </li>
                   </ul>
                 </li>
