@@ -72,7 +72,7 @@
               <div class="span10">
                 <h2>Next Release 22.01 - Demo</h2>
                 <div class="divider"><span></span></div>
-                <p>This demo is for the previous OFBiz release. </p>
+                <p>This demo is for the next to come OFBiz release.</p>
 
     <p><i class="icon-pin"></i><a href="//demo-next.ofbiz.apache.org/ordermgr/control/main?USERNAME=admin&PASSWORD=ofbiz&JavaScriptEnabled=Y" target="external"><strong>Backend Management (ERP) Applications</strong></a> </p>
     <p><i class="icon-pin"></i><a href="//demo-next.ofbiz.apache.org/ecommerce/control/main" target="external"><strong>Front End E-Commerce Webstore</strong></a> </p>
