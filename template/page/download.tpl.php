@@ -18,7 +18,7 @@
         <div class="row">
           <!-- sidebar -->
           <aside class="span4" id="sidebar">
-         
+
             <section class="widget blogUpdates">
               <h2>Releases for Download</h2>
               <div class="divider"><span></span></div>
@@ -114,10 +114,6 @@
                       <a href="release-notes-16.11.03.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
-                      <h2>OFBiz 16.11.02</h2>
-                      <a href="release-notes-16.11.02.html" class="moreLink">&rarr; View</a>
-                    </li>
-                    <li>
                       <h2>OFBiz 16.11.01</h2>
                       <a href="release-notes-16.11.01.html" class="moreLink">&rarr; View</a>
                     </li>
@@ -148,7 +144,7 @@
             <div class="divider"><span></span></div>
             <div class="imgWrapper"> <img src="images/Download.jpg" alt="image fullwidth"> </div>
             <p> <strong> Use the links below to download Apache OFBiz releases from the "Apache Download Mirrors" page. The download page also includes instructions on how to verify the integrity of the release file using the signature and hash (PGP, SHA512) available for each release. If you need more information about why and how to verify the integrity of the release file <a href="http://www.apache.org/info/verification.html" class="moreLink">this &rarr; page is what you look for</a></strong> </p>
-            
+
             <p> <strong> Then, to install OFBiz, follow the explanations in the "INSTALL" file found in the just downloaded/extracted OFBiz main directory.</strong> </p>
 
             <p> <strong>PLEASE NOTE:</strong> Despite our best efforts to maintain up to three active release branches, support for older branches can decrease because our project volunteers may be focused on other issues. We recommend using releases from the most recent branch wherever possible. </p>
@@ -168,18 +164,18 @@ available <a href="security.html">here</a></p>
 
             <p><strong>We strongly encourage OfBiz users to report security problems affecting OFBiz to the private security mailing lists (either security@ofbiz.apache.org or security@apache.org),
              before disclosing them in a public forum. Please don't pack several vulnerabilities in the same report, send them one by one, thanks in advance.</strong></p>
-            
-            
-            <p>Note that we no longer create CVEs for post-auth attacks done using demo credentials, notably using the admin user. 
+
+
+            <p>Note that we no longer create CVEs for post-auth attacks done using demo credentials, notably using the admin user.
             <strong> <a href="https://s.apache.org/dsj2p"> Rather create bugs reports in our issue tracker (Jira) for that.</a><span style="color:red"> Please don't create Jira issues for unauth (aka pre-auth) reports, thanks in advance.</span></strong></p>
-            
-            
-            <p>One of the reason we no longer create CVEs for post-auth attacks done using demo credentials is because 
+
+
+            <p>One of the reason we no longer create CVEs for post-auth attacks done using demo credentials is because
             <a href="https://nightlies.apache.org/ofbiz/trunk/readme/html5/#security" target="external"> we highly suggest to OFBiz users to not use credentials demo in production</a>
              and we expect OFBiz users to do so.
-            <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external"> We also warn our users on the "Keeping OFBiz secure wiki page".</a>             
+            <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external"> We also warn our users on the "Keeping OFBiz secure wiki page".</a>
             And finally, mostly we reject post-auth vulnerabilities because we have a solid CSRF defense.</p>
-            
+
 
             <h2>Earlier Releases</h2>
             <div class="divider"><span></span></div>
