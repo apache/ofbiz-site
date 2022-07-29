@@ -5,3 +5,7 @@
 # Intellij files
 .idea
 /bin/
+
+
+
+.DS_Store
