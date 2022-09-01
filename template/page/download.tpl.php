@@ -160,7 +160,7 @@ available <a href="security.html">here</a></p>
             <h2>Apache OFBiz 18.12.06</h2>
             <div class="divider"><span></span></div>
             <p> Released on September 2022, this is the sixth and final release of the 18.12 series, that has been stabilized since December 2018.</p>
-            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.06.zip" target="external" >Download OFBiz 18.12.05</a>
+            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.06.zip" target="external" >Download OFBiz 18.12.06</a>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.06.zip.asc" target="external">[PGP]</a>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.06.zip.sha512" target="external">[SHA512]</a>
             <a href="https://downloads.apache.org/ofbiz/KEYS" target="external">[KEYS]</a>
