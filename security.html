@@ -14,10 +14,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- CSS
     ================================================== -->
+<!-- local fonts  -->
+<link type="text/css" id="fonts" rel="stylesheet" href="/css/fonts.css">
 <!-- Bootstrap  -->
 <link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
-<!-- web font  -->
-<link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,800" rel="stylesheet" type="text/css">
 <!-- plugin css  -->
 <link rel="stylesheet" type="text/css" href="/js/plugins/pretty-photo/css/prettyPhoto.css" />
 <link rel="stylesheet" type="text/css" href="/js/plugins/rs-plugin/css/settings.css" media="screen" />
