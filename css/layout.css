@@ -74,11 +74,6 @@ p, ul {
 strong {
     font-weight:bold
 }
-small, aside {
-}
-li p {
-    /*line-height: 1.50000em;*/
-}
 a:link, a:visited {
     text-decoration:none;
 }
@@ -106,7 +101,6 @@ hr {height:0; padding:0; margin:3em 0 3em 0;}
 ================================================== */
 
 .pagination ul {
- 	moz-border-radius: 0 !important;
     -webkit-border-radius: 0 !important;
     border-radius:0 !important;
     box-shadow: none !important;
@@ -119,7 +113,6 @@ hr {height:0; padding:0; margin:3em 0 3em 0;}
 .accordion-group {
     border:none;
     border-bottom:1px solid #EAEAEA;
-    moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
 }
@@ -169,7 +162,6 @@ img {
 }
 .topBox {
     padding:1.5em;
-    moz-border-radius: 0 0 10px 10px;
     -webkit-border-radius: 0 0 10px 10px;
     border-radius: 0 0 10px 10px;
     /*font-size:0.85em;*/
@@ -192,7 +184,6 @@ img {
 
 .blockBox {
     padding:3em;
-    moz-border-radius:10px;
     -webkit-border-radius:10px;
     border-radius:10px;
 
@@ -226,8 +217,6 @@ img {
 #footer {
     font-size: 0.9em;
     line-height:1.88em;
-}
-#footerRights {
 }
 /*twitter widget*/
 ul.tweet_list {
@@ -303,7 +292,6 @@ width: 20px;
 }
 #mainHeader .open a.firstLevel {
     background-color: #111 !important;
-    moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
@@ -555,8 +543,6 @@ width: 20px;
 #mapWrapper img, #mapWrapperFullwidth img {
     max-width: none;
 }
-.contentMap {
-}
 #contactWrapperHome .error_message {
     font-size:0.6em;
     line-height:1em;
@@ -685,8 +671,6 @@ textarea {
     font-weight: 300;
     line-height: 1.25em;
     margin-bottom:0;
-}
-.topQuote span {
 }
 .bigIconsColumnsWrapper h2 {
     /*font-size:1.25em;*/
@@ -826,7 +810,7 @@ textarea {
     -o-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
-    -webkit-backface-visibility: hidden; /*for a smooth font */
+    backface-visibility: hidden; /*for a smooth font */
 }
 .ie .ch-info {
     display:none;
@@ -928,9 +912,6 @@ textarea {
     height:525px;
 }
 /* responsive sliders */
-#sliderWrapper {
-    /*min-height:432px; background-image:url('../images/icons/ajax-loader.gif') no-repeat center center;*/
-}
 #sliderShadow {
     height:3em;
 }
@@ -941,16 +922,12 @@ textarea {
 .bgNoSlider img {
     vertical-align: bottom;
 }
-.logoBig {/*margin-bottom:1.5em;*/
-}
 #videoWrapper {
     background:transparent url('../images/icons/ajax-loader.gif') no-repeat center center;
 }
 
 /* #Page Styles
 ================================================== */
-#content {
-}
 /* nav trail */
 #navTrail {
     margin-top:2.35em;
@@ -977,8 +954,6 @@ aside#sidebar {
 #sidebar #subnav {
     margin-bottom:0;
 }
-#sidebar #subnav li:first-child {
-}
 #sidebar #subnav li {
     margin:0;
 }
@@ -1004,9 +979,6 @@ aside#sidebar {
 }
 #widgetArea .widget p {
     margin:0;
-}
-/* fullWidth */
-#fullWidth {
 }
 /* Team page */
 .team1, .team2, .team3 {
@@ -1256,8 +1228,6 @@ header#blogHeader h2 {
     border-top:1px solid #D8D8D8;
     padding:1.5em 0 0 0;
 }
-.comments h4 {
-}
 .blogPostContent .commentInfo {
     font-size:0.9em;
     margin-bottom:1em;
@@ -1314,8 +1284,6 @@ ul.entry-meta [class^="icon-"], [class*=" icon-"] {
 }
 /* #portfolio Styles
 ================================================== */
-.portfolio {
-}
 .sizer {
     outline:none !important;
 }
@@ -1435,9 +1403,6 @@ ul.entry-meta [class^="icon-"], [class*=" icon-"] {
         font-weight:normal;
         margin-top:0;
         margin-bottom: 0.5em;
-    }
-    #fourColumns article {
-        /*margin-bottom: 1.5em;*/
     }
     /* masonery resising*/
     .hiddenInfo {
@@ -1910,13 +1875,8 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
     -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
     box-shadow:  0 0 3px rgba(0, 0, 0, .2);
 }
-textarea {
-}
 label, legend {
     display: block;
-}
-select {
-    /*width: 220px; */
 }
 input[type="checkbox"] {
     display: inline;
@@ -1954,9 +1914,6 @@ form .error {
     padding:0;
     max-height:500px;
     overflow:hidden;
-}
-.tp-bannertimer {
-    /*display:none;*/
 }
 .fullwidthbanner {
     display:none;
@@ -2053,7 +2010,6 @@ form .error {
         height:9px;
         margin:0 3px;
 
-        moz-border-radius: 50%;
         -webkit-border-radius: 50%;
         border-radius: 50%;
     }
@@ -2134,7 +2090,6 @@ form .error {
 	font-family: 'Open Sans', sans-serif;
 	color:#fff;
 	background-color:#555;
-	 moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
 	

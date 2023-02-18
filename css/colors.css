@@ -433,8 +433,6 @@ color:#E05D30;
 .PortfolioStickyMenu a:hover {
     color:#4F6266;
 }
-.scrollElement .pInfo {
-}
 .scrollElement .pInfo a:hover {
     color:#4F6266;
 }
@@ -554,8 +552,6 @@ table.pricingBloc h2 {
 }
 table.pricingBloc .line1 {
     background-color:#e4e4e4;
-}
-table.pricingBloc .line2 {/*background-color:#fff;*/
 }
 .sign {
     background-color:#ededed;
