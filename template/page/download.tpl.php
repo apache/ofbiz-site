@@ -30,13 +30,17 @@
                 <div class="tab-pane active" id="tabs-1">
                   <ul>
                     <li>
-                      <h2>OFBiz 18.12.06</h2>
-                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.06.zip" target="external" class="moreLink">&rarr; Download</a>
+                      <h2>OFBiz 18.12.07</h2>
+                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.07.zip" target="external" class="moreLink">&rarr; Download</a>
                     </li>
                   </ul>
                 </div>
                 <div class="tab-pane" id="tabs-2">
                   <ul>
+                    <li>
+                      <h2>OFBiz 18.12.07</h2>
+                      <a href="release-notes-18.12.07.html" class="moreLink">&rarr; View</a>
+                    </li>
                     <li>
                       <h2>OFBiz 18.12.06</h2>
                       <a href="release-notes-18.12.06.html" class="moreLink">&rarr; View</a>
@@ -157,14 +161,14 @@
             <p>The history of security related fixes included in each release is
 available <a href="security.html">here</a></p>
 
-            <h2>Apache OFBiz 18.12.06</h2>
+            <h2>Apache OFBiz 18.12.07</h2>
             <div class="divider"><span></span></div>
-            <p> Released on September 2022, this is the sixth and final release of the 18.12 series, that has been stabilized since December 2018.</p>
-            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.06.zip" target="external" >Download OFBiz 18.12.06</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.06.zip.asc" target="external">[PGP]</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.06.zip.sha512" target="external">[SHA512]</a>
+            <p> Released on April 2023, this is the seventh and final release of the 18.12 series, that has been stabilized since December 2018.</p>
+            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.07.zip" target="external" >Download OFBiz 18.12.07</a>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.07.zip.asc" target="external">[PGP]</a>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.07.zip.sha512" target="external">[SHA512]</a>
             <a href="https://downloads.apache.org/ofbiz/KEYS" target="external">[KEYS]</a>
-            <a href="release-notes-18.12.06.html">[Release Notes]</a>
+            <a href="release-notes-18.12.07.html">[Release Notes]</a>
 
             <p><strong>We strongly encourage OfBiz users to report security problems affecting OFBiz to the private security mailing lists (either security@ofbiz.apache.org or security@apache.org),
              before disclosing them in a public forum. Please don't pack several vulnerabilities in the same report, send them one by one, thanks in advance.</strong></p>
