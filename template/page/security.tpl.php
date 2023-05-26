@@ -19,23 +19,23 @@
             <h2><a id="security"></a>Security Vulnerabilities</h2>
             <div class="divider"><span></span></div>
             <p>Please see the  <a href="https://www.apache.org/security" target="external">ASF Security Team webpage</a> for further information about reporting a security vulnerability as well as their contact information. </p>
-            
+
             <p><strong>We strongly encourage OfBiz users to report security problems affecting OFBiz to the private security mailing lists (either security@ofbiz.apache.org or security@apache.org),
              before disclosing them in a public forum. Please don't pack several vulnerabilities in the same report, send them one by one, thanks in advance.</strong></p>
-            
-            <p>Note that we no longer create CVEs for post-auth attacks done using demo credentials, notably using the admin user. 
+
+            <p>Note that we no longer create CVEs for post-auth attacks done using demo credentials, notably using the admin user.
             <strong> <a href="https://s.apache.org/dsj2p"> Rather create bugs reports in our issue tracker (Jira) for that.</a><span style="color:red"> Please don't create Jira issues for unauth (aka pre-auth) reports, thanks in advance.</span></strong></p>
-            
-            <p>One of the reason we no longer create CVEs for post-auth attacks done using demo credentials is because 
-            <a href="https://nightlies.apache.org/ofbiz/trunk/readme/html5/#security" target="external"> we highly suggest to OFBiz users to not use credentials demo in production</a>
+
+            <p>One of the reason we no longer create CVEs for post-auth attacks done using demo credentials is because
+            <a href="https://nightlies.apache.org/ofbiz/trunk/readme/html5/README.html#security"> we highly suggest to OFBiz users to not use credentials demo in production</a>
              and we expect OFBiz users to do so.
-            <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external"> We also warn our users on the "Keeping OFBiz secure wiki page".</a>             
+            <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external"> We also warn our users on the "Keeping OFBiz secure wiki page".</a>
             And finally, mostly we reject post-auth vulnerabilities because we have a solid CSRF defense.</p>
-                        
+
             <h3>List of Known Vulnerabilities</h3>
             <ul class="iconsList">
 
-                <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-47501" target="external">CVE-2022-47501</a>; affected releases before 18.12.07; fixed in 18.12.07 with commit <a href="https://github.com/apache/ofbiz-plugins/commit/582add7d3" target="external">582add7d3</a></li>                
+                <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-47501" target="external">CVE-2022-47501</a>; affected releases before 18.12.07; fixed in 18.12.07 with commit <a href="https://github.com/apache/ofbiz-plugins/commit/582add7d3" target="external">582add7d3</a></li>
                 <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25813" target="external">CVE-2022-25813</a>; affected releases before 18.12.06; fixed in 18.12.06 with commits <a href="https://github.com/apache/ofbiz-framework/commit/843b1c7e71" target="external">843b1c7e71</a>, <a href="https://github.com/apache/ofbiz-framework/commit/3797e60375" target="external">3797e60375</a>, <a href="https://github.com/apache/ofbiz-framework/commit/b24dcff344" target="external">b24dcff344</a>, <a href="https://github.com/apache/ofbiz-framework/commit/871ce2aa2e" target="external">871ce2aa2e</a>, <a href="https://github.com/apache/ofbiz-plugins/commit/829e1ca53" target="external">829e1ca53</a>, <a href="https://github.com/apache/ofbiz-framework/commit/16ed130367" target="external">16ed130367</a>, <a href="https://github.com/apache/ofbiz-framework/commit/5cc45e8701" target="external">5cc45e8701</a></li>
                 <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29063" target="external">CVE-2022-29063</a>; affected releases before 18.12.06; fixed in 18.12.06 with commit <a href="https://github.com/apache/ofbiz-plugins/commit/061252a80" target="external">061252a80</a></li>
                 <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29158" target="external">CVE-2022-29158</a>; affected releases before 18.12.06; fixed in 18.12.06 with commit <a href="https://github.com/apache/ofbiz-framework/commit/ff92c4bc9" target="external">ff92c4bc9</a></li>
