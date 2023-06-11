@@ -586,7 +586,6 @@ under the License.
             <xs:sequence>
                 <xs:element minOccurs="0" ref="auto-parameters-service"/>
                 <xs:element minOccurs="0" ref="auto-parameters-entity"/>
-                <xs:element minOccurs="0" ref="auto-parameters-form"/>
                 <xs:element minOccurs="0" maxOccurs="unbounded" ref="parameter" />
             </xs:sequence>
             <xs:attribute name="event-type" use="required">
@@ -857,15 +856,7 @@ under the License.
                     </xs:documentation>
                 </xs:annotation>
             </xs:attribute>
-            <xs:attribute type="xs:string" name="disabled">
-                <xs:annotation>
-                    <xs:documentation>
-                        Set a field as disabled : not mutable, not focusable, not submitted if in a form.
-                        Accepts ${} notation to allow use of expressions.
-                        Expressions must evaluate to the strings 'true', 'false' (without quotes) or empty (equivalent to false)
-                    </xs:documentation>
-                </xs:annotation>
-            </xs:attribute>
+            <xs:attribute name="disabled" type="xs:boolean" default="false"/>
         </xs:complexType>
     </xs:element>
 
@@ -1558,7 +1549,6 @@ under the License.
             <xs:sequence>
                 <xs:element minOccurs="0" ref="auto-parameters-service"/>
                 <xs:element minOccurs="0" ref="auto-parameters-entity"/>
-                <xs:element minOccurs="0" ref="auto-parameters-form"/>
                 <xs:element minOccurs="0" maxOccurs="unbounded" ref="parameter" />
             </xs:sequence>
             <xs:attribute name="event-type" use="required">
