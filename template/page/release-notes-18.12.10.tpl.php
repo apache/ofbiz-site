@@ -19,14 +19,17 @@
   <p>Apache OFBiz&reg; 18.12.10, released on December 2023, is the tenth release of the 18.12 series, that has been stabilized since December 2018.</p>
 
         Release Notes - OFBiz - Version 18.12.10
-    
+
 <h2>        Sub-task
 </h2>
 <ul>
-<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12866'>OFBIZ-12866</a>] -         Upgrade Apache Shiro to 1.13.0 to fix CVE-2023-46750
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12812'>OFBIZ-12812</a>] -         [SECURITY] Remove deprecated Apache XML-RPC related code (CVE-2023-49070)
+</li>
+<ul>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12866'>OFBIZ-12866</a>] -         [SECURITY] Upgrade Apache Shiro to 1.13.0 to fix CVE-2023-46750
 </li>
 </ul>
-                                        
+
 <h2>        Task
 </h2>
 <ul>
