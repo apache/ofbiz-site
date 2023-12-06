@@ -121,7 +121,7 @@
         <li><i class="icon-pin"></i> <a href="https://gitbox.apache.org/repos/asf/ofbiz-tools.git" target="external"><strong>ofbiz-tools on GitHub</strong></a></li>
     </ul>
     <p></p>
-    <p>Our ofbiz-framework trunk and ofbiz-plugins trunk are also available on Git at the links below:</p>
+    <p>Our ofbiz-framework trunk and ofbiz-plugins trunk are also available on GitHub at the links below:</p>
     <ul class="iconsList">
         <li><i class="icon-pin"></i> <a href="https://github.com/apache/ofbiz-framework" target="external"><strong>ofbiz-framework trunk on Github</strong></a></li>
        <li><i class="icon-pin"></i> <a href="https://github.com/apache/ofbiz-plugins" target="external"><strong>ofbiz-plugins trunk on Github</strong></a></li>
