@@ -48,27 +48,17 @@
     <p>Download your required version from one of our <a href="download.html">download mirrors</a> and extract the zip file </p>
     <h3>2. Checkout the Source Code</h3>
     <p>Checkout the source code from the repository</p>
-    <p>Anyone can checkout or <a href="#DevRepo">browse the source code </a>in the OFBiz public gitbox or GitHub repositories.</p>
-    <p>To checkout the source code, simply use the following command (if you are using a GUI client, configure it appropriately).</p>
+    <p>Anyone can checkout or <a href="#DevRepo">browse the source code</a> in the OFBiz GitHub repositories.</p>
+    <p>To checkout the source code, simply use the following commands (if you are using a GUI client, configure it appropriately).</p>
     <p>We have split OFBiz into ofbiz-framework and ofbiz-plugins, so if you want to use the ofbiz-plugins you need to checkout both trunks.</p>
-    <ul class="iconsList">
-      <li><i class="icon-pin"></i> <strong>ofbiz-framework trunk</strong> : <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-framework.git ofbiz-framework </code></li>
-      <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git plugins </code></li>
-      <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-framework.git ofbiz-framework</code></li>
-      <li>You may need to update the tags before: <code>git fetch --all --tags</code></li>
-      <li><code>$ git checkout release18.12.04 </code></li>
-      <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git ofbiz-plugins</code></li>
-      <li><code>$ git checkout release18.12.04 </code></li>
-    </ul>
-<p>Or from GitHub:</p>
 <ul class="iconsList">
   <li><i class="icon-pin"></i> <strong>ofbiz-framework trunk</strong> : <code>$ git clone https://github.com/apache/ofbiz-framework.git ofbiz-framework </code></li>
   <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ git clone https://github.com/apache/ofbiz-plugins.git plugins </code></li>
   <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-framework.git ofbiz-framework</code></li>
   <li>You may need to update the tags before: <code>git fetch --all --tags</code></li>
-  <li><code>$ git checkout release18.12.04 </code></li>
+  <li><code>$ git checkout release18.12.10 </code></li>
   <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-plugins.git ofbiz-plugins</code></li>
-  <li><code>$ git checkout release18.12.04 </code></li>
+  <li><code>$ git checkout release18.12.10 </code></li>
 </ul>
 
     </div>
@@ -77,7 +67,7 @@
               <div class="span10">
                 <h2>Build and Run</h2>
                 <div class="divider"><span></span></div>
-                <p>Once you have downloaded the source code it will need to be built. The command to built.</p>
+                <p>Once you have downloaded the source code it will need to be built.</p>
     <h3>Building Release 18.12</h3>
     <p>To build 18.12 release, navigate to the OFBiz or framework-trunk directory and;</p>
     <p>Run the following command for Unix-like OS</p>
@@ -110,12 +100,11 @@
     <code>gradlew ofbiz --shutdown</code>
     <p></p>
     <p>
-    	<strong>NOTE</strong>: That quotes are needed for the Unix based command. For further details and a full list of all available OFBiz Gradle commands, please take a look at the main
-    		<a href="//nightlies.apache.org/ofbiz/trunk/readme/html5/README.html" target="external"><strong>README file.</strong></a>
-    		<br/>
-    		If you are an user migrating from a  version which uses Ant you might be interested by:
-    		<a href="//cwiki.apache.org/confluence/display/OFBIZ/From+Ant+to+Gradle+-+trunk+version" target="external"><strong>From Ant to Gradle</strong></a>
-
+        <strong>NOTE</strong>: That quotes are needed for the Unix based command. For further details and a full list of all available OFBiz Gradle commands, please take a look at the main
+            <a href="//nightlies.apache.org/ofbiz/trunk/readme/html5/README.html" target="external"><strong>README file.</strong></a>
+            <br/>
+            If you are an user migrating from a  version which uses Ant you might be interested by:
+            <a href="//cwiki.apache.org/confluence/display/OFBIZ/From+Ant+to+Gradle+-+trunk+version" target="external"><strong>From Ant to Gradle</strong></a>
     </p>
     <p></p>
             </div>
@@ -126,10 +115,10 @@
                 <div class="divider"><span></span></div>
                 <p>You can browse the repository using any of the following links.</p>
                 <ul class="iconsList">
-                   <li><i class="icon-pin"></i> <a href="https://gitbox.apache.org/repos/asf/ofbiz-framework.git" target="external"><strong>ofbiz-framework on gitbox</strong></a></li>
-        <li><i class="icon-pin"></i> <a href="https://gitbox.apache.org/repos/asf/ofbiz-plugins.git" target="external"><strong>ofbiz-plugins on gitbox</strong></a></li>
-        <li><i class="icon-pin"></i> <a href="https://gitbox.apache.org/repos/asf/ofbiz-site.git" target="external"><strong>ofbiz-site on gitbox</strong></a></li>
-        <li><i class="icon-pin"></i> <a href="https://gitbox.apache.org/repos/asf/ofbiz-tools.git" target="external"><strong>ofbiz-tools on gitbox</strong></a></li>
+                   <li><i class="icon-pin"></i> <a href="https://gitbox.apache.org/repos/asf/ofbiz-framework.git" target="external"><strong>ofbiz-framework on GitHub</strong></a></li>
+        <li><i class="icon-pin"></i> <a href="https://gitbox.apache.org/repos/asf/ofbiz-plugins.git" target="external"><strong>ofbiz-plugins on GitHub</strong></a></li>
+        <li><i class="icon-pin"></i> <a href="https://gitbox.apache.org/repos/asf/ofbiz-site.git" target="external"><strong>ofbiz-site on GitHub</strong></a></li>
+        <li><i class="icon-pin"></i> <a href="https://gitbox.apache.org/repos/asf/ofbiz-tools.git" target="external"><strong>ofbiz-tools on GitHub</strong></a></li>
     </ul>
     <p></p>
     <p>Our ofbiz-framework trunk and ofbiz-plugins trunk are also available on Git at the links below:</p>
