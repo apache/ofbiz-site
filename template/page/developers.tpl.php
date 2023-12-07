@@ -55,10 +55,13 @@
   <li><i class="icon-pin"></i> <strong>ofbiz-framework trunk</strong> : <code>$ git clone https://github.com/apache/ofbiz-framework.git ofbiz-framework </code></li>
   <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ git clone https://github.com/apache/ofbiz-plugins.git plugins </code></li>
   <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-framework.git ofbiz-framework</code></li>
-  <li>You may need to update the tags before: <code>git fetch --all --tags</code></li>
-  <li><code>$ git checkout release18.12.10 </code></li>
+  <li>If you don't want to use the HEAD version (Git default, with last bug fixes), you can update the tags before.
+      <br>You can refer to the <a href="download.html">site download page</a> for the stable version to use.
+      <br>Note that you need to add "release"in the name  before, like in "release18.12.10", eg with releaseVersionNumber as a var:
+      <br><code>git fetch --all --tags</code>
+      <br><code>$ git checkout releaseVersionNumber</code></li>
   <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-plugins.git ofbiz-plugins</code></li>
-  <li><code>$ git checkout release18.12.10 </code></li>
+  <li><code>$ git checkout releaseVersionNumber</code></li>
 </ul>
 
     </div>
