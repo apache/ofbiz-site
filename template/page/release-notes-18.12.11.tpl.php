@@ -25,6 +25,8 @@
 <ul>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12873'>OFBIZ-12873</a>] -         Replaced direct null checks on username, password, and token with UtilValidate.isEmpty() method calls for consistency.
 </li>
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12875'>OFBIZ-12875</a>] -         Use screen engine for the request getJSONuilabels.
+</li>
 </ul>
 
 

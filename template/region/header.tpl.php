@@ -46,7 +46,7 @@
             </li>
             <li><a href="#" class="firstLevel<?php if (basename($page_name) == 'community.tpl.php'):?> active<?php endif;?>">Community</a>
               <ul>
-                <li><a href="getting-involved.html">Getting Involved</a></li>                
+                <li><a href="getting-involved.html">Getting Involved</a></li>
                 <li><a href="mailing-lists.html">Mailing Lists</a></li>
                 <li><a href="source-repositories.html">Source Repository</a></li>
                 <li><a href="download.html">Downloads</a></li>
