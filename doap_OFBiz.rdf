@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+xml version="1.0"?>
 <?xml-stylesheet type="text/xsl"?>
 <rdf:RDF xml:lang="en"
          xmlns="http://usefulinc.com/ns/doap#"
@@ -8,7 +8,7 @@
 <!--
   =======================================================================
 
-   Copyright (c) 2006-2023 The Apache Software Foundation.
+   Copyright (c) 2006-2024 The Apache Software Foundation.
    All rights reserved.-
 
   =======================================================================
