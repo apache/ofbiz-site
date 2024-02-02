@@ -43,8 +43,10 @@ Apache OFBiz provides a foundation and starting point for reliable, secure and s
     <asfext:member><foaf:Person><foaf:name>David E. Jones</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Suraj Khurana</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Jacques Le Roux</foaf:name></foaf:Person></asfext:member>
+    <asfext:member><foaf:Person><foaf:name>Leila Mekika</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Nicolas Malin</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Swapnil M Mane</foaf:name></foaf:Person></asfext:member>
+    <asfext:member><foaf:Person><foaf:name>Nicola Mazzoni</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Pranay Pandey</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Anil Patel</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Mridul Pathak</foaf:name></foaf:Person></asfext:member>
@@ -53,6 +55,7 @@ Apache OFBiz provides a foundation and starting point for reliable, secure and s
     <asfext:member><foaf:Person><foaf:name>Swapnil Shah</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Yoav Shapira</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Aditya Sharma</foaf:name></foaf:Person></asfext:member>
+    <asfext:member><foaf:Person><foaf:name>Giulio Speri</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Girish Vasmatkar</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Pawan Verma</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Ashish Vijaywargiya</foaf:name></foaf:Person></asfext:member>
