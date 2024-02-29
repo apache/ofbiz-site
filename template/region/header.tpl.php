@@ -1,4 +1,4 @@
-<?php 
+<?php
 /*
  * arguments:
  *   $page_name
@@ -55,18 +55,7 @@
               </ul>
             </li>
             <li><a href="ofbiz-demos.html" class="firstLevel<?php if (basename($page_name) == 'ofbiz-demos.tpl.php'):?> active<?php endif;?>">Demos</a></li>
-		  <li>
-		    <a href="//twitter.com/ApacheOfbiz" class="icon-twitter-bird socialIcon tips"
-		      target="external" title="follow us on Twitter"><span>twitter</span></a>
-		  </li>
-		  <li><a href="//www.linkedin.com/company/apache-ofbiz/" target="external"  class="icon-linkedin socialIcon tips"  title="follow us on Linkedin"><span>linkedin</span></a></li>
-		  <li><a href="//www.facebook.com/Apache-OFBiz-1478219232210477/?ref=page_internal" target="external" class="icon-facebook socialIcon tips"  title="follow us on Facebook"><span>facebook</span></a></li>
-		  <li><a href="//www.youtube.com/user/ofbiz" class="icon-play socialIcon tips" target="external" title="follow us on Youtube"><span>Youtube</span></a></li>
-		  <!--<li><a href="#" class="icon-rss socialIcon tips"  title="Our rss feed"><span>rss feed</span></a></li>         
-		  <li><a href="#" class="icon-gplus socialIcon tips"  title="follow us on Google +"><span>google +</span></a></li>
-		  <li><a href="#" class="icon-instagram socialIcon tips"  title="follow us on Instagram"><span>instagram</span></a></li>
-		  <li><a href="#" class="icon-linkedin socialIcon tips"  title="follow us on Linkedin"><span>linkedin</span></a></li>
-		  <li><a href="#" class="icon-pinterest-circled socialIcon tips"  title="follow us on Pinterest"><span>Pinterest</span></a></li>-->
+          <li><a href="//www.youtube.com/user/ofbiz" class="icon-play socialIcon tips" target="external" title="follow us on Youtube"><span>Youtube</span></a></li>
           </ul>
         </nav>
       </div>
