@@ -20,7 +20,6 @@
             </li>
             <li><a href="#" class="firstLevel<?php if (basename($page_name) == 'news.tpl.php'):?> active<?php endif;?>">News</a>
               <ul>
-                <li><a href="//twitter.com/apacheofbiz" target="external">Twitter</a></li>
                 <li><a href="//blogs.apache.org/ofbiz/" target="external" class="last">Blog</a></li>
               </ul>
             </li>
