@@ -35,8 +35,8 @@
             <p>
             To clarify the vocabulary used above here are 2 links:
             <ul class="iconsList">
-                <li><i class="icon-pin"></i><a href="www.scmagazine.com/resource/what-are-post-authentication-attacks-and-how-to-protect-against-them">pre-authN vs post-authN</a></li>
-                <li><i class="icon-pin"></i><a href="cwe.mitre.org/data/definitions/863.html#ocimg_863_Alternate_Terms">authN vs authZ</a></li>
+                <li><i class="icon-pin"></i><a href="https://www.scmagazine.com/resource/what-are-post-authentication-attacks-and-how-to-protect-against-them target="external">pre-authN vs post-authN</a></li>
+                <li><i class="icon-pin"></i><a href="https://cwe.mitre.org/data/definitions/863.html#ocimg_863_Alternate_Terms target="external">authN vs authZ</a></li>
             </ul>
             </p>
 
