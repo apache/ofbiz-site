@@ -30,7 +30,15 @@
             <a href="https://nightlies.apache.org/ofbiz/trunk/readme/html5/README.html#security" target="external"> we highly suggest to OFBiz users to not use credentials demo in production</a>
              and we expect OFBiz users to do so.
             <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external"> We also warn our users on the "Keeping OFBiz secure wiki page".</a>
-            And finally, mostly we reject post-authN vulnerabilities because we have a solid CSRF defense.</p>
+             And we finally reject pre-authN vulnerabilities because we have a solid CSRF defense.
+            </p>
+            <p>
+            To clarify the vocabulary used above here are 2 links:
+            <ul class="iconsList">
+                <li><i class="icon-pin"></i><a href="www.scmagazine.com/resource/what-are-post-authentication-attacks-and-how-to-protect-against-them">pre-authN vs post-authN</a></li>
+                <li><i class="icon-pin"></i><a href="cwe.mitre.org/data/definitions/863.html#ocimg_863_Alternate_Terms">authN vs authZ</a></li>
+            </ul>
+            </p>
 
             <h3>List of Known Vulnerabilities</h3>
             <ul class="iconsList">
