@@ -199,7 +199,7 @@ available <a href="security.html">here</a></p>
 
             <h2>Apache OFBiz 18.12.16</h2>
             <div class="divider"><span></span></div>
-            <p> Released in Semptember 2024, this is the 16th release of the 18.12 series, that has been stabilized since December 2018.</p>
+            <p> Released in September 2024, this is the 16th release of the 18.12 series, that has been stabilized since December 2018.</p>
             <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.16.zip" target="external" >Download OFBiz 18.12.16</a>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.16.zip.asc" target="external">[PGP]</a>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-18.12.16.zip.sha512" target="external">[SHA512]</a>
