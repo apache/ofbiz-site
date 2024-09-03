@@ -16,7 +16,7 @@
       <div class="container">
 <div class="row">
   <div>
-  <p>Apache OFBiz&reg; 18.12.16, released on August 2024, is the 16th release of the 18.12 series, that has been stabilized since December 2018.</p>
+  <p>Apache OFBiz&reg; 18.12.16, released in Sempember 2024, is the 16th release of the 18.12 series, that has been stabilized since December 2018.</p>
 
 
         Release Notes - OFBiz - Version 18.12.16
