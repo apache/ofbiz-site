@@ -60,6 +60,7 @@
             <revision>18.12.16</revision>
         </Version>
     </release>
+    <release>
         <Version>
             <name>Apache OFBiz R18.12</name>
             <created>2024-08-03</created>
