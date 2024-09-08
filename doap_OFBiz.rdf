@@ -26,7 +26,7 @@
     <license rdf:resource="https://spdx.org/licenses/Apache-2.0" />
     <name>Apache OFBiz</name>
     <homepage rdf:resource="https://ofbiz.apache.org/" />
-    <asfext:pmc rdf:resource="https://ofbiz.apache.org" />
+    <!-- asfext:pmc rdf:resource="https://ofbiz.apache.org" /-->
     <shortdesc xml:lang="en">Apache OFBiz is an open source enterprise automation software project</shortdesc>
     <description>
       Apache OFBiz is an open source product for the automation of enterprise processes that includes framework components and business applications
