@@ -71,12 +71,12 @@
         <dt><i class="icon-pin"></i> <strong>ofbiz-plugins branch release18.12 (stable)</strong><dt>
         <dd><code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git plugins </code></dd>
         <dd><code>$ git checkout origin/release18.12</code></dd>
-        <dt><i class="icon-pin"></i> <strong>ofbiz-framework branch release22.01 </strong></dt>
+        <dt><i class="icon-pin"></i> <strong>ofbiz-framework branch release24.09 </strong></dt>
         <dd><code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-framework.git ofbiz-framework </code></dd>
-        <dd><code>$ git checkout origin/release22.01</code></dd>
-        <dt><i class="icon-pin"></i> <strong>ofbiz-plugins branch release22.01 </strong><dt>
+        <dd><code>$ git checkout origin/release24.09</code></dd>
+        <dt><i class="icon-pin"></i> <strong>ofbiz-plugins branch release24.09 </strong><dt>
         <dd><code>$ git clone https://gitbox.apache.org/repos/asf/ofbiz-plugins.git plugins </code></dd>
-        <dd><code>$ git checkout origin/release22.01 </code></dd>
+        <dd><code>$ git checkout origin/release24.09 </code></dd>
     </dl>
     <h2>Tools</h2>
     <dl class="iconsList">
