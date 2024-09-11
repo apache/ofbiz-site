@@ -70,7 +70,7 @@
 
      <section  id="OFDemoNext" class="slice row clearfix">
               <div class="span10">
-                <h2>Next Release 22.01 - Demo</h2>
+                <h2>Next Release 24.09 - Demo</h2>
                 <div class="divider"><span></span></div>
                 <p>This demo is for the next to come OFBiz release.</p>
 
