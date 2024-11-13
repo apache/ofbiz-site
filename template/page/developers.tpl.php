@@ -33,7 +33,7 @@
                 <h2>Pre-Requisites</h2>
                 <div class="divider"><span></span></div>
      <ul class="iconsList">
-      <li><i class="icon-pin"></i> For 18.12, the ofbiz-framework trunk and ofbiz-plugins trunk the minimum requirement you need installed is Java 1.8 SDK.</li>
+      <li><i class="icon-pin"></i> For 18.12, the ofbiz-framework trunk and ofbiz-plugins trunk the minimum requirement you need installed is Java 11 JDK.</li>
       <li><i class="icon-pin"></i> Apache OFBiz can be downloaded and run on both Unix based and Windows based systems</li>
     </ul>
                  <p><strong>NOTE:</strong> If you are running an older release or branch then please refer to <a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="external" >our Wiki</a> for details</p>
