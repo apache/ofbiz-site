@@ -530,8 +530,7 @@ under the License.
                     request-redirect-noparam,
                     url,
                     url-redirect,
-                    cross-redirect,
-                    shortener
+                    cross-redirect
                 </xs:documentation>
             </xs:annotation>
             <xs:simpleType>
@@ -623,13 +622,6 @@ under the License.
                         <xs:annotation>
                             <xs:documentation>
                                 Works like request-redirect for cross applications calls.
-                            </xs:documentation>
-                        </xs:annotation>
-                    </xs:enumeration>
-                    <xs:enumeration value="shortener">
-                        <xs:annotation>
-                            <xs:documentation>
-                                Call ofbiz shortener to resolve the next uri to call
                             </xs:documentation>
                         </xs:annotation>
                     </xs:enumeration>
