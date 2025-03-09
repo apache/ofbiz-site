@@ -1,5 +1,5 @@
 <?php //Variable declarations for region templates
-  $head_title = '<title>The Apache OFBiz&reg; Project - Release Notes 18.12.04</title>';
+  $head_title = '<title>The Apache OFBiz&reg; Project - Release Notes 18.12.07</title>';
 ?>
  <!-- page content -->
  <section id="content" class="fullWidth">
@@ -22,13 +22,13 @@
 
 
         Release Notes - OFBiz - Version 18.12.07
-                
+
 <h2>        Bug
 </h2>
 <ul>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12792'>OFBIZ-12792</a>] -         Disallow unauthorized users to use Solr
 </li>
-</ul> 
+</ul>
 
   </div>
 </div>

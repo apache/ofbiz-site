@@ -1,5 +1,5 @@
 <?php //Variable declarations for region templates
-  $head_title = '<title>The Apache OFBiz&reg; Project - Release Notes 18.12.04</title>';
+  $head_title = '<title>The Apache OFBiz&reg; Project - Release Notes 18.12.05</title>';
 ?>
  <!-- page content -->
  <section id="content" class="fullWidth">
@@ -21,7 +21,7 @@
 
 
         Release Notes - OFBiz - Version 18.12.05
-    
+
 <h2>        Sub-task
 </h2>
 <ul>
@@ -30,7 +30,7 @@
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12475'>OFBIZ-12475</a>] -         [SECURITY] CVE-2021-44832: Apache Log4j2
 </li>
 </ul>
-            
+
 <h2>        Bug
 </h2>
 <ul>
@@ -39,14 +39,14 @@
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12473'>OFBIZ-12473</a>] -         CheckStyleMain Task is Failing in 18.12.04
 </li>
 </ul>
-                            
+
 <h2>        Task
 </h2>
 <ul>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12456'>OFBIZ-12456</a>] -         Migrate Ofbiz bb 0.8 config to 3.2
 </li>
 </ul>
-            
+
 
   </div>
 </div>

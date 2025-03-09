@@ -1,12 +1,12 @@
 <?php //Variable declarations for region templates
-  $head_title = '<title>The Apache OFBiz&reg; Project - Release Notes 18.12.16</title>';
+  $head_title = '<title>The Apache OFBiz&reg; Project - Release Notes 18.12.17</title>';
 ?>
  <!-- page content -->
  <section id="content" class="fullWidth">
     <header class="headerPage">
       <div class="container clearfix">
         <div class="row">
-          <h1 class="span8">Release Notes 18.12.16</h1>
+          <h1 class="span8">Release Notes 18.12.17</h1>
       <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="download.html">Download</a><span>/</span><span class="current">Release Notes 18.12.15</span> </div>
         </div>
       </div>
@@ -19,7 +19,7 @@
   <p>Apache OFBiz&reg; 18.12.17, released in November 2024, is the 17th release of the 18.12 series, that has been stabilized since December 2018.</p>
 
         Release Notes - OFBiz - Version 18.12.17
-                
+
 <h2>        Bug
 </h2>
 <ul>
@@ -32,7 +32,7 @@
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13148'>OFBIZ-13148</a>] -         ControlServlet falls into error with Cookies log output when Debug log level is switched to verbose
 </li>
 </ul>
-                
+
 <h2>        Improvement
 </h2>
 <ul>
@@ -49,14 +49,14 @@
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13162'>OFBIZ-13162</a>] -         Enhance Parameter Encoding in MacroMenuRenderer
 </li>
 </ul>
-            
+
 <h2>        Task
 </h2>
 <ul>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13121'>OFBIZ-13121</a>] -         Keep the  Gradle Owasp dependencycheck task
 </li>
 </ul>
-                                                                                                                                                        
+
   </div>
 </div>
 </div>

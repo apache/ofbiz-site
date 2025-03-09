@@ -1,5 +1,5 @@
 <?php //Variable declarations for region templates
-  $head_title = '<title>The Apache OFBiz&reg; Project - Release Notes 18.12.04</title>';
+  $head_title = '<title>The Apache OFBiz&reg; Project - Release Notes 18.12.06</title>';
 ?>
  <!-- page content -->
  <section id="content" class="fullWidth">
@@ -21,7 +21,7 @@
 
 
         Release Notes - OFBiz - Version 18.12.06
-    
+
 <h2>        Sub-task
 </h2>
 <ul>
@@ -54,13 +54,13 @@
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12657'>OFBIZ-12657</a>] -         [SECURITY] Upgrade Tika to 1.28.4
 </li>
 </ul>
-            
+
 <h2>        Bug
 </h2>
 <ul>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-11429'>OFBIZ-11429</a>] -         Setting VIEW-INDEX to 0, when not initialised in ForumScreens.xml#Showforum &quot;New Message&quot; Link
 </li>
-<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12097'>OFBIZ-12097</a>] -         Date picker not initialised in ajax-called form 
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12097'>OFBIZ-12097</a>] -         Date picker not initialised in ajax-called form
 </li>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12178'>OFBIZ-12178</a>] -         ModelInduceFromDb does not show entity relations.
 </li>
@@ -109,7 +109,7 @@
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12685'>OFBIZ-12685</a>] -         Content tag in a screen does not display correctly images
 </li>
 </ul>
-                
+
 <h2>        Improvement
 </h2>
 <ul>
@@ -127,7 +127,7 @@
 </li>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12670'>OFBIZ-12670</a>] -         Make loading of data containing urls configurable
 </li>
-</ul>       
+</ul>
 
   </div>
 </div>

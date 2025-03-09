@@ -1,5 +1,5 @@
 <?php //Variable declarations for region templates
-  $head_title = '<title>The Apache OFBiz&reg; Project - Release Notes 18.12.12</title>';
+  $head_title = '<title>The Apache OFBiz&reg; Project - Release Notes 18.12.13</title>';
 ?>
  <!-- page content -->
  <section id="content" class="fullWidth">
@@ -19,14 +19,14 @@
   <p>Apache OFBiz&reg; 18.12.13, released on May 2024, is the 13th release of the 18.12 series, that has been stabilized since December 2018.</p>
 
         Release Notes - OFBiz - Version 18.12.13
-                                
+
 <h2>        Sub-task
 </h2>
 <ul>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-12942'>OFBIZ-12942</a>] -         [SECURITY]  Several CVEs in Apache Tomcat
 </li>
 </ul>
-            
+
 <h2>        Bug
 </h2>
 <ul>
@@ -42,16 +42,16 @@
 </li>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13006'>OFBIZ-13006</a>] -         Reject wrong URLs
 </li>
-<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13039'>OFBIZ-13039</a>] -         dateType parameter not existing in &quot;renderDateTimeField&quot; Macro 
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13039'>OFBIZ-13039</a>] -         dateType parameter not existing in &quot;renderDateTimeField&quot; Macro
 </li>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13059'>OFBIZ-13059</a>] -         Old error in showPortalPage screen
 </li>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13067'>OFBIZ-13067</a>] -         Error while rendering content [APACHE_OFBIZ_HTML]
 </li>
-<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13071'>OFBIZ-13071</a>] -         Could not find PortalPage with portalPageId [] 
+<li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13071'>OFBIZ-13071</a>] -         Could not find PortalPage with portalPageId []
 </li>
 </ul>
-                
+
 <h2>        Improvement
 </h2>
 <ul>

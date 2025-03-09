@@ -1,12 +1,12 @@
 <?php //Variable declarations for region templates
-  $head_title = '<title>The Apache OFBiz&reg; Project - Release Notes 18.12.16</title>';
+  $head_title = '<title>The Apache OFBiz&reg; Project - Release Notes 18.12.18</title>';
 ?>
  <!-- page content -->
  <section id="content" class="fullWidth">
     <header class="headerPage">
       <div class="container clearfix">
         <div class="row">
-          <h1 class="span8">Release Notes 18.12.16</h1>
+          <h1 class="span8">Release Notes 18.12.18</h1>
       <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="download.html">Download</a><span>/</span><span class="current">Release Notes 18.12.15</span> </div>
         </div>
       </div>
@@ -20,7 +20,7 @@
 
 
         Release Notes - OFBiz - Version 18.12.18
-    
+
 <h2>        Sub-task
 </h2>
 <ul>
@@ -37,28 +37,28 @@
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13192'>OFBIZ-13192</a>] -         Issues when uploading SVG files
 </li>
 </ul>
-            
+
 <h2>        Bug
 </h2>
 <ul>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13168'>OFBIZ-13168</a>] -         String to numeric conversion does not support non-breaking spaces
 </li>
 </ul>
-            
+
 <h2>        New Feature
 </h2>
 <ul>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13198'>OFBIZ-13198</a>] -         Add the OpenSSF Best Practices Badge
 </li>
 </ul>
-    
+
 <h2>        Improvement
 </h2>
 <ul>
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13213'>OFBIZ-13213</a>] -         Refactor ControlFilter class without functional changes
 </li>
 </ul>
-                                                                                                                                                        
+
   </div>
 </div>
 </div>
