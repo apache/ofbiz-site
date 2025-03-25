@@ -1,3 +1,4 @@
 # Publishing profile for ofbiz-site.git:
 
 publish:
+  whoami: asf-site
