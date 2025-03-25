@@ -986,7 +986,8 @@ under the License.
     <xs:element name="date-range-picker" substitutionGroup="AllFields">
         <xs:annotation>
             <xs:documentation>
-                A wrapper on top of https://www.daterangepicker.com/, see https://www.daterangepicker.com/#options for documentation.
+                A wrapper on top of https://www.daterangepicker.com/,
+                see https://www.daterangepicker.com/#options for documentation.
             </xs:documentation>
         </xs:annotation>
         <xs:complexType>
