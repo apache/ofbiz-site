@@ -30,13 +30,17 @@
                 <div class="tab-pane active" id="tabs-1">
                   <ul>
                     <li>
-                      <h2>OFBiz 18.12.18</h2>
-                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.18.zip" target="external" class="moreLink">&rarr; Download</a>
+                      <h2>OFBiz 18.12.19</h2>
+                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.19.zip" target="external" class="moreLink">&rarr; Download</a>
                     </li>
                   </ul>
                 </div>
                 <div class="tab-pane" id="tabs-2">
                   <ul>
+                    <li>
+                      <h2>OFBiz 18.12.19</h2>
+                      <a href="release-notes-18.12.19.html" class="moreLink">&rarr; View</a>
+                    </li>
                     <li>
                       <h2>OFBiz 18.12.18</h2>
                       <a href="release-notes-18.12.18.html" class="moreLink">&rarr; View</a>
