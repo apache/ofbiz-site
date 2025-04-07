@@ -31,7 +31,7 @@
                   <ul>
                     <li>
                       <h2>OFBiz 24.09.01</h2>
-                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-24.09.01.zip" target="external" class="moreLink">&rarr; Download</a>
+                      <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.01.zip" target="external" class="moreLink">&rarr; Download</a>
                     </li>
                   </ul>
                 </div>
