@@ -17,7 +17,7 @@
       <div class="container">
         <div class="row ">
           <aside class="span2 PortfolioStickyMenu" id="sidebar">
-            <h2>About our Demos <a href="https://qpkb254zxeu.montastic.io" target="_blank"><img src="https://qpkb254zxeu.montastic.io/badge" alt="Montastic status badge"></a></h2>
+            About our Demos <a href="https://qpkb254zxeu.montastic.io" target="_blank"><img src="https://qpkb254zxeu.montastic.io/badge" alt="Montastic status badge"></a>
             <ul  id="subnav" class="nav nav-stacked sidenav scrollspyNav">
               <!--del>About our Demos</del>  Our demos are currently disabled for security reason-->
                 <li> <a href="#OFDemoCurrent"> Release branch 24.09 </a> </li>
