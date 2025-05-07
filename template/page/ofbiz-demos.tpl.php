@@ -31,10 +31,10 @@
                 <!--h2><strike>About our Demos</strike>  Our demos are currently disabled for security reason</h2-->
                 <h2>About our Demos</h2>
                 <div class="divider"><span></span></div>
-    <p>We have several online OFBiz demos that you can try out. Each demo is split into two areas:
-<ul class="iconsList">
-    <li><i class="icon-pin"></i> E-Commerce webstore and</li>
-    <li><i class="icon-pin"></i> the backend ERP applications</li>
+    <p>We have several online OFBiz demos that you can try out. Each demo is split into two areas:</p>
+    <ul class="iconsList">
+        <li><i class="icon-pin"></i> E-Commerce webstore and</li>
+        <li><i class="icon-pin"></i> the backend ERP applications</li>
     </ul>
 
     <p> The <strong>E-Commerce webstore </strong>is what your customers will see and allows them to order products, request returns or register as a new customer. Our demo also gives you some examples other things (Surveys, Blogs, Factoids, etc) also provided within OFBiz that you can include on your website. </p>
