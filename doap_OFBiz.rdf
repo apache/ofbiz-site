@@ -66,6 +66,13 @@
     <release>
         <Version>
             <name>Apache OFBiz R24.09</name>
+            <created>2025-08-04</created>
+            <revision>24.09.02</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
+            <name>Apache OFBiz R24.09</name>
             <created>2025-04-01</created>
             <revision>24.09.01</revision>
         </Version>
