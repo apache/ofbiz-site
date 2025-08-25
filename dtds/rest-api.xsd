@@ -26,7 +26,8 @@ under the License.
             </xs:sequence>
             <xs:attribute name="name" type="xs:string" use="required"/>
             <xs:attribute name="displayName" type="xs:string"/>
-            <xs:attribute name="description" type="xs:string"/>
+	    <xs:attribute name="path" type="xs:string" use="required"/>
+	    <xs:attribute name="description" type="xs:string"/>
             <xs:attribute name="publish" type="xs:boolean" default="true"/>
         </xs:complexType>
     </xs:element>
