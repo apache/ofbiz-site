@@ -23,7 +23,7 @@
              before disclosing them in a public forum. Please don't pack several vulnerabilities in the same report, send them one by one, thanks in advance.</strong></p>
 
             <p>Note that we don't create CVEs for post-authN attacks.
-            <strong> <a href="https://s.apache.org/dsj2p"> Rather create bugs reports in our issue tracker (Jira) for that.</a><span style="color:red"> Please don't create zero day Jira issues for unauth (aka pre-authN) reports, thanks in advance.</span></strong></p>
+            <strong> <a href="https://s.apache.org/dsj2p"> Rather create bugs reports in our issue tracker (Jira) for that.</a>Please don't create zero day Jira issues for unauth (aka pre-authN) reports, thanks in advance.</strong></p>
 
             <p>One of the reason we don't create CVEs for post-authN attacks is because
             <a href="https://nightlies.apache.org/ofbiz/trunk/readme/html5/README.html#security" target="external"> we highly suggest to OFBiz users to not use credentials demo in production</a>
