@@ -20,7 +20,7 @@
             <div class="divider"><span></span></div>
 
             <p><strong>We strongly encourage OfBiz users to report security problems affecting OFBiz to the private security mailing lists (either preferably security@ofbiz.apache.org or else security@apache.org),
-             instead of publicly disclosing them. Please don't pack several vulnerabilities in the same report, send them one by one, thanks in advance.</strong></p>
+             before publicly disclosing them once fixed. Please don't pack several vulnerabilities in the same report, send them one by one, thanks in advance.</strong></p>
 
             <p>Please see the  <a href="https://www.apache.org/security" target="external">ASF Security Team webpage</a> for further information about reporting a security vulnerability as well as their contact information. </p>
 
