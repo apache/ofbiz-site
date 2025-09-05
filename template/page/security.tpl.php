@@ -22,7 +22,15 @@
             <p><strong>We strongly encourage OfBiz users to report security problems affecting OFBiz to the private security mailing lists (either preferably security@ofbiz.apache.org or else security@apache.org),
              before publicly disclosing them once fixed. Please don't pack several vulnerabilities in the same report, send them one by one, thanks in advance.</strong></p>
 
-            <p>Please see the  <a href="https://www.apache.org/security" target="external">ASF Security Team webpage</a> for further information about reporting a security vulnerability as well as their contact information. </p>
+            <p>Please see the <a href="//www.apache.org/security" target="external">ASF Security Team webpage</a> for further information about reporting a security vulnerability as well as their contact information.</p>
+
+             <h3>OFBiz Security</h3>
+                <ul class="iconsList">
+                    <li><i class="icon-pin"></i> <a href="//cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Security+Permissions" target="external">OFBiz Security Model : Permissions and related.</a> Be sure to read the children pages in the left part of screen</li>
+                    <li><i class="icon-pin"></i> <a href="//cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external">Keeping OFBiz secure.</a> To keep your OFBiz instance secure from exploits.</li>
+            </ul>
+
+
 
             <h3>List of Known Vulnerabilities</h3>
             <ul class="iconsList">
