@@ -20,7 +20,7 @@
              <h2>OFBiz Security</h2>
             <div class="divider"><span></span></div>
                 <a href="//cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Security+Permissions" target="external">OFBiz Security Model : Permissions and related.</a> Be sure to read the children pages in the left part of screen.<br>
-                <a href="//cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external">Keeping OFBiz secure.</a> To keep your OFBiz instance secure from exploits.
+                <a href="//cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external">Keeping OFBiz secure.</a> To keep your OFBiz instance secure from exploits.<br>
 
             <p><strong>All system privileges, including access to potentially vulnerable operations, are granted to administrators</strong>. Even if we assume that administrators don't attack their own websites, it's essential to exercise extra care when granting administrator privileges.
                        Therefore, if a security breach occurs on the administration page (webtools), it's generally not perceived as a problem. The administrator holds the power. Unless an ordinary user manages to overstep their bounds and act beyond their authority.
