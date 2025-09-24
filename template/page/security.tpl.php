@@ -19,15 +19,17 @@
 
              <h2>OFBiz Security</h2>
             <div class="divider"><span></span></div>
-                <a href="//cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Security+Permissions" target="external">OFBiz Security Model : Permissions and related.</a> Be sure to read the children pages in the left part of screen.<br>
-                <a href="//cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external">Keeping OFBiz secure.</a> To keep your OFBiz instance secure from exploits.
+                <a href="//cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Security+Permissions" target="external">OFBiz Security Model: Permissions and related.</a> Be sure to read the children pages in the left part of screen.<br>
+                <a href="//cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external">Keeping OFBiz secure.</a> To keep your OFBiz instance secure from exploits. Also read the children pages.<br>
+                <a href="//nightlies.apache.org/ofbiz/trunk/readme/html5/README.html#security" target="external">In the main online README file,</a> best practices and security advices for OFBiz users in production.
             <p> </p>
             <p><strong>All system privileges, including access to potentially vulnerable operations, are granted to administrators</strong>. Even if we assume that administrators don't attack their own websites, it's essential to exercise extra care when granting administrator privileges.
                        Therefore, if a security breach occurs on the administration page (webtools), it's generally not perceived as a problem. The administrator holds the power. Unless an ordinary user manages to overstep their bounds and act beyond their authority.
                        So in the webtools page we only accept vulnerabilities when using a not administrator credential.
             </p>
 
-            <p><strong>At the UI level the OFBiz logs are protected and should not be vulnerable to exploits</strong>. We though still warn OFBiz users it's important that out of OFBiz UI level logs files remain restricted to their trusted users.</p>
+            <p><strong>At the UI level the OFBiz logs are protected and should not be vulnerable to exploits</strong>. We though warn OFBiz users it's important that out of OFBiz UI level logs files remain restricted to their trusted users.<br>
+                 Also we recommend to use the <strong>verbose level on production</strong> only when it's absolutely necessary.</p>
 
             <h2><a id="security"></a>Security Vulnerabilities</h2>
             <div class="divider"><span></span></div>
