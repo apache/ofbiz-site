@@ -28,7 +28,7 @@
                        So in the webtools page we only accept vulnerabilities when using a not administrator credential.
             </p>
 
-            <p><strong>At the UI level the OFBiz logs are protected and should not be vulnerable to exploits</strong>. We though warn OFBiz users it's important that out of OFBiz UI level logs files remain restricted to their trusted users.<br>
+            <p><strong>At the UI level the OFBiz logs are protected and should not be vulnerable to exploits</strong>. We though warn OFBiz users it's important that out of OFBiz UI level logs files remain restricted to their trusted users.
                  Also we recommend to use the <strong>verbose level on production</strong> only when it's absolutely necessary.</p>
 
             <h2><a id="security"></a>Security Vulnerabilities</h2>
