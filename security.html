@@ -135,11 +135,11 @@
 
             <p><strong>At the UI level the OFBiz logs are protected and should not be vulnerable to exploits</strong>.
                  We though warn OFBiz users it's important that out of OFBiz UI level logs files remain restricted to their trusted users.
-                 Also we recommend to use the <strong>verbose level on production</strong> only when it's absolutely necessary.</p>
+                 Also we recommend to use the <strong>verbose level on production</strong> only when it's absolutely necessary.
                  Another case where access needs to be restricted to trusted users is inside subdirectories of themes/common-theme/webapp/images/products.
                  Specifically because images upload for products is possible in those places. Hence possible embedded webshells, even if OFBiz has a robust protection.
                  As recommended by OWASP, a solid solution is to move the products images upload to another domain.
-                 You may also simply prevent security issues by making these subdirectories non-executable.
+                 You may also simply prevent security issues by making these subdirectories non-executable.</p>
 
 
             <h2><a id="security"></a>Security Vulnerabilities</h2>
