@@ -29,7 +29,7 @@
             <p> </p>
             <p><strong>All system privileges, including access to potentially vulnerable operations, are granted to administrators</strong>.
                        Even if we assume that administrators don't attack their own websites, it's essential to exercise extra care when granting administrator privileges.
-                       Therefore, if a security breach occurs on the administration page (webtools), it's generally not perceived as a problem. The administrator holds the power.
+                       Therefore, if a security breach occurs on the administration page or component (webtools), it's generally not perceived as a problem. The administrator holds the power.
                        Unless an ordinary user manages to overstep their bounds and act beyond their authority.
                        So in the webtools page we only accept vulnerabilities when using a not administrator credential.
             </p>
