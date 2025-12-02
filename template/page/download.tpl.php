@@ -30,13 +30,17 @@
                 <div class="tab-pane active" id="tabs-1">
                   <ul>
                     <li>
-                      <h2>OFBiz 24.09.03</h2>
-                      <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.03.zip" target="external" class="moreLink">&rarr; Download</a>
+                      <h2>OFBiz 24.09.04</h2>
+                      <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.04.zip" target="external" class="moreLink">&rarr; Download</a>
                     </li>
                   </ul>
                 </div>
                 <div class="tab-pane" id="tabs-2">
                   <ul>
+                    <li>
+                      <h2>OFBiz 24.09.04</h2>
+                      <a href="release-notes-24.09.04.html" class="moreLink">&rarr; View</a>
+                    </li>
                     <li>
                       <h2>OFBiz 24.09.03</h2>
                       <a href="release-notes-24.09.03.html" class="moreLink">&rarr; View</a>
@@ -221,14 +225,14 @@
             <p>The history of security related fixes included in each release is
 available <a href="security.html">here</a></p>
 
-            <h2>Apache OFBiz 24.09.3</h2>
+            <h2>Apache OFBiz 24.09.4</h2>
             <div class="divider"><span></span></div>
-            <p>Released in November 2025, this is the third release of the 24.09 series, which has been feature-frozen since September 2024, receiving only bug fixes.</p>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.03.zip" target="external" >Download OFBiz 24.09.03</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.03.zip.asc" target="external">[PGP]</a>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.03.zip.sha512" target="external">[SHA512]</a>
+            <p>Released in November 2025, this is the fourth release of the 24.09 series, which has been feature-frozen since September 2024, receiving only bug fixes.</p>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.04.zip" target="external" >Download OFBiz 24.09.04</a>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.04.zip.asc" target="external">[PGP]</a>
+            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.04.zip.sha512" target="external">[SHA512]</a>
             <a href="https://downloads.apache.org/ofbiz/KEYS" target="external">[KEYS]</a>
-            <a href="release-notes-24.09.03.html">[Release Notes]</a>
+            <a href="release-notes-24.09.04.html">[Release Notes]</a>
 
             <p><strong>We strongly encourage OFBiz users to report security problems affecting OFBiz to the private security mailing lists (either security@ofbiz.apache.org or security@apache.org),
              before disclosing them in a public forum. Please don't pack several vulnerabilities in the same report, send them one by one, thanks in advance.</strong></p>

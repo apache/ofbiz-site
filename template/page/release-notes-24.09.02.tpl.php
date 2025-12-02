@@ -62,3 +62,10 @@
 <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13276'>OFBIZ-13276</a>] -         [SECURITY] CVE-2025-54466 RCE Vulnerability in scrum plugin
 </li>
 </ul>
+
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>

@@ -61,3 +61,9 @@
           <li>[<a href='https://issues.apache.org/jira/browse/OFBIZ-13309'>OFBIZ-13309</a>] - Hide Server Version Information on Error Pages
           </li>
       </ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
