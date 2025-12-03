@@ -227,7 +227,7 @@ available <a href="security.html">here</a></p>
 
             <h2>Apache OFBiz 24.09.4</h2>
             <div class="divider"><span></span></div>
-            <p>Released in November 2025, this is the fourth release of the 24.09 series, which has been feature-frozen since September 2024, receiving only bug fixes.</p>
+            <p>Released in December 2025, this is the fourth release of the 24.09 series, which has been feature-frozen since September 2024, receiving only bug fixes.</p>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.04.zip" target="external" >Download OFBiz 24.09.04</a>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.04.zip.asc" target="external">[PGP]</a>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.04.zip.sha512" target="external">[SHA512]</a>
