@@ -31,7 +31,7 @@
                   <ul>
                     <li>
                       <h2>OFBiz 24.09.05</h2>
-                      <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.05.zip" target="external" class="moreLink">&rarr; Download</a>
+                      <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-24.09.05.zip" target="external" class="moreLink">&rarr; Download</a>
                     </li>
                   </ul>
                 </div>
@@ -232,7 +232,7 @@ available <a href="security.html">here</a></p>
             <h2>Apache OFBiz 24.09.05</h2>
             <div class="divider"><span></span></div>
             <p>Released in January 2026, this is the fifth release of the 24.09 series, which has been feature-frozen since September 2024, receiving only bug fixes.</p>
-            <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.05.zip" target="external" >Download OFBiz 24.09.05</a>
+            <a href="https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-24.09.05.zip" target="external" >Download OFBiz 24.09.05</a>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.05.zip.asc" target="external">[PGP]</a>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.05.zip.sha512" target="external">[SHA512]</a>
             <a href="https://downloads.apache.org/ofbiz/KEYS" target="external">[KEYS]</a>
