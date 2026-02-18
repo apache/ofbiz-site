@@ -58,7 +58,7 @@
 
        <section  id="OFDemoTrunk" class="slice row clearfix">
               <div class="span10">
-                <h2>Developer Trunk - Demo </h2>
+                <h2><s>Developer Trunk - Demo : currently unavailable</s></h2>
                 <div class="divider"><span></span></div>
                 <p>Please note that the trunk version is not recommended for a production environment. It is experimental code and contains developments in progress that once stablised will become part of future stable releases.</p>
     <p><i class="icon-pin"></i><a href="//demo-trunk.ofbiz.apache.org/ordermgr/control/main?USERNAME=admin&PASSWORD=ofbiz&JavaScriptEnabled=Y" target="external"><strong>Backend Management (ERP) Applications</strong></a> </p>
@@ -70,7 +70,7 @@
 
      <section  id="OFDemoNext" class="slice row clearfix">
               <div class="span10">
-                <h2>Next is Trunk until a new release branch is created - Demo</h2>
+                <h2><s>Next is Trunk until a new release branch is created - Demo : currently unavailable</s></h2>
                 <div class="divider"><span></span></div>
                 <p>This demo is for the next to come OFBiz release.</p>
 
