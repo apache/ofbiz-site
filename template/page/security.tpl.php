@@ -8,7 +8,7 @@
     <header class="headerPage">
       <div class="container clearfix">
         <div class="row">
-          <h1 class="span8">Security</h1>
+          <h1 class="span8">Apache OFBiz Security</h1>
           <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="#">Community</a><span>/</span> <span class="current">Security</span> </div>
         </div>
       </div>
@@ -17,43 +17,44 @@
       <div class="container">
         <div class="row">
 
-             <h2>OFBiz Security</h2>
-            <div class="divider"><span></span></div>
-                <a href="//cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Security+Permissions" target="external">OFBiz Security Model: Permissions and related.</a>
-                     Be sure to read the children pages in the left part of screen.<br>
+             <h2>Security Model</h2>
+             The Security Model describes the assumptions and guarantees the project makes with respect to security.<br/>
+             A detailed description of the Apache OFBiz Security Model is available at <a href="https://github.com/apache/ofbiz-framework/blob/trunk/SECURITY.md" target="external">SECURITY.md</a>.
+             
+             <div class="divider"><span></span></div>
 
+             <h2>Security Policy</h2>
+             The Security Policy defines the rules and procedures for reporting, handling, and disclosing security vulnerabilities.<br/>
+             The Apache Software Foundation (ASF) Security Policy, established by the ASF Security Team, applies to all ASF projects, including OFBiz.<br/>
+             For detailed information, please refer to the 
+             <a href="https://www.apache.org/security" target="external">ASF Security Team webpage</a>.
+             
+             <div class="divider"><span></span></div>
+
+             <h2>Reporting a Security Vulnerability</h2>
+             Security vulnerabilities should be reported privately to the Apache OFBiz Security Team following ASF security reporting guidelines at: <strong>security@ofbiz.apache.org</strong>.<br/>
+             Please do not report security issues through public issue trackers or mailing lists.<br/>
+             The OFBiz Security Team will acknowledge receipt of the report and work with the reporter to investigate and address the issue.
+
+             <div class="divider"><span></span></div>
+
+             <h2>Documentation on Configuring and Deploying a Secure Apache OFBiz Instance</h2>
+             The OFBiz wiki provides guidance on how to securely configure and deploy Apache OFBiz instances.<br/>
+             The following resources are particularly relevant:
+             <ul class="iconsList">
+             <li><i class="icon-pin"></i> <a href="//cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Security+Permissions" target="external">OFBiz Security Permissions</a>
+                  the page and its subpages describe the OFBiz permissions system and how to use it to secure your OFBiz instance.
+             </li>
+             <li><i class="icon-pin"></i>
                 <a href="//cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external">Keeping OFBiz secure.</a>
-                     To keep your OFBiz instance secure from know exploits. Also read the children pages, notably
-                     <a href="//cwiki.apache.org/confluence/display/OFBIZ/How+to+secure+your+deployment" target="external">How to secure your deployment.</a><br>
+                     the page and its subpages describe how to keep your OFBiz instance secure from known exploits and to secure your OFBiz instance from a more general perspective.
+             </li>
+            </ul>
 
-            <p> </p>
-            <p><strong>All system privileges, including access to potentially vulnerable operations, are granted to administrators</strong>.
-                       Even if we assume that administrators don't attack their own websites, it's essential to exercise extra care when granting administrator privileges.
-                       Therefore, if a security breach occurs on the administration page or component (webtools), it's generally not perceived as a problem. The administrator holds the power.
-                       Unless an ordinary user manages to overstep their bounds and act beyond their authority.
-                       So in the webtools page we only accept vulnerabilities when using a not administrator credential.
-            </p>
-
-            <p><strong>At the UI level the OFBiz logs are protected and should not be vulnerable to exploits</strong>.
-                 We though warn OFBiz users it's important that out of OFBiz UI level logs files remain restricted to their trusted users.
-                 Also we recommend to use the <strong>verbose level on production</strong> only when it's absolutely necessary.
-                 Another case where access needs to be restricted to trusted users is inside subdirectories of themes/common-theme/webapp/images/products.
-                 Specifically because images upload for products is possible in those places. Hence possible embedded webshells, even if OFBiz has a robust protection.
-                 As recommended by OWASP, a solid solution is to move the products images upload to another domain.
-                 You may also simply prevent security issues by making these subdirectories non-executable.</p>
-
-
-            <h2><a id="security"></a>Security Vulnerabilities</h2>
             <div class="divider"><span></span></div>
 
-
-            <p><strong>We strongly encourage OfBiz users to report security problems affecting OFBiz to the private security mailing lists (either preferably security@ofbiz.apache.org or else security@apache.org),
-             before publicly disclosing them once fixed. Please don't pack several vulnerabilities in the same report, send them one by one, thanks in advance.</strong></p>
-
-            <p>Please see the <a href="//www.apache.org/security" target="external">ASF Security Team webpage</a> for further information about reporting a security vulnerability as well as their contact information.</p>
-
-
-            <h3>List of Known Vulnerabilities</h3>
+             <h2>List of Known Vulnerabilities</h2>
+            The following is a list of known security vulnerabilities in Apache OFBiz.
             <ul class="iconsList">
                 <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61623" target="external">CVE-2025-61623</a>; affected releases before 24.09.03; fixed in 24.09.03 with commits <a href="https://github.com/apache/ofbiz-framework/commit/4c624298a6" target="external">4c624298a6</a>, <a href="https://github.com/apache/ofbiz-framework/commit/e8ad44dc36" target="external">e8ad44dc36</a>, <a href="https://github.com/apache/ofbiz-framework/commit/505c88cf45" target="external">505c88cf45</a>, <a href="https://github.com/apache/ofbiz-framework/commit/63dc7833e3" target="external">63dc7833e3</a>, <a href="https://github.com/apache/ofbiz-framework/commit/aa0db808a6" target="external">aa0db808a6</a>, <a href="https://github.com/apache/ofbiz-framework/commit/664931eccc" target="external">664931eccc</a></li>
                 <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59118" target="external">CVE-2025-59118</a>; affected releases before 24.09.03; fixed in 24.09.03 with commits <a href="https://github.com/apache/ofbiz-framework/commit/e1d30e8f55" target="external">e1d30e8f55</a>, <a href="https://github.com/apache/ofbiz-framework/commit/cfee3063b1" target="external">cfee3063b1</a>, <a href="https://github.com/apache/ofbiz-framework/commit/fd6a3b8644" target="external">fd6a3b8644</a></li>
