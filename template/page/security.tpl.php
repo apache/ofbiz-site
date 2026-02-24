@@ -33,6 +33,8 @@
 
              <h2>Reporting a Security Vulnerability</h2>
              Security vulnerabilities should be reported privately to the Apache OFBiz Security Team following ASF security reporting guidelines at: <strong>security@ofbiz.apache.org</strong>.<br/>
+             Before submitting a report, please carefully review the <a href="https://github.com/apache/ofbiz-framework/blob/trunk/SECURITY.md" target="external">OFBiz Security Model</a> to ensure the issue falls within the project's defined security scope and assumptions.<br/>
+             Please submit each vulnerability report in a separate email to facilitate efficient tracking and resolution.<br/>
              Please do not report security issues through public issue trackers or mailing lists.<br/>
              The OFBiz Security Team will acknowledge receipt of the report and work with the reporter to investigate and address the issue.
 
