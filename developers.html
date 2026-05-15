@@ -119,6 +119,7 @@
             <ul  id="subnav" class="nav nav-stacked sidenav scrollspyNav">
               <li> <a href="#DevPreq"> Pre-Requisites </a> </li>
               <li> <a href="#DevDownld"> Download </a> </li>
+              <li> <a href="#DevGradle"> Initialize Gradle Wrapper </a> </li>
               <li> <a href="#DevBldRun"> Build and Run </a> </li>
         <li> <a href="#DevRepo"> Browse Repository </a> </li>
          <li> <a href="#DevTutorial"> Tutorial </a> </li>
@@ -132,8 +133,11 @@
                 <h2>Pre-Requisites</h2>
                 <div class="divider"><span></span></div>
      <ul class="iconsList">
-      <li><i class="icon-pin"></i> For 18.12, the ofbiz-framework trunk and ofbiz-plugins trunk the minimum requirement you need installed is Java 11 JDK.</li>
-      <li><i class="icon-pin"></i> Apache OFBiz can be downloaded and run on both Unix based and Windows based systems</li>
+      <li><i class="icon-pin"></i> For the ofbiz-framework trunk and ofbiz-plugins trunk the minimum requirement you need installed is Java 17 JDK (the full JDK, not just the JRE). Make sure to set the <code>$JAVA_HOME</code> environment variable.</li>
+      <li><i class="icon-pin"></i> For release 18.12, the minimum requirement is Java 11 JDK.</li>
+      <li><i class="icon-pin"></i> Apache OFBiz can be downloaded and run on both Unix based and Windows based systems.</li>
+      <li><i class="icon-pin"></i> On Windows, a PowerShell version &gt;= 7.1.3 is required (needed by the Gradle wrapper initialization script).</li>
+      <li><i class="icon-pin"></i> On Windows, do not install OFBiz in a directory whose path contains spaces.</li>
     </ul>
                  <p><strong>NOTE:</strong> If you are running an older release or branch then please refer to <a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="external" >our Wiki</a> for details</p>
                 </div>
@@ -165,18 +169,25 @@
 
     </div>
             </section>
+      <section  id="DevGradle" class="slice row clearfix">
+              <div class="span10">
+                <h2>Initialize Gradle Wrapper</h2>
+                <div class="divider"><span></span></div>
+                <p>The Gradle wrapper is no longer bundled with the ofbiz-framework trunk source. Before running any <code>gradlew</code> command you must download the wrapper from the OFBiz top-level directory.</p>
+                <p>Run the following command for Unix-like OS</p>
+                <code>./gradle/init-gradle-wrapper.sh</code><p></p>
+                <p>Run the following command for MS Windows</p>
+                <code>init-gradle-wrapper</code>
+                <p></p>
+                <p><strong>NOTE:</strong> On Windows, if you encounter an error such as "Powershell is not recognized as an internal or external command, operable program or batch file", follow the advice at <a href="https://s.apache.org/vdcv8" target="external">https://s.apache.org/vdcv8</a>. If you run into problems, check the execution policy of PowerShell (see <a href="https://s.apache.org/urnju" target="external">https://s.apache.org/urnju</a>). By setting the execution policy to "unrestricted", you will be prompted to run the script once you run the <code>init-gradle-wrapper</code> command.</p>
+                <p><strong>NOTE:</strong> This step is only required once per checkout. Existing release branches (such as release18.12) ship the Gradle wrapper inside the repository and do not require this step.</p>
+              </div>
+            </section>
       <section  id="DevBldRun" class="slice row clearfix">
               <div class="span10">
                 <h2>Build and Run</h2>
                 <div class="divider"><span></span></div>
-                <p>Once you have downloaded the source code it will need to be built.</p>
-    <h3>Building Release 18.12</h3>
-    <p>To build 18.12 release, navigate to the OFBiz or framework-trunk directory and;</p>
-    <p>Run the following command for Unix-like OS</p>
-    <code>./gradlew cleanAll loadDefault</code><p></p>
-    <p>Run the following command for MS Windows</p>
-    <code>gradlew cleanAll loadDefault</code>
-    <p></p>
+                <p>Once you have downloaded the source code and (for trunk) initialized the Gradle wrapper, it will need to be built.</p>
     <h3>Building the Trunk</h3>
     <p>To build the trunk, navigate to the framework-trunk directory and;</p>
     <p>Run the following command for Unix-like OS</p>
@@ -184,7 +195,14 @@
     <p>Run the following command for MS Windows</p>
     <code>gradlew cleanAll loadAll</code>
     <p></p>
-    <h3>Starting and Running 18.12 or the ofbiz-framework trunk</h3>
+    <h3>Building Release 18.12</h3>
+    <p>To build 18.12 release, navigate to the OFBiz or framework-trunk directory and;</p>
+    <p>Run the following command for Unix-like OS</p>
+    <code>./gradlew cleanAll loadDefault</code><p></p>
+    <p>Run the following command for MS Windows</p>
+    <code>gradlew cleanAll loadDefault</code>
+    <p></p>
+    <h3>Starting and Running the ofbiz-framework trunk or 18.12</h3>
     <p>To start OFBiz running locally, navigate to the trunk directory and;</p>
     <p>Run the following command for Unix-like OS</p>
     <code>./gradlew ofbiz</code><p></p>
