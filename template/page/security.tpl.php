@@ -58,6 +58,8 @@
              <h2>List of Known Vulnerabilities</h2>
             The following is a list of known security vulnerabilities in Apache OFBiz.
             <ul class="iconsList">
+                <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47342" target="external">CVE-2026-47342</a>; affected releases before 24.09.07; fixed in 24.09.07</li>
+                <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-50223" target="external">CVE-2026-50223</a>; affected releases before 24.09.07; fixed in 24.09.07</li>
                 <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-46586" target="external">CVE-2026-46586</a>; affected releases before 24.09.06; fixed in 24.09.06</li>
                 <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-45434" target="external">CVE-2026-45434</a>; affected releases before 24.09.06; fixed in 24.09.06</li>
                 <li><i class="icon-pin"></i> <a href="//cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-45187" target="external">CVE-2026-45187</a>; affected releases before 24.09.06; fixed in 24.09.06</li>
