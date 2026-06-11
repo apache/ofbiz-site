@@ -1,12 +1,8 @@
-
 # VS code history plugin folder
 .history
 
 # Intellij files
 .idea
-/bin/
-
-
 
 .DS_Store
 /.settings/
