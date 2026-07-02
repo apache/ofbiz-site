@@ -54,7 +54,7 @@
               </ul>
             </li>
             <li><a href="ofbiz-demos.html" class="firstLevel<?php if (basename($page_name) == 'ofbiz-demos.tpl.php'):?> active<?php endif;?>">Demos</a></li>
-          <li><a href="//www.youtube.com/user/ofbiz" class="icon-play socialIcon tips" target="external" title="follow us on Youtube"><span>Youtube</span></a></li>
+            <li><a href="download.html" class="firstLevel<?php if (basename($page_name) == 'download.tpl.php'):?> active<?php endif;?>">Download</a></li>
           </ul>
         </nav>
       </div>
