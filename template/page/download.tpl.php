@@ -39,183 +39,183 @@
                   <ul>
                     <li>
                       <h2>OFBiz 24.09.07</h2>
-                      <a href="release-notes-24.09.07.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/24.09.07.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 24.09.06</h2>
-                      <a href="release-notes-24.09.06.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/24.09.06.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 24.09.05</h2>
-                      <a href="release-notes-24.09.05.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/24.09.05.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 24.09.04</h2>
-                      <a href="release-notes-24.09.04.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/24.09.04.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 24.09.03</h2>
-                      <a href="release-notes-24.09.03.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/24.09.03.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 24.09.02</h2>
-                      <a href="release-notes-24.09.02.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/24.09.02.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 24.09.01</h2>
-                      <a href="release-notes-24.09.01.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/24.09.01.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.19</h2>
-                      <a href="release-notes-18.12.19.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.19.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.18</h2>
-                      <a href="release-notes-18.12.18.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.18.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.17</h2>
-                      <a href="release-notes-18.12.17.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.17.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.16</h2>
-                      <a href="release-notes-18.12.16.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.16.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.15</h2>
-                      <a href="release-notes-18.12.15.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.15.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.14</h2>
-                      <a href="release-notes-18.12.14.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.14.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.13</h2>
-                      <a href="release-notes-18.12.13.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.13.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.12</h2>
-                      <a href="release-notes-18.12.12.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.12.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.11</h2>
-                      <a href="release-notes-18.12.11.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.11.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.10</h2>
-                      <a href="release-notes-18.12.10.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.10.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.09</h2>
-                      <a href="release-notes-18.12.09.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.09.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.08</h2>
-                      <a href="release-notes-18.12.08.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.08.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.07</h2>
-                      <a href="release-notes-18.12.07.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.07.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.06</h2>
-                      <a href="release-notes-18.12.06.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.06.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.05</h2>
-                      <a href="release-notes-18.12.05.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.05.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.04</h2>
-                      <a href="release-notes-18.12.04.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.04.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.03</h2>
-                      <a href="release-notes-18.12.03.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.03.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.02</h2>
-                      <a href="release-notes-18.12.02.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.02.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.01</h2>
-                      <a href="release-notes-18.12.01.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/18.12.01.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.09</h2>
-                      <a href="release-notes-17.12.09.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/17.12.09.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.08</h2>
-                      <a href="release-notes-17.12.08.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/17.12.08.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.07</h2>
-                      <a href="release-notes-17.12.07.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/17.12.07.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.06</h2>
-                      <a href="release-notes-17.12.06.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/17.12.06.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.05</h2>
-                      <a href="release-notes-17.12.05.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/17.12.05.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.04</h2>
-                      <a href="release-notes-17.12.04.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/17.12.04.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.03</h2>
-                      <a href="release-notes-17.12.03.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/17.12.03.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.02</h2>
-                      <a href="release-notes-17.12.02.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/17.12.02.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.01</h2>
-                      <a href="release-notes-17.12.01.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/17.12.01.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 16.11.07</h2>
-                      <a href="release-notes-16.11.07.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/16.11.07.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 16.11.06</h2>
-                      <a href="release-notes-16.11.06.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/16.11.06.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 16.11.05</h2>
-                      <a href="release-notes-16.11.05.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/16.11.05.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 16.11.04</h2>
-                      <a href="release-notes-16.11.04.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/16.11.04.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 16.11.03</h2>
-                      <a href="release-notes-16.11.03.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/16.11.03.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 16.11.01</h2>
-                      <a href="release-notes-16.11.01.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/16.11.01.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 13.07.03</h2>
-                      <a href="release-notes-13.07.03.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/13.07.03.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 13.07.02</h2>
-                      <a href="release-notes-13.07.02.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/13.07.02.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 13.07.01</h2>
-                      <a href="release-notes-13.07.01.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/13.07.01.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 12.04.06</h2>
-                      <a href="release-notes-12.04.06.html" class="moreLink">&rarr; View</a>
+                      <a href="release-notes/12.04.06.html" class="moreLink">&rarr; View</a>
                     </li>
                   </ul>
                 </div>
@@ -244,7 +244,7 @@ available <a href="security.html">here</a></p>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.07.zip.asc" target="external">[PGP]</a>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.07.zip.sha512" target="external">[SHA512]</a>
             <a href="https://downloads.apache.org/ofbiz/KEYS" target="external">[KEYS]</a>
-            <a href="release-notes-24.09.07.html">[Release Notes]</a>
+            <a href="release-notes/24.09.07.html">[Release Notes]</a>
 
             <p><strong>We strongly encourage OFBiz users to report security problems affecting OFBiz to the private security mailing lists (either security@ofbiz.apache.org or security@apache.org),
              before disclosing them in a public forum. Please don't pack several vulnerabilities in the same report, send them one by one, thanks in advance.</strong></p>
