@@ -6,7 +6,7 @@
     <div class="container clearfix">
       <div class="row">
         <h1 class="span8">Page Not Found</h1>
-        <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><span class="current">404 error</span> </div>
+        <div class="span4" id="navTrail"> <a href="<?= $base_url ?>index.html" class="homeLink">home</a><span>/</span><span class="current">404 error</span> </div>
       </div>
     </div>
   </header>
@@ -15,7 +15,7 @@
       <div class="row">
         <section>
           <div class="span5">
-            <div class="imgWrapper"> <img src="images/img-404.jpg" alt="404 image"/> </div>
+            <div class="imgWrapper"> <img src="<?= $base_url ?>images/img-404.jpg" alt="404 image"/> </div>
           </div>
           <div class="span7">
             <h2>The page cannot be found</h2>

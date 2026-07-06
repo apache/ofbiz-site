@@ -8,7 +8,7 @@
       <div class="container clearfix">
         <div class="row">
           <h1 class="span8">OFBiz Demos</h1>
-      <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="#">Community</a><span>/</span><span class="current">Demos</span> </div>
+      <div class="span4" id="navTrail"> <a href="<?= $base_url ?>index.html" class="homeLink">home</a><span>/</span><a href="#">Community</a><span>/</span><span class="current">Demos</span> </div>
         </div>
       </div>
     </header>

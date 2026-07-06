@@ -14,8 +14,8 @@
   <div class="fullwidthbanner-container">
     <div class="fullwidthbanner" >
       <ul>
-        <li data-transition="fade" data-slotamount="1"  data-masterspeed="2000"> <img src="images/slider/rs/thumb.png" alt="slide"/>
-          <div class="caption lfr" data-x="0" data-y="46" data-speed="1000" data-start="300" data-easing="easeOutExpo"><img src="images/slider/rs/CatalogPromotions-SaphirTheme.png" alt="slide" class="ie8PngFix" style="max-width: 500px;"/></div>
+        <li data-transition="fade" data-slotamount="1"  data-masterspeed="2000"> <img src="<?= $base_url ?>images/slider/rs/thumb.png" alt="slide"/>
+          <div class="caption lfr" data-x="0" data-y="46" data-speed="1000" data-start="300" data-easing="easeOutExpo"><img src="<?= $base_url ?>images/slider/rs/CatalogPromotions-SaphirTheme.png" alt="slide" class="ie8PngFix" style="max-width: 500px;"/></div>
           <div class="caption sft" data-x="495" data-y="50" data-speed="300" data-start="600" data-easing="easeOutExpo" >
             <h2>What our users are saying..</h2>
           </div>
@@ -32,8 +32,8 @@
             <h3><i class="icon-right-circle"></i>&nbsp;the community support is amazing...</h3>
           </div>
         </li>
-        <li data-transition="fade" data-slotamount="2"> <img src="images/slider/rs/thumb.png" alt="slide"/>
-          <div class="caption lfl" data-x="450" data-y="65" data-speed="900" data-start="800" data-easing="easeOutBack"><img src="images/slider/rs/InventoryItems-SaphirTheme.png" alt="slide" class="ie8PngFix" style="max-width: 500px;"/></div>
+        <li data-transition="fade" data-slotamount="2"> <img src="<?= $base_url ?>images/slider/rs/thumb.png" alt="slide"/>
+          <div class="caption lfl" data-x="450" data-y="65" data-speed="900" data-start="800" data-easing="easeOutBack"><img src="<?= $base_url ?>images/slider/rs/InventoryItems-SaphirTheme.png" alt="slide" class="ie8PngFix" style="max-width: 500px;"/></div>
           <div class="caption sft" data-x="70" data-y="120" data-speed="300" data-start="1600" data-easing="easeOutExpo" >
             <h2>Enjoy the benefits</h2>
           </div>        
@@ -44,8 +44,8 @@
             <h3><i class="icon-right-circle"></i>&nbsp;Flexible enough to fit any business</h3>
           </div>
         </li>
-        <li data-transition="fade" data-slotamount="1"> <img src="images/slider/rs/thumb.png" alt="slide"/>
-          <div class="caption lfr" data-x="0" data-y="60" data-speed="800" data-start="300" data-easing="easeOutBack"><img src="images/slider/rs/Project-SaphirTheme.png" alt="slide" class="ie8PngFix" style="max-width: 500px;"/></div>
+        <li data-transition="fade" data-slotamount="1"> <img src="<?= $base_url ?>images/slider/rs/thumb.png" alt="slide"/>
+          <div class="caption lfr" data-x="0" data-y="60" data-speed="800" data-start="300" data-easing="easeOutBack"><img src="<?= $base_url ?>images/slider/rs/Project-SaphirTheme.png" alt="slide" class="ie8PngFix" style="max-width: 500px;"/></div>
           <div class="caption sft" data-x="495" data-y="48" data-speed="300" data-start="500" data-easing="easeOutExpo" >
             <h2>Flexible OFBiz Solutions, </h2>
           </div>
@@ -63,8 +63,8 @@
             <h3><i class="icon-right-circle"></i>&nbsp;CRM,Human Resources,WebPOS and much more </h3>
           </div>
         </li>
-        <li data-transition="fade" data-slotamount="2"> <img src="images/slider/rs/thumb.png" alt="slide"/>
-          <div class="caption lfl" data-x="450" data-y="130" data-speed="900" data-start="800" data-easing="easeOutBack"><img src="images/slider/rs/SalesOrder-SaphirTheme.png" alt="slide" class="ie8PngFix" style="max-width: 500px;"/></div>
+        <li data-transition="fade" data-slotamount="2"> <img src="<?= $base_url ?>images/slider/rs/thumb.png" alt="slide"/>
+          <div class="caption lfl" data-x="450" data-y="130" data-speed="900" data-start="800" data-easing="easeOutBack"><img src="<?= $base_url ?>images/slider/rs/SalesOrder-SaphirTheme.png" alt="slide" class="ie8PngFix" style="max-width: 500px;"/></div>
           <div class="caption sft" data-x="50" data-y="60" data-speed="300" data-start="1600" data-easing="easeOutExpo" >
             <h2>The best things in life are free!</h2>
           </div>
@@ -145,9 +145,9 @@
             <div class="divider"><span></span></div>
     		<p>Developer or Business User, getting started with OFBiz is easy!. We have a range of information about OFBiz modules and features as well as an online demo that you can try.</p>
     		<ul class="iconsList">
-		<li><i class="icon-pin"></i> Developers can get started on our <a href="developers.html"><strong> Developers page</strong></a> </li>
-        	<li><i class="icon-pin"></i> Business Users can get started on our <a href="business-users.html"><strong>Business Users page</strong></a> </li>
-      		<li><i class="icon-pin"></i> To see what OFBiz looks like and how it works, please try our <a href="ofbiz-demos.html"><strong>Online Demos</strong></a></li>
+		<li><i class="icon-pin"></i> Developers can get started on our <a href="<?= $base_url ?>developers.html"><strong> Developers page</strong></a> </li>
+        	<li><i class="icon-pin"></i> Business Users can get started on our <a href="<?= $base_url ?>business-users.html"><strong>Business Users page</strong></a> </li>
+      		<li><i class="icon-pin"></i> To see what OFBiz looks like and how it works, please try our <a href="<?= $base_url ?>ofbiz-demos.html"><strong>Online Demos</strong></a></li>
     		</ul>
            </div> 
 
@@ -211,7 +211,7 @@
         </div>
         <div class="span5">
           <div class="btnWrapper">
-            <a href="download.html" class="iconBtn" title="Download OFBiz">
+            <a href="<?= $base_url ?>download.html" class="iconBtn" title="Download OFBiz">
               <i class="icon-download"></i>Download OFBiz 
             </a>
           </div>
