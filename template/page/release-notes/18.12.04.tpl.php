@@ -7,7 +7,7 @@
       <div class="container clearfix">
         <div class="row">
           <h1 class="span8">Release Notes 18.12.04</h1>
-      <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="download.html">Download</a><span>/</span><span class="current">Release Notes 18.12.04</span> </div>
+      <div class="span4" id="navTrail"> <a href="<?= $base_url ?>index.html" class="homeLink">home</a><span>/</span><a href="<?= $base_url ?>download.html">Download</a><span>/</span><span class="current">Release Notes 18.12.04</span> </div>
         </div>
       </div>
     </header>
