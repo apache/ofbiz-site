@@ -17,20 +17,20 @@
 <!-- local fonts  -->
 <link type="text/css" id="fonts" rel="stylesheet" href="/css/fonts.css">
 <!-- Bootstrap  -->
-<link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="<?= $base_url ?>bootstrap/css/bootstrap.min.css">
 <!-- plugin css  -->
-<link rel="stylesheet" type="text/css" href="/js/plugins/pretty-photo/css/prettyPhoto.css" />
-<link rel="stylesheet" type="text/css" href="/js/plugins/rs-plugin/css/settings.css" media="screen" />
-<link type="text/css" rel="stylesheet" href="/js/plugins/hoverdir/css/style.css">
+<link rel="stylesheet" type="text/css" href="<?= $base_url ?>js/plugins/pretty-photo/css/prettyPhoto.css" />
+<link rel="stylesheet" type="text/css" href="<?= $base_url ?>js/plugins/rs-plugin/css/settings.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="<?= $base_url ?>js/plugins/hoverdir/css/style.css">
 <!-- icon fonts -->
-<link type="text/css" rel="stylesheet" href="/font-icons/custom-icons/css/custom-icons.css">
-<link type="text/css" rel="stylesheet" href="/font-icons/custom-icons/css/custom-icons-ie7.css">
+<link type="text/css" rel="stylesheet" href="<?= $base_url ?>font-icons/custom-icons/css/custom-icons.css">
+<link type="text/css" rel="stylesheet" href="<?= $base_url ?>font-icons/custom-icons/css/custom-icons-ie7.css">
 <!-- Custom css -->
-<link type="text/css" rel="stylesheet" href="/css/layout.css">
-<link type="text/css" id="colors" rel="stylesheet" href="/css/colors.css">
+<link type="text/css" rel="stylesheet" href="<?= $base_url ?>css/layout.css">
+<link type="text/css" id="colors" rel="stylesheet" href="<?= $base_url ?>css/colors.css">
 <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <!--[if gte IE 9]><style type="text/css">.iconBig, .active, .hover a , .Shover a { filter: none !important; } </style> <![endif]-->
-<script src="js/modernizr-2.6.1.min.js"></script>
+<script src="<?= $base_url ?>js/modernizr-2.6.1.min.js"></script>
 <!-- Favicons
     ================================================== -->
 <link rel="shortcut icon" href="/images/favicon.ico">

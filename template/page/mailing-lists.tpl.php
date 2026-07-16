@@ -8,7 +8,7 @@
       <div class="container clearfix">
         <div class="row">
           <h1 class="span8">Apache OFBiz Mailing Lists</h1>
-          <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="">Community</a><span>/</span><span class="current">Mailing Lists</span> </div>
+          <div class="span4" id="navTrail"> <a href="<?= $base_url ?>index.html" class="homeLink">home</a><span>/</span><a href="">Community</a><span>/</span><span class="current">Mailing Lists</span> </div>
         </div>
       </div>
     </header>
@@ -40,7 +40,7 @@
                   <p>Then, reply to the email from the mailing list manager program (EZMLM) to confirm subscribe.</p>
                   <p>Congratulations! You are now subscribed.</p>
         </div>
-        <div class="span6"> <img src="images/Subscribe.jpg" alt="subscribe to our mailing lists"/> </div>
+        <div class="span6"> <img src="<?= $base_url ?>images/Subscribe.jpg" alt="subscribe to our mailing lists"/> </div>
             </div>
           </section>
           <section class="span12 mb15">

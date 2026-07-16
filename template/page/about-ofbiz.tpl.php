@@ -8,7 +8,7 @@
       <div class="container clearfix">
         <div class="row">
           <h1 class="span8">Getting Started - Business Users</h1>
-          <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="template-columns.html">templates</a><span>/</span><span class="current">Business Users</span> </div>
+          <div class="span4" id="navTrail"> <a href="<?= $base_url ?>index.html" class="homeLink">home</a><span>/</span><a href="<?= $base_url ?>template-columns.html">templates</a><span>/</span><span class="current">Business Users</span> </div>
         </div>
       </div>
     </header>
@@ -16,7 +16,7 @@
       <div class="container">
         <div class="row">
           <section class="mb15 clearfix">
-            <div class="span6"> <img src="images/no-slider-pic.png" alt="premium website template for you"/> </div>
+            <div class="span6"> <img src="<?= $base_url ?>images/no-slider-pic.png" alt="premium website template for you"/> </div>
             <div class="span6">
               <h2>Getting Started - Business Users</h2>
               <div class="divider"><span></span></div>

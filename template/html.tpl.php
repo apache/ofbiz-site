@@ -5,6 +5,7 @@
  *   $argv[1]
  */
   $page_name = $argv[1];
+  $base_url = getenv('BASE_URL') !== false ? getenv('BASE_URL') : 'https://ofbiz.apache.org/';
   
   ob_start();
   include_once($page_name);

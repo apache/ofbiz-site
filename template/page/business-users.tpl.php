@@ -8,7 +8,7 @@
       <div class="container clearfix">
         <div class="row">
           <h1 class="span8">Getting Started - Business Users</h1>
-          <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="">Getting Started</a><span>/</span><span class="current">Business Users</span> </div>
+          <div class="span4" id="navTrail"> <a href="<?= $base_url ?>index.html" class="homeLink">home</a><span>/</span><a href="">Getting Started</a><span>/</span><span class="current">Business Users</span> </div>
         </div>
       </div>
     </header>
@@ -32,7 +32,7 @@
                 <div class="divider"><span></span></div>
     <p>Getting started with OFBiz is easy and you also have the choice about where you want to start. We have a range of information about OFBiz modules and features as well as an online demo that you can try. After taking a look you want to download and install OFBiz too, then you'll find details about how to do this later in this page.</p>
     <ul class="iconsList">
-                  <li><i class="icon-pin"></i> To see what OFBiz looks like and how it works, please try our <a href="ofbiz-demos.html"><strong>Online Demos</strong></a></li>
+                  <li><i class="icon-pin"></i> To see what OFBiz looks like and how it works, please try our <a href="<?= $base_url ?>ofbiz-demos.html"><strong>Online Demos</strong></a></li>
         <li><i class="icon-pin"></i> To get details about what modules and features Apache OFBiz has, please take a look at <a href="#UsrModules"><strong>Modules and Features</strong></a> </li>
         <li><i class="icon-pin"></i> To download your own version of Apache OFBiz, please take a look at <a href="#UsrInstall"><strong>Download and Install OFBiz</strong></a> </li>
     </ul>
@@ -50,7 +50,7 @@
         <li><i class="icon-pin"></i> one demo for the e-commerce store </li>
     </ul>
 
-<p>Please take a look at <a href="ofbiz-demos.html"><strong>Online Demos</strong> </a> page for details about how to login and access the system.</p>
+<p>Please take a look at <a href="<?= $base_url ?>ofbiz-demos.html"><strong>Online Demos</strong> </a> page for details about how to login and access the system.</p>
         </div>
             </section>
 
@@ -180,7 +180,7 @@
                 <div class="divider"><span></span></div>
 
     <h3>Downloading OFBiz</h3>
-    <p>You can download Apache OFBiz from one of our <a href="download.html">download mirrors</a>. Once downloaded, extract the file to create the OFBiz directory. </p>
+    <p>You can download Apache OFBiz from one of our <a href="<?= $base_url ?>download.html">download mirrors</a>. Once downloaded, extract the file to create the OFBiz directory. </p>
     <p><strong>NOTE</strong>: Please make sure that you use our latest stable release as this version has been verified by the project as suitable for our users.</p>
     <h3>Build and Running OFBiz</h3>
                 <div class="divider"><span></span></div>
@@ -198,7 +198,7 @@
                 <div class="divider"><span></span></div>
     <p><a href="//cwiki.apache.org/confluence/display/OFBIZ/Documentation" target="external"><strong>User Documentation</strong></a></p>
                 <p><a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="external"><strong>OFBiz Wiki</strong></a></p>
-    <p><a href="faqs.html" target="external"><strong>OFBiz Frequently Asked Questions (FAQs)</strong></a></p>
+    <p><a href="<?= $base_url ?>faqs.html" target="external"><strong>OFBiz Frequently Asked Questions (FAQs)</strong></a></p>
 
             </div>
             </section>

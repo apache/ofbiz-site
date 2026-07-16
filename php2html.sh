@@ -20,7 +20,13 @@
 
 # This shell script creates the site HTML files from the PHP templates
 SITE_DIR="$(cd -P "$(dirname "$0")" && pwd)"
-for template in $SITE_DIR/template/page/*.tpl.php; do
-    filename=$(basename $template)
-    php $SITE_DIR/template/html.tpl.php $template > $SITE_DIR/${filename%.tpl.php}.html
+# Set BASE_URL="" when running OFBiz Site in a local development environment.
+BASE_URL="${BASE_URL:-https://ofbiz.apache.org/}"
+
+export BASE_URL
+find "$SITE_DIR/template/page" -name "*.tpl.php" | while read template; do
+    relpath="${template#$SITE_DIR/template/page/}"
+    outpath="$SITE_DIR/${relpath%.tpl.php}.html"
+    mkdir -p "$(dirname "$outpath")"
+    php "$SITE_DIR/template/html.tpl.php" "$template" > "$outpath"
 done

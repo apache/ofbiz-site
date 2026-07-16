@@ -13,8 +13,8 @@
         <h2>Contact Community</h2>
         <div class="divider"><span></span></div>
         <ul>
-          <li><a href="mailing-lists.html">Mailing Lists</a></li>
-          <li><a href="source-repositories.html">Source Repository (Git)</a></li>
+          <li><a href="<?= $base_url ?>mailing-lists.html">Mailing Lists</a></li>
+          <li><a href="<?= $base_url ?>source-repositories.html">Source Repository (Git)</a></li>
           <li><a href="https://s.apache.org/dsj2p" target="external">Issue Tracker (Jira)</a></li>
           <li><a href="//www.youtube.com/user/ofbiz" target="external">OFBiz Youtube Channel</a></li>
           <li><a href="//vimeo.com/channels/apacheofbiz" target="external">OFBiz Vimeo Channel</a></li>
@@ -41,7 +41,7 @@
              and <a href="https://www.apache.org/foundation/contributing.html" target="external">Donations</a>
           </li>
           <li><a href="https://www.apache.org/foundation/thanks.html" target="external">Thanks</a></li>
-          <li><a href="https://ofbiz.apache.org/security.html">Security</a></li>
+          <li><a href="<?= $base_url ?>security.html">Security</a></li>
           <li><a href="https://www.apache.org/licenses/" target="external">License</a></li>
         </ul>
       </div>

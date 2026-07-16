@@ -9,7 +9,7 @@
       <div class="container clearfix">
         <div class="row">
           <h1 class="span8">Downloads</h1>
-          <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="#">Community</a><span>/</span> <span class="current">Downloads</span> </div>
+          <div class="span4" id="navTrail"> <a href="<?= $base_url ?>index.html" class="homeLink">home</a><span>/</span><a href="#">Community</a><span>/</span> <span class="current">Downloads</span> </div>
         </div>
       </div>
     </header>
@@ -39,183 +39,183 @@
                   <ul>
                     <li>
                       <h2>OFBiz 24.09.07</h2>
-                      <a href="release-notes-24.09.07.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/24.09.07.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 24.09.06</h2>
-                      <a href="release-notes-24.09.06.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/24.09.06.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 24.09.05</h2>
-                      <a href="release-notes-24.09.05.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/24.09.05.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 24.09.04</h2>
-                      <a href="release-notes-24.09.04.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/24.09.04.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 24.09.03</h2>
-                      <a href="release-notes-24.09.03.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/24.09.03.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 24.09.02</h2>
-                      <a href="release-notes-24.09.02.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/24.09.02.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 24.09.01</h2>
-                      <a href="release-notes-24.09.01.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/24.09.01.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.19</h2>
-                      <a href="release-notes-18.12.19.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.19.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.18</h2>
-                      <a href="release-notes-18.12.18.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.18.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.17</h2>
-                      <a href="release-notes-18.12.17.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.17.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.16</h2>
-                      <a href="release-notes-18.12.16.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.16.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.15</h2>
-                      <a href="release-notes-18.12.15.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.15.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.14</h2>
-                      <a href="release-notes-18.12.14.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.14.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.13</h2>
-                      <a href="release-notes-18.12.13.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.13.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.12</h2>
-                      <a href="release-notes-18.12.12.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.12.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.11</h2>
-                      <a href="release-notes-18.12.11.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.11.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.10</h2>
-                      <a href="release-notes-18.12.10.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.10.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.09</h2>
-                      <a href="release-notes-18.12.09.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.09.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.08</h2>
-                      <a href="release-notes-18.12.08.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.08.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.07</h2>
-                      <a href="release-notes-18.12.07.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.07.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.06</h2>
-                      <a href="release-notes-18.12.06.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.06.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.05</h2>
-                      <a href="release-notes-18.12.05.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.05.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.04</h2>
-                      <a href="release-notes-18.12.04.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.04.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.03</h2>
-                      <a href="release-notes-18.12.03.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.03.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.02</h2>
-                      <a href="release-notes-18.12.02.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.02.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 18.12.01</h2>
-                      <a href="release-notes-18.12.01.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/18.12.01.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.09</h2>
-                      <a href="release-notes-17.12.09.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/17.12.09.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.08</h2>
-                      <a href="release-notes-17.12.08.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/17.12.08.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.07</h2>
-                      <a href="release-notes-17.12.07.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/17.12.07.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.06</h2>
-                      <a href="release-notes-17.12.06.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/17.12.06.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.05</h2>
-                      <a href="release-notes-17.12.05.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/17.12.05.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.04</h2>
-                      <a href="release-notes-17.12.04.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/17.12.04.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.03</h2>
-                      <a href="release-notes-17.12.03.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/17.12.03.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.02</h2>
-                      <a href="release-notes-17.12.02.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/17.12.02.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 17.12.01</h2>
-                      <a href="release-notes-17.12.01.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/17.12.01.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 16.11.07</h2>
-                      <a href="release-notes-16.11.07.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/16.11.07.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 16.11.06</h2>
-                      <a href="release-notes-16.11.06.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/16.11.06.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 16.11.05</h2>
-                      <a href="release-notes-16.11.05.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/16.11.05.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 16.11.04</h2>
-                      <a href="release-notes-16.11.04.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/16.11.04.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 16.11.03</h2>
-                      <a href="release-notes-16.11.03.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/16.11.03.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 16.11.01</h2>
-                      <a href="release-notes-16.11.01.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/16.11.01.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 13.07.03</h2>
-                      <a href="release-notes-13.07.03.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/13.07.03.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 13.07.02</h2>
-                      <a href="release-notes-13.07.02.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/13.07.02.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 13.07.01</h2>
-                      <a href="release-notes-13.07.01.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/13.07.01.html" class="moreLink">&rarr; View</a>
                     </li>
                     <li>
                       <h2>OFBiz 12.04.06</h2>
-                      <a href="release-notes-12.04.06.html" class="moreLink">&rarr; View</a>
+                      <a href="<?= $base_url ?>release-notes/12.04.06.html" class="moreLink">&rarr; View</a>
                     </li>
                   </ul>
                 </div>
@@ -226,8 +226,8 @@
           <div class="span8">
             <h2>Download Apache OFBiz</h2>
             <div class="divider"><span></span></div>
-            <div class="imgWrapper"> <img src="images/Download.jpg" alt="image fullwidth"> </div>
-            <p> <strong> Use the links below to download Apache OFBiz releases from the "Apache Download Mirrors" page. The download page also includes instructions on how to verify the integrity of the release file using the signature and hash (PGP, SHA512) available for each release. If you need more information about why and how to verify the integrity of the release file <a href="http://www.apache.org/info/verification.html" class="moreLink">this &rarr; page is what you look for</a></strong> </p>
+            <div class="imgWrapper"> <img src="<?= $base_url ?>images/Download.jpg" alt="image fullwidth"> </div>
+            <p> <strong> Use the links below to download Apache OFBiz releases from the "Apache Download Mirrors" page. The download page also includes instructions on how to verify the integrity of the release file using the signature and hash (PGP, SHA512) available for each release. If you need more information about why and how to verify the integrity of the release file <a href="<?= $base_url ?>http://www.apache.org/info/verification.html" class="moreLink">this &rarr; page is what you look for</a></strong> </p>
 
             <p> <strong> Then, to install OFBiz, follow the explanations in the "INSTALL" file found in the just downloaded/extracted OFBiz main directory.</strong> </p>
 
@@ -235,7 +235,7 @@
 
             <p><strong>NOTE: To minimize the risk of security vulnerabilities the Apache OFBiz community highly recommends that all users upgrade to the latest stable release.</strong></p>
             <p>The history of security related fixes included in each release is
-available <a href="security.html">here</a></p>
+available <a href="<?= $base_url ?>security.html">here</a></p>
 
             <h2>Apache OFBiz 24.09.07</h2>
             <div class="divider"><span></span></div>
@@ -244,7 +244,7 @@ available <a href="security.html">here</a></p>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.07.zip.asc" target="external">[PGP]</a>
             <a href="https://downloads.apache.org/ofbiz/apache-ofbiz-24.09.07.zip.sha512" target="external">[SHA512]</a>
             <a href="https://downloads.apache.org/ofbiz/KEYS" target="external">[KEYS]</a>
-            <a href="release-notes-24.09.07.html">[Release Notes]</a>
+            <a href="<?= $base_url ?>release-notes/24.09.07.html">[Release Notes]</a>
 
             <p><strong>We strongly encourage OFBiz users to report security problems affecting OFBiz to the private security mailing lists (either security@ofbiz.apache.org or security@apache.org),
              before disclosing them in a public forum. Please don't pack several vulnerabilities in the same report, send them one by one, thanks in advance.</strong></p>

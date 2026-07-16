@@ -6,4 +6,5 @@ RewriteCond %{REQUEST_URI} !^/dtds/(.*)$
 RewriteRule ^\/?(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 
 RewriteRule ^documentation.html /index.html [R=301,NC,L]
-RewriteRule ^community.html /getting-involved.html [R=301,NC,L] 
+RewriteRule ^community.html /getting-involved.html [R=301,NC,L]
+RewriteRule ^release-notes-([0-9]+\.[0-9]+\.[0-9]+)\.html$ /release-notes/$1.html [R=301,NC,L]

@@ -8,7 +8,7 @@
       <div class="container clearfix">
         <div class="row">
           <h1 class="span8">Getting Started - Developers</h1>
-          <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="">Getting Started</a><span>/</span><span class="current">Developers</span> </div>
+          <div class="span4" id="navTrail"> <a href="<?= $base_url ?>index.html" class="homeLink">home</a><span>/</span><a href="">Getting Started</a><span>/</span><span class="current">Developers</span> </div>
         </div>
       </div>
     </header>
@@ -49,7 +49,7 @@
                 <div class="divider"><span></span></div>
                 <p>There are two ways to download the OFBiz source code</p>
     <h3>1. Using a Download Mirror</h3>
-    <p>Download your required version from one of our <a href="download.html">download mirrors</a> and extract the zip file </p>
+    <p>Download your required version from one of our <a href="<?= $base_url ?>download.html">download mirrors</a> and extract the zip file </p>
     <h3>2. Checkout the Source Code</h3>
     <p>Checkout the source code from the repository</p>
     <p>Anyone can checkout or <a href="#DevRepo">browse the source code</a> in the OFBiz GitHub repositories.</p>
@@ -60,7 +60,7 @@
   <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ git clone https://github.com/apache/ofbiz-plugins.git plugins </code></li>
   <li><i class="icon-pin"></i> <strong>branch release18.12 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-framework.git ofbiz-framework</code></li>
   <li>If you don't want to use the HEAD version (Git default, with last bug fixes), you can update the tags before.
-      <br>You can refer to the <a href="download.html">site download page</a> for the stable version to use.
+      <br>You can refer to the <a href="<?= $base_url ?>download.html">site download page</a> for the stable version to use.
       <br>Note that you need to add "release"in the name  before, like in "release18.12.10", eg with releaseVersionNumber as a var:
       <br><code>git fetch --all --tags</code>
       <br><code>$ git checkout releaseVersionNumber</code></li>
@@ -187,7 +187,7 @@
               <div class="span10">
                 <h2>Demo</h2>
                 <div class="divider"><span></span></div>
-                <p>Try out our OFBiz demo - <a href="ofbiz-demos.html"><strong>OFBiz Demos</strong></a></p>
+                <p>Try out our OFBiz demo - <a href="<?= $base_url ?>ofbiz-demos.html"><strong>OFBiz Demos</strong></a></p>
             </div>
             </section>
           </div>
