@@ -113,7 +113,7 @@
                   <div class="ch-info"> <span> CRM & ERP </span> </div>
                 </a>
                 <h2 class="smallHeading">Mature CRM &  ERP Solution</h2>
-                <p>An Apache top level project for  10 years, OFBiz has shown it's stability and maturity as an enterprise-wide 
+                <p>An Apache top level project since 2006, OFBiz has shown its stability and maturity as an enterprise-wide
                   ERP solution that is flexible enough to change with your business.</p>
               </article>
               <article class="one_third last"> <a href="" class="iconWrapper iconBig ch-item"> <i class=" icon-edit"></i>
