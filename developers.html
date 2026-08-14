@@ -133,8 +133,7 @@
                 <h2>Pre-Requisites</h2>
                 <div class="divider"><span></span></div>
      <ul class="iconsList">
-      <li><i class="icon-pin"></i> For the ofbiz-framework trunk and ofbiz-plugins trunk the minimum requirement you need installed is Java 17 JDK (the full JDK, not just the JRE). Make sure to set the <code>$JAVA_HOME</code> environment variable.</li>
-      <li><i class="icon-pin"></i> For release 18.12, the minimum requirement is Java 11 JDK.</li>
+      <li><i class="icon-pin"></i> For the ofbiz-framework trunk, ofbiz-plugins trunk, and release24.09 the minimum requirement you need installed is Java 17 JDK (the full JDK, not just the JRE). Make sure to set the <code>$JAVA_HOME</code> environment variable.</li>
       <li><i class="icon-pin"></i> Apache OFBiz can be downloaded and run on both Unix based and Windows based systems.</li>
       <li><i class="icon-pin"></i> On Windows, a PowerShell version &gt;= 7.1.3 is required (needed by the Gradle wrapper initialization script).</li>
       <li><i class="icon-pin"></i> On Windows, do not install OFBiz in a directory whose path contains spaces.</li>
@@ -187,21 +186,14 @@
                 <h2>Build and Run</h2>
                 <div class="divider"><span></span></div>
                 <p>Once you have downloaded the source code and (for trunk) initialized the Gradle wrapper, it will need to be built.</p>
-    <h3>Building the Trunk</h3>
-    <p>To build the trunk, navigate to the framework-trunk directory and;</p>
+    <h3>Building the Trunk or Release 24.09</h3>
+    <p>To build the trunk or the release24.09 branch, navigate to the framework-trunk directory and;</p>
     <p>Run the following command for Unix-like OS</p>
     <code>./gradlew cleanAll loadAll</code><p></p>
     <p>Run the following command for MS Windows</p>
     <code>gradlew cleanAll loadAll</code>
     <p></p>
-    <h3>Building Release 18.12</h3>
-    <p>To build 18.12 release, navigate to the OFBiz or framework-trunk directory and;</p>
-    <p>Run the following command for Unix-like OS</p>
-    <code>./gradlew cleanAll loadDefault</code><p></p>
-    <p>Run the following command for MS Windows</p>
-    <code>gradlew cleanAll loadDefault</code>
-    <p></p>
-    <h3>Starting and Running the ofbiz-framework trunk or 18.12</h3>
+    <h3>Starting and Running the ofbiz-framework trunk or Release 24.09</h3>
     <p>To start OFBiz running locally, navigate to the trunk directory and;</p>
     <p>Run the following command for Unix-like OS</p>
     <code>./gradlew ofbiz</code><p></p>
