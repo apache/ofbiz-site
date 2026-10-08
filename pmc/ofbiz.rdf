@@ -31,6 +31,8 @@ Apache OFBiz provides a foundation and starting point for reliable, secure and s
     <asfext:member><foaf:Person><foaf:name>Taher A. Alkhateeb</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Hans Bakker</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Michael Brohl</foaf:name></foaf:Person></asfext:member>
+    <asfext:member><foaf:Person><foaf:name>Gaetan Chaboussie</foaf:name></foaf:Person></asfext:member>
+    <asfext:member><foaf:Person><foaf:name>Yashwant Dhakad</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Deepak Dixit</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Erwan de Ferrieres</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Sharan Foga</foaf:name></foaf:Person></asfext:member>
@@ -47,6 +49,7 @@ Apache OFBiz provides a foundation and starting point for reliable, secure and s
     <asfext:member><foaf:Person><foaf:name>Nicolas Malin</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Swapnil M Mane</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Nicola Mazzoni</foaf:name></foaf:Person></asfext:member>
+    <asfext:member><foaf:Person><foaf:name>Florian Motteau</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Pranay Pandey</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Anil Patel</foaf:name></foaf:Person></asfext:member>
     <asfext:member><foaf:Person><foaf:name>Mridul Pathak</foaf:name></foaf:Person></asfext:member>
