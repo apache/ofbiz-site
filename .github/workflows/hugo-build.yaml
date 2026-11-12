@@ -17,9 +17,14 @@
 name: Validate Hugo website
 
 on:
+  push:
+    branches:
+      - feature/website-migration-hugo
+
   pull_request:
     branches:
       - master
+
   workflow_dispatch:
 
 permissions:
