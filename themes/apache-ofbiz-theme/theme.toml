@@ -1,0 +1,19 @@
+# theme.toml für das lokale Apache-OFBiz-Theme (kein Publikations-Kandidat)
+name = "Apache Ofbiz Theme"
+license = "MIT"
+licenselink = "https://github.com/ecomify/website-apache-ofbiz-hugo/blob/main/themes/apache-ofbiz-theme/LICENSE"
+description = "Saphir-basiertes Hugo-Theme für die Apache-OFBiz-Website (Bootstrap 5.3)"
+homepage = "https://ofbiz.apache.org/"
+tags = ["blog", "portfolio", "bootstrap"]
+features = ["bootstrap 5", "responsive", "menu", "shortcode"]
+min_version = "0.164.0"
+
+[author]
+  name = "Apache OFBiz"
+  homepage = "https://ofbiz.apache.org/"
+
+# If porting an existing theme
+[original]
+  name = "Saphir"
+  homepage = "https://ofbiz.apache.org/"
+  repo = ""

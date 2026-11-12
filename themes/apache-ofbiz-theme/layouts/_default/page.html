@@ -1,0 +1,59 @@
+{{/* Template for a single page with page navigation and content divided into sections.
+    The layout elements (grid, sidebar, divider levels) are entirely contained within the template;
+    the content is clean Markdown. Sections in the content: <section class="slice"> blocks.
+    Front Matter: wrapper: col-10 | full | none
+      (Default: posts→none, release-notes→full, otherwise col-10)
+    Bootstrap migration: Replace Grid classes (col-10) centrally here. */}}
+{{ define "main" }}
+{{- $wrapper := .Params.wrapper -}}
+{{- if not $wrapper -}}
+{{- if eq .Section "posts" -}}{{ $wrapper = "none" }}
+{{- else if eq .Section "release-notes" -}}{{ $wrapper = "full" }}
+{{- else -}}{{ $wrapper = "col-10" }}
+{{- end -}}
+{{- end }}
+  <!-- page content -->
+  <section id="content" class="fullWidth">
+    <header class="headerPage">
+      <div class="container clearfix">
+        <div class="row">
+          <h1 class="col-8">{{ .Params.title}}</h1>
+          <div class="col-4" id="navTrail"> {{ partial "navtrail.html" . }} </div>
+        </div>
+      </div>
+    </header>
+  <section id="content" class="features" >
+    <div class="slice clearfix">
+      <div class="container">
+        <div class="row ">
+         {{/* Aside only with subnav or in a col-10 layout. Official RNs have
+              row > div WITHOUT an aside (to avoid an empty col-2 grid). */}}
+          {{- if or .Params.sections (ne $wrapper "full") }}
+          <aside class="col-2 PortfolioStickyMenu" id="sidebar">
+            {{ with .Params.sections }}
+            <ul  id="subnav" class="nav nav-stacked sidenav scrollspyNav">
+              {{ range . }}
+              <li> <a href="{{ .url }}"> {{ .title }} </a> </li>
+              {{ end }}
+            </ul>
+            {{ end }}
+          </aside>
+          {{- end }}
+          {{- if eq $wrapper "col-10" }}
+          <div class="col-10">
+            {{ .Content }}
+          </div>
+          {{- else if eq $wrapper "full" }}
+          <div>
+            {{ .Content }}
+          </div>
+          {{- else }}
+            {{ .Content }}
+          {{- end }}
+        </div>
+      </div>
+    </div>
+   </section>
+ </section>
+  <!-- page content -->
+{{ end }}

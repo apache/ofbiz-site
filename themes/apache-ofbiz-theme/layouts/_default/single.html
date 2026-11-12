@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section id="content" class="fullWidth">
+    <header class="headerPage">
+      <div class="container clearfix">
+        <div class="row">
+          <h1 class="col-8">{{ .Title}}</h1>
+          <div class="col-4" id="navTrail"> {{ partial "navtrail.html" . }} </div>
+        </div>
+      </div>
+    </header>
+   <div class="container clearfix">
+    <div class="row">
+     {{ partial "metadata.html" . }}
+     </div>
+    </div>
+<div class="container clearfix">
+    <div class="row">
+<br><br>
+{{ $content := .Content }}
+{{ $content | replaceRE "(Functional enhancements and improvements as well as updates of third party libraries and source code refactoring:)" "<strong>$1</strong>" | replaceRE "(Functional and technical bugfixes:)" "<strong>$1</strong>" | safeHTML }}
+</div>
+</div>
+</section>
+{{ end }}

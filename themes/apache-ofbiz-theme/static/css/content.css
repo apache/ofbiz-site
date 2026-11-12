@@ -1,0 +1,25 @@
+/* ==========================================================
+   content.css — Rules for the content area (clean Markdown)
+   Written to be Bootstrap-agnostic (migration-ready).
+   Section spacing is provided by the existing .slice selector (layout.css)
+   applied to the <section class="slice"> blocks in the content.
+   ========================================================== */
+
+/* Lists without bullets/margins: nav/header/footer = menu and footer lists,
+   #content = all page content lists (including the home page).
+   (Replaces the broken "nav ol, ul" selector in layout.css, which matched every
+   ul on the page; the effect remains the same, but the areas are
+   now specified explicitly.) */
+nav ol, nav ul, header ul, footer ul, #content ul {
+    list-style: none;
+    margin: 0;
+}
+
+/* iconsList (ul version): same as ol.iconsList in layout.css.
+   NOTE: no li::before pin—the icons come from the content
+   (<i class="icon-pin">); a ::before rule would render each icon twice
+   (the official layout.css does not include it). */
+ul.iconsList {
+    list-style: none;
+    margin: 0;
+}
