@@ -120,6 +120,32 @@ a:hover, a:focus {
     }
 }
 
+/* CTA row (.callToActionBoxed, home): the 1px border shrinks the
+   flex content box by 2px (958px at >=980, 738px in the 768-979 range),
+   but the px-calibrated .col-* are fixed (560+400=960, 434+310=744) and
+   the flex line-break decision happens BEFORE any shrinking -> col-5
+   wraps below col-7 (button under the text). Official (BS2 floats):
+   side-by-side at >=768px, stacked below.
+   Fix (scoped to the CTA row): at >=768px use percentage columns (they
+   resolve against the actual content box) + flex-wrap:nowrap with
+   flex-shrink:1 as backstop for subpixel rounding; below 768px the
+   bridge's 100%-columns keep the stacked layout. */
+@media (min-width: 768px) {
+    .callToActionBoxed {
+        flex-wrap: nowrap;
+    }
+    .callToActionBoxed .col-7 {
+        width: 58.3333%;
+    }
+    .callToActionBoxed .col-5 {
+        width: 41.6667%;
+    }
+    .callToActionBoxed .col-7,
+    .callToActionBoxed .col-5 {
+        flex-shrink: 1;
+    }
+}
+
 /* --- Navbar (Legacy Header; BS2-Base based on BS5) --------
    Official dimensions (custom Legacy BS2 build, measured):
    .navbar-fixed-top .navbar-inner: padding 0 0, clearfix (BFC),
@@ -174,6 +200,10 @@ a:hover, a:focus {
 /* --- Nav / Tabs / Tabbable ---------------------------------- */
 
 .nav {
+/* BS5-Core sets .nav to display:flex; the official BS2 .nav is block
+     (otherwise, flex properties would be active) — set to block here so that the
+     float layouts (.nav > li { float: left }) work as intended. */
+    display: block;
     margin-left: 0;
     margin-bottom: 20px;
     list-style: none;
@@ -182,7 +212,12 @@ a:hover, a:focus {
 .nav > li > a { display: block; }
 .nav-stacked > li { float: none; }
 
-.nav-tabs { border-bottom: 1px solid #dddddd; }
+.nav-tabs {
+/* BS5-Core .nav-tabs sets border: 1px solid transparent (all pages)
+       + background; officially (BS2) only border-bottom — reset. */
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+}
 .nav-tabs > li { margin-bottom: -1px; }
 .nav-tabs > li > a {
     padding-top: 8px;
@@ -241,6 +276,62 @@ a:hover, a:focus {
 .tabs-left > .nav-tabs li > a.active:hover,
 .tabs-left > .nav-tabs li > a.active:focus {
     border-color: #dddddd transparent #dddddd #dddddd;
+}
+
+/* --- Buttons (BS2-Base) --------------------------------------
+Official .btn (BS2-Core): Gradient #fff→#e6e6e6, #ccc border,
+   14px/20px, 4px 12px, 4px radius, shadow. BS5-Core .btn would be
+   transparent/16px/6px 12px/6px borderless — legacy .btn elements
+   (mailing lists, portfolio navigation) would appear unstyled.
+   Ported 1:1 from BS2-Base (IE hacks removed); override legacy context rules
+   (.features .btn, .btn-3d, .btnSmall …) as per the official guidelines. */
+
+.btn {
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #333333;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    border: 1px solid #cccccc;
+    border-bottom-color: #b3b3b3;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.btn:hover,
+.btn:focus {
+    color: #333333;
+    text-decoration: none;
+    background-color: #e6e6e6;
+    background-position: 0 -15px;
+    transition: background-position 0.1s linear;
+}
+.btn:focus {
+    outline: thin dotted #333;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.btn:active,
+.btn.active {
+    color: #333333;
+    background-color: #e6e6e6;
+    background-image: none;
+    outline: 0;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.btn.disabled,
+.btn[disabled] {
+    cursor: default;
+    background-image: none;
+    opacity: 0.65;
+    box-shadow: none;
 }
 
 /* --- Dropdown (menu submenus; hover logic in custom.js) -- */
@@ -310,7 +401,7 @@ a:hover, a:focus {
 }
 
 /* BS5-Core defines .accordion-body { padding: 1rem 1.25rem } —
-   Name conflict with the Saphir layout class (officially without padding;
+   Name conflict with the legacy layout class (officially without padding;
    padding is set in .accordion-inner: 9px 15px). With `box-sizing: border-box`,
    this results in a 32px lower height limit in the collapsed state (`height:0 +
    16+16 padding`) → Hide animation runs at 32 instead of 0; Hide/Show is asynchronous

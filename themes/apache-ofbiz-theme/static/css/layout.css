@@ -26,7 +26,17 @@
 
 /* #Custom Reset (on top of normalize in bootstrap)
 ================================================== */
-/* List rules (nav ol, ul) moved to content.css — explicitly defined and documented there */
+/* The `ul` part looks "broken" (element
+   selector, matches EVERY `ul` on the page), but this is the official behavior:
+   For plain lists, the `p, ul` rule below takes precedence (1.5em, same
+   specificity, comes later); `.nav` (Bootstrap, class) sets the
+   margin for navigation lists. DO NOT “correct” this: ID/class specificity
+   would change the cascade order (tab margin regression: #content ul
+   overrode `.nav`’s 20px until the rule came back here). */
+nav ol, ul {
+    list-style: none;
+    margin: 0;
+}
 
 /* #Typography
 ================================================== */
@@ -310,7 +320,7 @@ width: 20px;
 }
 #mainHeader #mainMenu {
     margin:0;
-    float:right;
+    float: right;
 }
 #headerBorder {
     height:1.3em;
@@ -341,7 +351,7 @@ width: 20px;
     margin: 2px auto 0 auto;
 }
 #mainMenu {
-    margin:0 0 0 0;/* float:right;*/
+    margin:0 0 0 0;/* float: right;*/
 
 }
 #mainMenu ul {
@@ -478,7 +488,7 @@ width: 20px;
    padding-top:0;
 }
 
-.logoBig ul.socialNetwork {float:right; margin-top:1.5em;}
+.logoBig ul.socialNetwork {float: right; margin-top:1.5em;}
 .headerPhone{ margin:0; }
 .headerPhone li{ display:inline-block; }
 .headerPhone li:first-child{ margin-right:10px;}
@@ -486,7 +496,7 @@ width: 20px;
 .headerPhone li a:hover{ color:#ff6600; text-decoration:none;}
 /***3 TOP BAR ***/
 .topBar {padding:0.7em 0.5em 0.2em 0.5em;}
-.topBar ul.socialNetwork {float:right;}
+.topBar ul.socialNetwork {float: right;}
 .topBar tel {margin-right:15px;}
 
 /*  Page  */
@@ -610,7 +620,7 @@ textarea {
 }
 
 #mapReturn {
-    float:right;
+    float: right;
 }
 
 
@@ -840,7 +850,7 @@ textarea {
     margin-bottom: 0.3em;
 }
 .downloadButton {
-    float:right;
+    float: right;
 }
 .bigIconsColumnsWrapper {
     text-align:center;
@@ -1288,7 +1298,7 @@ ul.entry-meta [class^="icon-"], [class*=" icon-"] {
     outline:none !important;
 }
 .navigate ul {
-    float:right;
+    float: right;
     margin-bottom:1.33em;
 }
 .navigate li {
@@ -1362,12 +1372,12 @@ ul.entry-meta [class^="icon-"], [class*=" icon-"] {
         text-decoration:none;
     }
     nav#filter {
-        float:right;
+        float: right;
         margin-top:1.4em;
         margin-bottom:0.25em;
     }
     nav#filter ul {
-        float:right;
+        float: right;
     }
     nav#filter li {
         display:inline-block;
@@ -1509,14 +1519,12 @@ a.btn-3d .btn-3d, .btn-3d:link, .btn-3d:visited {
     position:relative;
     text-decoration: none;
     display:inline-block;
-    *display: inline;
     padding: 6px 10px;
     font-weight: normal;
     font-size:12px;
     -moz-border-radius:5px;
     -webkit-border-radius:5px;
     border-radius:5px;
-    *zoom: 1;
     border:none;
 }
 .btn-3d:hover {
@@ -1564,7 +1572,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     -moz-border-radius:10px;
     -webkit-border-radius:10px;
     border-radius:10px;
-    float:right;
+    float: right;
 }
 /* END BTN'S */
 
