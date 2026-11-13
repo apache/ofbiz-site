@@ -17,7 +17,7 @@ themes/apache-ofbiz-theme/  The Apache OFBiz website theme, ported to a Hugo dir
   layouts/                  baseof, single, list, page, post, FAQS, pagedwnld
   layouts/partials/         head, header, footer, navtrail, home blocks, ...
   layouts/shortcodes/       rawhtml, columns, divider, iconslist
-  static/css/               layout.css (Saphir), bootstrap-bridge.css (BS5 compat)
+  static/css/               layout.css (legacy), bootstrap-bridge.css (BS5 compat)
 static/                     Images, fonts, JS (jQuery 4.0, Bootstrap 5.3.8, custom.js)
 content/
   _index.md                 home page (data-driven: slides, quote, features, CTA)
