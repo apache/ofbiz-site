@@ -1,2 +1,0 @@
-{{/* ul.iconsList: nested Markdown list; the pin icon is applied via CSS */}}
-<ul class="iconsList">{{ .Inner | .Page.RenderString | replaceRE "</?ul>" "" | safeHTML }}</ul>

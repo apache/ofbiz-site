@@ -1,7 +1,0 @@
-{{/* External links (external domains, including protocol-relative //) open in a new tab */}}
-{{- $dest := .Destination -}}
-{{- $siteHost := .Page.Site.BaseURL | strings.TrimPrefix "http://" | strings.TrimPrefix "https://" | strings.TrimSuffix "/" -}}
-{{- $destNorm := $dest | strings.TrimPrefix "http://" | strings.TrimPrefix "https://" | strings.TrimPrefix "//" -}}
-{{- $destHost := index (split "/" $destNorm) 0 -}}
-{{- $isExternal := and (or (hasPrefix $dest "http") (hasPrefix $dest "//")) (ne $destHost $siteHost) -}}
-<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>

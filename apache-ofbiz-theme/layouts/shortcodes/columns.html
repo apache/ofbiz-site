@@ -1,6 +1,0 @@
-{{/* Two columns: content separated by ---SPLIT--- */}}
-{{ $parts := split .Inner "---SPLIT---" }}
-<div class="row">
-  <div class="col-6">{{ index $parts 0 | .Page.RenderString | safeHTML }}</div>
-  {{ if gt (len $parts) 1 }}<div class="col-6">{{ index $parts 1 | .Page.RenderString | safeHTML }}</div>{{ end }}
-</div>
