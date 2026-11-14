@@ -1,0 +1,21 @@
+{{/* Home page: Call-to-Action block. Data: .cta. */}}
+{{- $page := .page -}}
+<section class="slice">
+<div  class="container">
+<div class="row callToActionBoxed">
+<div class="col-7">
+<div class="ctaText">
+<h3>{{ .cta.heading | $page.RenderString | safeHTML }}</h3>
+<p>{{ .cta.text | $page.RenderString | safeHTML }}</p>
+</div>
+</div>
+<div class="col-5">
+<div class="btnWrapper">
+<a href="{{ .cta.href }}" class="iconBtn" title="{{ .cta.title }}">
+<i class="{{ .cta.icon }}"></i>{{ .cta.label }}
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>

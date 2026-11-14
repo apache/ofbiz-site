@@ -1,0 +1,51 @@
+{{/* Projekt-Header (Bild, Nav, Client, Modules) + "Other works"-Grid. Daten: .project, .works. */}}
+{{- $page := .page -}}
+<section id="content" class="project">
+<div class="slice clearfix">
+<div class="container">
+<div class="row">
+<header class="col-12">
+<div class="row">
+<div class="col-8"> <img src="{{ .project.img }}" alt="{{ .project.alt }}"> </div>
+<div class="col-4">
+<nav id="projectsNav">
+<ul>
+<li> <a href="{{ .project.prev | default "" }}" class="btn btn-3d btnSmall">Previous</a> </li>
+<li> <a href="{{ .project.next | default "" }}" class="btn btn-3d btnSmall">Next</a> </li>
+</ul>
+</nav>
+<div class="divider"><span></span></div>
+<h3>Client</h3>
+<p>{{ .project.client | $page.RenderString | safeHTML }}</p>
+<h3>OFBiz Modules Used</h3>
+<p>{{ .project.modules | $page.RenderString | safeHTML }}</p>
+<div id="shareme" data-text="{{ .project.share }}">
+</div>
+</div>
+</div>
+</header>
+</div>
+</div>
+</div>
+<section class="slice">
+<div class="container clearfix" id="otherProjects">
+<div class="row da-thumbs">
+<div class="col-12">
+<h2>Other works <span>in this category</span></h2>
+<div class="divider"><span></span></div>
+</div>
+{{- range .works }}
+<article class="col-4 bloc">
+<a href="{{ .href | default "" }}">
+<section class="imgWrapper"> <img src="{{ .img }}" alt="{{ .alt }}"/></section>
+<div> <span class="iconWrapper iconLink"><i class="icon-search"></i></span> </div>
+</a>
+<h3>{{ .title }}</h3>
+<p>{{ .text | $page.RenderString | safeHTML }}</p>
+</article>
+{{- end }}
+</div>
+</div>
+</div>
+</section>
+</section>
