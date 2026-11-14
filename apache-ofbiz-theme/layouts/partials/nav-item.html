@@ -1,0 +1,28 @@
+{{/* Recursive menu item: renders a menu item including any
+    number of levels of children (e.g., Documentation > API Reference > Trunk/Stable/Next).
+    Mirrors the official navigation structure (apache/ofbiz-site header.tpl.php).
+    Official convention: only top-level items with a direct URL receive
+    class="active" (Home, Demos, Download) — dropdown parents never do. */}}
+{{ $entry := .entry }}
+{{ $page := .page }}
+{{/* "#" (dropdown parent without a target) remains a fragment — relLangURL would
+    resolve it to "/#" and navigate to the home page when clicked.
+    Official: href="#" = stay on the current page, scroll to the top. */}}
+{{ $url := $entry.URL }}
+{{ if ne $url "#" }}{{ $url = $url | relLangURL }}{{ end }}
+{{ $isActive := false }}
+{{ if and $page (not $entry.Parent) (ne $entry.URL "#") }}
+  {{ if or (eq $url $page.RelPermalink) (and (eq $entry.URL "/downloads/") (hasPrefix $page.RelPermalink "/release-notes/")) }}
+    {{ $isActive = true }}
+  {{ end }}
+{{ end }}
+<li>
+  <a href="{{ $url }}"{{ if $isActive }} class="active"{{ end }}{{ if hasPrefix $url "http" }} target="_blank" rel="noopener"{{ end }}>{{ $entry.Name }}</a>
+  {{- with $entry.Children }}
+  <ul>
+    {{- range . }}
+    {{ partial "nav-item.html" (dict "entry" . "page" $page) }}
+    {{- end }}
+  </ul>
+  {{- end }}
+</li>

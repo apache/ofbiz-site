@@ -1,0 +1,15 @@
+{{/* Home page: all blocks are data-driven (Front Matter); layout is defined in the template.
+    Data: slides, quote, icons, whereToStart, features, cta. */}}
+{{ define "main" }}
+{{ partial "slider.html" (dict "slides" .Params.slides) }}
+{{ partial "home-hero.html" (dict "page" . "quote" .Params.quote "icons" .Params.icons) }}
+<section class="slice">
+<div class="container">
+<div class="row">
+{{ partial "home-features.html" (dict "page" . "whereToStart" .Params.whereToStart "features" .Params.features) }}
+</div>
+</div>
+</section>
+{{ partial "home-cta.html" (dict "page" . "cta" .Params.cta) }}
+{{ .Content }}
+{{ end }}
