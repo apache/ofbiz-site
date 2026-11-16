@@ -1,0 +1,156 @@
+
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements. See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership. The ASF licenses this file
+# to You under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License. You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on
+# an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied. See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+name: Deploy Hugo Staging
+
+on:
+  push:
+    branches:
+      - "site/*"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hugo-staging-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build Hugo staging
+    if: github.repository == 'apache/ofbiz-site'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    outputs:
+      staging_branch: ${{ steps.target.outputs.branch }}
+      staging_url: ${{ steps.target.outputs.url }}
+
+    steps:
+      - name: Validate staging branch
+        id: target
+        shell: bash
+        env:
+          SOURCE_BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+
+          NAME="${SOURCE_BRANCH#site/}"
+
+          # Allow simple, DNS-compatible preview names.
+          if [[ ! "$NAME" =~ ^[a-z0-9]+(-[a-z0-9]+)*$ ]]; then
+            echo "::error::Invalid site branch name"
+            exit 1
+          fi
+
+          # Prevent staging branches from triggering builds.
+          if [[ "$NAME" == *-staging ]]; then
+            echo "::error::Reserved staging branch suffix"
+            exit 1
+          fi
+
+          echo "branch=site/${NAME}-staging" >> "$GITHUB_OUTPUT"
+          echo "url=https://ofbiz-${NAME}.staged.apache.org/" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout sources
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Install Hugo Extended
+        env:
+          HUGO_VERSION: "0.164.0"
+        run: |
+          set -euo pipefail
+
+          curl -fsSL --retry 3 \
+            -o /tmp/hugo.deb \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+
+          sudo dpkg -i /tmp/hugo.deb
+          hugo version
+
+      - name: Build Hugo website
+        shell: bash
+        env:
+          HUGO_BASEURL: ${{ steps.target.outputs.url }}
+        run: |
+          set -euo pipefail
+
+          rm -rf public
+          bash ./build.sh
+
+          test -s public/index.html
+
+          # Generate minimal ASF auto-staging configuration.
+          cat > public/.asf.yaml <<'EOF'
+          # Licensed to the Apache Software Foundation (ASF)
+          # under one or more contributor license agreements.
+          # Licensed under the Apache License, Version 2.0.
+
+          staging:
+            profile: ~
+            autostage: site/*
+          EOF
+
+      - name: Upload staging artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ofbiz-hugo-staging
+          path: public/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
+
+  deploy:
+    name: Deploy to ASF staging
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download staging artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: ofbiz-hugo-staging
+          path: public/
+
+      - name: Verify staging artifact
+        run: |
+          set -euo pipefail
+
+          test -s public/index.html
+          test -s public/.asf.yaml
+
+      - name: Publish staging branch
+        uses: peaceiris/actions-gh-pages@v4.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: ${{ needs.build.outputs.staging_branch }}
+          force_orphan: true
+
+      - name: Show staging URL
+        env:
+          STAGING_URL: ${{ needs.build.outputs.staging_url }}
+        run: |
+          echo "### OFBiz Hugo staging" >> "$GITHUB_STEP_SUMMARY"
+          echo "Preview: ${STAGING_URL}" >> "$GITHUB_STEP_SUMMARY"
