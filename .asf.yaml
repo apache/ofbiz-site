@@ -21,10 +21,6 @@
 publish:
   whoami: master
 
-staging:
-  profile: ~
-  autostage: site/*
-
 github:
   enabled_merge_buttons:
     merge: false
