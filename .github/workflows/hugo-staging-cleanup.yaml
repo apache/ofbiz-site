@@ -1,0 +1,107 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements. See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership. The ASF licenses this file
+# to You under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License. You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on
+# an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied. See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+name: Cleanup Hugo Staging
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - master
+
+  delete:
+
+permissions:
+  contents: read
+
+jobs:
+  cleanup:
+    name: Delete generated staging branch
+    if: >-
+      github.repository == 'apache/ofbiz-site' &&
+      (
+        (
+          github.event_name == 'pull_request' &&
+          github.event.pull_request.head.repo.full_name == github.repository &&
+          startsWith(github.event.pull_request.head.ref, 'site/')
+        ) ||
+        (
+          github.event_name == 'delete' &&
+          github.event.ref_type == 'branch' &&
+          startsWith(github.event.ref, 'site/')
+        )
+      )
+
+    runs-on: ubuntu-slim
+    timeout-minutes: 5
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Remove generated preview branch
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT_NAME: ${{ github.event_name }}
+          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
+          DELETED_BRANCH: ${{ github.event.ref }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          if [[ "$EVENT_NAME" == "pull_request" ]]; then
+            SOURCE_BRANCH="$PR_BRANCH"
+          else
+            SOURCE_BRANCH="$DELETED_BRANCH"
+          fi
+
+          NAME="${SOURCE_BRANCH#site/}"
+
+          # Only delete generated preview branches.
+          if [[ ${#NAME} -gt 40 ]] ||
+             [[ ! "$NAME" =~ ^[a-z0-9]+(-[a-z0-9]+)*$ ]] ||
+             [[ "$NAME" == *-staging ]]; then
+            echo "Not a valid preview source branch."
+            exit 0
+          fi
+
+          STAGING_BRANCH="site/${NAME}-staging"
+
+          # Do not remove a preview for a still-open PR.
+          OPEN_PRS=$(gh api \
+            "repos/${REPOSITORY}/pulls?state=open&base=master&per_page=100" \
+            --paginate \
+            --jq ".[] | select(.head.repo.full_name == \"${REPOSITORY}\" and .head.ref == \"${SOURCE_BRANCH}\") | .number")
+
+          if [[ -n "$OPEN_PRS" ]]; then
+            echo "An open PR still uses this preview."
+            exit 0
+          fi
+
+          if gh api \
+              "repos/${REPOSITORY}/git/ref/heads/${STAGING_BRANCH}" \
+              --silent >/dev/null 2>&1; then
+
+            gh api -X DELETE \
+              "repos/${REPOSITORY}/git/refs/heads/${STAGING_BRANCH}"
+
+            echo "Deleted ${STAGING_BRANCH}"
+          else
+            echo "No staging branch to remove."
+          fi
