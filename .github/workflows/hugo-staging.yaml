@@ -71,28 +71,7 @@ jobs:
           persist-credentials: false
 
       - name: Install Hugo Extended
-        shell: bash
-        env:
-          HUGO_VERSION: "0.164.0"
-          HUGO_SHA256: "fea17b8c076f950bb2e9f9486667bdaa29422883888d509d63931c73e8a9b3a4"
-        run: |
-          set -euo pipefail
-
-          ARCHIVE="hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
-
-          curl -fsSL --retry 3 \
-            -o "/tmp/${ARCHIVE}" \
-            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${ARCHIVE}"
-
-          echo "${HUGO_SHA256}  /tmp/${ARCHIVE}" | sha256sum -c -
-
-          mkdir -p "$HOME/.local/bin"
-
-          tar -xzf "/tmp/${ARCHIVE}" \
-            -C "$HOME/.local/bin" hugo
-
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
-          "$HOME/.local/bin/hugo" version
+        uses: ./.github/actions/setup-hugo
 
       - name: Build Hugo website
         shell: bash
