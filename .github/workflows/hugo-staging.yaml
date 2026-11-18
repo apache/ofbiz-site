@@ -1,0 +1,184 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements. See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership. The ASF licenses this file
+# to You under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License. You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on
+# an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied. See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+name: Deploy Hugo Staging
+
+on:
+  push:
+    branches:
+      - "site/*"
+      - "!site/*-staging"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hugo-staging-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build Hugo preview
+    if: github.repository == 'apache/ofbiz-site'
+    runs-on: ubuntu-slim
+    timeout-minutes: 15
+
+    outputs:
+      name: ${{ steps.target.outputs.name }}
+      branch: ${{ steps.target.outputs.branch }}
+      url: ${{ steps.target.outputs.url }}
+
+    steps:
+      - name: Validate source branch
+        id: target
+        shell: bash
+        env:
+          SOURCE_BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+
+          NAME="${SOURCE_BRANCH#site/}"
+
+          # DNS-compatible names, at most 40 characters.
+          if [[ ${#NAME} -gt 40 ]] ||
+             [[ ! "$NAME" =~ ^[a-z0-9]+(-[a-z0-9]+)*$ ]] ||
+             [[ "$NAME" == *-staging ]]; then
+            echo "::error::Invalid preview branch name"
+            exit 1
+          fi
+
+          echo "name=${NAME}" >> "$GITHUB_OUTPUT"
+          echo "branch=site/${NAME}-staging" >> "$GITHUB_OUTPUT"
+          echo "url=https://ofbiz-${NAME}.staged.apache.org/" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout Hugo sources
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Install Hugo Extended
+        shell: bash
+        env:
+          HUGO_VERSION: "0.164.0"
+          HUGO_SHA256: "fea17b8c076f950bb2e9f9486667bdaa29422883888d509d63931c73e8a9b3a4"
+        run: |
+          set -euo pipefail
+
+          ARCHIVE="hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+
+          curl -fsSL --retry 3 \
+            -o "/tmp/${ARCHIVE}" \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${ARCHIVE}"
+
+          echo "${HUGO_SHA256}  /tmp/${ARCHIVE}" | sha256sum -c -
+
+          mkdir -p "$HOME/.local/bin"
+
+          tar -xzf "/tmp/${ARCHIVE}" \
+            -C "$HOME/.local/bin" hugo
+
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/hugo" version
+
+      - name: Build Hugo website
+        shell: bash
+        env:
+          HUGO_BASEURL: ${{ steps.target.outputs.url }}
+          STAGING_NAME: ${{ steps.target.outputs.name }}
+          STAGING_BRANCH: ${{ steps.target.outputs.branch }}
+        run: |
+          set -euo pipefail
+
+          rm -rf public
+          bash ./build.sh
+
+          test -s public/index.html
+
+          # Explicit ASF configuration for this preview.
+          cat > public/.asf.yaml <<EOF
+          # Licensed to the Apache Software Foundation (ASF)
+          # under one or more contributor license agreements.
+          # Licensed under the Apache License, Version 2.0.
+
+          staging:
+            profile: ${STAGING_NAME}
+            whoami: ${STAGING_BRANCH}
+          EOF
+
+          # Keep build provenance outside the public site.
+          echo "${GITHUB_SHA}" > /tmp/staging-source-sha
+
+      - name: Upload website artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ofbiz-hugo-staging
+          path: public/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
+
+  deploy:
+    name: Publish ASF staging
+    needs: build
+    runs-on: ubuntu-slim
+    timeout-minutes: 10
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download website artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: ofbiz-hugo-staging
+          path: public/
+
+      - name: Validate artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          test -s public/index.html
+          test -s public/.asf.yaml
+
+          grep -Fxq \
+            "  whoami: $STAGING_BRANCH" \
+            public/.asf.yaml
+        env:
+          STAGING_BRANCH: ${{ needs.build.outputs.branch }}
+
+      - name: Publish generated branch
+        uses: peaceiris/actions-gh-pages@v4.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: ${{ needs.build.outputs.branch }}
+          force_orphan: true
+          full_commit_message: "Stage OFBiz website from ${{ github.sha }}"
+
+      - name: Show preview URL
+        env:
+          STAGING_URL: ${{ needs.build.outputs.url }}
+          SOURCE_SHA: ${{ github.sha }}
+        run: |
+          {
+            echo "### OFBiz website preview"
+            echo ""
+            echo "URL: ${STAGING_URL}"
+            echo ""
+            echo "Source commit: ${SOURCE_SHA}"
+          } >> "$GITHUB_STEP_SUMMARY"
