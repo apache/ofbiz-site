@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl"?>
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+         https://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+  <Project rdf:about="https://ofbiz.apache.org/">
+    <created>2006-04-16</created>
+    <license rdf:resource="https://spdx.org/licenses/Apache-2.0" />
+    <name>Apache OFBiz</name>
+    <homepage rdf:resource="https://ofbiz.apache.org/" />
+    <shortdesc xml:lang="en">Apache OFBiz is an open source enterprise automation software project</shortdesc>
+    <description>
+      Apache OFBiz is an open source product for the automation of enterprise processes that includes framework components and business applications
+      for ERP (Enterprise Resource Planning), CRM (Customer Relationship Management), E-Business / E-Commerce, SCM (Supply Chain Management),
+      MRP (Manufacturing Resource Planning), MMS/EAM (Maintenance Management System/Enterprise Asset Management).
+      Apache OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise solutions, see https://ofbiz.apache.org/ for more.
+    </description>
+    <programming-language>Java</programming-language>
+    <programming-language>Groovy</programming-language>
+    <programming-language>JavaScript</programming-language>
+    <programming-language>XML</programming-language>
+    <programming-language>Freemarker</programming-language>
+    <category rdf:resource="http://projects.apache.org/category/web-framework" />
+    <category rdf:resource="http://projects.apache.org/category/database" />
+    <category rdf:resource="http://projects.apache.org/category/network-server" />
+    <category rdf:resource="http://projects.apache.org/category/xml" />
+    <category rdf:resource="http://projects.apache.org/category/http" />
+    <category rdf:resource="http://projects.apache.org/category/content" />
+    <category rdf:resource="http://projects.apache.org/category/geospatial" />
+    <homepage rdf:resource="http://ofbiz.apache.org" />
+    <license rdf:resource="http://www.apache.org/licenses/" />
+    <asfext:pmc rdf:resource="http://ofbiz.apache.org/pmc/ofbiz.rdf" />
+    <bug-database rdf:resource="https://issues.apache.org/jira/browse/OFBIZ" />
+    <mailing-list rdf:resource="http://ofbiz.apache.org/mailing-lists.html" />
+    <download-page rdf:resource="http://ofbiz.apache.org/download.html" />
+    <repository>
+      <GitRepository>
+        <location rdf:resource="http://ofbiz.apache.org/source-repositories.html"/>
+        <browse rdf:resource="http://ofbiz.apache.org/source-repositories.html"/>
+      </GitRepository>
+    </repository>
+    <maintainer>
+      <foaf:Group>
+        <foaf:name>The Apache OFBiz PMC</foaf:name>
+        <foaf:mbox rdf:resource="mailto:dev@ofbiz.apache.org"/>
+      </foaf:Group>
+    </maintainer>
+    <release>
+        <Version>
+            <name>Apache OFBiz R24.09</name>
+            <created>2026-11-02</created>
+            <revision>24.09.08</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
+            <name>Apache OFBiz R24.09</name>
+            <created>2026-06-10</created>
+            <revision>24.09.07</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
+            <name>Apache OFBiz R24.09</name>
+            <created>2025-12-02</created>
+            <revision>24.09.04</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
+            <name>Apache OFBiz R24.09</name>
+            <created>2025-08-04</created>
+            <revision>24.09.02</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
+            <name>Apache OFBiz R24.09</name>
+            <created>2025-04-01</created>
+            <revision>24.09.01</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
+            <name>Apache OFBiz R18.12</name>
+            <created>2025-04-01</created>
+            <revision>18.12.19</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
+            <name>Apache OFBiz R18.12</name>
+            <created>2025-03-07</created>
+            <revision>18.12.18</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
+            <name>Apache OFBiz R18.12</name>
+            <created>2024-11-15</created>
+            <revision>18.12.17</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
+            <name>Apache OFBiz R18.12</name>
+            <created>2024-08-03</created>
+            <revision>18.12.15</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
+            <name>Apache OFBiz R17.12</name>
+            <created>2022-01-15</created>
+            <revision>17.12.09</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
+            <name>Apache OFBiz R16.11</name>
+            <created>2019-08-20</created>
+            <revision>16.11.06</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
+            <name>Apache OFBiz R13.07</name>
+            <created>2016-03-29</created>
+            <revision>13.07.03</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
+            <name>Apache OFBiz R12.04</name>
+            <created>2016-03-29</created>
+            <revision>12.04.06</revision>
+        </Version>
+    </release>
+    <release>
+        <Version>
+            <name>Apache OFBiz R11.04</name>
+            <created>2014-09-09</created>
+            <revision>11.04.06</revision>
+        </Version>
+    </release>
+  </Project>
+</rdf:RDF>
