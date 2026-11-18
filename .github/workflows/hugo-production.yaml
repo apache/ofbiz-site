@@ -1,0 +1,270 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements. See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership. The ASF licenses this file
+# to You under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License. You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on
+# an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied. See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+name: Deploy Hugo Production
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ofbiz-hugo-production
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build production website
+
+    if: >-
+      github.repository == 'apache/ofbiz-site' &&
+      github.ref == 'refs/heads/master'
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Install Hugo Extended
+        uses: ./.github/actions/setup-hugo
+
+      - name: Build Hugo website
+        shell: bash
+        env:
+          HUGO_BASEURL: https://ofbiz.apache.org/
+          HUGO_ENVIRONMENT: production
+        run: |
+          set -euo pipefail
+
+          rm -rf public
+
+          bash ./build.sh
+
+          test -s public/index.html
+
+          # Generate minimal ASF production configuration.
+          # Never copy the source branch's .asf.yaml.
+          cat > public/.asf.yaml <<'EOF'
+          # Licensed to the Apache Software Foundation (ASF)
+          # under one or more contributor license agreements.
+          # Licensed under the Apache License, Version 2.0.
+
+          publish:
+            whoami: asf-site
+          EOF
+
+      - name: Validate production artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          test -s public/index.html
+          test -s public/.asf.yaml
+
+          grep -Fxq \
+            '  whoami: asf-site' \
+            public/.asf.yaml
+
+          # Do not allow staging configuration in production.
+          if grep -Eq '^[[:space:]]*staging:' \
+              public/.asf.yaml; then
+            echo "::error::Unexpected staging configuration"
+            exit 1
+          fi
+
+          HTML_COUNT=$(
+            find public -type f -name '*.html' | wc -l
+          )
+
+          if (( HTML_COUNT < 10 )); then
+            echo "::error::Too few generated HTML files"
+            exit 1
+          fi
+
+          echo "Validated ${HTML_COUNT} HTML files."
+
+      - name: Upload production artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ofbiz-hugo-production
+          path: public/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30
+
+  deploy:
+    name: Publish ASF production
+
+    needs: build
+
+    if: >-
+      github.repository == 'apache/ofbiz-site' &&
+      github.ref == 'refs/heads/master'
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 1
+
+      - name: Download production artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: ofbiz-hugo-production
+          path: public/
+
+      - name: Verify downloaded artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          test -s public/index.html
+          test -s public/.asf.yaml
+
+          grep -Fxq \
+            '  whoami: asf-site' \
+            public/.asf.yaml
+
+          if grep -Eq '^[[:space:]]*staging:' \
+              public/.asf.yaml; then
+            echo "::error::Staging configuration in production"
+            exit 1
+          fi
+
+      - name: Publish to asf-site
+        id: publish
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # -------------------------------------------------
+          # Safeguard: reject outdated master builds.
+          # -------------------------------------------------
+          LATEST_MASTER=$(
+            git ls-remote origin refs/heads/master | cut -f1
+          )
+
+          if [[ "$LATEST_MASTER" != "$GITHUB_SHA" ]]; then
+            echo "::notice::Newer master commit exists."
+            echo "Skipping outdated production deployment."
+            echo "status=skipped" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "github-actions[bot]@users.noreply.github.com"
+
+          DEPLOY_DIR="${RUNNER_TEMP}/asf-site"
+
+          # -------------------------------------------------
+          # Prepare existing or new publishing branch.
+          # -------------------------------------------------
+          if git ls-remote --exit-code --heads origin \
+              refs/heads/asf-site >/dev/null; then
+
+            git fetch origin \
+              refs/heads/asf-site:refs/remotes/origin/asf-site
+
+            git worktree add -b production-deploy \
+              "$DEPLOY_DIR" origin/asf-site
+
+          else
+
+            # First deployment: create independent history.
+            git worktree add --detach \
+              "$DEPLOY_DIR" HEAD
+
+            git -C "$DEPLOY_DIR" \
+              switch --orphan production-deploy
+
+          fi
+
+          # -------------------------------------------------
+          # Synchronize the generated production website.
+          # -------------------------------------------------
+          rsync -a --delete \
+            --exclude='/.git' \
+            public/ "$DEPLOY_DIR/"
+
+          git -C "$DEPLOY_DIR" add -A
+
+          # Avoid unnecessary commits.
+          if git -C "$DEPLOY_DIR" diff \
+              --cached --quiet; then
+            echo "Production website unchanged."
+            echo "status=unchanged" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git -C "$DEPLOY_DIR" commit \
+            -m "Deploy OFBiz website from ${GITHUB_SHA}"
+
+          # -------------------------------------------------
+          # Safeguard: check master again before pushing.
+          # -------------------------------------------------
+          LATEST_MASTER=$(
+            git ls-remote origin refs/heads/master | cut -f1
+          )
+
+          if [[ "$LATEST_MASTER" != "$GITHUB_SHA" ]]; then
+            echo "::notice::Master changed during deployment."
+            echo "Skipping outdated production deployment."
+            echo "status=skipped" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Normal push; never rewrite publishing history.
+          git -C "$DEPLOY_DIR" push \
+            origin HEAD:refs/heads/asf-site
+
+          echo "status=published" >> "$GITHUB_OUTPUT"
+
+      - name: Deployment summary
+        if: always()
+        shell: bash
+        env:
+          SOURCE_SHA: ${{ github.sha }}
+          PUBLISH_STATUS: ${{ steps.publish.outputs.status }}
+        run: |
+          {
+            echo "### Apache OFBiz production deployment"
+            echo ""
+            echo "Source commit: ${SOURCE_SHA}"
+            echo ""
+            echo "Publishing branch: asf-site"
+            echo ""
+            echo "Status: ${PUBLISH_STATUS:-not completed}"
+            echo ""
+            echo "Website: https://ofbiz.apache.org/"
+            echo ""
+            echo "Publication by ASF may take additional time."
+          } >> "$GITHUB_STEP_SUMMARY"
