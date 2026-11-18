@@ -1,0 +1,38 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="Description" content="OFBiz is an open source enterprise automation software project licensed under the Apache License. It means you are not alone and can work with many others." />
+    <meta name="Robots" content="index,follow" />
+    {{/* <!-- Mobile Specific Metas
+    ================================================== --> */}}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{/* <!-- CSS
+    ================================================== --> */}}
+    {{/* <!-- local fonts  --> */}}
+    <link type="text/css" id="fonts" rel="stylesheet" href="/css/fonts.css">
+    {{/* <!-- Bootstrap  --> */}}
+    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css">
+    {{/* <!-- Bootstrap 2→5 compatibility layer (BS2 reference values for the legacy theme) --> */}}
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-bridge.css">
+    {{/* <!-- plugin css  --> */}}
+    <link rel="stylesheet" type="text/css" href="/js/plugins/pretty-photo/css/prettyPhoto.css" />
+    <link rel="stylesheet" type="text/css" href="/js/plugins/rs-plugin/css/settings.css" media="screen" />
+    <link type="text/css" rel="stylesheet" href="/js/plugins/hoverdir/css/style.css">
+    {{/* <!-- icon fonts --> */}}
+    <link type="text/css" rel="stylesheet" href="/font-icons/custom-icons/css/custom-icons.css">
+    <link type="text/css" rel="stylesheet" href="/font-icons/custom-icons/css/custom-icons-ie7.css">
+    {{/* <!-- Custom css --> */}}
+    <link type="text/css" rel="stylesheet" href="/css/layout.css">
+    <link type="text/css" rel="stylesheet" href="/css/content.css">
+    <link type="text/css" id="colors" rel="stylesheet" href="/css/colors.css">
+    <script src="/js/modernizr-2.6.1.min.js"></script>
+    {{/* <!-- Favicons
+        ================================================== --> */}}
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/apple-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+</head>

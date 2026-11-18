@@ -1,8 +1,16 @@
-# VS code history plugin folder
-.history
-
-# Intellij files
-.idea
-
+Thumbs.db
 .DS_Store
+.dist
+.history
+.hugo_build.lock
+.idea
+.tmp
+.sass-cache
 /.settings/
+npm-debug.log
+node_modules
+builds
+go.sum
+package-lock.json
+public
+resources

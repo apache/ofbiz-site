@@ -1,0 +1,20 @@
+baseURL = 'https://ofbiz.apache.org/'
+locale = 'en-us'
+title = 'Apache OFBiz'
+theme = 'apache-ofbiz-theme'
+
+[permalinks]
+post = "/:slug/"
+
+# Project-specific, trusted content intentionally contains raw HTML
+# (e.g. blog posts imported via Roller). Since Hugo 0.113, Goldmark
+# has removed raw HTML by default (“raw HTML omitted”) and would corrupt the content.
+[markup.goldmark.renderer]
+unsafe = true
+
+# no smart punctuation (straight quotation marks/dashes as in the original
+# — important in code examples such as `ofbiz --shutdown`),
+# no auto-linking (email addresses remain in plain text as in the original).
+[markup.goldmark.extensions]
+typographer = false
+linkify = false

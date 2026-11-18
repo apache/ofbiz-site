@@ -1,0 +1,213 @@
+---
+layout: page
+title: Release Notes 12.04.06
+description: downloads
+---
+Apache OFBiz&reg; 12.04.06, released in 2016-04-04, is the last release of the 12.04 series, that has been stabilized with bug fixes since April 2012.
+
+## Bug
+
+- [[OFBIZ-223](https://issues.apache.org/jira/browse/OFBIZ-223)] - CartShipInfo objects are not properly cloned when shopping cart items are exploded.
+- [[OFBIZ-293](https://issues.apache.org/jira/browse/OFBIZ-293)] - data import - nulling fields impossible
+- [[OFBIZ-817](https://issues.apache.org/jira/browse/OFBIZ-817)] - Require Inventory of Marketing Package Product can&#39;t be shipped
+- [[OFBIZ-904](https://issues.apache.org/jira/browse/OFBIZ-904)] - Error when &quot;Inventory Facility Id&quot; is left blank in product store settings
+- [[OFBIZ-2146](https://issues.apache.org/jira/browse/OFBIZ-2146)] - Quote to order - manual adjustments amount not included in cart grand total
+- [[OFBIZ-2567](https://issues.apache.org/jira/browse/OFBIZ-2567)] - Entity VirtualProduct missing
+- [[OFBIZ-2618](https://issues.apache.org/jira/browse/OFBIZ-2618)] - double forward slashes in ecommerce emails
+- [[OFBIZ-3382](https://issues.apache.org/jira/browse/OFBIZ-3382)] - inter-app hyperlink generates incorrect url
+- [[OFBIZ-3433](https://issues.apache.org/jira/browse/OFBIZ-3433)] - eCommerce main store front error returned when attempt is made to &quot;Sign Up For Contact List&quot;
+- [[OFBIZ-3464](https://issues.apache.org/jira/browse/OFBIZ-3464)] - Added check if the creditcard number string is numeric in validation method isCreditcard in UtilValidate
+- [[OFBIZ-3563](https://issues.apache.org/jira/browse/OFBIZ-3563)] - Creating a category with an ID (manually or automatically) that matches an existing productID will show the unrelated product when enter into the category on the &#39;Browse category&#39; of the Ecommerce application.
+- [[OFBIZ-3666](https://issues.apache.org/jira/browse/OFBIZ-3666)] - Errors attempting to use quantities with more than 2 decimals of precision
+- [[OFBIZ-4206](https://issues.apache.org/jira/browse/OFBIZ-4206)] - Project Manager throws error if project user is not assigned to every project
+- [[OFBIZ-4362](https://issues.apache.org/jira/browse/OFBIZ-4362)] - MapKey for CMS content cannot be updated
+- [[OFBIZ-4407](https://issues.apache.org/jira/browse/OFBIZ-4407)] - ofbiz is not tenant aware when uploading image assoc with categories
+- [[OFBIZ-4459](https://issues.apache.org/jira/browse/OFBIZ-4459)] - PurchaseOrder status not updated after QuickCompleteDropShipment
+- [[OFBIZ-4468](https://issues.apache.org/jira/browse/OFBIZ-4468)] - After login it shows error &#39;Product not found!&#39;
+- [[OFBIZ-4558](https://issues.apache.org/jira/browse/OFBIZ-4558)] - Verify subscription email requires form submit
+- [[OFBIZ-4559](https://issues.apache.org/jira/browse/OFBIZ-4559)] - InventoryWorker.getOutstandingProductQuantities returns inaccurate results when there are multiple ItemIssuances for an order
+- [[OFBIZ-4569](https://issues.apache.org/jira/browse/OFBIZ-4569)] - Update address dialog shows multiple CommonUpdatingData when required field is missing
+- [[OFBIZ-4655](https://issues.apache.org/jira/browse/OFBIZ-4655)] - searchCategory is not available in results in keywordsearch.groovy
+- [[OFBIZ-4668](https://issues.apache.org/jira/browse/OFBIZ-4668)] - CommunicationEventAndRole entity: Field with name custRequestDate not found
+- [[OFBIZ-4837](https://issues.apache.org/jira/browse/OFBIZ-4837)] - Separator Error in data file tools
+- [[OFBIZ-4849](https://issues.apache.org/jira/browse/OFBIZ-4849)] - YUI Compressor conflict with BIRT
+- [[OFBIZ-4861](https://issues.apache.org/jira/browse/OFBIZ-4861)] - view sprint overview has errors
+- [[OFBIZ-4897](https://issues.apache.org/jira/browse/OFBIZ-4897)] - Setting the reservation of persons on a routing task isn&#39;t reflected in the overview of routing tasks
+- [[OFBIZ-4927](https://issues.apache.org/jira/browse/OFBIZ-4927)] - The update and deletion of content meta data tab is not working.Needs a change of entity ContentMetaData.
+- [[OFBIZ-4946](https://issues.apache.org/jira/browse/OFBIZ-4946)] - Getting error when uploading a file after creating a data resource.
+- [[OFBIZ-4977](https://issues.apache.org/jira/browse/OFBIZ-4977)] - Limitation and issue with delegator.findByPrimaryKeyPartial method : returns error when partialKeyset contains PK value.
+- [[OFBIZ-5070](https://issues.apache.org/jira/browse/OFBIZ-5070)] - Problems With BIRT Reports
+- [[OFBIZ-5074](https://issues.apache.org/jira/browse/OFBIZ-5074)] - date-find in form widget does not persist value
+- [[OFBIZ-5110](https://issues.apache.org/jira/browse/OFBIZ-5110)] - PortalPage entity definition wrong. ownerUserLoginId field must be id-vlong-ne
+- [[OFBIZ-5150](https://issues.apache.org/jira/browse/OFBIZ-5150)] - reserveProductInventory method looses priority attribute in oisgir for non serialized and non requireInventory
+- [[OFBIZ-5279](https://issues.apache.org/jira/browse/OFBIZ-5279)] - Wrong to use !jQuery(&#39;#content-messages&#39;) in \\framework\\images\\webapp\\images\\selectall.js line #354
+- [[OFBIZ-5295](https://issues.apache.org/jira/browse/OFBIZ-5295)] - Anonymous Quick Checkout: No Payment Method Information shown in Order Confirmation
+- [[OFBIZ-5373](https://issues.apache.org/jira/browse/OFBIZ-5373)] - If received quantity is greater then ordered quantity then order item quantity update but order item shipgroup assoc quantity does not updated.
+- [[OFBIZ-5416](https://issues.apache.org/jira/browse/OFBIZ-5416)] - Sales order cart items already assigned to ship groups are incorrectly able to be modified to quantities/prices that break the ProductStoreShipmentMeth rules
+- [[OFBIZ-5419](https://issues.apache.org/jira/browse/OFBIZ-5419)] - Ordering a License product sometimes (most often) gives a blank page
+- [[OFBIZ-5430](https://issues.apache.org/jira/browse/OFBIZ-5430)] - &quot;Please Select Your Shipping Method&quot; error sometimes occurs when updating order items
+- [[OFBIZ-5452](https://issues.apache.org/jira/browse/OFBIZ-5452)] - Illegal simple methods name
+- [[OFBIZ-5470](https://issues.apache.org/jira/browse/OFBIZ-5470)] - List Price gets reset to zero after updating default/base price of existing order items
+- [[OFBIZ-5482](https://issues.apache.org/jira/browse/OFBIZ-5482)] - Create Production Run RoutingId lookup field dropdown results empty
+- [[OFBIZ-5501](https://issues.apache.org/jira/browse/OFBIZ-5501)] - ImageManagementServices.createContentAndDataResource() method might uses DataResource.dataResourceName field to store too long names
+- [[OFBIZ-5546](https://issues.apache.org/jira/browse/OFBIZ-5546)] - RAW\_MATERIAL return/RMA functionality not supported OOTB
+- [[OFBIZ-5551](https://issues.apache.org/jira/browse/OFBIZ-5551)] - Cannot delete the record When Server Timezone and Application timeZone are different.
+- [[OFBIZ-5579](https://issues.apache.org/jira/browse/OFBIZ-5579)] - Error when add product to an order.
+- [[OFBIZ-5588](https://issues.apache.org/jira/browse/OFBIZ-5588)] - Error while press F9(change quantity) in webpos
+- [[OFBIZ-5629](https://issues.apache.org/jira/browse/OFBIZ-5629)] - Pagination at find WorkEffort screen does not work
+- [[OFBIZ-5630](https://issues.apache.org/jira/browse/OFBIZ-5630)] - service updateFxConversion doesn&#39;t set thruDate properly
+- [[OFBIZ-5632](https://issues.apache.org/jira/browse/OFBIZ-5632)] - Changing Visual theme in Order manager results in error message
+- [[OFBIZ-5658](https://issues.apache.org/jira/browse/OFBIZ-5658)] - checkExistsImage method in ImageManagementServices
+- [[OFBIZ-5685](https://issues.apache.org/jira/browse/OFBIZ-5685)] - Setting a dependent question for question of type &#39;Boolean Yes/No&#39; is not possible
+- [[OFBIZ-5708](https://issues.apache.org/jira/browse/OFBIZ-5708)] - ListEmplPositionFulfillments links to wrong profile of employee
+- [[OFBIZ-5714](https://issues.apache.org/jira/browse/OFBIZ-5714)] - Comment does not save
+- [[OFBIZ-5730](https://issues.apache.org/jira/browse/OFBIZ-5730)] - Uploaded project content is not delete
+- [[OFBIZ-5745](https://issues.apache.org/jira/browse/OFBIZ-5745)] - Forgot password functionality is not honoring the &#39;password.lowercase&#39; property of &#39;security.properties&#39;
+- [[OFBIZ-5753](https://issues.apache.org/jira/browse/OFBIZ-5753)] - Wrong label in Product Config Item
+- [[OFBIZ-5766](https://issues.apache.org/jira/browse/OFBIZ-5766)] - Error when adding/modifying a task to a Production Run - field type error
+- [[OFBIZ-5773](https://issues.apache.org/jira/browse/OFBIZ-5773)] - &lt;@htmlTemplate.renderDateTimeField&gt; icon buttons disappear on some pages after refresh
+- [[OFBIZ-5787](https://issues.apache.org/jira/browse/OFBIZ-5787)] - HttpClient does not support charset name with quotation mark around
+- [[OFBIZ-5799](https://issues.apache.org/jira/browse/OFBIZ-5799)] - Can&#39;t mount root web app
+- [[OFBIZ-5806](https://issues.apache.org/jira/browse/OFBIZ-5806)] - Incoming context (in runSync : deletePartyContactMechPurpose) does not match expected requirements
+- [[OFBIZ-5815](https://issues.apache.org/jira/browse/OFBIZ-5815)] - link of dependent task in Task Dependencies of task links Dependencies of Task
+- [[OFBIZ-5822](https://issues.apache.org/jira/browse/OFBIZ-5822)] - use requestParameters for customMethod call
+- [[OFBIZ-5824](https://issues.apache.org/jira/browse/OFBIZ-5824)] - Error in communication screen while perfom sorting
+- [[OFBIZ-5826](https://issues.apache.org/jira/browse/OFBIZ-5826)] - Shipper Account screen not rendering shipper accounts
+- [[OFBIZ-5846](https://issues.apache.org/jira/browse/OFBIZ-5846)] - Field definition problem, program should use purposeFromDate in stead of fromDate.
+- [[OFBIZ-5847](https://issues.apache.org/jira/browse/OFBIZ-5847)] - If define the &amp;amp; and combine with &quot;part&quot; that encode to ∂
+- [[OFBIZ-5850](https://issues.apache.org/jira/browse/OFBIZ-5850)] - &lt;@htmlTemplate.renderDateTimeField does not parse date string based on input format
+- [[OFBIZ-5854](https://issues.apache.org/jira/browse/OFBIZ-5854)] - Order On Hold Auto Approves When Edited
+- [[OFBIZ-5858](https://issues.apache.org/jira/browse/OFBIZ-5858)] - Quote profit percentage is calculated wrong
+- [[OFBIZ-5877](https://issues.apache.org/jira/browse/OFBIZ-5877)] - Add new address not workign on manage address screen
+- [[OFBIZ-5883](https://issues.apache.org/jira/browse/OFBIZ-5883)] - jQuery datetimepicker popup time value is not set correctly from an existing value
+- [[OFBIZ-5885](https://issues.apache.org/jira/browse/OFBIZ-5885)] - EntityListIterator Not Closed for Entity JobSandbox, caught in Finalize
+- [[OFBIZ-5891](https://issues.apache.org/jira/browse/OFBIZ-5891)] - Party Content Upload Ajax Is Broken
+- [[OFBIZ-5904](https://issues.apache.org/jira/browse/OFBIZ-5904)] - &quot;Value&quot; attribute of hidden form field is overridden by same name value in context
+- [[OFBIZ-5906](https://issues.apache.org/jira/browse/OFBIZ-5906)] - The &lt;delete&gt; action in &lt;entity-engine-xml&gt; definitions throw an error in tests
+- [[OFBIZ-5909](https://issues.apache.org/jira/browse/OFBIZ-5909)] - FTL error message is displayed on Return screen, when clicked on Return selected items button
+- [[OFBIZ-5914](https://issues.apache.org/jira/browse/OFBIZ-5914)] - Gift card reload service not working OOTB
+- [[OFBIZ-5918](https://issues.apache.org/jira/browse/OFBIZ-5918)] - NPE at http://demo-trunk-ofbiz.apache.org/ecommerce/products/
+- [[OFBIZ-5920](https://issues.apache.org/jira/browse/OFBIZ-5920)] - Incorrect use of if-has-permission tag
+- [[OFBIZ-5923](https://issues.apache.org/jira/browse/OFBIZ-5923)] - Production Run Content button throws unable to resolve class GenericValue error
+- [[OFBIZ-5927](https://issues.apache.org/jira/browse/OFBIZ-5927)] - Issue reported while performing Refund &amp; Void (java.lang.ClassCastException: java.lang.String cannot be cast to java.math.BigDecimal)
+- [[OFBIZ-5930](https://issues.apache.org/jira/browse/OFBIZ-5930)] - Data resouce caching issue while render data resource on multi tenant environment
+- [[OFBIZ-5933](https://issues.apache.org/jira/browse/OFBIZ-5933)] - state/province dropdown contains incorrect items when Canada is chosen in country dropdown
+- [[OFBIZ-5941](https://issues.apache.org/jira/browse/OFBIZ-5941)] - Error when adding quantity less than 1 but greater than 0 to cart
+- [[OFBIZ-5945](https://issues.apache.org/jira/browse/OFBIZ-5945)] - GlReconciledFinAccountTrans.ftl finAccountTrans.entryDateId should be finAccountTrans.entryDate
+- [[OFBIZ-5951](https://issues.apache.org/jira/browse/OFBIZ-5951)] - Product Costs page actions cause incorrect listings
+- [[OFBIZ-5968](https://issues.apache.org/jira/browse/OFBIZ-5968)] - framework/images/webapp/images/fieldlookup.js throws a javascript error in google chrome from a link to ofbiz from another site
+- [[OFBIZ-5979](https://issues.apache.org/jira/browse/OFBIZ-5979)] - Form TotalProdBacklog has typo in link
+- [[OFBIZ-6013](https://issues.apache.org/jira/browse/OFBIZ-6013)] - &quot;Return Selected Item(s)&quot; button broken for manually created returns
+- [[OFBIZ-6070](https://issues.apache.org/jira/browse/OFBIZ-6070)] - Create content for product causes exception
+- [[OFBIZ-6088](https://issues.apache.org/jira/browse/OFBIZ-6088)] - There should not need to setup SystemProperty data on each tenant for specifying path to store tenant images.
+- [[OFBIZ-6090](https://issues.apache.org/jira/browse/OFBIZ-6090)] - Unable to return order items in return process.
+- [[OFBIZ-6091](https://issues.apache.org/jira/browse/OFBIZ-6091)] - Supplier preferred currency not considered for drop-ship order
+- [[OFBIZ-6092](https://issues.apache.org/jira/browse/OFBIZ-6092)] - Domain name should not create for tenant if its left empty during tenant creation
+- [[OFBIZ-6095](https://issues.apache.org/jira/browse/OFBIZ-6095)] - Promo action party lookup dropdown throws error
+- [[OFBIZ-6101](https://issues.apache.org/jira/browse/OFBIZ-6101)] - Error updating order when item quantity less than 1 but greater than 0 exists
+- [[OFBIZ-6114](https://issues.apache.org/jira/browse/OFBIZ-6114)] - webtools entity references generates exceptions
+- [[OFBIZ-6131](https://issues.apache.org/jira/browse/OFBIZ-6131)] - Error when updating shipment destinationFacilityId
+- [[OFBIZ-6142](https://issues.apache.org/jira/browse/OFBIZ-6142)] - returnItems.ftl freemarker null error when returnPrice or returnQuantity is null
+- [[OFBIZ-6169](https://issues.apache.org/jira/browse/OFBIZ-6169)] - Upgrade Tomcat from 7.0.57 to 7.0.59
+- [[OFBIZ-6183](https://issues.apache.org/jira/browse/OFBIZ-6183)] - Error when web app has mount point /
+- [[OFBIZ-6188](https://issues.apache.org/jira/browse/OFBIZ-6188)] - Task Report error for Manufacturing Shipment Plan
+- [[OFBIZ-6196](https://issues.apache.org/jira/browse/OFBIZ-6196)] - Package Labels Report error for Manufacturing Shipment Plan
+- [[OFBIZ-6199](https://issues.apache.org/jira/browse/OFBIZ-6199)] - Find Commission Run screen is broken.
+- [[OFBIZ-6200](https://issues.apache.org/jira/browse/OFBIZ-6200)] - Order Adjustment details are hidden on order Item section of order entry page.
+- [[OFBIZ-6202](https://issues.apache.org/jira/browse/OFBIZ-6202)] - &quot;Expected hash&quot; Freemarker error in FindInventoryEventPlan
+- [[OFBIZ-6218](https://issues.apache.org/jira/browse/OFBIZ-6218)] - Unit tests throw exception in DBCP
+- [[OFBIZ-6226](https://issues.apache.org/jira/browse/OFBIZ-6226)] - Webpos F4-F11 label mismatch
+- [[OFBIZ-6229](https://issues.apache.org/jira/browse/OFBIZ-6229)] - Can&#39;t create a geo without providing a geoID
+- [[OFBIZ-6252](https://issues.apache.org/jira/browse/OFBIZ-6252)] - Release branches fail to compile with JDK 1.8
+- [[OFBIZ-6254](https://issues.apache.org/jira/browse/OFBIZ-6254)] - Minilang: type=&quot;NewMap&quot; and type=&quot;NewList&quot; for the Set element don&#39;t work
+- [[OFBIZ-6269](https://issues.apache.org/jira/browse/OFBIZ-6269)] - Pro-rate shipping calculation is generating incorrect invoice in case of order with subtotal $0.00
+- [[OFBIZ-6346](https://issues.apache.org/jira/browse/OFBIZ-6346)] - When used setDependentDropdownValuesJs.ftl precludes focus-field-name
+- [[OFBIZ-6347](https://issues.apache.org/jira/browse/OFBIZ-6347)] - Two order payment preferences are added to order, when order of order total 0(zero) is placed with Billing Account
+- [[OFBIZ-6351](https://issues.apache.org/jira/browse/OFBIZ-6351)] - ordermgr/control/ListQuoteItems quoteItemSeqId button not showing due to ${bsh}
+- [[OFBIZ-6357](https://issues.apache.org/jira/browse/OFBIZ-6357)] - Some fields are missing in the person simple-map-processor
+- [[OFBIZ-6369](https://issues.apache.org/jira/browse/OFBIZ-6369)] - Corrected the order in which invoice and payment transactions are created
+- [[OFBIZ-6374](https://issues.apache.org/jira/browse/OFBIZ-6374)] - PartyContentWrapper.getPartyContentAsText use wrong signature
+- [[OFBIZ-6387](https://issues.apache.org/jira/browse/OFBIZ-6387)] - Duplicate referredByPartyId field for EmployementAppForms.xml#ListEmployementApps at humanres/control/FindEmploymentApps
+- [[OFBIZ-6397](https://issues.apache.org/jira/browse/OFBIZ-6397)] - Survey : FTL error message when using Enumeration or Geo question type
+- [[OFBIZ-6425](https://issues.apache.org/jira/browse/OFBIZ-6425)] - FindService.performFindList listSize = null causes errors when list is empty because the rendering system expects 0
+- [[OFBIZ-6444](https://issues.apache.org/jira/browse/OFBIZ-6444)] - Postal Address PDF Formatter Screen Problems
+- [[OFBIZ-6492](https://issues.apache.org/jira/browse/OFBIZ-6492)] - FTL errors at facility/control/authview/ViewContactMechs when TELECOM\_NUMBER countryCode or contactNumber is blank
+- [[OFBIZ-6496](https://issues.apache.org/jira/browse/OFBIZ-6496)] - error in parsing array in ajaxUpdateAreas
+- [[OFBIZ-6520](https://issues.apache.org/jira/browse/OFBIZ-6520)] - Price of product does not shows up when you change currency of your store and setup product prices with new currency
+- [[OFBIZ-6534](https://issues.apache.org/jira/browse/OFBIZ-6534)] - Same Billing Address generates an error
+- [[OFBIZ-6547](https://issues.apache.org/jira/browse/OFBIZ-6547)] - Screen with pagination on tables lead to multiple db entries when submitting
+- [[OFBIZ-6554](https://issues.apache.org/jira/browse/OFBIZ-6554)] - streamContentToBrowser fails when the file name contains a comma, only with Chrome.
+- [[OFBIZ-6555](https://issues.apache.org/jira/browse/OFBIZ-6555)] - errors and warning after load-extseed and running ofbiz
+- [[OFBIZ-6567](https://issues.apache.org/jira/browse/OFBIZ-6567)] - Wrong percent encoding in Webtool/SQL Processor
+- [[OFBIZ-6570](https://issues.apache.org/jira/browse/OFBIZ-6570)] - Anonymous unsubscribe from contact list generates an error
+- [[OFBIZ-6579](https://issues.apache.org/jira/browse/OFBIZ-6579)] - ERROR: could not find ModelField for entity name: ItemIssuanceQuantitySum and field: issuedDateTime
+- [[OFBIZ-6582](https://issues.apache.org/jira/browse/OFBIZ-6582)] - SQL Exceptions (OPTION) occuring when running OFBiz 13.07.02 against MySQL
+- [[OFBIZ-6594](https://issues.apache.org/jira/browse/OFBIZ-6594)] - Wrong Documentation for Temporal Expressions
+- [[OFBIZ-6601](https://issues.apache.org/jira/browse/OFBIZ-6601)] - example component causes exceptions
+- [[OFBIZ-6605](https://issues.apache.org/jira/browse/OFBIZ-6605)] - createQuoteRole, createContentRole, and createRequirementRole allow for adding Roles to a Party without permissions
+- [[OFBIZ-6622](https://issues.apache.org/jira/browse/OFBIZ-6622)] - Incorrectly encoded url in form widget
+- [[OFBIZ-6624](https://issues.apache.org/jira/browse/OFBIZ-6624)] - error in isValidEan util
+- [[OFBIZ-6627](https://issues.apache.org/jira/browse/OFBIZ-6627)] - multiple select dropdown listbox shows only one entry
+- [[OFBIZ-6632](https://issues.apache.org/jira/browse/OFBIZ-6632)] - Incorrect comparison in TemporalExpressionWorker.java
+- [[OFBIZ-6637](https://issues.apache.org/jira/browse/OFBIZ-6637)] - Work Effort Month Calendar View Is Broken
+- [[OFBIZ-6641](https://issues.apache.org/jira/browse/OFBIZ-6641)] - Missing CountryCodeData.xml values for countries of the former Yugoslavia
+- [[OFBIZ-6642](https://issues.apache.org/jira/browse/OFBIZ-6642)] - Non-breaking space incorrectly encoded in forms
+- [[OFBIZ-6652](https://issues.apache.org/jira/browse/OFBIZ-6652)] - Errors in ProductSummary.groovy
+- [[OFBIZ-6654](https://issues.apache.org/jira/browse/OFBIZ-6654)] - Display of a recurrent workeffort in workeffort calendar do not respect estimatedStart/CompletionDate
+- [[OFBIZ-6666](https://issues.apache.org/jira/browse/OFBIZ-6666)] - ModelService constructor does not copy all attribute of service model.
+- [[OFBIZ-6674](https://issues.apache.org/jira/browse/OFBIZ-6674)] - In addToCart() method, reset shipment method information in cart only if shipping applies on product
+- [[OFBIZ-6697](https://issues.apache.org/jira/browse/OFBIZ-6697)] - CommunicationServices.createAttachmentContent duplicates attachments for existing CommunicationEvents
+- [[OFBIZ-6707](https://issues.apache.org/jira/browse/OFBIZ-6707)] - WebtoolsUiLabels went missing
+- [[OFBIZ-6725](https://issues.apache.org/jira/browse/OFBIZ-6725)] - Best Selling Products section in main order page takes into account cancelled orders
+- [[OFBIZ-6733](https://issues.apache.org/jira/browse/OFBIZ-6733)] - Error with Service Product Invoice Lines
+- [[OFBIZ-6741](https://issues.apache.org/jira/browse/OFBIZ-6741)] - The state list is not populated when trying to add a shipping address from the Quick Finalize Order screen.
+- [[OFBIZ-6743](https://issues.apache.org/jira/browse/OFBIZ-6743)] - Error on the Split Payment button from the Quick Finalize Order screen
+- [[OFBIZ-6753](https://issues.apache.org/jira/browse/OFBIZ-6753)] - DemoTaxAuthority.xml GL Account for USA\_IRS is incorrect
+- [[OFBIZ-6778](https://issues.apache.org/jira/browse/OFBIZ-6778)] - Possible &quot;NPE&quot; in viewcontent.ftl (found in trunk demo log)
+- [[OFBIZ-6779](https://issues.apache.org/jira/browse/OFBIZ-6779)] - Wrong entity condition expression for fetching the view entity PartyAndContactMech.
+- [[OFBIZ-6782](https://issues.apache.org/jira/browse/OFBIZ-6782)] - Service parameter should be required.
+- [[OFBIZ-6784](https://issues.apache.org/jira/browse/OFBIZ-6784)] - JobSandbox : reload crashed job maybe duplicate pending service
+- [[OFBIZ-6788](https://issues.apache.org/jira/browse/OFBIZ-6788)] - OFBIZ not generating pdf invoices
+- [[OFBIZ-6797](https://issues.apache.org/jira/browse/OFBIZ-6797)] - Typo in ecommerce productdetail
+- [[OFBIZ-6842](https://issues.apache.org/jira/browse/OFBIZ-6842)] - ProjectMgr: GanttChart fails, in case of dependencies for tasks
+- [[OFBIZ-6888](https://issues.apache.org/jira/browse/OFBIZ-6888)] - GroovyEngine.serviceInvoker masks Groovy script exceptions in some cases
+- [[OFBIZ-6910](https://issues.apache.org/jira/browse/OFBIZ-6910)] - Newly created id should be out from service &#39;createProductFeatureType&#39;
+- [[OFBIZ-6917](https://issues.apache.org/jira/browse/OFBIZ-6917)] - Error with UtilMisc.availableLocales() shows with Java 8
+- [[OFBIZ-6918](https://issues.apache.org/jira/browse/OFBIZ-6918)] - ApplicationDecorator Entity-One Screen Action Incomplete Primary Key
+- [[OFBIZ-6920](https://issues.apache.org/jira/browse/OFBIZ-6920)] - Credit card details cannot be updated
+- [[OFBIZ-6922](https://issues.apache.org/jira/browse/OFBIZ-6922)] - Currently the testRemoteSoap test service does not work.
+- [[OFBIZ-6925](https://issues.apache.org/jira/browse/OFBIZ-6925)] - Incorrect content length in response from HTTP service engine
+- [[OFBIZ-6933](https://issues.apache.org/jira/browse/OFBIZ-6933)] - When we update the Allow order decimal quantity to N for product store and update the unit price of item in shopping cart then its shown error.
+- [[OFBIZ-6937](https://issues.apache.org/jira/browse/OFBIZ-6937)] - Company Check payment method should be shown when issuing chek
+- [[OFBIZ-6961](https://issues.apache.org/jira/browse/OFBIZ-6961)] - popup fades in and out non-stop when hovers on a product image in list view
+
+## Improvement
+
+- [[OFBIZ-4020](https://issues.apache.org/jira/browse/OFBIZ-4020)] - Sign up for a contact list always redirects to the main ecommerce page
+- [[OFBIZ-5325](https://issues.apache.org/jira/browse/OFBIZ-5325)] - Deprecate doCacheClear in Delegator interface and class and related minilang classes
+- [[OFBIZ-5835](https://issues.apache.org/jira/browse/OFBIZ-5835)] - Trunk fails to compile with Java 1.8
+- [[OFBIZ-6030](https://issues.apache.org/jira/browse/OFBIZ-6030)] - ViewQuoteItemInfo.ftl has &lt;td&gt;&lt;/td&gt; at the wrong place
+- [[OFBIZ-6185](https://issues.apache.org/jira/browse/OFBIZ-6185)] - Type-ahead regarding LookupInvoice in AP doesn&#39;t return result
+- [[OFBIZ-6415](https://issues.apache.org/jira/browse/OFBIZ-6415)] - renderTextFindField doesn&#39;t reselect operation dropdown or ignoreCase checkbox
+- [[OFBIZ-6417](https://issues.apache.org/jira/browse/OFBIZ-6417)] - renderDateFindField doesn&#39;t reselect operation
+- [[OFBIZ-6566](https://issues.apache.org/jira/browse/OFBIZ-6566)] - SecurityGroup doesn&#39;t get removed from a Party
+- [[OFBIZ-6721](https://issues.apache.org/jira/browse/OFBIZ-6721)] - org.ofbiz.common.login.LoginServices.userLogin causes stack track when username or password is incorrect
+- [[OFBIZ-6727](https://issues.apache.org/jira/browse/OFBIZ-6727)] - Webtools Entity edition, the suggested date and time formats are not localised
+
+## Sub-task
+
+- [[OFBIZ-2602](https://issues.apache.org/jira/browse/OFBIZ-2602)] - Main storefront page, Featured Products (middle column) overwrites right column. Should just crop column, but not overwrite right column.
+- [[OFBIZ-3920](https://issues.apache.org/jira/browse/OFBIZ-3920)] - HtmlFormRenderer : with attribute skip-start, lookup fields are broken
+- [[OFBIZ-4457](https://issues.apache.org/jira/browse/OFBIZ-4457)] - Checkout layout: in screens before payment screen: the fields are below the last div in right column.
+- [[OFBIZ-5634](https://issues.apache.org/jira/browse/OFBIZ-5634)] - Error in pagination in createProductSubscriptionResource (Catalog)
+- [[OFBIZ-5801](https://issues.apache.org/jira/browse/OFBIZ-5801)] - Upgrade Axis2 to 1.6.3
+- [[OFBIZ-5848](https://issues.apache.org/jira/browse/OFBIZ-5848)] - Poodle-disable sslv3
+- [[OFBIZ-6139](https://issues.apache.org/jira/browse/OFBIZ-6139)] - Lookup fields break when used with a form having skip-start=&quot;true&quot;
+- [[OFBIZ-6170](https://issues.apache.org/jira/browse/OFBIZ-6170)] - You can&#39;t rely on Lookup field description-field-name attribute in a form having skip-start=&quot;true&quot;
+- [[OFBIZ-6340](https://issues.apache.org/jira/browse/OFBIZ-6340)] - Replacing bsh code with groovy Code in ORDER screens, forms and menus
+- [[OFBIZ-6568](https://issues.apache.org/jira/browse/OFBIZ-6568)] - Update Groovy to 2.4.5 version
+- [[OFBIZ-6726](https://issues.apache.org/jira/browse/OFBIZ-6726)] - Update commons collections to 3.2.2 because of known possible exploit
+- [[OFBIZ-6751](https://issues.apache.org/jira/browse/OFBIZ-6751)] - POI security fix
+- [[OFBIZ-6754](https://issues.apache.org/jira/browse/OFBIZ-6754)] - Update Spring Framework
+- [[OFBIZ-6905](https://issues.apache.org/jira/browse/OFBIZ-6905)] - Update Xalan libs to version 2.7.2 because of CVE-2014-0107
+- [[OFBIZ-6959](https://issues.apache.org/jira/browse/OFBIZ-6959)] - Update XStream lib to prevent XML External Entity (XXE) Processing

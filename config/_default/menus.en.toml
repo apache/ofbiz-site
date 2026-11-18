@@ -1,0 +1,226 @@
+###########Navigation-Header##############
+# Order based on weight (Hugo sorts children alphabetically if no weight is specified).
+# URLs remain Hugo directory URLs (Rule 2); labels are official (singular).
+
+#Home
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+#Getting Started
+[[main]]
+name = "Getting Started"
+url = "#"
+weight = 2
+hasChildren = true
+
+[[main]]
+parent = "Getting Started"
+name = "Developers"
+url = "/developers/"
+weight = 1
+
+[[main]]
+parent = "Getting Started"
+name = "Business Users"
+url = "/business-users/"
+weight = 2
+
+#News (Blog)
+[[main]]
+name = "News"
+url = "#"
+weight = 3
+hasChildren = true
+
+[[main]]
+parent = "News"
+name = "Blog"
+url = "/posts/"
+weight = 1
+
+#Documentation
+[[main]]
+name = "Documentation"
+url = "#"
+weight = 4
+hasChildren = true
+
+[[main]]
+parent = "Documentation"
+name = "User Documentation"
+url = "https://cwiki.apache.org/confluence/display/OFBIZ/Documentation"
+weight = 1
+
+[[main]]
+parent = "Documentation"
+name = "Technical Documentation"
+url = "https://cwiki.apache.org/confluence/display/OFBIZ/Technical+Documentation"
+weight = 2
+
+[[main]]
+parent = "Documentation"
+name = "Wiki"
+url = "https://cwiki.apache.org/confluence/display/OFBIZ/Home"
+weight = 3
+
+[[main]]
+parent = "Documentation"
+name = "API Reference"
+url = "#"
+weight = 4
+hasChildren = true
+
+[[main]]
+parent = "API Reference"
+name = "Trunk API"
+url = "https://nightlies.apache.org/ofbiz/trunk/javadoc/"
+weight = 1
+
+[[main]]
+parent = "API Reference"
+name = "Stable Release API"
+url = "https://nightlies.apache.org/ofbiz/stable/javadoc/"
+weight = 2
+
+[[main]]
+parent = "API Reference"
+name = "Next Release API"
+url = "https://nightlies.apache.org/ofbiz/next/javadoc/"
+weight = 3
+
+#Community
+[[main]]
+name = "Community"
+url = "#"
+weight = 5
+hasChildren = true
+
+[[main]]
+parent = "Community"
+name = "Getting Involved"
+url = "/getting-involved/"
+weight = 1
+
+[[main]]
+parent = "Community"
+name = "Mailing Lists"
+url = "/mailing-lists/"
+weight = 2
+
+[[main]]
+parent = "Community"
+name = "Source Repository"
+url = "/source-repositories/"
+weight = 3
+
+[[main]]
+parent = "Community"
+name = "Downloads"
+url = "/downloads/"
+weight = 4
+
+[[main]]
+parent = "Community"
+name = "Issue Tracker"
+url = "https://s.apache.org/dsj2p"
+weight = 5
+
+[[main]]
+parent = "Community"
+name = "FAQ"
+url = "/faqs/"
+weight = 6
+
+#Demos
+[[main]]
+name = "Demos"
+url = "/ofbiz-demos/"
+weight = 6
+
+#Download
+[[main]]
+name = "Download"
+url = "/downloads/"
+weight = 7
+
+#######Footer-Navigation#######
+# Contact Community
+
+[[footer]]
+name = "Mailing Lists"
+url = "/mailing-lists/"
+weight = 1
+
+[[footer]]
+name = "Source Repository (Git)"
+url = "/source-repositories/"
+weight = 2
+
+[[footer]]
+name = "Issue Tracker (Jira)"
+url = "https://s.apache.org/dsj2p"
+weight = 3
+
+[[footer]]
+name = "OFBiz Youtube Channel"
+url = "https://www.youtube.com/user/ofbiz"
+weight = 4
+
+[[footer]]
+name = "OFBiz Vimeo Channel"
+url = "https://vimeo.com/channels/apacheofbiz"
+weight = 5
+
+[[footer]]
+name = "OFBiz Chat"
+url = "https://s.apache.org/ofbiz-slack-channel"
+weight = 6
+
+[[footer]]
+name = "Who we are"
+url = "https://cwiki.apache.org/confluence/display/OFBIZ/Apache+OFBiz+PMC+Members+and+Committers"
+weight = 7
+
+# ASF Information
+
+[[footer2]]
+name = "Apache Software Foundation"
+url = "https://www.apache.org/foundation/"
+weight = 1
+
+[[footer2]]
+name = "Privacy Policy"
+url = "https://privacy.apache.org/policies/privacy-policy-public.html"
+weight = 2
+
+[[footer2]]
+name = "Events"
+url = "https://www.apache.org/events/current-event"
+weight = 3
+
+[[footer2]]
+name = "Sponsorship"
+url = "https://www.apache.org/foundation/sponsorship.html"
+weight = 4
+
+[[footer2]]
+name = "Donations"
+url = "https://www.apache.org/foundation/contributing.html"
+weight = 5
+
+[[footer2]]
+name = "Thanks"
+url = "https://www.apache.org/foundation/thanks.html"
+weight = 6
+
+[[footer2]]
+name = "Security"
+url = "/security/"
+weight = 7
+
+[[footer2]]
+name = "License"
+url = "https://www.apache.org/licenses/"
+weight = 8

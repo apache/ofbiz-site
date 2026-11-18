@@ -1,0 +1,38 @@
+{{/* Isotope-Portfolio: Filter-Nav + Karten-Grid. Daten: .filters, .items (Front Matter). */}}
+{{- $page := .page -}}
+<section>
+<div class="container clearfix">
+<div class="row">
+<nav id="filter" class="eight columns">
+<ul>
+<li class="filterTitle">
+<h3>Categories:</h3>
+</li>
+{{- range .filters }}
+<li><a href="" class="{{ if .current }}current {{ end }}btn btn-3d btnSmall" data-filter="{{ .filter }}">{{ .label }}</a></li>
+{{- end }}
+</ul>
+</nav>
+</div>
+</div>
+<div class="slice clearfix">
+<div class="container" id="fourColumns">
+<div class="row">
+<div class="portfolio-items isotopeWrapper clearfix da-thumbs" id="4">
+{{- range .items }}
+<article class="col-3 isotopeItem {{ .region }} masoneryBloc">
+<a class="sizer" href="{{ .link | default "" }}">
+<section class="imgWrapper"> <img src="{{ .img }}" alt="{{ .alt }}"/></section>
+<div{{ if .mask }} class="mask"{{ end }}> <span class="iconWrapper iconLink"><i class="icon-plus"></i></span> </div>
+</a>
+<section class="hiddenInfo">
+<h3>{{ .title }}</h3>
+<p class="boxTextWrapper">{{ .text | $page.RenderString | safeHTML }}</p>
+</section>
+</article>
+{{- end }}
+</div>
+</div>
+</div>
+</div>
+</section>

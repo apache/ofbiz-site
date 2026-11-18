@@ -1,0 +1,1912 @@
+---
+layout: page
+title: Release Notes 16.11.01
+description: downloads
+---
+Apache OFBiz&reg; 16.11.01, released in 2016-11-27, is the first release of the 16.11 series, that has been stabilized since November 2016.
+
+## Bug
+
+- [[OFBIZ-293](https://issues.apache.org/jira/browse/OFBIZ-293)] - data import - nulling fields impossible
+- [[OFBIZ-817](https://issues.apache.org/jira/browse/OFBIZ-817)] - Require Inventory of Marketing Package Product can&#39;t be shipped
+- [[OFBIZ-2146](https://issues.apache.org/jira/browse/OFBIZ-2146)] - Quote to order - manual adjustments amount not included in cart grand total
+- [[OFBIZ-3037](https://issues.apache.org/jira/browse/OFBIZ-3037)] - Issues in eCommerce Layout
+- [[OFBIZ-3433](https://issues.apache.org/jira/browse/OFBIZ-3433)] - eCommerce main store front error returned when attempt is made to &quot;Sign Up For Contact List&quot;
+- [[OFBIZ-3464](https://issues.apache.org/jira/browse/OFBIZ-3464)] - Added check if the creditcard number string is numeric in validation method isCreditcard in UtilValidate
+- [[OFBIZ-3563](https://issues.apache.org/jira/browse/OFBIZ-3563)] - Creating a category with an ID (manually or automatically) that matches an existing productID will show the unrelated product when enter into the category on the &#39;Browse category&#39; of the Ecommerce application.
+- [[OFBIZ-3666](https://issues.apache.org/jira/browse/OFBIZ-3666)] - Errors attempting to use quantities with more than 2 decimals of precision
+- [[OFBIZ-3739](https://issues.apache.org/jira/browse/OFBIZ-3739)] - PrepareFind Service Ignores timeZone Parameter When Performing Date/Time Calculations
+- [[OFBIZ-4206](https://issues.apache.org/jira/browse/OFBIZ-4206)] - Project Manager throws error if project user is not assigned to every project
+- [[OFBIZ-4559](https://issues.apache.org/jira/browse/OFBIZ-4559)] - InventoryWorker.getOutstandingProductQuantities returns inaccurate results when there are multiple ItemIssuances for an order
+- [[OFBIZ-4651](https://issues.apache.org/jira/browse/OFBIZ-4651)] - Uploading a file after a session timeout
+- [[OFBIZ-4704](https://issues.apache.org/jira/browse/OFBIZ-4704)] - MalformedURLException: no protocol: Files/Java/jdk1.6.0\_26/lib/tools.jar
+- [[OFBIZ-4837](https://issues.apache.org/jira/browse/OFBIZ-4837)] - Separator Error in data file tools
+- [[OFBIZ-4861](https://issues.apache.org/jira/browse/OFBIZ-4861)] - view sprint overview has errors
+- [[OFBIZ-4863](https://issues.apache.org/jira/browse/OFBIZ-4863)] - Scrum productstatistics shows errors
+- [[OFBIZ-4897](https://issues.apache.org/jira/browse/OFBIZ-4897)] - Setting the reservation of persons on a routing task isn&#39;t reflected in the overview of routing tasks
+- [[OFBIZ-4954](https://issues.apache.org/jira/browse/OFBIZ-4954)] - Order item quantity cancel issue.
+- [[OFBIZ-4977](https://issues.apache.org/jira/browse/OFBIZ-4977)] - Limitation and issue with delegator.findByPrimaryKeyPartial method : returns error when partialKeyset contains PK value.
+- [[OFBIZ-5034](https://issues.apache.org/jira/browse/OFBIZ-5034)] - Contact us with service message &amp; email notification
+- [[OFBIZ-5035](https://issues.apache.org/jira/browse/OFBIZ-5035)] - Special characters (latin, accent ...) are in error from an input (search, contact us ...)
+- [[OFBIZ-5052](https://issues.apache.org/jira/browse/OFBIZ-5052)] - null [null] on the field phaseName of form hoursNotYetBilled?
+- [[OFBIZ-5074](https://issues.apache.org/jira/browse/OFBIZ-5074)] - date-find in form widget does not persist value
+- [[OFBIZ-5279](https://issues.apache.org/jira/browse/OFBIZ-5279)] - Wrong to use !jQuery(&#39;#content-messages&#39;) in \\framework\\images\\webapp\\images\\selectall.js line #354
+- [[OFBIZ-5295](https://issues.apache.org/jira/browse/OFBIZ-5295)] - Anonymous Quick Checkout: No Payment Method Information shown in Order Confirmation
+- [[OFBIZ-5305](https://issues.apache.org/jira/browse/OFBIZ-5305)] - The path /content/images/ is used in some places (only for contentForum.css it seems) but no mount point is associated
+- [[OFBIZ-5313](https://issues.apache.org/jira/browse/OFBIZ-5313)] - Tree rendering is missing labels.
+- [[OFBIZ-5347](https://issues.apache.org/jira/browse/OFBIZ-5347)] - Shipping costs not recalculated after changing sales order shipment method
+- [[OFBIZ-5364](https://issues.apache.org/jira/browse/OFBIZ-5364)] - Incorrect quantityNotAvailable for OrderItemShipGrpInvRes when issuing items to shipments
+- [[OFBIZ-5373](https://issues.apache.org/jira/browse/OFBIZ-5373)] - If received quantity is greater then ordered quantity then order item quantity update but order item shipgroup assoc quantity does not updated.
+- [[OFBIZ-5419](https://issues.apache.org/jira/browse/OFBIZ-5419)] - Ordering a License product sometimes (most often) gives a blank page
+- [[OFBIZ-5447](https://issues.apache.org/jira/browse/OFBIZ-5447)] - .LoginWorker#logout leads to error in tenant specific ecommerce component
+- [[OFBIZ-5521](https://issues.apache.org/jira/browse/OFBIZ-5521)] - WebAppUtil.getWebappInfoFromWebsiteId throws IllegalArgumentException when web.xml not found
+- [[OFBIZ-5570](https://issues.apache.org/jira/browse/OFBIZ-5570)] - appendOrderItem Service Not Applying Order Item Attributes
+- [[OFBIZ-5579](https://issues.apache.org/jira/browse/OFBIZ-5579)] - Error when add product to an order.
+- [[OFBIZ-5588](https://issues.apache.org/jira/browse/OFBIZ-5588)] - Error while press F9(change quantity) in webpos
+- [[OFBIZ-5629](https://issues.apache.org/jira/browse/OFBIZ-5629)] - Pagination at find WorkEffort screen does not work
+- [[OFBIZ-5636](https://issues.apache.org/jira/browse/OFBIZ-5636)] - Add WorkEffort Timesheet to Invoice or to New Invoice does not work
+- [[OFBIZ-5641](https://issues.apache.org/jira/browse/OFBIZ-5641)] - Problem with Purchase Order Accounting Entries
+- [[OFBIZ-5815](https://issues.apache.org/jira/browse/OFBIZ-5815)] - link of dependent task in Task Dependencies of task links Dependencies of Task
+- [[OFBIZ-5858](https://issues.apache.org/jira/browse/OFBIZ-5858)] - Quote profit percentage is calculated wrong
+- [[OFBIZ-5870](https://issues.apache.org/jira/browse/OFBIZ-5870)] - Birt doesn&#39;t work
+- [[OFBIZ-5879](https://issues.apache.org/jira/browse/OFBIZ-5879)] - Sometimes, RMIDispatcher cannot be constructed
+- [[OFBIZ-5905](https://issues.apache.org/jira/browse/OFBIZ-5905)] - Change createPartyRelationshipAndRole to use ensurePartyRole
+- [[OFBIZ-5910](https://issues.apache.org/jira/browse/OFBIZ-5910)] - WidgetWorker.buildHyperlinkUrl generates invalid url when using certain sequences of characters
+- [[OFBIZ-5914](https://issues.apache.org/jira/browse/OFBIZ-5914)] - Gift card reload service not working OOTB
+- [[OFBIZ-5916](https://issues.apache.org/jira/browse/OFBIZ-5916)] - Cutting List Report from Manufacturing Shipment Plans throws error due to due to missing EntityCondition import
+- [[OFBIZ-5918](https://issues.apache.org/jira/browse/OFBIZ-5918)] - NPE at http://demo-trunk-ofbiz.apache.org/ecommerce/products/
+- [[OFBIZ-5919](https://issues.apache.org/jira/browse/OFBIZ-5919)] - CatalogUrlServlet should return a 404 HTTP status if the category or product does not exist
+- [[OFBIZ-5927](https://issues.apache.org/jira/browse/OFBIZ-5927)] - Issue reported while performing Refund &amp; Void (java.lang.ClassCastException: java.lang.String cannot be cast to java.math.BigDecimal)
+- [[OFBIZ-5930](https://issues.apache.org/jira/browse/OFBIZ-5930)] - Data resouce caching issue while render data resource on multi tenant environment
+- [[OFBIZ-5933](https://issues.apache.org/jira/browse/OFBIZ-5933)] - state/province dropdown contains incorrect items when Canada is chosen in country dropdown
+- [[OFBIZ-5940](https://issues.apache.org/jira/browse/OFBIZ-5940)] - Dialogue window is not working for webpos screens. Seems JS load issue on page.
+- [[OFBIZ-5941](https://issues.apache.org/jira/browse/OFBIZ-5941)] - Error when adding quantity less than 1 but greater than 0 to cart
+- [[OFBIZ-5942](https://issues.apache.org/jira/browse/OFBIZ-5942)] - Edit Shipment page is broken
+- [[OFBIZ-5943](https://issues.apache.org/jira/browse/OFBIZ-5943)] - Menu items incorrectly rendered as anchor instead of hidden-form
+- [[OFBIZ-5944](https://issues.apache.org/jira/browse/OFBIZ-5944)] - Error at EditWorkEffort for reason field
+- [[OFBIZ-5945](https://issues.apache.org/jira/browse/OFBIZ-5945)] - GlReconciledFinAccountTrans.ftl finAccountTrans.entryDateId should be finAccountTrans.entryDate
+- [[OFBIZ-5951](https://issues.apache.org/jira/browse/OFBIZ-5951)] - Product Costs page actions cause incorrect listings
+- [[OFBIZ-5952](https://issues.apache.org/jira/browse/OFBIZ-5952)] - IncomeStatement page broken
+- [[OFBIZ-5953](https://issues.apache.org/jira/browse/OFBIZ-5953)] - Problem with new UtilCodec code caused by HTMLEntityCodec.decode()
+- [[OFBIZ-5962](https://issues.apache.org/jira/browse/OFBIZ-5962)] - If orderDecimalQuantity set to N then system should return error if user add partial quantity in order
+- [[OFBIZ-5968](https://issues.apache.org/jira/browse/OFBIZ-5968)] - framework/images/webapp/images/fieldlookup.js throws a javascript error in google chrome from a link to ofbiz from another site
+- [[OFBIZ-5971](https://issues.apache.org/jira/browse/OFBIZ-5971)] - Form ListRequestItemNotes is not referenced in Screens
+- [[OFBIZ-5974](https://issues.apache.org/jira/browse/OFBIZ-5974)] - Retrieval of NoteData in ListProdBacklogNote is missing value-field attribute
+- [[OFBIZ-5979](https://issues.apache.org/jira/browse/OFBIZ-5979)] - Form TotalProdBacklog has typo in link
+- [[OFBIZ-5986](https://issues.apache.org/jira/browse/OFBIZ-5986)] - Error on accessing new tenant
+- [[OFBIZ-5999](https://issues.apache.org/jira/browse/OFBIZ-5999)] - Find Order filtering broken
+- [[OFBIZ-6013](https://issues.apache.org/jira/browse/OFBIZ-6013)] - &quot;Return Selected Item(s)&quot; button broken for manually created returns
+- [[OFBIZ-6022](https://issues.apache.org/jira/browse/OFBIZ-6022)] - Menu items with parent-portal-page-value=&quot;${parameters.&lt;ParameterValue&gt;}&quot; are not accessible
+- [[OFBIZ-6036](https://issues.apache.org/jira/browse/OFBIZ-6036)] - Return &lt;strong&gt; tag for Autocomplete Dropdown highlight
+- [[OFBIZ-6037](https://issues.apache.org/jira/browse/OFBIZ-6037)] - Widget Refactoring - form extension broken
+- [[OFBIZ-6041](https://issues.apache.org/jira/browse/OFBIZ-6041)] - form renderer insert strange html code....
+- [[OFBIZ-6043](https://issues.apache.org/jira/browse/OFBIZ-6043)] - Change of ship-to address is not persisted when stepping forward and backward in a create order process
+- [[OFBIZ-6049](https://issues.apache.org/jira/browse/OFBIZ-6049)] - Error on Convert Lead
+- [[OFBIZ-6051](https://issues.apache.org/jira/browse/OFBIZ-6051)] - In trunk we lost the Edit and Delete buttons in Store Facilites screen (ajaxUpdateArea)
+- [[OFBIZ-6052](https://issues.apache.org/jira/browse/OFBIZ-6052)] - Find facility inventory items cause UtilCodec.IntrusionException
+- [[OFBIZ-6057](https://issues.apache.org/jira/browse/OFBIZ-6057)] - Quote item view FreeMarker error due Freemarker 2.3 versions higher than 2.3.19
+- [[OFBIZ-6058](https://issues.apache.org/jira/browse/OFBIZ-6058)] - Find Shipment generates an error
+- [[OFBIZ-6060](https://issues.apache.org/jira/browse/OFBIZ-6060)] - We can no longer reset services definitions by clearing caches
+- [[OFBIZ-6068](https://issues.apache.org/jira/browse/OFBIZ-6068)] - Upload video content for category causes exception
+- [[OFBIZ-6070](https://issues.apache.org/jira/browse/OFBIZ-6070)] - Create content for product causes exception
+- [[OFBIZ-6071](https://issues.apache.org/jira/browse/OFBIZ-6071)] - Issue in decrypting entity fields where encrypt=&quot;true&quot; is used in tenant
+- [[OFBIZ-6074](https://issues.apache.org/jira/browse/OFBIZ-6074)] - controller view-map type=&quot;screenxml&quot; broken
+- [[OFBIZ-6075](https://issues.apache.org/jira/browse/OFBIZ-6075)] - Error on Sending confirm email from newly created order
+- [[OFBIZ-6077](https://issues.apache.org/jira/browse/OFBIZ-6077)] - Error when creating a quote report
+- [[OFBIZ-6082](https://issues.apache.org/jira/browse/OFBIZ-6082)] - HELP\_HR\_Main.xml invalid Docbook syntax
+- [[OFBIZ-6084](https://issues.apache.org/jira/browse/OFBIZ-6084)] - Find account doesn&#39;t return accounts anymore
+- [[OFBIZ-6088](https://issues.apache.org/jira/browse/OFBIZ-6088)] - There should not need to setup SystemProperty data on each tenant for specifying path to store tenant images.
+- [[OFBIZ-6089](https://issues.apache.org/jira/browse/OFBIZ-6089)] - Cannot locate service by name (ensureNaPartyRoleTo)
+- [[OFBIZ-6090](https://issues.apache.org/jira/browse/OFBIZ-6090)] - Unable to return order items in return process.
+- [[OFBIZ-6091](https://issues.apache.org/jira/browse/OFBIZ-6091)] - Supplier preferred currency not considered for drop-ship order
+- [[OFBIZ-6092](https://issues.apache.org/jira/browse/OFBIZ-6092)] - Domain name should not create for tenant if its left empty during tenant creation
+- [[OFBIZ-6095](https://issues.apache.org/jira/browse/OFBIZ-6095)] - Promo action party lookup dropdown throws error
+- [[OFBIZ-6101](https://issues.apache.org/jira/browse/OFBIZ-6101)] - Error updating order when item quantity less than 1 but greater than 0 exists
+- [[OFBIZ-6111](https://issues.apache.org/jira/browse/OFBIZ-6111)] - Strange Behaviour of the eCommerce Login Link
+- [[OFBIZ-6112](https://issues.apache.org/jira/browse/OFBIZ-6112)] - Incorrect Error Displayed when &quot;Expiring&quot; a Contact Mechanism
+- [[OFBIZ-6114](https://issues.apache.org/jira/browse/OFBIZ-6114)] - webtools entity references generates exceptions
+- [[OFBIZ-6119](https://issues.apache.org/jira/browse/OFBIZ-6119)] - One page checkout broken for registered user
+- [[OFBIZ-6120](https://issues.apache.org/jira/browse/OFBIZ-6120)] - Allow FOP to support &lt;fo:external-graphic/&gt; for -Dportoffset
+- [[OFBIZ-6131](https://issues.apache.org/jira/browse/OFBIZ-6131)] - Error when updating shipment destinationFacilityId
+- [[OFBIZ-6142](https://issues.apache.org/jira/browse/OFBIZ-6142)] - returnItems.ftl freemarker null error when returnPrice or returnQuantity is null
+- [[OFBIZ-6156](https://issues.apache.org/jira/browse/OFBIZ-6156)] - Upgrade commons-pool2 from 2.2 to.2.3 and commons-dbcp2 from 2.0.1 to 2.1
+- [[OFBIZ-6157](https://issues.apache.org/jira/browse/OFBIZ-6157)] - Upgrade commons-validator from 1.4.0 to 1.4.1
+- [[OFBIZ-6158](https://issues.apache.org/jira/browse/OFBIZ-6158)] - Upgrade commons-net from 3.1 to 3.3
+- [[OFBIZ-6159](https://issues.apache.org/jira/browse/OFBIZ-6159)] - Upgrade commons-logging from 1.1.2 to 1.2
+- [[OFBIZ-6160](https://issues.apache.org/jira/browse/OFBIZ-6160)] - Upgrade commons-csv from 1.0 to 1.1
+- [[OFBIZ-6161](https://issues.apache.org/jira/browse/OFBIZ-6161)] - Upgrade commons-codec from 1.6 to 1.10
+- [[OFBIZ-6169](https://issues.apache.org/jira/browse/OFBIZ-6169)] - Upgrade Tomcat from 7.0.57 to 7.0.59
+- [[OFBIZ-6172](https://issues.apache.org/jira/browse/OFBIZ-6172)] - Screenlet collapsibility is not working
+- [[OFBIZ-6183](https://issues.apache.org/jira/browse/OFBIZ-6183)] - Error when web app has mount point /
+- [[OFBIZ-6186](https://issues.apache.org/jira/browse/OFBIZ-6186)] - ShipmentPlanStockReport.groovv error due to call to runService misspelling
+- [[OFBIZ-6188](https://issues.apache.org/jira/browse/OFBIZ-6188)] - Task Report error for Manufacturing Shipment Plan
+- [[OFBIZ-6194](https://issues.apache.org/jira/browse/OFBIZ-6194)] - bi.properties file is missing licence header
+- [[OFBIZ-6196](https://issues.apache.org/jira/browse/OFBIZ-6196)] - Package Labels Report error for Manufacturing Shipment Plan
+- [[OFBIZ-6199](https://issues.apache.org/jira/browse/OFBIZ-6199)] - Find Commission Run screen is broken.
+- [[OFBIZ-6200](https://issues.apache.org/jira/browse/OFBIZ-6200)] - Order Adjustment details are hidden on order Item section of order entry page.
+- [[OFBIZ-6201](https://issues.apache.org/jira/browse/OFBIZ-6201)] - Error in Create New Account process of SFA
+- [[OFBIZ-6202](https://issues.apache.org/jira/browse/OFBIZ-6202)] - &quot;Expected hash&quot; Freemarker error in FindInventoryEventPlan
+- [[OFBIZ-6205](https://issues.apache.org/jira/browse/OFBIZ-6205)] - Use EntityUtilProperties to get the WebSiteProperties
+- [[OFBIZ-6207](https://issues.apache.org/jira/browse/OFBIZ-6207)] - Anyone can view any Request or Quote
+- [[OFBIZ-6209](https://issues.apache.org/jira/browse/OFBIZ-6209)] - Error when call &quot;updateNote&quot; service.
+- [[OFBIZ-6216](https://issues.apache.org/jira/browse/OFBIZ-6216)] - ProductStoreData.xml contains UPS NEXT\_DAY not present in ShippingData.xml
+- [[OFBIZ-6218](https://issues.apache.org/jira/browse/OFBIZ-6218)] - Unit tests throw exception in DBCP
+- [[OFBIZ-6219](https://issues.apache.org/jira/browse/OFBIZ-6219)] - NPE while rendering content uisng screen widget
+- [[OFBIZ-6222](https://issues.apache.org/jira/browse/OFBIZ-6222)] - Change the field name &#39;tenantId&#39; to &#39;userTenantId&#39; from login page and ContextFilter
+- [[OFBIZ-6229](https://issues.apache.org/jira/browse/OFBIZ-6229)] - Can&#39;t create a geo without providing a geoID
+- [[OFBIZ-6234](https://issues.apache.org/jira/browse/OFBIZ-6234)] - catalog main page show freemarker exception
+- [[OFBIZ-6237](https://issues.apache.org/jira/browse/OFBIZ-6237)] - function linkGeos deletes existing GeoAssocs for geoId
+- [[OFBIZ-6254](https://issues.apache.org/jira/browse/OFBIZ-6254)] - Minilang: type=&quot;NewMap&quot; and type=&quot;NewList&quot; for the Set element don&#39;t work
+- [[OFBIZ-6257](https://issues.apache.org/jira/browse/OFBIZ-6257)] - Upload function does not work on Party Manager.
+- [[OFBIZ-6259](https://issues.apache.org/jira/browse/OFBIZ-6259)] - ofbiz looking for web.xml in wrong place
+- [[OFBIZ-6260](https://issues.apache.org/jira/browse/OFBIZ-6260)] - foScreenMacroLibrary.ftl renderLabel doesn&#39;t apply style parameter
+- [[OFBIZ-6261](https://issues.apache.org/jira/browse/OFBIZ-6261)] - locationresolvers.properties is missing
+- [[OFBIZ-6262](https://issues.apache.org/jira/browse/OFBIZ-6262)] - CategoryContentWrapper ignores session locale
+- [[OFBIZ-6269](https://issues.apache.org/jira/browse/OFBIZ-6269)] - Pro-rate shipping calculation is generating incorrect invoice in case of order with subtotal $0.00
+- [[OFBIZ-6275](https://issues.apache.org/jira/browse/OFBIZ-6275)] - OFBiz code seems make use of other deprecated OFBiz features
+- [[OFBIZ-6299](https://issues.apache.org/jira/browse/OFBIZ-6299)] - Field order is not correct in the auto-complete for look-ups.
+- [[OFBIZ-6309](https://issues.apache.org/jira/browse/OFBIZ-6309)] - Freemarker errors at language change page due to locale with no display name returned by Locale.getAvailableLocales() in UtilMisc.java#getAvailableLocaleList
+- [[OFBIZ-6329](https://issues.apache.org/jira/browse/OFBIZ-6329)] - Malfunction of configurable FTL-Template caching in DataResourceWorker.renderDataResourceAsText
+- [[OFBIZ-6346](https://issues.apache.org/jira/browse/OFBIZ-6346)] - When used setDependentDropdownValuesJs.ftl precludes focus-field-name
+- [[OFBIZ-6347](https://issues.apache.org/jira/browse/OFBIZ-6347)] - Two order payment preferences are added to order, when order of order total 0(zero) is placed with Billing Account
+- [[OFBIZ-6348](https://issues.apache.org/jira/browse/OFBIZ-6348)] - Quote item adjustment rows incorrect color and misaligned on view page
+- [[OFBIZ-6351](https://issues.apache.org/jira/browse/OFBIZ-6351)] - ordermgr/control/ListQuoteItems quoteItemSeqId button not showing due to ${bsh}
+- [[OFBIZ-6357](https://issues.apache.org/jira/browse/OFBIZ-6357)] - Some fields are missing in the person simple-map-processor
+- [[OFBIZ-6369](https://issues.apache.org/jira/browse/OFBIZ-6369)] - Corrected the order in which invoice and payment transactions are created
+- [[OFBIZ-6374](https://issues.apache.org/jira/browse/OFBIZ-6374)] - PartyContentWrapper.getPartyContentAsText use wrong signature
+- [[OFBIZ-6382](https://issues.apache.org/jira/browse/OFBIZ-6382)] - Create PO flow is broken
+- [[OFBIZ-6387](https://issues.apache.org/jira/browse/OFBIZ-6387)] - Duplicate referredByPartyId field for EmployementAppForms.xml#ListEmployementApps at humanres/control/FindEmploymentApps
+- [[OFBIZ-6388](https://issues.apache.org/jira/browse/OFBIZ-6388)] - Licence header is missing in Seo\*.xml files
+- [[OFBIZ-6396](https://issues.apache.org/jira/browse/OFBIZ-6396)] - Field Lookup do not show description when widget-verbose is set to false
+- [[OFBIZ-6397](https://issues.apache.org/jira/browse/OFBIZ-6397)] - Survey : FTL error message when using Enumeration or Geo question type
+- [[OFBIZ-6400](https://issues.apache.org/jira/browse/OFBIZ-6400)] - Fix permissions at specialpurpose/myportal/widget/PortalAdmScreens.xml
+- [[OFBIZ-6425](https://issues.apache.org/jira/browse/OFBIZ-6425)] - FindService.performFindList listSize = null causes errors when list is empty because the rendering system expects 0
+- [[OFBIZ-6444](https://issues.apache.org/jira/browse/OFBIZ-6444)] - Postal Address PDF Formatter Screen Problems
+- [[OFBIZ-6454](https://issues.apache.org/jira/browse/OFBIZ-6454)] - Label manager generates an error when searching for unused labels
+- [[OFBIZ-6460](https://issues.apache.org/jira/browse/OFBIZ-6460)] - select survey for product store cause exception
+- [[OFBIZ-6495](https://issues.apache.org/jira/browse/OFBIZ-6495)] - The filter-by-date=&quot;true&quot; of &lt;entity-condition/&gt; in view entity PartyExport does not work
+- [[OFBIZ-6496](https://issues.apache.org/jira/browse/OFBIZ-6496)] - error in parsing array in ajaxUpdateAreas
+- [[OFBIZ-6520](https://issues.apache.org/jira/browse/OFBIZ-6520)] - Price of product does not shows up when you change currency of your store and setup product prices with new currency
+- [[OFBIZ-6530](https://issues.apache.org/jira/browse/OFBIZ-6530)] - Ajax request should be async
+- [[OFBIZ-6533](https://issues.apache.org/jira/browse/OFBIZ-6533)] - Compiling errors
+- [[OFBIZ-6534](https://issues.apache.org/jira/browse/OFBIZ-6534)] - Same Billing Address generates an error
+- [[OFBIZ-6536](https://issues.apache.org/jira/browse/OFBIZ-6536)] - The &quot;Create new&quot; link under partymgr has disappeared
+- [[OFBIZ-6537](https://issues.apache.org/jira/browse/OFBIZ-6537)] - Unable to change users timezone for session
+- [[OFBIZ-6544](https://issues.apache.org/jira/browse/OFBIZ-6544)] - The focus-field-name form widget feature is broken
+- [[OFBIZ-6547](https://issues.apache.org/jira/browse/OFBIZ-6547)] - Screen with pagination on tables lead to multiple db entries when submitting
+- [[OFBIZ-6552](https://issues.apache.org/jira/browse/OFBIZ-6552)] - Error when changing language after using the product jump from the left part of the main product screen
+- [[OFBIZ-6553](https://issues.apache.org/jira/browse/OFBIZ-6553)] - ant load-extseed cause exception
+- [[OFBIZ-6554](https://issues.apache.org/jira/browse/OFBIZ-6554)] - streamContentToBrowser fails when the file name contains a comma, only with Chrome.
+- [[OFBIZ-6555](https://issues.apache.org/jira/browse/OFBIZ-6555)] - errors and warning after load-extseed and running ofbiz
+- [[OFBIZ-6561](https://issues.apache.org/jira/browse/OFBIZ-6561)] - GenericDelegator.store fails to clear userLogin cache on password update from ecommerce profile
+- [[OFBIZ-6562](https://issues.apache.org/jira/browse/OFBIZ-6562)] - Service event handler fails to parse string-map-prefix parameters in case of Ajax call
+- [[OFBIZ-6563](https://issues.apache.org/jira/browse/OFBIZ-6563)] - Search for group name reveals all
+- [[OFBIZ-6567](https://issues.apache.org/jira/browse/OFBIZ-6567)] - Wrong percent encoding in Webtool/SQL Processor
+- [[OFBIZ-6569](https://issues.apache.org/jira/browse/OFBIZ-6569)] - popup calendar icon missing and dialog is transparent in flat grey theme
+- [[OFBIZ-6570](https://issues.apache.org/jira/browse/OFBIZ-6570)] - Anonymous unsubscribe from contact list generates an error
+- [[OFBIZ-6571](https://issues.apache.org/jira/browse/OFBIZ-6571)] - Error Adding items to a Customer Return Invoice
+- [[OFBIZ-6572](https://issues.apache.org/jira/browse/OFBIZ-6572)] - Character encoding issue when multitenant is set to Y
+- [[OFBIZ-6579](https://issues.apache.org/jira/browse/OFBIZ-6579)] - ERROR: could not find ModelField for entity name: ItemIssuanceQuantitySum and field: issuedDateTime
+- [[OFBIZ-6582](https://issues.apache.org/jira/browse/OFBIZ-6582)] - SQL Exceptions (OPTION) occuring when running OFBiz 13.07.02 against MySQL
+- [[OFBIZ-6583](https://issues.apache.org/jira/browse/OFBIZ-6583)] - simple coding cleanup
+- [[OFBIZ-6584](https://issues.apache.org/jira/browse/OFBIZ-6584)] - Survey shows wrong submitter details
+- [[OFBIZ-6589](https://issues.apache.org/jira/browse/OFBIZ-6589)] - In all themes, popup calendar does not work
+- [[OFBIZ-6591](https://issues.apache.org/jira/browse/OFBIZ-6591)] - ofbiz does not compile
+- [[OFBIZ-6600](https://issues.apache.org/jira/browse/OFBIZ-6600)] - Scrum total billing cause exception
+- [[OFBIZ-6601](https://issues.apache.org/jira/browse/OFBIZ-6601)] - example component causes exceptions
+- [[OFBIZ-6602](https://issues.apache.org/jira/browse/OFBIZ-6602)] - Upgrade Tomcat from 7.0.59 to 7.0.64
+- [[OFBIZ-6605](https://issues.apache.org/jira/browse/OFBIZ-6605)] - createQuoteRole, createContentRole, and createRequirementRole allow for adding Roles to a Party without permissions
+- [[OFBIZ-6606](https://issues.apache.org/jira/browse/OFBIZ-6606)] - Some groovy files using Timestamp.valueOf are missing essential jar.
+- [[OFBIZ-6615](https://issues.apache.org/jira/browse/OFBIZ-6615)] - The EntityListIterator does not be closed in EntityQuery.query()
+- [[OFBIZ-6619](https://issues.apache.org/jira/browse/OFBIZ-6619)] - PurgeJob.java does not delete RecurrenceRule because it is still referenced by RecurrenceInfo
+- [[OFBIZ-6624](https://issues.apache.org/jira/browse/OFBIZ-6624)] - error in isValidEan util
+- [[OFBIZ-6627](https://issues.apache.org/jira/browse/OFBIZ-6627)] - multiple select dropdown listbox shows only one entry
+- [[OFBIZ-6637](https://issues.apache.org/jira/browse/OFBIZ-6637)] - Work Effort Month Calendar View Is Broken
+- [[OFBIZ-6640](https://issues.apache.org/jira/browse/OFBIZ-6640)] - Eclipse .classpath contains internal Groovy Library classpath container
+- [[OFBIZ-6641](https://issues.apache.org/jira/browse/OFBIZ-6641)] - Missing CountryCodeData.xml values for countries of the former Yugoslavia
+- [[OFBIZ-6642](https://issues.apache.org/jira/browse/OFBIZ-6642)] - Non-breaking space incorrectly encoded in forms
+- [[OFBIZ-6643](https://issues.apache.org/jira/browse/OFBIZ-6643)] - Order items for GZ-1006-5 via ecommerce/ordermgr shows error
+- [[OFBIZ-6652](https://issues.apache.org/jira/browse/OFBIZ-6652)] - Errors in ProductSummary.groovy
+- [[OFBIZ-6654](https://issues.apache.org/jira/browse/OFBIZ-6654)] - Display of a recurrent workeffort in workeffort calendar do not respect estimatedStart/CompletionDate
+- [[OFBIZ-6663](https://issues.apache.org/jira/browse/OFBIZ-6663)] - Error occurred while printing Deposit Slip
+- [[OFBIZ-6665](https://issues.apache.org/jira/browse/OFBIZ-6665)] - ecommerce screen exception
+- [[OFBIZ-6666](https://issues.apache.org/jira/browse/OFBIZ-6666)] - ModelService constructor does not copy all attribute of service model.
+- [[OFBIZ-6669](https://issues.apache.org/jira/browse/OFBIZ-6669)] - Possible stored XSS issue with Content
+- [[OFBIZ-6674](https://issues.apache.org/jira/browse/OFBIZ-6674)] - In addToCart() method, reset shipment method information in cart only if shipping applies on product
+- [[OFBIZ-6678](https://issues.apache.org/jira/browse/OFBIZ-6678)] - viewimage in order generates an error
+- [[OFBIZ-6681](https://issues.apache.org/jira/browse/OFBIZ-6681)] - Type-ahead regarding workeffort in AddQuoteWorkEffort
+- [[OFBIZ-6682](https://issues.apache.org/jira/browse/OFBIZ-6682)] - Type-ahead regarding requirement in ListWorkEffortRequirements throws an error
+- [[OFBIZ-6683](https://issues.apache.org/jira/browse/OFBIZ-6683)] - Type-ahead regarding workeffort in AddCommEventWorkEffort throws an error
+- [[OFBIZ-6684](https://issues.apache.org/jira/browse/OFBIZ-6684)] - CcTypes.groovy misses licence
+- [[OFBIZ-6687](https://issues.apache.org/jira/browse/OFBIZ-6687)] - org.ofbiz.entity.GenericModelException: Could not find definition for entity name FixedAssetMaintWorkEffort
+- [[OFBIZ-6698](https://issues.apache.org/jira/browse/OFBIZ-6698)] - sendCommEventAsEmail does not filter CommEventContentAssoc
+- [[OFBIZ-6703](https://issues.apache.org/jira/browse/OFBIZ-6703)] - Cannot create more than one lead in the SFA component by same user
+- [[OFBIZ-6706](https://issues.apache.org/jira/browse/OFBIZ-6706)] - The Widget-style of a menuItem in its link when the menu is selected
+- [[OFBIZ-6707](https://issues.apache.org/jira/browse/OFBIZ-6707)] - WebtoolsUiLabels went missing
+- [[OFBIZ-6708](https://issues.apache.org/jira/browse/OFBIZ-6708)] - Missing userLogin error on party profile screen when 1st content is non public
+- [[OFBIZ-6725](https://issues.apache.org/jira/browse/OFBIZ-6725)] - Best Selling Products section in main order page takes into account cancelled orders
+- [[OFBIZ-6728](https://issues.apache.org/jira/browse/OFBIZ-6728)] - Getting error when returning service (non-physical) product
+- [[OFBIZ-6729](https://issues.apache.org/jira/browse/OFBIZ-6729)] - Return invoice not generated for service (non-physical) product
+- [[OFBIZ-6730](https://issues.apache.org/jira/browse/OFBIZ-6730)] - Return shipment created for non-physical product
+- [[OFBIZ-6733](https://issues.apache.org/jira/browse/OFBIZ-6733)] - Error with Service Product Invoice Lines
+- [[OFBIZ-6739](https://issues.apache.org/jira/browse/OFBIZ-6739)] - Can not display product category name in Unicode.
+- [[OFBIZ-6741](https://issues.apache.org/jira/browse/OFBIZ-6741)] - The state list is not populated when trying to add a shipping address from the Quick Finalize Order screen.
+- [[OFBIZ-6742](https://issues.apache.org/jira/browse/OFBIZ-6742)] - Last categories section in e-commerce pages is broken.
+- [[OFBIZ-6743](https://issues.apache.org/jira/browse/OFBIZ-6743)] - Error on the Split Payment button from the Quick Finalize Order screen
+- [[OFBIZ-6753](https://issues.apache.org/jira/browse/OFBIZ-6753)] - DemoTaxAuthority.xml GL Account for USA\_IRS is incorrect
+- [[OFBIZ-6761](https://issues.apache.org/jira/browse/OFBIZ-6761)] - The action of EditExampleBackgroundSubmit form is not correct when creating a example
+- [[OFBIZ-6765](https://issues.apache.org/jira/browse/OFBIZ-6765)] - Error on Accounting reports for Cash transactions.
+- [[OFBIZ-6771](https://issues.apache.org/jira/browse/OFBIZ-6771)] - Upload product image does not work.
+- [[OFBIZ-6775](https://issues.apache.org/jira/browse/OFBIZ-6775)] - Duplicated to display jGrowl error message when open a popup dialog.
+- [[OFBIZ-6778](https://issues.apache.org/jira/browse/OFBIZ-6778)] - Possible &quot;NPE&quot; in viewcontent.ftl (found in trunk demo log)
+- [[OFBIZ-6779](https://issues.apache.org/jira/browse/OFBIZ-6779)] - Wrong entity condition expression for fetching the view entity PartyAndContactMech.
+- [[OFBIZ-6784](https://issues.apache.org/jira/browse/OFBIZ-6784)] - JobSandbox : reload crashed job maybe duplicate pending service
+- [[OFBIZ-6788](https://issues.apache.org/jira/browse/OFBIZ-6788)] - OFBIZ not generating pdf invoices
+- [[OFBIZ-6789](https://issues.apache.org/jira/browse/OFBIZ-6789)] - image management cannot share images
+- [[OFBIZ-6791](https://issues.apache.org/jira/browse/OFBIZ-6791)] - Various fixes related with sales opportunity
+- [[OFBIZ-6794](https://issues.apache.org/jira/browse/OFBIZ-6794)] - Invalid content was found starting with element &#39;description&#39;
+- [[OFBIZ-6795](https://issues.apache.org/jira/browse/OFBIZ-6795)] - Bug on SFA vcard import
+- [[OFBIZ-6798](https://issues.apache.org/jira/browse/OFBIZ-6798)] - Broken filter links if using ecommerce Layered Navigation
+- [[OFBIZ-6806](https://issues.apache.org/jira/browse/OFBIZ-6806)] - Order Item with multiple qty reserved with multiple inventory item not correctly recorded into Shipment\_Item\_Billing
+- [[OFBIZ-6809](https://issues.apache.org/jira/browse/OFBIZ-6809)] - The passport component misses a web.xml file
+- [[OFBIZ-6842](https://issues.apache.org/jira/browse/OFBIZ-6842)] - ProjectMgr: GanttChart fails, in case of dependencies for tasks
+- [[OFBIZ-6844](https://issues.apache.org/jira/browse/OFBIZ-6844)] - In DemoTaxAuthority.xml the associated countrycode for Bulgaria is wrong
+- [[OFBIZ-6856](https://issues.apache.org/jira/browse/OFBIZ-6856)] - ContactMechs Label
+- [[OFBIZ-6859](https://issues.apache.org/jira/browse/OFBIZ-6859)] - searchContent generates an error
+- [[OFBIZ-6861](https://issues.apache.org/jira/browse/OFBIZ-6861)] - AdminSearch generates an error
+- [[OFBIZ-6888](https://issues.apache.org/jira/browse/OFBIZ-6888)] - GroovyEngine.serviceInvoker masks Groovy script exceptions in some cases
+- [[OFBIZ-6893](https://issues.apache.org/jira/browse/OFBIZ-6893)] - Error during first attempt of the synchronisation
+- [[OFBIZ-6898](https://issues.apache.org/jira/browse/OFBIZ-6898)] - printCheck action generates an error
+- [[OFBIZ-6910](https://issues.apache.org/jira/browse/OFBIZ-6910)] - Newly created id should be out from service &#39;createProductFeatureType&#39;
+- [[OFBIZ-6918](https://issues.apache.org/jira/browse/OFBIZ-6918)] - ApplicationDecorator Entity-One Screen Action Incomplete Primary Key
+- [[OFBIZ-6920](https://issues.apache.org/jira/browse/OFBIZ-6920)] - Credit card details cannot be updated
+- [[OFBIZ-6922](https://issues.apache.org/jira/browse/OFBIZ-6922)] - Currently the testRemoteSoap test service does not work.
+- [[OFBIZ-6925](https://issues.apache.org/jira/browse/OFBIZ-6925)] - Incorrect content length in response from HTTP service engine
+- [[OFBIZ-6933](https://issues.apache.org/jira/browse/OFBIZ-6933)] - When we update the Allow order decimal quantity to N for product store and update the unit price of item in shopping cart then its shown error.
+- [[OFBIZ-6937](https://issues.apache.org/jira/browse/OFBIZ-6937)] - Company Check payment method should be shown when issuing chek
+- [[OFBIZ-6950](https://issues.apache.org/jira/browse/OFBIZ-6950)] - enhancement of dutch labels
+- [[OFBIZ-6953](https://issues.apache.org/jira/browse/OFBIZ-6953)] - Can not go to &quot;viewprofile&quot; if you is on webtools (see description and screenshot)
+- [[OFBIZ-6957](https://issues.apache.org/jira/browse/OFBIZ-6957)] - jquery plugin jgrowl is loaded before jquery in ecommerce
+- [[OFBIZ-6966](https://issues.apache.org/jira/browse/OFBIZ-6966)] - Unable to change language in ecommerce
+- [[OFBIZ-6987](https://issues.apache.org/jira/browse/OFBIZ-6987)] - Exception in Form Widget Examples
+- [[OFBIZ-7000](https://issues.apache.org/jira/browse/OFBIZ-7000)] - You cannot edit an image in content
+- [[OFBIZ-7007](https://issues.apache.org/jira/browse/OFBIZ-7007)] - WebPos login page getting error &quot;FileNotFoundException&quot;.
+- [[OFBIZ-7011](https://issues.apache.org/jira/browse/OFBIZ-7011)] - Failure in Payment Capture process when ERROR is returned in referenceNum in paymentGatewayResponse
+- [[OFBIZ-7023](https://issues.apache.org/jira/browse/OFBIZ-7023)] - ExampleCompoundWidgets throws errors in log
+- [[OFBIZ-7025](https://issues.apache.org/jira/browse/OFBIZ-7025)] - Email-Notification send multiple times
+- [[OFBIZ-7050](https://issues.apache.org/jira/browse/OFBIZ-7050)] - CMS does not store &quot;Long text&quot;
+- [[OFBIZ-7063](https://issues.apache.org/jira/browse/OFBIZ-7063)] - Shipping charges reset to ZERO when update purchase order item quantity
+- [[OFBIZ-7068](https://issues.apache.org/jira/browse/OFBIZ-7068)] - Export widget ftl pointing to wrong location
+- [[OFBIZ-7075](https://issues.apache.org/jira/browse/OFBIZ-7075)] - Sending mail button from viewProfile doesn&#39;t work
+- [[OFBIZ-7082](https://issues.apache.org/jira/browse/OFBIZ-7082)] - FileNotFoundException while editing contact information
+- [[OFBIZ-7089](https://issues.apache.org/jira/browse/OFBIZ-7089)] - Cash Flow Statement report is broken
+- [[OFBIZ-7103](https://issues.apache.org/jira/browse/OFBIZ-7103)] - FreeMarker template error: Template inclusion failed, on selection bluelight theme
+- [[OFBIZ-7117](https://issues.apache.org/jira/browse/OFBIZ-7117)] - LookupAccount search screen &#39;Find&#39; button redirect to Lookup Group
+- [[OFBIZ-7119](https://issues.apache.org/jira/browse/OFBIZ-7119)] - cmssite not working
+- [[OFBIZ-7135](https://issues.apache.org/jira/browse/OFBIZ-7135)] - Adding role for a party show error on the second add
+- [[OFBIZ-7163](https://issues.apache.org/jira/browse/OFBIZ-7163)] - Service Reference: Filter for Definition Location is broken
+- [[OFBIZ-7164](https://issues.apache.org/jira/browse/OFBIZ-7164)] - Fix incorretly clsoed else tag in ftl
+- [[OFBIZ-7167](https://issues.apache.org/jira/browse/OFBIZ-7167)] - The HTML rendering of tests is no longer working when tests fail
+- [[OFBIZ-7185](https://issues.apache.org/jira/browse/OFBIZ-7185)] - Empty brackets shown when no party associated with Quote. Screen breaks when clicking it
+- [[OFBIZ-7203](https://issues.apache.org/jira/browse/OFBIZ-7203)] - Empty Requirement Id and Product Id fields when generating pdf for Approved Product Requirements
+- [[OFBIZ-7212](https://issues.apache.org/jira/browse/OFBIZ-7212)] - Error on product detail page
+- [[OFBIZ-7214](https://issues.apache.org/jira/browse/OFBIZ-7214)] - AdminServer.java in start misses license heaader
+- [[OFBIZ-7312](https://issues.apache.org/jira/browse/OFBIZ-7312)] - Order BIRT report is not working properly
+- [[OFBIZ-7323](https://issues.apache.org/jira/browse/OFBIZ-7323)] - layered-modal hyperlink doesn&#39;t show style
+- [[OFBIZ-7330](https://issues.apache.org/jira/browse/OFBIZ-7330)] - Error with Agreement Item Supplier product Pdf
+- [[OFBIZ-7331](https://issues.apache.org/jira/browse/OFBIZ-7331)] - Getting console error while reading property value
+- [[OFBIZ-7343](https://issues.apache.org/jira/browse/OFBIZ-7343)] - Geo Location functionality of facility contact information screen is not working
+- [[OFBIZ-7358](https://issues.apache.org/jira/browse/OFBIZ-7358)] - In Facility find shipment button doesn&#39;t work on first click
+- [[OFBIZ-7361](https://issues.apache.org/jira/browse/OFBIZ-7361)] - Catalog : Product Store Group from Product Store Group List item is not being open.
+- [[OFBIZ-7364](https://issues.apache.org/jira/browse/OFBIZ-7364)] - Failed to open BIRT charts on Product Statistics page.
+- [[OFBIZ-7365](https://issues.apache.org/jira/browse/OFBIZ-7365)] - fonts.pdf Throw error on terminal
+- [[OFBIZ-7390](https://issues.apache.org/jira/browse/OFBIZ-7390)] - Print PDF functionality throws exception on Inventory Average Cost screen
+- [[OFBIZ-7427](https://issues.apache.org/jira/browse/OFBIZ-7427)] - OrderId, PartId showing multiple times in ReceiveInventoryAgainstPurchaseOrder screen.
+- [[OFBIZ-7435](https://issues.apache.org/jira/browse/OFBIZ-7435)] - Create Custreq from CommEvent shows error on screen
+- [[OFBIZ-7526](https://issues.apache.org/jira/browse/OFBIZ-7526)] - View Quote screen is broken
+- [[OFBIZ-7563](https://issues.apache.org/jira/browse/OFBIZ-7563)] - Error message not visible properly after adding item in webpos
+- [[OFBIZ-7602](https://issues.apache.org/jira/browse/OFBIZ-7602)] - Hide product sub menus while creating new product
+- [[OFBIZ-7612](https://issues.apache.org/jira/browse/OFBIZ-7612)] - Party content in party component is not getting updated
+- [[OFBIZ-7628](https://issues.apache.org/jira/browse/OFBIZ-7628)] - Add Communication Event Roles functionality is not working
+- [[OFBIZ-7674](https://issues.apache.org/jira/browse/OFBIZ-7674)] - Unable to perform search at &quot;eBay Orders Import&quot; screen of eBay component
+- [[OFBIZ-7681](https://issues.apache.org/jira/browse/OFBIZ-7681)] - Update ./ant create-component template for controller.xml to reflect change in OFBIZ-7061
+- [[OFBIZ-7699](https://issues.apache.org/jira/browse/OFBIZ-7699)] - Invalid content was found starting with element &#39;xls&#39;
+- [[OFBIZ-7700](https://issues.apache.org/jira/browse/OFBIZ-7700)] - File Not Found exception in export to ebay
+- [[OFBIZ-7721](https://issues.apache.org/jira/browse/OFBIZ-7721)] - auto-completer does not work to search Data Resource Id and owner content id
+- [[OFBIZ-7724](https://issues.apache.org/jira/browse/OFBIZ-7724)] - System allows to change status from cancel to empty for return and allow-empty flag of form widget does not honour to add or not empty option field in drop-down
+- [[OFBIZ-7750](https://issues.apache.org/jira/browse/OFBIZ-7750)] - Error adding foreign key: ModelEntity was null for related entity name Tenant
+- [[OFBIZ-7758](https://issues.apache.org/jira/browse/OFBIZ-7758)] - jquery.jgrowl.min.css is linked twice in html page
+- [[OFBIZ-7797](https://issues.apache.org/jira/browse/OFBIZ-7797)] - Bug in OfbizSetup Create Customer Step
+- [[OFBIZ-7814](https://issues.apache.org/jira/browse/OFBIZ-7814)] - Console Warning : No parameter found for override parameter named
+- [[OFBIZ-7816](https://issues.apache.org/jira/browse/OFBIZ-7816)] - Profile of contact person not shown on quick add of contact in SFA
+- [[OFBIZ-7817](https://issues.apache.org/jira/browse/OFBIZ-7817)] - Party manager home screen generates console error
+- [[OFBIZ-7830](https://issues.apache.org/jira/browse/OFBIZ-7830)] - Upload Communication Content functionality is not working from the Internal Note creation screen
+- [[OFBIZ-7836](https://issues.apache.org/jira/browse/OFBIZ-7836)] - Unwanted input box on OrderList screen.
+- [[OFBIZ-7929](https://issues.apache.org/jira/browse/OFBIZ-7929)] - Scrum find Total Backlog Item is not working in non-English language
+- [[OFBIZ-7938](https://issues.apache.org/jira/browse/OFBIZ-7938)] - testFopMacroLibrary fails on Windows
+- [[OFBIZ-7939](https://issues.apache.org/jira/browse/OFBIZ-7939)] - Webtools throws an error
+- [[OFBIZ-7942](https://issues.apache.org/jira/browse/OFBIZ-7942)] - GitInfo.ftl cannot be created when sources checkout using svn
+- [[OFBIZ-7943](https://issues.apache.org/jira/browse/OFBIZ-7943)] - Cancelling shipment receipt doubles the inventory
+- [[OFBIZ-7946](https://issues.apache.org/jira/browse/OFBIZ-7946)] - Data load error on Web Pos component due to removal of POS component
+- [[OFBIZ-7947](https://issues.apache.org/jira/browse/OFBIZ-7947)] - Create a Customer fails because password is missing
+- [[OFBIZ-7957](https://issues.apache.org/jira/browse/OFBIZ-7957)] - RateAmount is not found when the level is &#39;WorkEffort&#39;
+- [[OFBIZ-7971](https://issues.apache.org/jira/browse/OFBIZ-7971)] - Allow Gantt function to compute task with non-numerical ID
+- [[OFBIZ-7975](https://issues.apache.org/jira/browse/OFBIZ-7975)] - rendering errors in webtools artifact page
+- [[OFBIZ-7978](https://issues.apache.org/jira/browse/OFBIZ-7978)] - Client side required field validation is not working for password type field
+- [[OFBIZ-7986](https://issues.apache.org/jira/browse/OFBIZ-7986)] - Warning related to &#39;InventoryItemAndLocation&#39; entity on server start
+- [[OFBIZ-7989](https://issues.apache.org/jira/browse/OFBIZ-7989)] - Screen Broken at &quot;Performance Tests&quot; of entity engine
+- [[OFBIZ-7995](https://issues.apache.org/jira/browse/OFBIZ-7995)] - Not able to create customer
+- [[OFBIZ-8001](https://issues.apache.org/jira/browse/OFBIZ-8001)] - Entity ECA rules throws NPE in case of remove operation
+- [[OFBIZ-8114](https://issues.apache.org/jira/browse/OFBIZ-8114)] - The &quot;Only Not Used Labels&quot; option of the Label Manager is broken
+- [[OFBIZ-8119](https://issues.apache.org/jira/browse/OFBIZ-8119)] - Character encoding issue found in file build.gradle
+- [[OFBIZ-8151](https://issues.apache.org/jira/browse/OFBIZ-8151)] - Update Party Invitation does not honour &quot;To Name&quot; field
+- [[OFBIZ-8153](https://issues.apache.org/jira/browse/OFBIZ-8153)] - LabelManager doesn&#39;t search .groovy files
+- [[OFBIZ-8222](https://issues.apache.org/jira/browse/OFBIZ-8222)] - Edit Calendar Exception week for &quot;Calendar&quot; is broken
+- [[OFBIZ-8223](https://issues.apache.org/jira/browse/OFBIZ-8223)] - Broken page renders while click on Submit button on Qualification Screen
+- [[OFBIZ-8242](https://issues.apache.org/jira/browse/OFBIZ-8242)] - postalAddressHtmlFormatter in PartyScreens.xml does not work properly.
+- [[OFBIZ-8250](https://issues.apache.org/jira/browse/OFBIZ-8250)] - SvnInfo.ftl and GitInfo.ftl are not generated by default
+- [[OFBIZ-8265](https://issues.apache.org/jira/browse/OFBIZ-8265)] - Bursted Layout in screen &quot;orderstatus&quot; of ecommerce
+- [[OFBIZ-8282](https://issues.apache.org/jira/browse/OFBIZ-8282)] - Error : Column &#39;DATA\_CATEGORY\_ID&#39; cannot accept a NULL value
+- [[OFBIZ-8296](https://issues.apache.org/jira/browse/OFBIZ-8296)] - Error on update of routing task deliverable product
+- [[OFBIZ-8302](https://issues.apache.org/jira/browse/OFBIZ-8302)] - Sorting of lists generates undesired results
+- [[OFBIZ-8312](https://issues.apache.org/jira/browse/OFBIZ-8312)] - funny css value in html output
+- [[OFBIZ-8315](https://issues.apache.org/jira/browse/OFBIZ-8315)] - webtools label search widget issue
+- [[OFBIZ-8318](https://issues.apache.org/jira/browse/OFBIZ-8318)] - Error on scrum main page
+- [[OFBIZ-8321](https://issues.apache.org/jira/browse/OFBIZ-8321)] - Labels and properties caches clearing no longer work
+- [[OFBIZ-8322](https://issues.apache.org/jira/browse/OFBIZ-8322)] - Unable to run service findContentParents from webtools
+- [[OFBIZ-8336](https://issues.apache.org/jira/browse/OFBIZ-8336)] - Can&#39;t find resource for bundle
+- [[OFBIZ-8342](https://issues.apache.org/jira/browse/OFBIZ-8342)] - ConfigXMLReader doesn&#39;t verify if &quot;transaction-timeout&quot; is set before trying to unbox
+- [[OFBIZ-8345](https://issues.apache.org/jira/browse/OFBIZ-8345)] - popup calendar fails for ecomseo et ecommerce
+- [[OFBIZ-8348](https://issues.apache.org/jira/browse/OFBIZ-8348)] - cannot edit shopping list for ecommerce and ecomseo
+- [[OFBIZ-8358](https://issues.apache.org/jira/browse/OFBIZ-8358)] - Validation missing on required fields on run service screen
+- [[OFBIZ-8458](https://issues.apache.org/jira/browse/OFBIZ-8458)] - Updating Party Content Image does not work
+- [[OFBIZ-8489](https://issues.apache.org/jira/browse/OFBIZ-8489)] - product page missing form elements
+- [[OFBIZ-8508](https://issues.apache.org/jira/browse/OFBIZ-8508)] - Missing uiLabel on Export Products to eBay screen
+- [[OFBIZ-8602](https://issues.apache.org/jira/browse/OFBIZ-8602)] - Required parameters are optional for createWorkEffortKeywords service
+- [[OFBIZ-8603](https://issues.apache.org/jira/browse/OFBIZ-8603)] - Incorrect required parameters for createWorkEffortQuote service
+- [[OFBIZ-8604](https://issues.apache.org/jira/browse/OFBIZ-8604)] - Incorrect required parameters for createWorkEffortRequest service
+- [[OFBIZ-8605](https://issues.apache.org/jira/browse/OFBIZ-8605)] - Incorrect required parameters for createWorkEffortRequestItem service
+- [[OFBIZ-8617](https://issues.apache.org/jira/browse/OFBIZ-8617)] - Lookup of initial account in new opportunity doesn&#39;t work
+- [[OFBIZ-8620](https://issues.apache.org/jira/browse/OFBIZ-8620)] - Incorrect required parameters for createWorkEffortRequestItemAndRequestItem service
+- [[OFBIZ-8621](https://issues.apache.org/jira/browse/OFBIZ-8621)] - Required parameters are optional for createWorkEffortReview service
+- [[OFBIZ-8622](https://issues.apache.org/jira/browse/OFBIZ-8622)] - Required parameters are optional for createWorkRequirementFulfillment service
+- [[OFBIZ-8624](https://issues.apache.org/jira/browse/OFBIZ-8624)] - Search Single Transactions From eBay is not working
+- [[OFBIZ-8625](https://issues.apache.org/jira/browse/OFBIZ-8625)] - Footer text inconsistent in flat gray theme
+- [[OFBIZ-8822](https://issues.apache.org/jira/browse/OFBIZ-8822)] - Search operation on &#39;AllExamplesWithDesiredCustomerFeaturesReport&#39; entity causing exception
+- [[OFBIZ-9046](https://issues.apache.org/jira/browse/OFBIZ-9046)] - Fixed the UI Label in file CommonErrorUiLabels.xml
+- [[OFBIZ-9120](https://issues.apache.org/jira/browse/OFBIZ-9120)] - Wrong label definition from PartyUiLabels.xml
+- [[OFBIZ-9125](https://issues.apache.org/jira/browse/OFBIZ-9125)] - Errormessage is displayed twice in LoginEvents.java
+
+## Improvement
+
+- [[OFBIZ-2531](https://issues.apache.org/jira/browse/OFBIZ-2531)] - Enhancements in Trainings under HR module
+- [[OFBIZ-2813](https://issues.apache.org/jira/browse/OFBIZ-2813)] - ProductStore did not allow the default timezone to be set
+- [[OFBIZ-2983](https://issues.apache.org/jira/browse/OFBIZ-2983)] - HTML cleanup and layout fixes
+- [[OFBIZ-2995](https://issues.apache.org/jira/browse/OFBIZ-2995)] - Layout improvement for showing cart properly on order entry page for bizznesstime theme.
+- [[OFBIZ-3311](https://issues.apache.org/jira/browse/OFBIZ-3311)] - Allow to sort widget dropdowns on items descriptions
+- [[OFBIZ-3406](https://issues.apache.org/jira/browse/OFBIZ-3406)] - Adding party relationship roles - error message is confusing.
+- [[OFBIZ-3480](https://issues.apache.org/jira/browse/OFBIZ-3480)] - party id cannot be specified through GUI while creating a Party (Person or Party Group)
+- [[OFBIZ-3669](https://issues.apache.org/jira/browse/OFBIZ-3669)] - Data seeding to support ability to return products of type RAW\_MATERIAL
+- [[OFBIZ-3902](https://issues.apache.org/jira/browse/OFBIZ-3902)] - Improving the Party Find Screen
+- [[OFBIZ-4020](https://issues.apache.org/jira/browse/OFBIZ-4020)] - Sign up for a contact list always redirects to the main ecommerce page
+- [[OFBIZ-4090](https://issues.apache.org/jira/browse/OFBIZ-4090)] - Add Support For Compound Screen Widget XML Files
+- [[OFBIZ-4374](https://issues.apache.org/jira/browse/OFBIZ-4374)] - Support filtering on non-std date field names in performFind and prepareFind
+- [[OFBIZ-4430](https://issues.apache.org/jira/browse/OFBIZ-4430)] - Replace OFBiz HttpClient by org.apache.commons.httpclient.HttpClient
+- [[OFBIZ-4481](https://issues.apache.org/jira/browse/OFBIZ-4481)] - Adding a new attribute ignore-when (verry similar to use-when) that enable rendering or not a field in list or multi form.
+- [[OFBIZ-4502](https://issues.apache.org/jira/browse/OFBIZ-4502)] - Improved CMS tree: more functionality and faster for large trees
+- [[OFBIZ-4761](https://issues.apache.org/jira/browse/OFBIZ-4761)] - Adding some translations for French
+- [[OFBIZ-5024](https://issues.apache.org/jira/browse/OFBIZ-5024)] - Modifying data retrieval and storage logic.
+- [[OFBIZ-5042](https://issues.apache.org/jira/browse/OFBIZ-5042)] - Apache Solr Implementation
+- [[OFBIZ-5169](https://issues.apache.org/jira/browse/OFBIZ-5169)] - Removing Javolution from framework components
+- [[OFBIZ-5235](https://issues.apache.org/jira/browse/OFBIZ-5235)] - Show quantityUom at every place where the quantity of a product is shown
+- [[OFBIZ-5361](https://issues.apache.org/jira/browse/OFBIZ-5361)] - Adding the week number in date picking dropdowns
+- [[OFBIZ-5461](https://issues.apache.org/jira/browse/OFBIZ-5461)] - include ivy clearcache in build
+- [[OFBIZ-5529](https://issues.apache.org/jira/browse/OFBIZ-5529)] - User should be able to delete associated production runs
+- [[OFBIZ-5697](https://issues.apache.org/jira/browse/OFBIZ-5697)] - Add a drop-down for Tax Auth Combined Id in Product Price Creation screen
+- [[OFBIZ-5705](https://issues.apache.org/jira/browse/OFBIZ-5705)] - cloneWorkEffortPartyAssignments doesn&#39;t work
+- [[OFBIZ-5706](https://issues.apache.org/jira/browse/OFBIZ-5706)] - Have parties to be assigned to production run tasks
+- [[OFBIZ-5709](https://issues.apache.org/jira/browse/OFBIZ-5709)] - ProductionRun doesn&#39;t capture and show manufacturing organisation
+- [[OFBIZ-5750](https://issues.apache.org/jira/browse/OFBIZ-5750)] - Convert Party entites CRUD service from simple to entity-auto
+- [[OFBIZ-5752](https://issues.apache.org/jira/browse/OFBIZ-5752)] - Adding Uom to product quantity in production run forms
+- [[OFBIZ-5757](https://issues.apache.org/jira/browse/OFBIZ-5757)] - Remove tenant data from the demo data set
+- [[OFBIZ-5758](https://issues.apache.org/jira/browse/OFBIZ-5758)] - SalaryStep entity missing From and Thru dates
+- [[OFBIZ-5781](https://issues.apache.org/jira/browse/OFBIZ-5781)] - Convert Javolution collections into Java collections
+- [[OFBIZ-5812](https://issues.apache.org/jira/browse/OFBIZ-5812)] - Move Portal Mgt functions in MyPortal
+- [[OFBIZ-5814](https://issues.apache.org/jira/browse/OFBIZ-5814)] - Move PartyRelationshipAndPartyDetail entity to Party component
+- [[OFBIZ-5833](https://issues.apache.org/jira/browse/OFBIZ-5833)] - Tasks menu item should only be visible to persons with appropriate rights
+- [[OFBIZ-5835](https://issues.apache.org/jira/browse/OFBIZ-5835)] - Trunk fails to compile with Java 1.8
+- [[OFBIZ-5852](https://issues.apache.org/jira/browse/OFBIZ-5852)] - Add ability to assign parties to Schema tasks
+- [[OFBIZ-5868](https://issues.apache.org/jira/browse/OFBIZ-5868)] - Have the ability to view the quote profit at all times
+- [[OFBIZ-5872](https://issues.apache.org/jira/browse/OFBIZ-5872)] - Inconsistencies related to the &quot;java -jar ofbiz.jar&quot; commands when used with arguments
+- [[OFBIZ-5893](https://issues.apache.org/jira/browse/OFBIZ-5893)] - Use EntityQuery Builder methods in goovy files by replacing Entity Engine methods.
+- [[OFBIZ-5917](https://issues.apache.org/jira/browse/OFBIZ-5917)] - Improve the way FOP handles fonts notably for currency symbols
+- [[OFBIZ-5950](https://issues.apache.org/jira/browse/OFBIZ-5950)] - addOrderShipmentToShipment Should Return shipmentItemSeqId
+- [[OFBIZ-5955](https://issues.apache.org/jira/browse/OFBIZ-5955)] - Convert Agreement entites CRUD service from simple to entity-auto
+- [[OFBIZ-5957](https://issues.apache.org/jira/browse/OFBIZ-5957)] - Convert Invoice entites CRUD service from simple to entity-auto
+- [[OFBIZ-5958](https://issues.apache.org/jira/browse/OFBIZ-5958)] - Convert CostComponentCalc entites CRUD service from simple to entity-auto
+- [[OFBIZ-5963](https://issues.apache.org/jira/browse/OFBIZ-5963)] - Convert BillingAccount entites CRUD service from simple to entity-auto
+- [[OFBIZ-5969](https://issues.apache.org/jira/browse/OFBIZ-5969)] - Add ability to find by orderName
+- [[OFBIZ-5975](https://issues.apache.org/jira/browse/OFBIZ-5975)] - Form ViewSprintItem is not referenced in screens
+- [[OFBIZ-5992](https://issues.apache.org/jira/browse/OFBIZ-5992)] - Convert FixedAsset entites CRUD service from simple to entity-auto
+- [[OFBIZ-5994](https://issues.apache.org/jira/browse/OFBIZ-5994)] - Have view-entity AgreementAndRole removed
+- [[OFBIZ-6012](https://issues.apache.org/jira/browse/OFBIZ-6012)] - Show &quot;Create Return&quot; button on order view screen other than when order status is complete
+- [[OFBIZ-6016](https://issues.apache.org/jira/browse/OFBIZ-6016)] - Adding som Dutch translations to common labels.
+- [[OFBIZ-6018](https://issues.apache.org/jira/browse/OFBIZ-6018)] - Adding some Dutch translations to Manufacturing Entity labels
+- [[OFBIZ-6019](https://issues.apache.org/jira/browse/OFBIZ-6019)] - Adding and improving some Dutch translations to ORDER labels
+- [[OFBIZ-6020](https://issues.apache.org/jira/browse/OFBIZ-6020)] - PartyLabels - adding and improving
+- [[OFBIZ-6026](https://issues.apache.org/jira/browse/OFBIZ-6026)] - Creating a QuoteRole doesn&#39;t return to overview of QuoteRoles
+- [[OFBIZ-6030](https://issues.apache.org/jira/browse/OFBIZ-6030)] - ViewQuoteItemInfo.ftl has &lt;td&gt;&lt;/td&gt; at the wrong place
+- [[OFBIZ-6044](https://issues.apache.org/jira/browse/OFBIZ-6044)] - Have Additional Party Entry Screen of the order creation process show parties associated with the order
+- [[OFBIZ-6047](https://issues.apache.org/jira/browse/OFBIZ-6047)] - Convert DataSource, Enumeration and Note entites CRUD service from simple to entity-auto
+- [[OFBIZ-6059](https://issues.apache.org/jira/browse/OFBIZ-6059)] - UOM missing 2 entries
+- [[OFBIZ-6062](https://issues.apache.org/jira/browse/OFBIZ-6062)] - Update apache tika jar to 1.7
+- [[OFBIZ-6069](https://issues.apache.org/jira/browse/OFBIZ-6069)] - Move CuttingListReport.groovy to appropriate folder
+- [[OFBIZ-6104](https://issues.apache.org/jira/browse/OFBIZ-6104)] - Adjust quote demo data to display profit margin
+- [[OFBIZ-6105](https://issues.apache.org/jira/browse/OFBIZ-6105)] - Have the internal organisation set upon Quote creation
+- [[OFBIZ-6107](https://issues.apache.org/jira/browse/OFBIZ-6107)] - Quote report should open in a new window
+- [[OFBIZ-6118](https://issues.apache.org/jira/browse/OFBIZ-6118)] - Upgrade Log4j from 2.0.1 to 2.2
+- [[OFBIZ-6121](https://issues.apache.org/jira/browse/OFBIZ-6121)] - Have PDF reports in BIRT open in new windows
+- [[OFBIZ-6122](https://issues.apache.org/jira/browse/OFBIZ-6122)] - Have BIRT reporting component visible in secondary app menu
+- [[OFBIZ-6124](https://issues.apache.org/jira/browse/OFBIZ-6124)] - Have a better layout design of the chart.rptdesign
+- [[OFBIZ-6125](https://issues.apache.org/jira/browse/OFBIZ-6125)] - Move SeoConfig.xml to e-commerce
+- [[OFBIZ-6144](https://issues.apache.org/jira/browse/OFBIZ-6144)] - Convert FindShipment ftl to form widget
+- [[OFBIZ-6148](https://issues.apache.org/jira/browse/OFBIZ-6148)] - Adding GeoPoints overview to geo management
+- [[OFBIZ-6153](https://issues.apache.org/jira/browse/OFBIZ-6153)] - Find Screen Layout: the main title is missing in Tomahawk
+- [[OFBIZ-6171](https://issues.apache.org/jira/browse/OFBIZ-6171)] - Replace &#39;Open for Business&#39; references with &#39;Apache OFBiz&#39;
+- [[OFBIZ-6176](https://issues.apache.org/jira/browse/OFBIZ-6176)] - Removes ASL2 license headers from files generated by create-component ant target
+- [[OFBIZ-6177](https://issues.apache.org/jira/browse/OFBIZ-6177)] - Have parentCustRequest in edit screens for Request in order manger be a lookup function
+- [[OFBIZ-6185](https://issues.apache.org/jira/browse/OFBIZ-6185)] - Type-ahead regarding LookupInvoice in AP doesn&#39;t return result
+- [[OFBIZ-6198](https://issues.apache.org/jira/browse/OFBIZ-6198)] - Show estimatedShipDate for ordershippinginfo.ftl
+- [[OFBIZ-6208](https://issues.apache.org/jira/browse/OFBIZ-6208)] - rename AccountingConfig.properties to accounting.properties
+- [[OFBIZ-6214](https://issues.apache.org/jira/browse/OFBIZ-6214)] - Have overview of questions in EditSurveyQuestions.ftl paginate properly
+- [[OFBIZ-6217](https://issues.apache.org/jira/browse/OFBIZ-6217)] - fix warnings in trunk on java source code
+- [[OFBIZ-6223](https://issues.apache.org/jira/browse/OFBIZ-6223)] - Move special purpose/jetty to attic
+- [[OFBIZ-6224](https://issues.apache.org/jira/browse/OFBIZ-6224)] - Rename search.properties in special purpose/lucene to lucene.properties
+- [[OFBIZ-6227](https://issues.apache.org/jira/browse/OFBIZ-6227)] - Migrate findParty.ftl to form widgets
+- [[OFBIZ-6241](https://issues.apache.org/jira/browse/OFBIZ-6241)] - Fix fop warning related to table-layout=&quot;auto&quot;
+- [[OFBIZ-6268](https://issues.apache.org/jira/browse/OFBIZ-6268)] - Improve Start.java Component Loading
+- [[OFBIZ-6274](https://issues.apache.org/jira/browse/OFBIZ-6274)] - Rename OFBiz artifacts from &#39;org.ofbiz.\*&#39; to org.apache.ofbiz.\*&#39;
+- [[OFBIZ-6291](https://issues.apache.org/jira/browse/OFBIZ-6291)] - Update code to check for types rather than throw ClassCastException
+- [[OFBIZ-6302](https://issues.apache.org/jira/browse/OFBIZ-6302)] - Ftl to Widget: improve ViewCertificate to use widgets instead of ftl
+- [[OFBIZ-6303](https://issues.apache.org/jira/browse/OFBIZ-6303)] - Remove EventReminders.properties as it has been declared deprecated
+- [[OFBIZ-6307](https://issues.apache.org/jira/browse/OFBIZ-6307)] - Add ability to change Routing statuses
+- [[OFBIZ-6311](https://issues.apache.org/jira/browse/OFBIZ-6311)] - Order Manager ViewQuote screen should display party name and link to party manager
+- [[OFBIZ-6315](https://issues.apache.org/jira/browse/OFBIZ-6315)] - Add allow-multiple to Find CustRequest statusId field
+- [[OFBIZ-6320](https://issues.apache.org/jira/browse/OFBIZ-6320)] - Replace EditProductAssoc ftl with widgets
+- [[OFBIZ-6328](https://issues.apache.org/jira/browse/OFBIZ-6328)] - createProductionRunsForOrder service doesn&#39;t handle cancelled production runs
+- [[OFBIZ-6332](https://issues.apache.org/jira/browse/OFBIZ-6332)] - Replacing bsh code with Groovy code
+- [[OFBIZ-6354](https://issues.apache.org/jira/browse/OFBIZ-6354)] - FOP rendered list form widgets do not work for fields with postition &gt; 0
+- [[OFBIZ-6355](https://issues.apache.org/jira/browse/OFBIZ-6355)] - FOP renderer does not support alternate row style
+- [[OFBIZ-6356](https://issues.apache.org/jira/browse/OFBIZ-6356)] - FOP renderer doesn&#39;t apply title-area-style
+- [[OFBIZ-6364](https://issues.apache.org/jira/browse/OFBIZ-6364)] - Viewing party content should open in a new window
+- [[OFBIZ-6368](https://issues.apache.org/jira/browse/OFBIZ-6368)] - Empty availabilityStatusId widget dropdown for statusTypeId WEFA\_AVAILABILITY of ProductionRunTaskFixedAssets and AddProductionRunTaskFixedAsset
+- [[OFBIZ-6370](https://issues.apache.org/jira/browse/OFBIZ-6370)] - Removed unused commons-cli 1.2 jar
+- [[OFBIZ-6371](https://issues.apache.org/jira/browse/OFBIZ-6371)] - Make background-color in setSourceColor function in fieldlookup.js theme dependent
+- [[OFBIZ-6389](https://issues.apache.org/jira/browse/OFBIZ-6389)] - Add EmplPositionType for CEO and CFO in applications/humanres/data/HumanResTypeData.xml
+- [[OFBIZ-6393](https://issues.apache.org/jira/browse/OFBIZ-6393)] - Support all JobRequisition.qualification PartyQualTypes for RecruitmentForms.xml#EditJobRequisition at humanres/control/EditJobRequisition
+- [[OFBIZ-6395](https://issues.apache.org/jira/browse/OFBIZ-6395)] - The lookup and text-area have a read-only attribute but not the text input field
+- [[OFBIZ-6402](https://issues.apache.org/jira/browse/OFBIZ-6402)] - Replace FTL at webtools/control/entitymaint with widgets
+- [[OFBIZ-6403](https://issues.apache.org/jira/browse/OFBIZ-6403)] - Form widget &lt;hyperlink&gt; id not supported by MacroFormRenderer.java
+- [[OFBIZ-6405](https://issues.apache.org/jira/browse/OFBIZ-6405)] - Grid widget requires cache clear before modifications are rendered
+- [[OFBIZ-6415](https://issues.apache.org/jira/browse/OFBIZ-6415)] - renderTextFindField doesn&#39;t reselect operation dropdown or ignoreCase checkbox
+- [[OFBIZ-6417](https://issues.apache.org/jira/browse/OFBIZ-6417)] - renderDateFindField doesn&#39;t reselect operation
+- [[OFBIZ-6422](https://issues.apache.org/jira/browse/OFBIZ-6422)] - Paginator.getListLimits listSize gets set to viewSize for FindServices.performFindList
+- [[OFBIZ-6423](https://issues.apache.org/jira/browse/OFBIZ-6423)] - FindService.performFindList can&#39;t be swapped for performFind of grids/forms
+- [[OFBIZ-6432](https://issues.apache.org/jira/browse/OFBIZ-6432)] - Fully translate OFBiz to Arabic
+- [[OFBIZ-6438](https://issues.apache.org/jira/browse/OFBIZ-6438)] - PartyGeoLocation shows menus when accessed
+- [[OFBIZ-6443](https://issues.apache.org/jira/browse/OFBIZ-6443)] - Form widget &lt;auto-fields-entity default-field-type=&quot;find&quot;/&gt; does not render range find fields for fixed-point
+- [[OFBIZ-6445](https://issues.apache.org/jira/browse/OFBIZ-6445)] - order/widget/ordermgr/CustRequestForms.xml#ListRequestList custRequestTypeId should be displayed as description to match find field
+- [[OFBIZ-6446](https://issues.apache.org/jira/browse/OFBIZ-6446)] - ordermgr/control/FindRequest ListRequestList productStoreId as display-entity with subhyperlink
+- [[OFBIZ-6447](https://issues.apache.org/jira/browse/OFBIZ-6447)] - Add custRequestDate to ordermgr/control/FindRequest ListRequestList
+- [[OFBIZ-6458](https://issues.apache.org/jira/browse/OFBIZ-6458)] - Upgrade OFBiz to Java JDK 8
+- [[OFBIZ-6459](https://issues.apache.org/jira/browse/OFBIZ-6459)] - ModelFormFieldBuilder.induceFieldInfoFromEntityField() incorrect FieldInfo.fieldType of TEXT (3) instead of RANGEQBE (15) for auto-fields-entity &lt;range-find&gt;
+- [[OFBIZ-6463](https://issues.apache.org/jira/browse/OFBIZ-6463)] - ordermgr/control/deleteCustRequestParty should delete the record rather than updating the through date
+- [[OFBIZ-6464](https://issues.apache.org/jira/browse/OFBIZ-6464)] - Consolidate name and partyId field of order/widget/ordermgr/CustRequestForms.xml#ListRequestRoles
+- [[OFBIZ-6465](https://issues.apache.org/jira/browse/OFBIZ-6465)] - Replace submit button text with create text order/widget/ordermgr/CustRequestForms.xml#EditRequestRole
+- [[OFBIZ-6470](https://issues.apache.org/jira/browse/OFBIZ-6470)] - Adding a Postal Address templates for the Netherlands
+- [[OFBIZ-6476](https://issues.apache.org/jira/browse/OFBIZ-6476)] - Geo Data Set for Chile
+- [[OFBIZ-6478](https://issues.apache.org/jira/browse/OFBIZ-6478)] - Remove unused view-maps from SCRUM controller
+- [[OFBIZ-6479](https://issues.apache.org/jira/browse/OFBIZ-6479)] - foFormMacroLibrary.ftl renderFieldTitle needs to support styles
+- [[OFBIZ-6481](https://issues.apache.org/jira/browse/OFBIZ-6481)] - foFormMacroLibrary.ftl renderFormOpen needs to support styles
+- [[OFBIZ-6483](https://issues.apache.org/jira/browse/OFBIZ-6483)] - foFormMacroLibrary.ftl renderFormatListWrapperOpen needs to support styles
+- [[OFBIZ-6489](https://issues.apache.org/jira/browse/OFBIZ-6489)] - &lt;drop-down&gt; &lt;entity-options&gt; description attribute should default to ${description} if not specified as is done for &lt;display-entity&gt;
+- [[OFBIZ-6490](https://issues.apache.org/jira/browse/OFBIZ-6490)] - &lt;drop-down&gt; &lt;list-options&gt; description and key-name should be set to default if unspecified same as &lt;display-entity&gt;
+- [[OFBIZ-6504](https://issues.apache.org/jira/browse/OFBIZ-6504)] - how to Create PDF with password Protected in Ofbiz
+- [[OFBIZ-6513](https://issues.apache.org/jira/browse/OFBIZ-6513)] - countyGeoId and geoPointId fields are missing in PartyAndPostalAddress entity view
+- [[OFBIZ-6514](https://issues.apache.org/jira/browse/OFBIZ-6514)] - All postalAddress simple-map-processors miss some fields
+- [[OFBIZ-6519](https://issues.apache.org/jira/browse/OFBIZ-6519)] - Remove Old deprecated code in WorkEffortEventReminder services
+- [[OFBIZ-6523](https://issues.apache.org/jira/browse/OFBIZ-6523)] - service findOrders set viewSize and viewIndex to optional
+- [[OFBIZ-6524](https://issues.apache.org/jira/browse/OFBIZ-6524)] - Cleaning forms code after setting default-value in list-options and entity-options
+- [[OFBIZ-6525](https://issues.apache.org/jira/browse/OFBIZ-6525)] - Add confirmation message before deleting entity record from web-tools application
+- [[OFBIZ-6527](https://issues.apache.org/jira/browse/OFBIZ-6527)] - Display GeoPoint with map in WebTools
+- [[OFBIZ-6529](https://issues.apache.org/jira/browse/OFBIZ-6529)] - Improve the Create/Edit Geo screen in WebTools/GeoManagement
+- [[OFBIZ-6532](https://issues.apache.org/jira/browse/OFBIZ-6532)] - Adding a new entity-group but no corresponding delegator/group-map is hard to debug
+- [[OFBIZ-6539](https://issues.apache.org/jira/browse/OFBIZ-6539)] - The color of hovered menus in FlatGrey theme is almost invisible
+- [[OFBIZ-6545](https://issues.apache.org/jira/browse/OFBIZ-6545)] - Replace webtools/control/EntitySQLProcessor FTL with widgets
+- [[OFBIZ-6564](https://issues.apache.org/jira/browse/OFBIZ-6564)] - Change ProductProductJump zh label
+- [[OFBIZ-6566](https://issues.apache.org/jira/browse/OFBIZ-6566)] - SecurityGroup doesn&#39;t get removed from a Party
+- [[OFBIZ-6592](https://issues.apache.org/jira/browse/OFBIZ-6592)] - Add wiki documentation regarding the component
+- [[OFBIZ-6593](https://issues.apache.org/jira/browse/OFBIZ-6593)] - Have hard coded links in admin screen open in new windows
+- [[OFBIZ-6596](https://issues.apache.org/jira/browse/OFBIZ-6596)] - The Solr redirection does not work in trunk demo
+- [[OFBIZ-6597](https://issues.apache.org/jira/browse/OFBIZ-6597)] - Update site-conf.xsd to prioritise Groovy over BSF
+- [[OFBIZ-6598](https://issues.apache.org/jira/browse/OFBIZ-6598)] - Replace bsf event type and handler with groovy
+- [[OFBIZ-6608](https://issues.apache.org/jira/browse/OFBIZ-6608)] - Using official content type for json requests
+- [[OFBIZ-6616](https://issues.apache.org/jira/browse/OFBIZ-6616)] - Upgrade solr to 4.10.3 or later
+- [[OFBIZ-6672](https://issues.apache.org/jira/browse/OFBIZ-6672)] - Caches are missing in CategoryContentWrapper and ProductConfigItemContentWrapper
+- [[OFBIZ-6673](https://issues.apache.org/jira/browse/OFBIZ-6673)] - Form layered-modal is not respecting passed (default) width
+- [[OFBIZ-6691](https://issues.apache.org/jira/browse/OFBIZ-6691)] - Remove tooltip=&quot;${uiLabelMap.CommonRequired}&quot; from fields
+- [[OFBIZ-6692](https://issues.apache.org/jira/browse/OFBIZ-6692)] - Improve xsd definitions
+- [[OFBIZ-6696](https://issues.apache.org/jira/browse/OFBIZ-6696)] - Remove tooltip=&quot;${uiLabelMap.CommonNotModifRecreat}&quot; from display fields
+- [[OFBIZ-6699](https://issues.apache.org/jira/browse/OFBIZ-6699)] - Remove condition attr from StatusValidChange data as its not a valid field of StatusValidChange
+- [[OFBIZ-6700](https://issues.apache.org/jira/browse/OFBIZ-6700)] - Added some text for French language in ProductEntityLabels.xml, no functional change
+- [[OFBIZ-6701](https://issues.apache.org/jira/browse/OFBIZ-6701)] - Enhancement in the content wrappers
+- [[OFBIZ-6702](https://issues.apache.org/jira/browse/OFBIZ-6702)] - Update SimpleContentViewHandler to return mime type on file extension and use inline for content-disposition
+- [[OFBIZ-6710](https://issues.apache.org/jira/browse/OFBIZ-6710)] - Improve the way default position and size lookup parameters are set
+- [[OFBIZ-6714](https://issues.apache.org/jira/browse/OFBIZ-6714)] - Removing unexplained TODO from Manufacturing services
+- [[OFBIZ-6719](https://issues.apache.org/jira/browse/OFBIZ-6719)] - Remove superfluous .properties extension from EntityUtilProperties requests
+- [[OFBIZ-6721](https://issues.apache.org/jira/browse/OFBIZ-6721)] - org.ofbiz.common.login.LoginServices.userLogin causes stack track when username or password is incorrect
+- [[OFBIZ-6727](https://issues.apache.org/jira/browse/OFBIZ-6727)] - Webtools Entity edition, the suggested date and time formats are not localised
+- [[OFBIZ-6732](https://issues.apache.org/jira/browse/OFBIZ-6732)] - Add some UiLabels in French
+- [[OFBIZ-6735](https://issues.apache.org/jira/browse/OFBIZ-6735)] - Tooltip Calendar field (date or date-time) should not stop when using tab key
+- [[OFBIZ-6738](https://issues.apache.org/jira/browse/OFBIZ-6738)] - Enhance PartyTypeAttr with a description field
+- [[OFBIZ-6744](https://issues.apache.org/jira/browse/OFBIZ-6744)] - Convert Survey entites CRUD service from simple to entity-auto
+- [[OFBIZ-6745](https://issues.apache.org/jira/browse/OFBIZ-6745)] - Convert Content entites CRUD service from simple to entity-auto
+- [[OFBIZ-6748](https://issues.apache.org/jira/browse/OFBIZ-6748)] - Update commons collections from 3.2.2 to 4.1
+- [[OFBIZ-6762](https://issues.apache.org/jira/browse/OFBIZ-6762)] - Show JGrowl alert when using ajax submit form
+- [[OFBIZ-6772](https://issues.apache.org/jira/browse/OFBIZ-6772)] - Add ability to specify comparison operators for promotions with conditions on quantity
+- [[OFBIZ-6773](https://issues.apache.org/jira/browse/OFBIZ-6773)] - Add ability to specify categories/products to filter the order sub-total amount eligible for a discount.
+- [[OFBIZ-6777](https://issues.apache.org/jira/browse/OFBIZ-6777)] - Product weight field enhancements
+- [[OFBIZ-6783](https://issues.apache.org/jira/browse/OFBIZ-6783)] - Refactor the start component
+- [[OFBIZ-6790](https://issues.apache.org/jira/browse/OFBIZ-6790)] - Add service blackout period on job mananger
+- [[OFBIZ-6802](https://issues.apache.org/jira/browse/OFBIZ-6802)] - be able to set accounting company in the header, so other companent can change it too.
+- [[OFBIZ-6810](https://issues.apache.org/jira/browse/OFBIZ-6810)] - Refactor components regarding freemarker file locations
+- [[OFBIZ-6848](https://issues.apache.org/jira/browse/OFBIZ-6848)] - Add getFieldList method to EntityQuery
+- [[OFBIZ-6850](https://issues.apache.org/jira/browse/OFBIZ-6850)] - Convert PartyContent and CommunicationEventPurpose entites CRUD service from simple to entity-auto
+- [[OFBIZ-6851](https://issues.apache.org/jira/browse/OFBIZ-6851)] - Convert TaxAuthority entites CRUD service from simple to entity-auto
+- [[OFBIZ-6852](https://issues.apache.org/jira/browse/OFBIZ-6852)] - Convert CreditCardTypeGlAccount entity CRUD service from simple to entity-auto
+- [[OFBIZ-6853](https://issues.apache.org/jira/browse/OFBIZ-6853)] - Convert SalesOpportunity and SalesForecastDetail entites CRUD service from simple to entity-auto
+- [[OFBIZ-6854](https://issues.apache.org/jira/browse/OFBIZ-6854)] - Convert some order entites CRUD service from simple to entity-auto
+- [[OFBIZ-6863](https://issues.apache.org/jira/browse/OFBIZ-6863)] - Load JDBC drivers when creating tenant on PostgreSQL or mySQL
+- [[OFBIZ-6868](https://issues.apache.org/jira/browse/OFBIZ-6868)] - Add template location for login, change/forgetPassword, getSecurityQuestion
+- [[OFBIZ-6869](https://issues.apache.org/jira/browse/OFBIZ-6869)] - Jgrowl enhancement i18n and centered
+- [[OFBIZ-6873](https://issues.apache.org/jira/browse/OFBIZ-6873)] - Convert some Product entites CRUD service from simple to entity-auto
+- [[OFBIZ-6875](https://issues.apache.org/jira/browse/OFBIZ-6875)] - Update various accounting labels regarding the dutch locale
+- [[OFBIZ-6876](https://issues.apache.org/jira/browse/OFBIZ-6876)] - Update various manufacturing labels regarding the dutch locale
+- [[OFBIZ-6882](https://issues.apache.org/jira/browse/OFBIZ-6882)] - Extend the PostalAddress entity with additional elements
+- [[OFBIZ-6885](https://issues.apache.org/jira/browse/OFBIZ-6885)] - Czech translation
+- [[OFBIZ-6890](https://issues.apache.org/jira/browse/OFBIZ-6890)] - Dutch translations for catalog labels
+- [[OFBIZ-6892](https://issues.apache.org/jira/browse/OFBIZ-6892)] - new action expire for service engine entity-auto
+- [[OFBIZ-6895](https://issues.apache.org/jira/browse/OFBIZ-6895)] - Product price rule with no conditions.
+- [[OFBIZ-6909](https://issues.apache.org/jira/browse/OFBIZ-6909)] - Recognize user disabled by system or administrator
+- [[OFBIZ-6911](https://issues.apache.org/jira/browse/OFBIZ-6911)] - Return success message from service when ContactMech delete succesfully
+- [[OFBIZ-6923](https://issues.apache.org/jira/browse/OFBIZ-6923)] - Improve the decorator for manufacturing/order/facility component for re-use
+- [[OFBIZ-6924](https://issues.apache.org/jira/browse/OFBIZ-6924)] - comments on ordering products should be store driven
+- [[OFBIZ-6938](https://issues.apache.org/jira/browse/OFBIZ-6938)] - Move forms in ProductStoreForms.xml to StoreForms.xml
+- [[OFBIZ-6954](https://issues.apache.org/jira/browse/OFBIZ-6954)] - Correct setting of the WorkEffortPurposeTypeId on production run tasks
+- [[OFBIZ-6958](https://issues.apache.org/jira/browse/OFBIZ-6958)] - Adding event definitions for inbound and outbound shipments
+- [[OFBIZ-6962](https://issues.apache.org/jira/browse/OFBIZ-6962)] - Enhancing \*Attribute entities with a description field
+- [[OFBIZ-6968](https://issues.apache.org/jira/browse/OFBIZ-6968)] - Redundant image in popup (tooltip)
+- [[OFBIZ-6990](https://issues.apache.org/jira/browse/OFBIZ-6990)] - Add Example for Compound Screen Widget
+- [[OFBIZ-7013](https://issues.apache.org/jira/browse/OFBIZ-7013)] - party search form does not properly collapse sections when none|postal|telecom|other selected
+- [[OFBIZ-7027](https://issues.apache.org/jira/browse/OFBIZ-7027)] - Added support to include party classification information in Promo description
+- [[OFBIZ-7035](https://issues.apache.org/jira/browse/OFBIZ-7035)] - Have https://localhost:8443/example/control/fonts.pdf open in a new window
+- [[OFBIZ-7036](https://issues.apache.org/jira/browse/OFBIZ-7036)] - Have https://localhost:8443/example/control/ExampleReportPdfBarcode open in a new window
+- [[OFBIZ-7041](https://issues.apache.org/jira/browse/OFBIZ-7041)] - Upgrade freemarker jar to 2.3.24
+- [[OFBIZ-7043](https://issues.apache.org/jira/browse/OFBIZ-7043)] - Remove commented code labeled as &quot;TO BE REMOVED&quot;
+- [[OFBIZ-7044](https://issues.apache.org/jira/browse/OFBIZ-7044)] - Remove redundant entries of handlers from controller.xml
+- [[OFBIZ-7048](https://issues.apache.org/jira/browse/OFBIZ-7048)] - Sales Return: UI issues for top level buttons after sales return is created
+- [[OFBIZ-7054](https://issues.apache.org/jira/browse/OFBIZ-7054)] - Example -&gt; PDF should be open in a new window
+- [[OFBIZ-7061](https://issues.apache.org/jira/browse/OFBIZ-7061)] - Autocompletion for Compound Widget
+- [[OFBIZ-7091](https://issues.apache.org/jira/browse/OFBIZ-7091)] - Two empty options are shown in shipping method select box on Edit promo screen
+- [[OFBIZ-7102](https://issues.apache.org/jira/browse/OFBIZ-7102)] - Fix the Approve button label for newly added item to the existing PO
+- [[OFBIZ-7118](https://issues.apache.org/jira/browse/OFBIZ-7118)] - Remove useless IfRegexpTest class and test
+- [[OFBIZ-7122](https://issues.apache.org/jira/browse/OFBIZ-7122)] - Showing Invoice address from PartyContactMech
+- [[OFBIZ-7139](https://issues.apache.org/jira/browse/OFBIZ-7139)] - Product Name
+- [[OFBIZ-7141](https://issues.apache.org/jira/browse/OFBIZ-7141)] - Upgrade apache fop to 2.1
+- [[OFBIZ-7152](https://issues.apache.org/jira/browse/OFBIZ-7152)] - Product Store Groups menu item doesn&#39;t gets highlighted on selection
+- [[OFBIZ-7154](https://issues.apache.org/jira/browse/OFBIZ-7154)] - Update Survey Question is not working from the list of SurveyQuestionAppl
+- [[OFBIZ-7168](https://issues.apache.org/jira/browse/OFBIZ-7168)] - Run MRP shows all type of facilities
+- [[OFBIZ-7169](https://issues.apache.org/jira/browse/OFBIZ-7169)] - ContentWrapper classes honors the entity fields instead should honor the contents
+- [[OFBIZ-7170](https://issues.apache.org/jira/browse/OFBIZ-7170)] - Improvements in &#39;Find Shipment&#39; screen to make it consistent with other find screens
+- [[OFBIZ-7175](https://issues.apache.org/jira/browse/OFBIZ-7175)] - Create Return Screen should not show the created by field
+- [[OFBIZ-7176](https://issues.apache.org/jira/browse/OFBIZ-7176)] - Add lookup for party when associating party to category
+- [[OFBIZ-7177](https://issues.apache.org/jira/browse/OFBIZ-7177)] - Some UI Labels are missing on EditProductCost page
+- [[OFBIZ-7178](https://issues.apache.org/jira/browse/OFBIZ-7178)] - Redirect to Find Feature Interaction page after successfully addition of new Feature Interaction
+- [[OFBIZ-7187](https://issues.apache.org/jira/browse/OFBIZ-7187)] - Comment added while adding products to cart are not editable at cart item level
+- [[OFBIZ-7218](https://issues.apache.org/jira/browse/OFBIZ-7218)] - Refactor components regarding groovy file locations
+- [[OFBIZ-7250](https://issues.apache.org/jira/browse/OFBIZ-7250)] - Add a look-up for Product Id in Find Facility Inventory Items Screen
+- [[OFBIZ-7251](https://issues.apache.org/jira/browse/OFBIZ-7251)] - Update Payment Gateway Config data for Payment Gateway Authorize.net
+- [[OFBIZ-7256](https://issues.apache.org/jira/browse/OFBIZ-7256)] - After adding child categories user should remain on the same page
+- [[OFBIZ-7258](https://issues.apache.org/jira/browse/OFBIZ-7258)] - Duplicate product feature groups associated with a category when duplicating category and selected option to duplicate feature
+- [[OFBIZ-7259](https://issues.apache.org/jira/browse/OFBIZ-7259)] - Hide associated content related section when creating new Product/Category content
+- [[OFBIZ-7266](https://issues.apache.org/jira/browse/OFBIZ-7266)] - Auto-complete on lookup field should be able to support filter by date.
+- [[OFBIZ-7272](https://issues.apache.org/jira/browse/OFBIZ-7272)] - Enforce noninstantiability to all Utility classes
+- [[OFBIZ-7297](https://issues.apache.org/jira/browse/OFBIZ-7297)] - Migrate promotext.properties to UiLabels
+- [[OFBIZ-7301](https://issues.apache.org/jira/browse/OFBIZ-7301)] - Add a look-up for Shipment Id and WorkEffort Id in Inventory Items Details screen under Facility Component
+- [[OFBIZ-7302](https://issues.apache.org/jira/browse/OFBIZ-7302)] - Add a look-up for Product Id, UserLogin Id and Billing Account in Find Order Screen
+- [[OFBIZ-7303](https://issues.apache.org/jira/browse/OFBIZ-7303)] - Add a look-up for UserLogin Id in Find Party Screen
+- [[OFBIZ-7304](https://issues.apache.org/jira/browse/OFBIZ-7304)] - Add a look-up for Product Id in Find Revision Screen under scrum component
+- [[OFBIZ-7305](https://issues.apache.org/jira/browse/OFBIZ-7305)] - Small UI issue at project overview
+- [[OFBIZ-7310](https://issues.apache.org/jira/browse/OFBIZ-7310)] - Use UtilValidate.isEmpty() instead of length() &lt;= 0
+- [[OFBIZ-7311](https://issues.apache.org/jira/browse/OFBIZ-7311)] - Formatting and renaming of the CSS files as per best practices
+- [[OFBIZ-7321](https://issues.apache.org/jira/browse/OFBIZ-7321)] - Add the -server JVM argument to Ant targets like start and tools/start\*.bat files
+- [[OFBIZ-7332](https://issues.apache.org/jira/browse/OFBIZ-7332)] - Add Product lookup when associating product with location from Edit Facility Location page
+- [[OFBIZ-7336](https://issues.apache.org/jira/browse/OFBIZ-7336)] - Production Run &quot;Add party&quot; form should have fromDate and thruDate field
+- [[OFBIZ-7339](https://issues.apache.org/jira/browse/OFBIZ-7339)] - Replace EntityUtilProperties getPropertyValue method with correct method calls
+- [[OFBIZ-7342](https://issues.apache.org/jira/browse/OFBIZ-7342)] - Inconsistent UI for Update and Expire button at Facility Contact Information Screen
+- [[OFBIZ-7359](https://issues.apache.org/jira/browse/OFBIZ-7359)] - Product based promotion calculation
+- [[OFBIZ-7381](https://issues.apache.org/jira/browse/OFBIZ-7381)] - Fix &#39;requestitems&#39; target from order menu
+- [[OFBIZ-7384](https://issues.apache.org/jira/browse/OFBIZ-7384)] - Remove status field from RequestRoles section on request overview page
+- [[OFBIZ-7387](https://issues.apache.org/jira/browse/OFBIZ-7387)] - Product name is showing multiple time on create purchase order
+- [[OFBIZ-7394](https://issues.apache.org/jira/browse/OFBIZ-7394)] - Allow user to select multiple options in &quot;Purchases by Product&quot; report from basic search criterias while generating report
+- [[OFBIZ-7421](https://issues.apache.org/jira/browse/OFBIZ-7421)] - Required client side validation on sending BIRT report by mail
+- [[OFBIZ-7454](https://issues.apache.org/jira/browse/OFBIZ-7454)] - [OFBIZ-7173] Any new product added against given routing task via Actual Material screen is not reflected on production run declaration screen.
+- [[OFBIZ-7472](https://issues.apache.org/jira/browse/OFBIZ-7472)] - Inconsistent UI for keyword search Screen of ebay component
+- [[OFBIZ-7484](https://issues.apache.org/jira/browse/OFBIZ-7484)] - The UI of payment section distorts when there is a billing account present for a customer while placing a sales order
+- [[OFBIZ-7486](https://issues.apache.org/jira/browse/OFBIZ-7486)] - Improper UI of View and Edit button on shipment page
+- [[OFBIZ-7519](https://issues.apache.org/jira/browse/OFBIZ-7519)] - Some entity-auto services fields doesn&#39;t have optional false in case of multiple PK&#39;s
+- [[OFBIZ-7521](https://issues.apache.org/jira/browse/OFBIZ-7521)] - Refer to objects by their interfaces rather than class when instantiating Collection implementation classes in Java files
+- [[OFBIZ-7527](https://issues.apache.org/jira/browse/OFBIZ-7527)] - Questions from category should not come to apply on survey when creating/editing any question
+- [[OFBIZ-7533](https://issues.apache.org/jira/browse/OFBIZ-7533)] - Not able to set new Lot Id to existing inventory item
+- [[OFBIZ-7534](https://issues.apache.org/jira/browse/OFBIZ-7534)] - Migrate OFBiz from Apache Ant to Gradle build system
+- [[OFBIZ-7539](https://issues.apache.org/jira/browse/OFBIZ-7539)] - Catch GenericEntityException and GenericServiceException and other instead of Exception in Java classes
+- [[OFBIZ-7553](https://issues.apache.org/jira/browse/OFBIZ-7553)] - On order list page, the &#39;All&#39; checkbox for status field does not work properly
+- [[OFBIZ-7564](https://issues.apache.org/jira/browse/OFBIZ-7564)] - Remove HtmlFormWrapper(depricated) and its dependencies
+- [[OFBIZ-7592](https://issues.apache.org/jira/browse/OFBIZ-7592)] - Show price column in supplier product lookup during PO creation
+- [[OFBIZ-7597](https://issues.apache.org/jira/browse/OFBIZ-7597)] - Entity auto services doesn&#39;t returns success message
+- [[OFBIZ-7604](https://issues.apache.org/jira/browse/OFBIZ-7604)] - Add lookup for approver party at leave approval find form
+- [[OFBIZ-7631](https://issues.apache.org/jira/browse/OFBIZ-7631)] - Remove XmlFormRenderer Class after removing its dependency
+- [[OFBIZ-7632](https://issues.apache.org/jira/browse/OFBIZ-7632)] - Remove TextFormRenderer Class after removing its dependency
+- [[OFBIZ-7633](https://issues.apache.org/jira/browse/OFBIZ-7633)] - Remove TextScreenRenderer Class after removing its dependency
+- [[OFBIZ-7634](https://issues.apache.org/jira/browse/OFBIZ-7634)] - Remove HtmlFormRenderer Class after removing its dependency
+- [[OFBIZ-7635](https://issues.apache.org/jira/browse/OFBIZ-7635)] - Remove HtmlScreenRenderer Class after removing its dependency
+- [[OFBIZ-7648](https://issues.apache.org/jira/browse/OFBIZ-7648)] - Page bottom navigation problem with grid and include-grid
+- [[OFBIZ-7652](https://issues.apache.org/jira/browse/OFBIZ-7652)] - &quot;Tasks&quot; menu is showing selected when click in scrum component
+- [[OFBIZ-7654](https://issues.apache.org/jira/browse/OFBIZ-7654)] - Success message should be shown on screen for successfully applied promotion
+- [[OFBIZ-7655](https://issues.apache.org/jira/browse/OFBIZ-7655)] - Use &#39;conditionFields&#39; instead of &#39;andCondition&#39; in Lookup screen
+- [[OFBIZ-7695](https://issues.apache.org/jira/browse/OFBIZ-7695)] - Add UI labels for success / eror messages in java and groovy files
+- [[OFBIZ-7698](https://issues.apache.org/jira/browse/OFBIZ-7698)] - Remove un-used variables from Java and Groovy files.
+- [[OFBIZ-7702](https://issues.apache.org/jira/browse/OFBIZ-7702)] - Add a look-up for Product Id at Add Product Store Surveys screen
+- [[OFBIZ-7703](https://issues.apache.org/jira/browse/OFBIZ-7703)] - Unable to set thru date for List survey screen of project component if more than one survey in available.
+- [[OFBIZ-7705](https://issues.apache.org/jira/browse/OFBIZ-7705)] - Remove Google Checkout component from specialpurpose as it was discontinued
+- [[OFBIZ-7707](https://issues.apache.org/jira/browse/OFBIZ-7707)] - Improve payment method information UI on party profile screen
+- [[OFBIZ-7725](https://issues.apache.org/jira/browse/OFBIZ-7725)] - Document the routing number fields in entities
+- [[OFBIZ-7727](https://issues.apache.org/jira/browse/OFBIZ-7727)] - Remove Google Base component from specialpurpose as it is discontinued
+- [[OFBIZ-7751](https://issues.apache.org/jira/browse/OFBIZ-7751)] - Ignoring invalid field name [parentTypeId] found for the entity: DeductionType with value
+- [[OFBIZ-7755](https://issues.apache.org/jira/browse/OFBIZ-7755)] - Geo data for Turkey
+- [[OFBIZ-7760](https://issues.apache.org/jira/browse/OFBIZ-7760)] - Removed from UtilCache the ability to persist entries in the file system
+- [[OFBIZ-7763](https://issues.apache.org/jira/browse/OFBIZ-7763)] - Replace bshInterpreter with groovyShell
+- [[OFBIZ-7777](https://issues.apache.org/jira/browse/OFBIZ-7777)] - QuoteId field displayed with no value
+- [[OFBIZ-7780](https://issues.apache.org/jira/browse/OFBIZ-7780)] - Improve readme.md file with respect to description of the loadDefault task
+- [[OFBIZ-7790](https://issues.apache.org/jira/browse/OFBIZ-7790)] - Change the Java Directory Structure to Main and Test
+- [[OFBIZ-7793](https://issues.apache.org/jira/browse/OFBIZ-7793)] - Add download definition for drivers of commonly used open source rdbms to build gradle
+- [[OFBIZ-7798](https://issues.apache.org/jira/browse/OFBIZ-7798)] - Translate the svn and git info footers
+- [[OFBIZ-7819](https://issues.apache.org/jira/browse/OFBIZ-7819)] - Empty link icon shown in Search results of Find screens.
+- [[OFBIZ-7820](https://issues.apache.org/jira/browse/OFBIZ-7820)] - Empty scroll bar in party component.
+- [[OFBIZ-7821](https://issues.apache.org/jira/browse/OFBIZ-7821)] - Remove unused system generated fields from all data files
+- [[OFBIZ-7823](https://issues.apache.org/jira/browse/OFBIZ-7823)] - Product lookup should be available while adding items in the shopping list
+- [[OFBIZ-7833](https://issues.apache.org/jira/browse/OFBIZ-7833)] - Redundant options at select filter on find screens
+- [[OFBIZ-7892](https://issues.apache.org/jira/browse/OFBIZ-7892)] - Move \*CertKeystore.groovy\* to location according to best practice
+- [[OFBIZ-7918](https://issues.apache.org/jira/browse/OFBIZ-7918)] - Improve Dutch labels regarding accounting reports
+- [[OFBIZ-7919](https://issues.apache.org/jira/browse/OFBIZ-7919)] - Removal of old OFBiz images from images folder
+- [[OFBIZ-7920](https://issues.apache.org/jira/browse/OFBIZ-7920)] - Have TransactionTotalsPdf.pdf show the internal company show it has been generated for.
+- [[OFBIZ-7923](https://issues.apache.org/jira/browse/OFBIZ-7923)] - Improve the Marketing Demo data
+- [[OFBIZ-7925](https://issues.apache.org/jira/browse/OFBIZ-7925)] - Have ListGlAccountsReport open in a new window
+- [[OFBIZ-7944](https://issues.apache.org/jira/browse/OFBIZ-7944)] - Improve log visualisation throught webtools
+- [[OFBIZ-7951](https://issues.apache.org/jira/browse/OFBIZ-7951)] - remove ofbizSecure and ofbizBackgroundSecure targets from the gradle build script
+- [[OFBIZ-7953](https://issues.apache.org/jira/browse/OFBIZ-7953)] - Updating various labels in CommonUiLabels.xml
+- [[OFBIZ-7956](https://issues.apache.org/jira/browse/OFBIZ-7956)] - Updating various Dutch labels in WorkEffortUiLabels.xml
+- [[OFBIZ-7959](https://issues.apache.org/jira/browse/OFBIZ-7959)] - Enable the status selection for WorkEffort duplication
+- [[OFBIZ-7960](https://issues.apache.org/jira/browse/OFBIZ-7960)] - css property name correction in flatgrey and rainbowstone themes
+- [[OFBIZ-7967](https://issues.apache.org/jira/browse/OFBIZ-7967)] - call makeTrackingCodeOrders in Marketing through a service
+- [[OFBIZ-7968](https://issues.apache.org/jira/browse/OFBIZ-7968)] - Shorten the mandatory properties (flags) passed to gradle tasks
+- [[OFBIZ-7973](https://issues.apache.org/jira/browse/OFBIZ-7973)] - Add standard services for WorkEffortAttribute creation
+- [[OFBIZ-7977](https://issues.apache.org/jira/browse/OFBIZ-7977)] - View Entity is not marked on new entity listing UI in Webtools
+- [[OFBIZ-8013](https://issues.apache.org/jira/browse/OFBIZ-8013)] - Move the permission check from implementation level to service defination level
+- [[OFBIZ-8016](https://issues.apache.org/jira/browse/OFBIZ-8016)] - Improve Dutch labels for projectmgr component
+- [[OFBIZ-8021](https://issues.apache.org/jira/browse/OFBIZ-8021)] - Improve Dutch labels for order component
+- [[OFBIZ-8044](https://issues.apache.org/jira/browse/OFBIZ-8044)] - Consistent form name
+- [[OFBIZ-8048](https://issues.apache.org/jira/browse/OFBIZ-8048)] - Show &quot;Any&quot;, where allow-empty is set true in Find Screens.
+- [[OFBIZ-8050](https://issues.apache.org/jira/browse/OFBIZ-8050)] - No need to show &quot;---&quot; after selecting any option from drop-down in Find Screens.
+- [[OFBIZ-8055](https://issues.apache.org/jira/browse/OFBIZ-8055)] - Add missing CommonCode label
+- [[OFBIZ-8115](https://issues.apache.org/jira/browse/OFBIZ-8115)] - Fixe a bunch of small leaks (closes missing, reported as warnings in Eclipse)
+- [[OFBIZ-8118](https://issues.apache.org/jira/browse/OFBIZ-8118)] - Consistent menu names
+- [[OFBIZ-8142](https://issues.apache.org/jira/browse/OFBIZ-8142)] - A series of cleanups related to OFBiz servlet filters
+- [[OFBIZ-8160](https://issues.apache.org/jira/browse/OFBIZ-8160)] - Enhance Event Handler to support an transaction-timeout attribute in the &lt;event&gt; element
+- [[OFBIZ-8179](https://issues.apache.org/jira/browse/OFBIZ-8179)] - Enhance DBCPConnectionFactory to implement a TransactionFactory and remove the geronimo component
+- [[OFBIZ-8224](https://issues.apache.org/jira/browse/OFBIZ-8224)] - Removal of support for the Bean Scripting Framework (BSF)
+- [[OFBIZ-8232](https://issues.apache.org/jira/browse/OFBIZ-8232)] - Improve Dutch labels for commonext component
+- [[OFBIZ-8244](https://issues.apache.org/jira/browse/OFBIZ-8244)] - Change the inlineHandlePriceWithTaxIncuded method name
+- [[OFBIZ-8251](https://issues.apache.org/jira/browse/OFBIZ-8251)] - Create a Gradle task to use Xlint arguments when building
+- [[OFBIZ-8262](https://issues.apache.org/jira/browse/OFBIZ-8262)] - Invalid UiLabel on Edit Return screen.
+- [[OFBIZ-8276](https://issues.apache.org/jira/browse/OFBIZ-8276)] - Add default table style on ViewGatewayResponse screen
+- [[OFBIZ-8292](https://issues.apache.org/jira/browse/OFBIZ-8292)] - Use ignore\_missing option of the &lt;#include Freemarker directive when fixed
+- [[OFBIZ-8293](https://issues.apache.org/jira/browse/OFBIZ-8293)] - Remove redundant backend themes
+- [[OFBIZ-8299](https://issues.apache.org/jira/browse/OFBIZ-8299)] - gzip json files served by tomcat
+- [[OFBIZ-8320](https://issues.apache.org/jira/browse/OFBIZ-8320)] - Disentangle ecomclone from ecommerce
+- [[OFBIZ-8324](https://issues.apache.org/jira/browse/OFBIZ-8324)] - replace hardcoded strings
+- [[OFBIZ-8340](https://issues.apache.org/jira/browse/OFBIZ-8340)] - Remove commented code elements
+- [[OFBIZ-8413](https://issues.apache.org/jira/browse/OFBIZ-8413)] - UtilValidate&#39;s isEmpty and isNotEmpty methods not used correctly
+- [[OFBIZ-8623](https://issues.apache.org/jira/browse/OFBIZ-8623)] - demo data cleanup
+- [[OFBIZ-8652](https://issues.apache.org/jira/browse/OFBIZ-8652)] - Remove semicolon from Groovy files
+- [[OFBIZ-9119](https://issues.apache.org/jira/browse/OFBIZ-9119)] - Remove unused screens from CommonScreens in Catalog
+
+## New Feature
+
+- [[OFBIZ-382](https://issues.apache.org/jira/browse/OFBIZ-382)] - Implement Party lookup by External Id
+- [[OFBIZ-1607](https://issues.apache.org/jira/browse/OFBIZ-1607)] - let the ofbiz work with db2
+- [[OFBIZ-4154](https://issues.apache.org/jira/browse/OFBIZ-4154)] - Use ZXing to generate QR 2d barcode
+- [[OFBIZ-4983](https://issues.apache.org/jira/browse/OFBIZ-4983)] - New feature to reclaim a user account - Using Security Questions
+- [[OFBIZ-5312](https://issues.apache.org/jira/browse/OFBIZ-5312)] - Proposal: URL-Generation Changes (mostly for SEO reasons but not only)
+- [[OFBIZ-6135](https://issues.apache.org/jira/browse/OFBIZ-6135)] - Passport Component for OAuth2
+- [[OFBIZ-6232](https://issues.apache.org/jira/browse/OFBIZ-6232)] - Adds HTML tabindex into widget form fields
+- [[OFBIZ-6494](https://issues.apache.org/jira/browse/OFBIZ-6494)] - New implementation of the two-way cryptographic services of OFBiz based on Apache Shiro
+- [[OFBIZ-6528](https://issues.apache.org/jira/browse/OFBIZ-6528)] - Add a mean to untie geo associations
+- [[OFBIZ-6857](https://issues.apache.org/jira/browse/OFBIZ-6857)] - Add service crud for AgreementItemAttribute
+- [[OFBIZ-6899](https://issues.apache.org/jira/browse/OFBIZ-6899)] - Overview of payment methods in party profile misses function to set company check payment
+- [[OFBIZ-6931](https://issues.apache.org/jira/browse/OFBIZ-6931)] - Add XLS renderer
+- [[OFBIZ-6940](https://issues.apache.org/jira/browse/OFBIZ-6940)] - New ProductPriceType &#39;SHIPPING\_ALLOWANCE&#39; and a new minimumPrice field in ProductStoreShipmentMeth entity
+- [[OFBIZ-7008](https://issues.apache.org/jira/browse/OFBIZ-7008)] - Support to add condition for Geo Location in Promo Engine
+- [[OFBIZ-7108](https://issues.apache.org/jira/browse/OFBIZ-7108)] - Provide an option to specify the Facility Location while producing the inventory/stock once production run gets completed
+- [[OFBIZ-7120](https://issues.apache.org/jira/browse/OFBIZ-7120)] - Multisite support in specialpurpose/cmssite
+- [[OFBIZ-7140](https://issues.apache.org/jira/browse/OFBIZ-7140)] - Add Fetch Log Functionality parallel to View Log in webtools
+- [[OFBIZ-7172](https://issues.apache.org/jira/browse/OFBIZ-7172)] - Introduce Material Trace-ability at Inventory Item level on Production Run Declaration and Actual Material screen
+- [[OFBIZ-7173](https://issues.apache.org/jira/browse/OFBIZ-7173)] - The Product Added from &#39;Actual Material&#39; screen could be consumed for producing end product during routing task execution
+- [[OFBIZ-7374](https://issues.apache.org/jira/browse/OFBIZ-7374)] - Add capability to Expire or Remove the added content for a party
+- [[OFBIZ-7969](https://issues.apache.org/jira/browse/OFBIZ-7969)] - Enable adding a content to an agreement
+
+## Task
+
+- [[OFBIZ-5970](https://issues.apache.org/jira/browse/OFBIZ-5970)] - Form RequestRolesInfo is not being accessed from Screens
+- [[OFBIZ-6123](https://issues.apache.org/jira/browse/OFBIZ-6123)] - Upgrade Freemarker from 2.3.21 to 2.3.22
+- [[OFBIZ-6195](https://issues.apache.org/jira/browse/OFBIZ-6195)] - Move appserver component to Attic
+- [[OFBIZ-6380](https://issues.apache.org/jira/browse/OFBIZ-6380)] - Update Log4j 2.2 to 2.3
+- [[OFBIZ-6384](https://issues.apache.org/jira/browse/OFBIZ-6384)] - util.js is missing licence header
+- [[OFBIZ-6451](https://issues.apache.org/jira/browse/OFBIZ-6451)] - Create a wiki page with percentage for translated langues
+- [[OFBIZ-6461](https://issues.apache.org/jira/browse/OFBIZ-6461)] - Resynchronise template macro form xml, text, csv and fo from html
+- [[OFBIZ-6610](https://issues.apache.org/jira/browse/OFBIZ-6610)] - Upgrade Solr and Lucene librairies to version 5
+- [[OFBIZ-6767](https://issues.apache.org/jira/browse/OFBIZ-6767)] - Remove the &quot;runtime&quot; specialpurpose component
+- [[OFBIZ-7019](https://issues.apache.org/jira/browse/OFBIZ-7019)] - Update ICU4J from version 52 to 57
+- [[OFBIZ-7029](https://issues.apache.org/jira/browse/OFBIZ-7029)] - Continue the work on the form widget grid element
+- [[OFBIZ-7267](https://issues.apache.org/jira/browse/OFBIZ-7267)] - Move minilang scripts from component://componentname/script/org/ofbiz to component://componentname/minilang
+- [[OFBIZ-7485](https://issues.apache.org/jira/browse/OFBIZ-7485)] - Documentation: Unit Test (Use)Cases for OFBIZ-7173
+- [[OFBIZ-7779](https://issues.apache.org/jira/browse/OFBIZ-7779)] - Update wiki Eclipse pages regarding Gradle
+- [[OFBIZ-8241](https://issues.apache.org/jira/browse/OFBIZ-8241)] - Put notsoserial in Attic
+- [[OFBIZ-8738](https://issues.apache.org/jira/browse/OFBIZ-8738)] - Add accounting permission service validating while setting payment status or void payment
+- [[OFBIZ-8824](https://issues.apache.org/jira/browse/OFBIZ-8824)] - Add facility generic permission service
+- [[OFBIZ-8826](https://issues.apache.org/jira/browse/OFBIZ-8826)] - Add marketing manager generic permission service
+- [[OFBIZ-8851](https://issues.apache.org/jira/browse/OFBIZ-8851)] - Add the return generic permission service
+- [[OFBIZ-8875](https://issues.apache.org/jira/browse/OFBIZ-8875)] - Add entity sync permission service used when Entity Sync CRUD services
+- [[OFBIZ-9121](https://issues.apache.org/jira/browse/OFBIZ-9121)] - Update French geos iso codes
+
+## Sub-task
+
+- [[OFBIZ-2282](https://issues.apache.org/jira/browse/OFBIZ-2282)] - Form Widget: skip-start breaks date-time
+- [[OFBIZ-2522](https://issues.apache.org/jira/browse/OFBIZ-2522)] - Send flat rate and carrier calculated shipping options to Google Checkout system.
+- [[OFBIZ-2602](https://issues.apache.org/jira/browse/OFBIZ-2602)] - Main storefront page, Featured Products (middle column) overwrites right column. Should just crop column, but not overwrite right column.
+- [[OFBIZ-2985](https://issues.apache.org/jira/browse/OFBIZ-2985)] - Html cleanup of advanced search page.
+- [[OFBIZ-2987](https://issues.apache.org/jira/browse/OFBIZ-2987)] - Html clean up of quick add page.
+- [[OFBIZ-3074](https://issues.apache.org/jira/browse/OFBIZ-3074)] - HTML clean up for editShoppingList.ftl.
+- [[OFBIZ-3920](https://issues.apache.org/jira/browse/OFBIZ-3920)] - HtmlFormRenderer : with attribute skip-start, lookup fields are broken
+- [[OFBIZ-4106](https://issues.apache.org/jira/browse/OFBIZ-4106)] - deleteCustomerTaxAuthInfo page called from /ecommerce/control/viewprofile
+- [[OFBIZ-4457](https://issues.apache.org/jira/browse/OFBIZ-4457)] - Checkout layout: in screens before payment screen: the fields are below the last div in right column.
+- [[OFBIZ-5290](https://issues.apache.org/jira/browse/OFBIZ-5290)] - show quantityUom in BoM
+- [[OFBIZ-5634](https://issues.apache.org/jira/browse/OFBIZ-5634)] - Error in pagination in createProductSubscriptionResource (Catalog)
+- [[OFBIZ-5763](https://issues.apache.org/jira/browse/OFBIZ-5763)] - createGlAccountTypeDefault generate an error in log
+- [[OFBIZ-5801](https://issues.apache.org/jira/browse/OFBIZ-5801)] - Upgrade Axis2 to 1.6.3
+- [[OFBIZ-5817](https://issues.apache.org/jira/browse/OFBIZ-5817)] - Remove Portal Management code from Framework/WebTools.
+- [[OFBIZ-6139](https://issues.apache.org/jira/browse/OFBIZ-6139)] - Lookup fields break when used with a form having skip-start=&quot;true&quot;
+- [[OFBIZ-6143](https://issues.apache.org/jira/browse/OFBIZ-6143)] - Incorporate the readme for the projectmgr component
+- [[OFBIZ-6162](https://issues.apache.org/jira/browse/OFBIZ-6162)] - Improve configuration options for Search/Find screens in project mgr.
+- [[OFBIZ-6170](https://issues.apache.org/jira/browse/OFBIZ-6170)] - You can&#39;t rely on Lookup field description-field-name attribute in a form having skip-start=&quot;true&quot;
+- [[OFBIZ-6190](https://issues.apache.org/jira/browse/OFBIZ-6190)] - Have configuration options for sfa
+- [[OFBIZ-6191](https://issues.apache.org/jira/browse/OFBIZ-6191)] - Have configuration options for ordermgr
+- [[OFBIZ-6192](https://issues.apache.org/jira/browse/OFBIZ-6192)] - Have configuration options for catalog webapp
+- [[OFBIZ-6193](https://issues.apache.org/jira/browse/OFBIZ-6193)] - Have configuration options for bi
+- [[OFBIZ-6240](https://issues.apache.org/jira/browse/OFBIZ-6240)] - Incorporate the readme for the scrum component
+- [[OFBIZ-6244](https://issues.apache.org/jira/browse/OFBIZ-6244)] - Incorporate the readme for the Manufacturing component
+- [[OFBIZ-6246](https://issues.apache.org/jira/browse/OFBIZ-6246)] - Incorporate the readme for the MyPortal component
+- [[OFBIZ-6250](https://issues.apache.org/jira/browse/OFBIZ-6250)] - Incorporate the readme for the AssetMaint application
+- [[OFBIZ-6276](https://issues.apache.org/jira/browse/OFBIZ-6276)] - Fix deprecation issues in framework/entity
+- [[OFBIZ-6277](https://issues.apache.org/jira/browse/OFBIZ-6277)] - framework/entity makes use of deprecated class Configuration
+- [[OFBIZ-6278](https://issues.apache.org/jira/browse/OFBIZ-6278)] - JNDIConfigUtil makes use of deprecated getXmlRootElement
+- [[OFBIZ-6279](https://issues.apache.org/jira/browse/OFBIZ-6279)] - UtilDateTime has an ImmutableDate inner class that has deprecation warnings
+- [[OFBIZ-6280](https://issues.apache.org/jira/browse/OFBIZ-6280)] - SecurityFactory implements methods that have been deprecated
+- [[OFBIZ-6281](https://issues.apache.org/jira/browse/OFBIZ-6281)] - Many classes in framework/widget are still using html-based renderers, instead of macro-based
+- [[OFBIZ-6282](https://issues.apache.org/jira/browse/OFBIZ-6282)] - EmailServices is making use the html widget rendering system
+- [[OFBIZ-6283](https://issues.apache.org/jira/browse/OFBIZ-6283)] - A few classes in webtools make use of the html widget rendering system
+- [[OFBIZ-6284](https://issues.apache.org/jira/browse/OFBIZ-6284)] - ServiceArtifactInfo uses deprecated getAll{Object}Names{Verb}
+- [[OFBIZ-6285](https://issues.apache.org/jira/browse/OFBIZ-6285)] - OutputServices uses the deprecated fo widget rendering system
+- [[OFBIZ-6286](https://issues.apache.org/jira/browse/OFBIZ-6286)] - SagePay classes make use of deprecated httpclient features
+- [[OFBIZ-6287](https://issues.apache.org/jira/browse/OFBIZ-6287)] - BirtEmailServices uses the deprecated html rendering system
+- [[OFBIZ-6288](https://issues.apache.org/jira/browse/OFBIZ-6288)] - ExamplePrintServices uses the deprecated html rendering system
+- [[OFBIZ-6289](https://issues.apache.org/jira/browse/OFBIZ-6289)] - Oagis classes are making use of the deprecated html rendering system
+- [[OFBIZ-6290](https://issues.apache.org/jira/browse/OFBIZ-6290)] - ButtonEventConfig uses getXmlRootElement which has been deprecated
+- [[OFBIZ-6294](https://issues.apache.org/jira/browse/OFBIZ-6294)] - Have configuration options for workeffort
+- [[OFBIZ-6327](https://issues.apache.org/jira/browse/OFBIZ-6327)] - Make layered-window available in forms
+- [[OFBIZ-6333](https://issues.apache.org/jira/browse/OFBIZ-6333)] - Replacing bsh code with groovy Code in SCRUM screens, forms and menus
+- [[OFBIZ-6335](https://issues.apache.org/jira/browse/OFBIZ-6335)] - Replacing bsh code with groovy code in PROJECTMGR screens, forms and menus
+- [[OFBIZ-6337](https://issues.apache.org/jira/browse/OFBIZ-6337)] - Replacing bsh code with groovy Code in EBAY screens, forms and menus
+- [[OFBIZ-6338](https://issues.apache.org/jira/browse/OFBIZ-6338)] - Replacing bsh code with groovy Code in EBAYStore screens, forms and menus
+- [[OFBIZ-6339](https://issues.apache.org/jira/browse/OFBIZ-6339)] - Replacing bsh code with groovy Code in HUMANRES screens, forms and menus
+- [[OFBIZ-6340](https://issues.apache.org/jira/browse/OFBIZ-6340)] - Replacing bsh code with groovy Code in ORDER screens, forms and menus
+- [[OFBIZ-6341](https://issues.apache.org/jira/browse/OFBIZ-6341)] - Replacing bsh code with groovy Code in Product screens, forms and menus
+- [[OFBIZ-6342](https://issues.apache.org/jira/browse/OFBIZ-6342)] - Replacing bsh code with groovy Code in Party screens, forms and menus
+- [[OFBIZ-6343](https://issues.apache.org/jira/browse/OFBIZ-6343)] - Replacing bsh code with groovy Code in WorkEffort screens, forms and menus
+- [[OFBIZ-6344](https://issues.apache.org/jira/browse/OFBIZ-6344)] - Replacing bsh code with groovy Code in Content screens, forms and menus
+- [[OFBIZ-6345](https://issues.apache.org/jira/browse/OFBIZ-6345)] - Replacing bsh code with groovy Code in Webtools screens, forms and menus
+- [[OFBIZ-6359](https://issues.apache.org/jira/browse/OFBIZ-6359)] - Improves dialog boxes generated by layered-modal link parameter
+- [[OFBIZ-6362](https://issues.apache.org/jira/browse/OFBIZ-6362)] - Move js &amp; css references from CommonDecorator(s) to themes
+- [[OFBIZ-6404](https://issues.apache.org/jira/browse/OFBIZ-6404)] - Allow form/grid widget hyperlinks to be grouped into a single column
+- [[OFBIZ-6501](https://issues.apache.org/jira/browse/OFBIZ-6501)] - Add support for screen embedding inside grids
+- [[OFBIZ-6502](https://issues.apache.org/jira/browse/OFBIZ-6502)] - Add support for form/grid embedding within grids
+- [[OFBIZ-6577](https://issues.apache.org/jira/browse/OFBIZ-6577)] - Incorporate the readme for the Lucene component
+- [[OFBIZ-6611](https://issues.apache.org/jira/browse/OFBIZ-6611)] - Incorporate the readme for the SOLR component
+- [[OFBIZ-6651](https://issues.apache.org/jira/browse/OFBIZ-6651)] - Remove deprecated methods from GenericValue and EntityUtil classes
+- [[OFBIZ-6667](https://issues.apache.org/jira/browse/OFBIZ-6667)] - Remove limitation regarding menu-name in ofbiz-component.xsd
+- [[OFBIZ-6679](https://issues.apache.org/jira/browse/OFBIZ-6679)] - PartyRole Lifespan fields - Have QuoteRole entity work with the change
+- [[OFBIZ-6690](https://issues.apache.org/jira/browse/OFBIZ-6690)] - replace widget-style=&quot;required&quot; with required-field=&quot;true&quot;
+- [[OFBIZ-6724](https://issues.apache.org/jira/browse/OFBIZ-6724)] - remove superfluous comment from entity-eca.xsd
+- [[OFBIZ-6726](https://issues.apache.org/jira/browse/OFBIZ-6726)] - Update commons collections to 3.2.2 because of known possible exploit [CVE-2016-2170]
+- [[OFBIZ-6751](https://issues.apache.org/jira/browse/OFBIZ-6751)] - POI security fix
+- [[OFBIZ-6752](https://issues.apache.org/jira/browse/OFBIZ-6752)] - Updates Tomcat to 7.0.65
+- [[OFBIZ-6754](https://issues.apache.org/jira/browse/OFBIZ-6754)] - Update Spring Framework
+- [[OFBIZ-6756](https://issues.apache.org/jira/browse/OFBIZ-6756)] - Remove useless and vulnerable hadoop-hdfs-2.2.0.jar
+- [[OFBIZ-6757](https://issues.apache.org/jira/browse/OFBIZ-6757)] - Exclusion of Manufacturing components leads to load errors
+- [[OFBIZ-6758](https://issues.apache.org/jira/browse/OFBIZ-6758)] - Exclusion of Humanres component leads to load errors
+- [[OFBIZ-6769](https://issues.apache.org/jira/browse/OFBIZ-6769)] - The renderContentAsText method should configure text sanitizer by &quot;sanitizer.permissive.policy&quot; in owasp.properties
+- [[OFBIZ-6800](https://issues.apache.org/jira/browse/OFBIZ-6800)] - Another .fo.ftl file use &quot;align&quot; attribute in &quot;&lt;fo:block&gt;&quot; tag.
+- [[OFBIZ-6811](https://issues.apache.org/jira/browse/OFBIZ-6811)] - relocate .ftl files in the specialpurpose/ecommerce component
+- [[OFBIZ-6812](https://issues.apache.org/jira/browse/OFBIZ-6812)] - relocate .ftl files in the specialpurpose/projectmgr component
+- [[OFBIZ-6813](https://issues.apache.org/jira/browse/OFBIZ-6813)] - relocate .ftl files in the accounting component
+- [[OFBIZ-6814](https://issues.apache.org/jira/browse/OFBIZ-6814)] - relocate .ftl files in the commonext component
+- [[OFBIZ-6815](https://issues.apache.org/jira/browse/OFBIZ-6815)] - relocate .ftl files in the content component
+- [[OFBIZ-6816](https://issues.apache.org/jira/browse/OFBIZ-6816)] - relocate .ftl files in the humanres component
+- [[OFBIZ-6817](https://issues.apache.org/jira/browse/OFBIZ-6817)] - relocate .ftl files in the manufacturing component
+- [[OFBIZ-6818](https://issues.apache.org/jira/browse/OFBIZ-6818)] - relocate .ftl files in the marketing component
+- [[OFBIZ-6819](https://issues.apache.org/jira/browse/OFBIZ-6819)] - relocate .ftl files in the order component
+- [[OFBIZ-6820](https://issues.apache.org/jira/browse/OFBIZ-6820)] - relocate .ftl files in the party component
+- [[OFBIZ-6821](https://issues.apache.org/jira/browse/OFBIZ-6821)] - relocate .ftl files in the product component
+- [[OFBIZ-6822](https://issues.apache.org/jira/browse/OFBIZ-6822)] - relocate .ftl files in the workeffort component
+- [[OFBIZ-6823](https://issues.apache.org/jira/browse/OFBIZ-6823)] - relocate .ftl files in the framework/common component
+- [[OFBIZ-6824](https://issues.apache.org/jira/browse/OFBIZ-6824)] - relocate .ftl files in the framework/webtools component
+- [[OFBIZ-6825](https://issues.apache.org/jira/browse/OFBIZ-6825)] - relocate .ftl files in the specialpurpose/assetmaint component
+- [[OFBIZ-6826](https://issues.apache.org/jira/browse/OFBIZ-6826)] - relocate .ftl files in the specialpurpose/bi component
+- [[OFBIZ-6827](https://issues.apache.org/jira/browse/OFBIZ-6827)] - relocate .ftl files in the specialpurpose/birt component
+- [[OFBIZ-6829](https://issues.apache.org/jira/browse/OFBIZ-6829)] - relocate .ftl files in the specialpurpose/ebay
+- [[OFBIZ-6830](https://issues.apache.org/jira/browse/OFBIZ-6830)] - relocate .ftl files in the specialpurpose/ebaystore component
+- [[OFBIZ-6831](https://issues.apache.org/jira/browse/OFBIZ-6831)] - relocate .ftl files in the specialpurpose/exampleext component
+- [[OFBIZ-6833](https://issues.apache.org/jira/browse/OFBIZ-6833)] - relocate .ftl files in the specialpurpose/googlebase component
+- [[OFBIZ-6834](https://issues.apache.org/jira/browse/OFBIZ-6834)] - relocate .ftl files in the specialpurpose/googlecheckout component
+- [[OFBIZ-6835](https://issues.apache.org/jira/browse/OFBIZ-6835)] - relocate .ftl files in the specialpurpose/hhfacility component
+- [[OFBIZ-6836](https://issues.apache.org/jira/browse/OFBIZ-6836)] - relocate .ftl files in the specialpurpose/scrum
+- [[OFBIZ-6837](https://issues.apache.org/jira/browse/OFBIZ-6837)] - relocate .ftl files in the specialpurpose/webpos component
+- [[OFBIZ-6838](https://issues.apache.org/jira/browse/OFBIZ-6838)] - relocate .ftl files in the specialpurpose/passport component
+- [[OFBIZ-6839](https://issues.apache.org/jira/browse/OFBIZ-6839)] - relocate .ftl files in the specialpurpose/lucene component
+- [[OFBIZ-6840](https://issues.apache.org/jira/browse/OFBIZ-6840)] - relocate .ftl files in the specialpurpose/oagis component
+- [[OFBIZ-6847](https://issues.apache.org/jira/browse/OFBIZ-6847)] - use organizationPartyId from Application decorator instead of retrieve organizationPartyId that sent from other request, to support change accounting company.
+- [[OFBIZ-6849](https://issues.apache.org/jira/browse/OFBIZ-6849)] - Use only HTTPS in OFBiz
+- [[OFBIZ-6867](https://issues.apache.org/jira/browse/OFBIZ-6867)] - Remove forceManualJsessionid feature
+- [[OFBIZ-6871](https://issues.apache.org/jira/browse/OFBIZ-6871)] - Get rid of the session-cookie-accepted feature
+- [[OFBIZ-6872](https://issues.apache.org/jira/browse/OFBIZ-6872)] - Remove all sessionsIds put in URLs
+- [[OFBIZ-6879](https://issues.apache.org/jira/browse/OFBIZ-6879)] - Remove forceHttpSession feature
+- [[OFBIZ-6884](https://issues.apache.org/jira/browse/OFBIZ-6884)] - Replace Static[&quot;org.ofbiz.base.util.UtilProperties&quot;].getPropertyValue in .ftl files with EntityUtilProperties variant
+- [[OFBIZ-6886](https://issues.apache.org/jira/browse/OFBIZ-6886)] - Hide sessionId in logs by default, show them using a properties
+- [[OFBIZ-6905](https://issues.apache.org/jira/browse/OFBIZ-6905)] - Update Xalan libs to version 2.7.2 because of CVE-2014-0107
+- [[OFBIZ-6913](https://issues.apache.org/jira/browse/OFBIZ-6913)] - Update Tomcat to 7.0.68
+- [[OFBIZ-6916](https://issues.apache.org/jira/browse/OFBIZ-6916)] - Upgrade Axis2 to 1.7.1
+- [[OFBIZ-6926](https://issues.apache.org/jira/browse/OFBIZ-6926)] - Replace the contrast Java agent by the notsoserial Java agent
+- [[OFBIZ-6960](https://issues.apache.org/jira/browse/OFBIZ-6960)] - relocate .ftl files in the specialpurpose/myportal component
+- [[OFBIZ-6975](https://issues.apache.org/jira/browse/OFBIZ-6975)] - relocate .ftl files in the securityext component
+- [[OFBIZ-6981](https://issues.apache.org/jira/browse/OFBIZ-6981)] - Move all Groovy scripts in components WEB-INF/actions sub-folders
+- [[OFBIZ-7021](https://issues.apache.org/jira/browse/OFBIZ-7021)] - Rename .ftl file as per best practises
+- [[OFBIZ-7022](https://issues.apache.org/jira/browse/OFBIZ-7022)] - relocate .ftl files in the theme components
+- [[OFBIZ-7197](https://issues.apache.org/jira/browse/OFBIZ-7197)] - Order: Arrange UI labels in alphabetic order.
+- [[OFBIZ-7198](https://issues.apache.org/jira/browse/OFBIZ-7198)] - Product : Arrange UI labels in alphabetic order
+- [[OFBIZ-7204](https://issues.apache.org/jira/browse/OFBIZ-7204)] - Accounting: Arrange UI labels in alphabetic order
+- [[OFBIZ-7206](https://issues.apache.org/jira/browse/OFBIZ-7206)] - Marketing : Arrange UI labels in alphabetic order
+- [[OFBIZ-7219](https://issues.apache.org/jira/browse/OFBIZ-7219)] - relocate .groovy files in the accounting component
+- [[OFBIZ-7221](https://issues.apache.org/jira/browse/OFBIZ-7221)] - relocate .groovy files in the framework/webtools component
+- [[OFBIZ-7222](https://issues.apache.org/jira/browse/OFBIZ-7222)] - relocate .groovy files in the commonext component
+- [[OFBIZ-7223](https://issues.apache.org/jira/browse/OFBIZ-7223)] - relocate .groovy files in the content component
+- [[OFBIZ-7224](https://issues.apache.org/jira/browse/OFBIZ-7224)] - relocate .groovy files in the humanres component
+- [[OFBIZ-7225](https://issues.apache.org/jira/browse/OFBIZ-7225)] - relocate .groovy files in the manufacturing component
+- [[OFBIZ-7226](https://issues.apache.org/jira/browse/OFBIZ-7226)] - relocate .groovy files in the marketing component
+- [[OFBIZ-7227](https://issues.apache.org/jira/browse/OFBIZ-7227)] - relocate .groovy files in the order component
+- [[OFBIZ-7228](https://issues.apache.org/jira/browse/OFBIZ-7228)] - relocate .groovy files in the party component
+- [[OFBIZ-7229](https://issues.apache.org/jira/browse/OFBIZ-7229)] - relocate .groovy files in the product component
+- [[OFBIZ-7230](https://issues.apache.org/jira/browse/OFBIZ-7230)] - relocate .groovy files in the workeffort component
+- [[OFBIZ-7231](https://issues.apache.org/jira/browse/OFBIZ-7231)] - relocate .groovy files in the framework/common component
+- [[OFBIZ-7232](https://issues.apache.org/jira/browse/OFBIZ-7232)] - relocate .groovy files in the specialpurpose/assetmaint component
+- [[OFBIZ-7233](https://issues.apache.org/jira/browse/OFBIZ-7233)] - relocate .groovy files in the specialpurpose/bi component
+- [[OFBIZ-7234](https://issues.apache.org/jira/browse/OFBIZ-7234)] - relocate .groovy files in the specialpurpose/birt component
+- [[OFBIZ-7235](https://issues.apache.org/jira/browse/OFBIZ-7235)] - relocate .groovy files in the specialpurpose/ebay component
+- [[OFBIZ-7236](https://issues.apache.org/jira/browse/OFBIZ-7236)] - relocate .groovy files in the specialpurpose/ebaystore component
+- [[OFBIZ-7237](https://issues.apache.org/jira/browse/OFBIZ-7237)] - relocate .groovy files in the specialpurpose/ecommerce component
+- [[OFBIZ-7238](https://issues.apache.org/jira/browse/OFBIZ-7238)] - relocate .groovy files in the specialpurpose/example component
+- [[OFBIZ-7239](https://issues.apache.org/jira/browse/OFBIZ-7239)] - relocate .groovy files in the specialpurpose/googlebase component
+- [[OFBIZ-7240](https://issues.apache.org/jira/browse/OFBIZ-7240)] - relocate .groovy files in the specialpurpose/hhfacilit component
+- [[OFBIZ-7241](https://issues.apache.org/jira/browse/OFBIZ-7241)] - relocate .groovy files in the specialpurpose/lucene component
+- [[OFBIZ-7242](https://issues.apache.org/jira/browse/OFBIZ-7242)] - relocate .groovy files in the specialpurpose/passport component
+- [[OFBIZ-7243](https://issues.apache.org/jira/browse/OFBIZ-7243)] - relocate .groovy files in the specialpurpose/scrum component
+- [[OFBIZ-7244](https://issues.apache.org/jira/browse/OFBIZ-7244)] - relocate .groovy files in the specialpurpose/webpos component
+- [[OFBIZ-7245](https://issues.apache.org/jira/browse/OFBIZ-7245)] - Rename .groovy file as per best practises
+- [[OFBIZ-7278](https://issues.apache.org/jira/browse/OFBIZ-7278)] - birt : Arrange Ui labels in alphabetic order according to best practice.
+- [[OFBIZ-7279](https://issues.apache.org/jira/browse/OFBIZ-7279)] - ebay : Arrange UI labels in alphabetic order according to best practice.
+- [[OFBIZ-7317](https://issues.apache.org/jira/browse/OFBIZ-7317)] - Net Before Overhead Report is not working
+- [[OFBIZ-7318](https://issues.apache.org/jira/browse/OFBIZ-7318)] - Order By Referrer is not working
+- [[OFBIZ-7348](https://issues.apache.org/jira/browse/OFBIZ-7348)] - Upgrade Tomcat to 8.5.3 (or 8.0.36)
+- [[OFBIZ-7378](https://issues.apache.org/jira/browse/OFBIZ-7378)] - Enforce noninstantiability to InvoiceWorker Class
+- [[OFBIZ-7379](https://issues.apache.org/jira/browse/OFBIZ-7379)] - Enforce noninstantiability to PaymentWorker class
+- [[OFBIZ-7380](https://issues.apache.org/jira/browse/OFBIZ-7380)] - Enforce noninstantiability to SagePayUtil class
+- [[OFBIZ-7382](https://issues.apache.org/jira/browse/OFBIZ-7382)] - Enforce noninstantiability to UtilAccounting Class
+- [[OFBIZ-7383](https://issues.apache.org/jira/browse/OFBIZ-7383)] - Enforce noninstantiability to ContentManagementWorker class
+- [[OFBIZ-7388](https://issues.apache.org/jira/browse/OFBIZ-7388)] - Enforce noninstantiability to LayoutWorker class
+- [[OFBIZ-7391](https://issues.apache.org/jira/browse/OFBIZ-7391)] - Enforce noninstantiability to OpenOfficeWorker class
+- [[OFBIZ-7393](https://issues.apache.org/jira/browse/OFBIZ-7393)] - Enforce noninstantiability to BOMHelper class
+- [[OFBIZ-7397](https://issues.apache.org/jira/browse/OFBIZ-7397)] - Enforce noninstantiability to ProductionRunHelper class
+- [[OFBIZ-7398](https://issues.apache.org/jira/browse/OFBIZ-7398)] - Enforce noninstantiability to SolrUtil Class
+- [[OFBIZ-7399](https://issues.apache.org/jira/browse/OFBIZ-7399)] - Enforce noninstantiability to ReportHelper class
+- [[OFBIZ-7401](https://issues.apache.org/jira/browse/OFBIZ-7401)] - Enforce noninstantiability to OrderChangeHelper class
+- [[OFBIZ-7405](https://issues.apache.org/jira/browse/OFBIZ-7405)] - Enforce noninstantiability to SearchWorker Class
+- [[OFBIZ-7408](https://issues.apache.org/jira/browse/OFBIZ-7408)] - Enforce noninstantiability to ProductDisplayWorker class
+- [[OFBIZ-7410](https://issues.apache.org/jira/browse/OFBIZ-7410)] - Enforce noninstantiability to BirtWorker Class
+- [[OFBIZ-7412](https://issues.apache.org/jira/browse/OFBIZ-7412)] - Enforce noninstantiability to UtilHelpText Class
+- [[OFBIZ-7413](https://issues.apache.org/jira/browse/OFBIZ-7413)] - Enforce noninstantiability to ProductPromoWorker class
+- [[OFBIZ-7417](https://issues.apache.org/jira/browse/OFBIZ-7417)] - Enforce noninstantiability to TaskWorker class
+- [[OFBIZ-7419](https://issues.apache.org/jira/browse/OFBIZ-7419)] - Enforce noninstantiability to PartyRelationshipHelper class
+- [[OFBIZ-7420](https://issues.apache.org/jira/browse/OFBIZ-7420)] - Enforce noninstantiability to WidgetPortalPageWorker Class
+- [[OFBIZ-7422](https://issues.apache.org/jira/browse/OFBIZ-7422)] - Enforce noninstantiability to WidgetDataResourceWorker Class
+- [[OFBIZ-7423](https://issues.apache.org/jira/browse/OFBIZ-7423)] - Enforce noninstantiability to PartyTypeHelper class
+- [[OFBIZ-7426](https://issues.apache.org/jira/browse/OFBIZ-7426)] - Enforce noninstantiability to SeoConfigUtil class
+- [[OFBIZ-7428](https://issues.apache.org/jira/browse/OFBIZ-7428)] - Enforce noninstantiability to WidgetContentWorker Class
+- [[OFBIZ-7431](https://issues.apache.org/jira/browse/OFBIZ-7431)] - Enforce noninstantiability to SeoUrlUtil class
+- [[OFBIZ-7433](https://issues.apache.org/jira/browse/OFBIZ-7433)] - Enforce noninstantiability to UtilCacheEvents Class
+- [[OFBIZ-7445](https://issues.apache.org/jira/browse/OFBIZ-7445)] - Enforce noninstantiability to ProductConfigWorker class
+- [[OFBIZ-7446](https://issues.apache.org/jira/browse/OFBIZ-7446)] - Enforce noninstantiability to WebSiteWorker Class
+- [[OFBIZ-7447](https://issues.apache.org/jira/browse/OFBIZ-7447)] - Enforce noninstantiability to ImageManagementHelper class
+- [[OFBIZ-7448](https://issues.apache.org/jira/browse/OFBIZ-7448)] - Enforce noninstantiability to InventoryWorker class
+- [[OFBIZ-7450](https://issues.apache.org/jira/browse/OFBIZ-7450)] - Enforce noninstantiability to ProductUtilServices class
+- [[OFBIZ-7453](https://issues.apache.org/jira/browse/OFBIZ-7453)] - Enforce noninstantiability to WebDavUtil Class
+- [[OFBIZ-7455](https://issues.apache.org/jira/browse/OFBIZ-7455)] - Enforce noninstantiability to ImportProductHelper class
+- [[OFBIZ-7459](https://issues.apache.org/jira/browse/OFBIZ-7459)] - Enforce noninstantiability to ApacheFopWorker Class
+- [[OFBIZ-7460](https://issues.apache.org/jira/browse/OFBIZ-7460)] - Enforce noninstantiability to ProductStoreWorker class
+- [[OFBIZ-7463](https://issues.apache.org/jira/browse/OFBIZ-7463)] - Enforce noninstantiability to ShipmentWorker class
+- [[OFBIZ-7464](https://issues.apache.org/jira/browse/OFBIZ-7464)] - Require check on Add Facility Party Role Screen
+- [[OFBIZ-7466](https://issues.apache.org/jira/browse/OFBIZ-7466)] - Enforce noninstantiability to ProtectViewWorker Class
+- [[OFBIZ-7467](https://issues.apache.org/jira/browse/OFBIZ-7467)] - WebSocket Example - Push Notifications
+- [[OFBIZ-7470](https://issues.apache.org/jira/browse/OFBIZ-7470)] - Enforce noninstantiability to WorkEffortWorker class
+- [[OFBIZ-7474](https://issues.apache.org/jira/browse/OFBIZ-7474)] - Enforce noninstantiability to ServiceMcaUtil Class
+- [[OFBIZ-7479](https://issues.apache.org/jira/browse/OFBIZ-7479)] - Enforce noninstantiability to BshUtil class
+- [[OFBIZ-7483](https://issues.apache.org/jira/browse/OFBIZ-7483)] - Do end to end verification of WebSocket Example- Push Notifications
+- [[OFBIZ-7499](https://issues.apache.org/jira/browse/OFBIZ-7499)] - Incorporate the readme for the Accounting component
+- [[OFBIZ-7500](https://issues.apache.org/jira/browse/OFBIZ-7500)] - Incorporate the readme for the commonExt component
+- [[OFBIZ-7501](https://issues.apache.org/jira/browse/OFBIZ-7501)] - Incorporate the readme for the Content component
+- [[OFBIZ-7502](https://issues.apache.org/jira/browse/OFBIZ-7502)] - Incorporate the readme for the datamodel component
+- [[OFBIZ-7505](https://issues.apache.org/jira/browse/OFBIZ-7505)] - Incorporate a readme for the Order component
+- [[OFBIZ-7507](https://issues.apache.org/jira/browse/OFBIZ-7507)] - Incorporate the readme for the Product component
+- [[OFBIZ-7540](https://issues.apache.org/jira/browse/OFBIZ-7540)] - Enforce noninstantiability to FileUtil class
+- [[OFBIZ-7541](https://issues.apache.org/jira/browse/OFBIZ-7541)] - Enforce noninstantiability to KeyStoreUtil class
+- [[OFBIZ-7551](https://issues.apache.org/jira/browse/OFBIZ-7551)] - Enforce noninstantiability to SSLUtil class
+- [[OFBIZ-7562](https://issues.apache.org/jira/browse/OFBIZ-7562)] - Enforce noninstantiability to UtilDateTime class
+- [[OFBIZ-7565](https://issues.apache.org/jira/browse/OFBIZ-7565)] - Remove HtmlFormWrapper dependencies from Survey Question Screen
+- [[OFBIZ-7566](https://issues.apache.org/jira/browse/OFBIZ-7566)] - Remove HtmlFormWrapper dependencies from Production Run Screen
+- [[OFBIZ-7567](https://issues.apache.org/jira/browse/OFBIZ-7567)] - Remove HtmlFormWrapper dependencies from Production Run Cost screen
+- [[OFBIZ-7568](https://issues.apache.org/jira/browse/OFBIZ-7568)] - Remove HtmlFormWrapper dependencies from Calendar Exception Day screen
+- [[OFBIZ-7569](https://issues.apache.org/jira/browse/OFBIZ-7569)] - Remove HtmlFormWrapper dependencies from Calendar Exception Week screen
+- [[OFBIZ-7570](https://issues.apache.org/jira/browse/OFBIZ-7570)] - Remove HtmlFormWrapper dependencies from Order Delivery Schedule Info screen
+- [[OFBIZ-7571](https://issues.apache.org/jira/browse/OFBIZ-7571)] - Remove HtmlFormWrapper dependencies from Product Config Item Content screen
+- [[OFBIZ-7572](https://issues.apache.org/jira/browse/OFBIZ-7572)] - Remove HtmlFormWrapper dependencies from Content Search screen
+- [[OFBIZ-7573](https://issues.apache.org/jira/browse/OFBIZ-7573)] - Remove unused import related to HtmlFormWrapper and unused file using it
+- [[OFBIZ-7574](https://issues.apache.org/jira/browse/OFBIZ-7574)] - Remove HtmlFormWrapper Class after removing all its dependencies
+- [[OFBIZ-7587](https://issues.apache.org/jira/browse/OFBIZ-7587)] - Enforce noninstantiability to UtilFormatOut class
+- [[OFBIZ-7588](https://issues.apache.org/jira/browse/OFBIZ-7588)] - Enforce noninstantiability to UtilGenerics class
+- [[OFBIZ-7589](https://issues.apache.org/jira/browse/OFBIZ-7589)] - Enforce noninstantiability to UtilHttp class
+- [[OFBIZ-7590](https://issues.apache.org/jira/browse/OFBIZ-7590)] - Enforce noninstantiability to UtilIO class
+- [[OFBIZ-7591](https://issues.apache.org/jira/browse/OFBIZ-7591)] - Enforce noninstantiability to UtilJavaParse class
+- [[OFBIZ-7593](https://issues.apache.org/jira/browse/OFBIZ-7593)] - Enforce noninstantiability to UtilNumber class
+- [[OFBIZ-7600](https://issues.apache.org/jira/browse/OFBIZ-7600)] - Enforce noninstantiability to UtilPlist class
+- [[OFBIZ-7601](https://issues.apache.org/jira/browse/OFBIZ-7601)] - Enforce noninstantiability to UtilURL class
+- [[OFBIZ-7616](https://issues.apache.org/jira/browse/OFBIZ-7616)] - Add &quot;changeByUserLoginId&quot; field for PartyStatus
+- [[OFBIZ-7617](https://issues.apache.org/jira/browse/OFBIZ-7617)] - Add &quot;changeByUserLoginId&quot; field for InvoiceStatus
+- [[OFBIZ-7618](https://issues.apache.org/jira/browse/OFBIZ-7618)] - Add &quot;changeByUserLoginId&quot; field for ShipmentStatus
+- [[OFBIZ-7619](https://issues.apache.org/jira/browse/OFBIZ-7619)] - Add &quot;changeByUserLoginId&quot; field for BudgetStatus
+- [[OFBIZ-7620](https://issues.apache.org/jira/browse/OFBIZ-7620)] - Add &quot;changeByUserLoginId&quot; field for ContactListCommStatus
+- [[OFBIZ-7621](https://issues.apache.org/jira/browse/OFBIZ-7621)] - Add &quot;changeByUserLoginId&quot; field for RequirementStatus
+- [[OFBIZ-7623](https://issues.apache.org/jira/browse/OFBIZ-7623)] - Add &quot;changeByUserLoginId&quot; field for FinAccountStatus
+- [[OFBIZ-7624](https://issues.apache.org/jira/browse/OFBIZ-7624)] - Add &quot;changeByUserLoginId&quot; field for InventoryItemStatus
+- [[OFBIZ-7625](https://issues.apache.org/jira/browse/OFBIZ-7625)] - Add &quot;changeByUserLoginId&quot; field for ExampleStatus
+- [[OFBIZ-7630](https://issues.apache.org/jira/browse/OFBIZ-7630)] - Enforce noninstantiability to ServiceEcaUtil class
+- [[OFBIZ-7636](https://issues.apache.org/jira/browse/OFBIZ-7636)] - Framework : FTL formatting
+- [[OFBIZ-7656](https://issues.apache.org/jira/browse/OFBIZ-7656)] - Use &#39;conditionField&#39; in LookupCustomerName
+- [[OFBIZ-7657](https://issues.apache.org/jira/browse/OFBIZ-7657)] - Use &#39;conditionFields&#39; in LookupContact
+- [[OFBIZ-7658](https://issues.apache.org/jira/browse/OFBIZ-7658)] - Use &#39;conditionFields&#39; in LookupInternalOrganization
+- [[OFBIZ-7659](https://issues.apache.org/jira/browse/OFBIZ-7659)] - Use &#39;conditionFields&#39; in LookupVirtualProduct
+- [[OFBIZ-7672](https://issues.apache.org/jira/browse/OFBIZ-7672)] - Create demo PartyStatus data for existing parties for special purpose component
+- [[OFBIZ-7673](https://issues.apache.org/jira/browse/OFBIZ-7673)] - Create demo PartyStatus data for existing parties for applications component
+- [[OFBIZ-7678](https://issues.apache.org/jira/browse/OFBIZ-7678)] - BI : FTL formatting
+- [[OFBIZ-7679](https://issues.apache.org/jira/browse/OFBIZ-7679)] - Asset Maintenance : FTL formatting
+- [[OFBIZ-7684](https://issues.apache.org/jira/browse/OFBIZ-7684)] - Enforce noninstantiability to ServiceConfigUtil class
+- [[OFBIZ-7685](https://issues.apache.org/jira/browse/OFBIZ-7685)] - Enforce noninstantiability to RecurrenceUtil class
+- [[OFBIZ-7686](https://issues.apache.org/jira/browse/OFBIZ-7686)] - Enforce noninstantiability to EntityEcaUtil class
+- [[OFBIZ-7687](https://issues.apache.org/jira/browse/OFBIZ-7687)] - Enforce noninstantiability to KeywordSearchUtil class
+- [[OFBIZ-7688](https://issues.apache.org/jira/browse/OFBIZ-7688)] - Enforce noninstantiability to StatusWorker class
+- [[OFBIZ-7689](https://issues.apache.org/jira/browse/OFBIZ-7689)] - Enforce noninstantiability to PeriodWorker class
+- [[OFBIZ-7690](https://issues.apache.org/jira/browse/OFBIZ-7690)] - Enforce noninstantiability to PreferenceWorker class
+- [[OFBIZ-7691](https://issues.apache.org/jira/browse/OFBIZ-7691)] - Enforce noninstantiability to GeoWorker class
+- [[OFBIZ-7692](https://issues.apache.org/jira/browse/OFBIZ-7692)] - Enforce noninstantiability to AuthHelper class
+- [[OFBIZ-7708](https://issues.apache.org/jira/browse/OFBIZ-7708)] - Enforce noninstantiability to UrlServletHelper class
+- [[OFBIZ-7710](https://issues.apache.org/jira/browse/OFBIZ-7710)] - Enforce noninstantiability to EntityFinderUtil class
+- [[OFBIZ-7715](https://issues.apache.org/jira/browse/OFBIZ-7715)] - Enforce noninstantiability to SqlJdbcUtil class
+- [[OFBIZ-7716](https://issues.apache.org/jira/browse/OFBIZ-7716)] - Enforce noninstantiability to CommonWorkers class
+- [[OFBIZ-7717](https://issues.apache.org/jira/browse/OFBIZ-7717)] - Enforce noninstantiability to EntityTypeUtil class
+- [[OFBIZ-7720](https://issues.apache.org/jira/browse/OFBIZ-7720)] - One generic functionality for select all checkbox by removing currently written multiple functionality
+- [[OFBIZ-7723](https://issues.apache.org/jira/browse/OFBIZ-7723)] - Use Pandoc to integrate our README.MD from repo to Confluence
+- [[OFBIZ-7726](https://issues.apache.org/jira/browse/OFBIZ-7726)] - Add UI labels for success / error messages in accounting component
+- [[OFBIZ-7732](https://issues.apache.org/jira/browse/OFBIZ-7732)] - Enforce noninstantiability to ModelUtil class
+- [[OFBIZ-7733](https://issues.apache.org/jira/browse/OFBIZ-7733)] - Enforce noninstantiability to EntityUtil class
+- [[OFBIZ-7740](https://issues.apache.org/jira/browse/OFBIZ-7740)] - Enforce noninstantiability to EntityUtilProperties class
+- [[OFBIZ-7742](https://issues.apache.org/jira/browse/OFBIZ-7742)] - Enforce noninstantiability to EntityGroupUtil class
+- [[OFBIZ-7744](https://issues.apache.org/jira/browse/OFBIZ-7744)] - Enforce noninstantiability to MiniLangUtil class
+- [[OFBIZ-7749](https://issues.apache.org/jira/browse/OFBIZ-7749)] - iterateOverActiveComponents exists twice
+- [[OFBIZ-7756](https://issues.apache.org/jira/browse/OFBIZ-7756)] - Make Create Menu tab bar for facility consistent
+- [[OFBIZ-7761](https://issues.apache.org/jira/browse/OFBIZ-7761)] - workeffort: Remove unused imports from groovy files for code optimization
+- [[OFBIZ-7764](https://issues.apache.org/jira/browse/OFBIZ-7764)] - converting the calls from ${bsh: to groovy calls.
+- [[OFBIZ-7765](https://issues.apache.org/jira/browse/OFBIZ-7765)] - Replace &lt;call-bsh&gt; call with &lt;script&gt;groovy:
+- [[OFBIZ-7774](https://issues.apache.org/jira/browse/OFBIZ-7774)] - Fix or remove scripts in tools folder
+- [[OFBIZ-7776](https://issues.apache.org/jira/browse/OFBIZ-7776)] - Remove warnings regarding missing component lib folders
+- [[OFBIZ-7782](https://issues.apache.org/jira/browse/OFBIZ-7782)] - Duplicates of .properties and Label files appear in build/libs.ofbiz.jar
+- [[OFBIZ-7795](https://issues.apache.org/jira/browse/OFBIZ-7795)] - Clean the tools directory
+- [[OFBIZ-7799](https://issues.apache.org/jira/browse/OFBIZ-7799)] - Enforce noninstantiability to CatalogWorker class
+- [[OFBIZ-7800](https://issues.apache.org/jira/browse/OFBIZ-7800)] - Enforce noninstantiability to CategoryWorker class
+- [[OFBIZ-7802](https://issues.apache.org/jira/browse/OFBIZ-7802)] - Enforce noninstantiability to ProductWorker class
+- [[OFBIZ-7803](https://issues.apache.org/jira/browse/OFBIZ-7803)] - Enforce noninstantiability to UtilMisc class
+- [[OFBIZ-7804](https://issues.apache.org/jira/browse/OFBIZ-7804)] - Check if we should fix or remove the POS (hence WebPos?)
+- [[OFBIZ-7806](https://issues.apache.org/jira/browse/OFBIZ-7806)] - Enforce noninstantiability to UtilProperties class
+- [[OFBIZ-7807](https://issues.apache.org/jira/browse/OFBIZ-7807)] - Enforce noninstantiability to UtilValidate class
+- [[OFBIZ-7809](https://issues.apache.org/jira/browse/OFBIZ-7809)] - Enforce noninstantiability to UtilXml class
+- [[OFBIZ-7810](https://issues.apache.org/jira/browse/OFBIZ-7810)] - Enforce noninstantiability to UelUtil class
+- [[OFBIZ-7811](https://issues.apache.org/jira/browse/OFBIZ-7811)] - Enforce noninstantiability to FreeMarkerWorker class
+- [[OFBIZ-7813](https://issues.apache.org/jira/browse/OFBIZ-7813)] - Investigate how we could use Gradle GUI to provide users a friendly UX when using plugins
+- [[OFBIZ-7815](https://issues.apache.org/jira/browse/OFBIZ-7815)] - OFBiz secured background process does not work on Windows
+- [[OFBIZ-7818](https://issues.apache.org/jira/browse/OFBIZ-7818)] - Make Create Menu tab bar for workeffort consistent
+- [[OFBIZ-7822](https://issues.apache.org/jira/browse/OFBIZ-7822)] - Make Create Menu tab bar for iCalendar consistent
+- [[OFBIZ-7826](https://issues.apache.org/jira/browse/OFBIZ-7826)] - Clean up commented out code in Java source for Accounting
+- [[OFBIZ-7829](https://issues.apache.org/jira/browse/OFBIZ-7829)] - hhfacility: Remove unused imports from Groovy files for code optimization
+- [[OFBIZ-7831](https://issues.apache.org/jira/browse/OFBIZ-7831)] - Improvements in AccommodationClass entity definition and services
+- [[OFBIZ-7832](https://issues.apache.org/jira/browse/OFBIZ-7832)] - Make Create Menu tab bar for timesheet consistent
+- [[OFBIZ-7837](https://issues.apache.org/jira/browse/OFBIZ-7837)] - Improvements in AccommodationMapType entity definition and services
+- [[OFBIZ-7838](https://issues.apache.org/jira/browse/OFBIZ-7838)] - Clean up commented out code in Java source for Content
+- [[OFBIZ-7839](https://issues.apache.org/jira/browse/OFBIZ-7839)] - Improvements in AccommodationMap entity definition and services
+- [[OFBIZ-7841](https://issues.apache.org/jira/browse/OFBIZ-7841)] - Make Create Menu tab bar for quote consistent
+- [[OFBIZ-7845](https://issues.apache.org/jira/browse/OFBIZ-7845)] - Improvements in AcctgTransAttribute entity definition and services
+- [[OFBIZ-7846](https://issues.apache.org/jira/browse/OFBIZ-7846)] - Improvements in AccommodationSpot entity definition and services
+- [[OFBIZ-7847](https://issues.apache.org/jira/browse/OFBIZ-7847)] - Improvements in AcctgTransEntryType entity definition and services
+- [[OFBIZ-7848](https://issues.apache.org/jira/browse/OFBIZ-7848)] - Clean up commented out code in Java source for Manufacturing
+- [[OFBIZ-7851](https://issues.apache.org/jira/browse/OFBIZ-7851)] - Clean up commented out code in Java source for Marketing
+- [[OFBIZ-7853](https://issues.apache.org/jira/browse/OFBIZ-7853)] - Improvements in AcctgTransType entity definition and services
+- [[OFBIZ-7854](https://issues.apache.org/jira/browse/OFBIZ-7854)] - Clean up commented out code in Java source for Order
+- [[OFBIZ-7855](https://issues.apache.org/jira/browse/OFBIZ-7855)] - Clean up commented out code in Java source for Party
+- [[OFBIZ-7856](https://issues.apache.org/jira/browse/OFBIZ-7856)] - Clean up commented out code in Java source for Product
+- [[OFBIZ-7857](https://issues.apache.org/jira/browse/OFBIZ-7857)] - Clean up commented out code in Java source for Workeffort
+- [[OFBIZ-7859](https://issues.apache.org/jira/browse/OFBIZ-7859)] - Improvements in AcctgTransTypeAttr entity definition and services
+- [[OFBIZ-7860](https://issues.apache.org/jira/browse/OFBIZ-7860)] - Clean up commented out code in Free Marker Template for Accounting
+- [[OFBIZ-7861](https://issues.apache.org/jira/browse/OFBIZ-7861)] - Improvements in AgreementItemType entity definition and services
+- [[OFBIZ-7862](https://issues.apache.org/jira/browse/OFBIZ-7862)] - Improvements in AgreementItemTypeAttr entity definition and services
+- [[OFBIZ-7864](https://issues.apache.org/jira/browse/OFBIZ-7864)] - Ebaystore : FTL formatting
+- [[OFBIZ-7865](https://issues.apache.org/jira/browse/OFBIZ-7865)] - Example : FTL formatting
+- [[OFBIZ-7868](https://issues.apache.org/jira/browse/OFBIZ-7868)] - Improvements in AgreementAttribute entity definition and services
+- [[OFBIZ-7869](https://issues.apache.org/jira/browse/OFBIZ-7869)] - Improvements in AgreementTermAttribute entity definition and services
+- [[OFBIZ-7870](https://issues.apache.org/jira/browse/OFBIZ-7870)] - Improvements in AgreementTypeAttr entity definition and services
+- [[OFBIZ-7871](https://issues.apache.org/jira/browse/OFBIZ-7871)] - Improvements in AgreementType entity definition and services
+- [[OFBIZ-7872](https://issues.apache.org/jira/browse/OFBIZ-7872)] - Clean up commented out code in Free Marker Template for Content
+- [[OFBIZ-7873](https://issues.apache.org/jira/browse/OFBIZ-7873)] - Improvements in BillingAccountTermAttr entity definition and services
+- [[OFBIZ-7874](https://issues.apache.org/jira/browse/OFBIZ-7874)] - Improvements in BenefitType entity definition and services
+- [[OFBIZ-7876](https://issues.apache.org/jira/browse/OFBIZ-7876)] - Inconsistencies on the title and the label on button of create forms related to manufacturing.
+- [[OFBIZ-7878](https://issues.apache.org/jira/browse/OFBIZ-7878)] - Improvements in BudgetAttribute entity definition and services
+- [[OFBIZ-7880](https://issues.apache.org/jira/browse/OFBIZ-7880)] - Improvements in BudgetItemAttribute entity definition and services
+- [[OFBIZ-7881](https://issues.apache.org/jira/browse/OFBIZ-7881)] - Remove unused variables from java files of accounting component
+- [[OFBIZ-7882](https://issues.apache.org/jira/browse/OFBIZ-7882)] - Improvements in BudgetItemType entity definition and services
+- [[OFBIZ-7883](https://issues.apache.org/jira/browse/OFBIZ-7883)] - Improvements in BudgetItemTypeAttr entity definition and services
+- [[OFBIZ-7884](https://issues.apache.org/jira/browse/OFBIZ-7884)] - Remove unused variables from java files of content component
+- [[OFBIZ-7885](https://issues.apache.org/jira/browse/OFBIZ-7885)] - Remove unused variables from java files of product component
+- [[OFBIZ-7886](https://issues.apache.org/jira/browse/OFBIZ-7886)] - Remove unused variables from java files of workeffort component
+- [[OFBIZ-7887](https://issues.apache.org/jira/browse/OFBIZ-7887)] - Remove unused variables from java files of order component
+- [[OFBIZ-7889](https://issues.apache.org/jira/browse/OFBIZ-7889)] - Improvements in BudgetReviewResultType entity definition and services
+- [[OFBIZ-7890](https://issues.apache.org/jira/browse/OFBIZ-7890)] - Improvements in BudgetRevision entity definition and services
+- [[OFBIZ-7891](https://issues.apache.org/jira/browse/OFBIZ-7891)] - Improvements in BudgetRevisionImpact entity definition and services
+- [[OFBIZ-7893](https://issues.apache.org/jira/browse/OFBIZ-7893)] - Rename generated \*ofbiz-gradle.jar\* to \*ofbiz.jar\*
+- [[OFBIZ-7894](https://issues.apache.org/jira/browse/OFBIZ-7894)] - Clean up commented out code in Free Marker Template for Manufacturing
+- [[OFBIZ-7895](https://issues.apache.org/jira/browse/OFBIZ-7895)] - ebay : Remove unused imports from groovy files.
+- [[OFBIZ-7896](https://issues.apache.org/jira/browse/OFBIZ-7896)] - Order: Remove inline js for toggleAll, checkToggle and selectAll calling from ftls
+- [[OFBIZ-7897](https://issues.apache.org/jira/browse/OFBIZ-7897)] - Introduce unit tests to the start component
+- [[OFBIZ-7901](https://issues.apache.org/jira/browse/OFBIZ-7901)] - Remove system generated fields - Content
+- [[OFBIZ-7902](https://issues.apache.org/jira/browse/OFBIZ-7902)] - Remove system generated fields - Ecommerce
+- [[OFBIZ-7903](https://issues.apache.org/jira/browse/OFBIZ-7903)] - Remove system generated fields - Marketing
+- [[OFBIZ-7904](https://issues.apache.org/jira/browse/OFBIZ-7904)] - Remove system generated fields - Product
+- [[OFBIZ-7905](https://issues.apache.org/jira/browse/OFBIZ-7905)] - Remove system generated fields - Scrum
+- [[OFBIZ-7908](https://issues.apache.org/jira/browse/OFBIZ-7908)] - Remove system generated fields - POS
+- [[OFBIZ-7909](https://issues.apache.org/jira/browse/OFBIZ-7909)] - Remove system generated fields - Accounting
+- [[OFBIZ-7910](https://issues.apache.org/jira/browse/OFBIZ-7910)] - Improve component template(s) to work with the Gradle solution
+- [[OFBIZ-7911](https://issues.apache.org/jira/browse/OFBIZ-7911)] - Enforce noninstantiability to TransactionUtil class
+- [[OFBIZ-7912](https://issues.apache.org/jira/browse/OFBIZ-7912)] - Enforce noninstantiability to ServiceUtil class
+- [[OFBIZ-7913](https://issues.apache.org/jira/browse/OFBIZ-7913)] - Enforce noninstantiability to TemporalExpressionWorker class
+- [[OFBIZ-7914](https://issues.apache.org/jira/browse/OFBIZ-7914)] - Enforce noninstantiability to ProductUtil class
+- [[OFBIZ-7915](https://issues.apache.org/jira/browse/OFBIZ-7915)] - Enforce noninstantiability to CategoryUtil class
+- [[OFBIZ-7916](https://issues.apache.org/jira/browse/OFBIZ-7916)] - Product: Remove inline js for toggleAll, checkToggle and selectAll calling from ftls
+- [[OFBIZ-7930](https://issues.apache.org/jira/browse/OFBIZ-7930)] - Load the OWASP dependency checker Gradle plugin efficiently
+- [[OFBIZ-7931](https://issues.apache.org/jira/browse/OFBIZ-7931)] - Ecommerce, Ebay: Remove inline js for toggleAll, checkToggle and selectAll calling from ftls
+- [[OFBIZ-7937](https://issues.apache.org/jira/browse/OFBIZ-7937)] - Shortlist the needed resources to start OFBiz in the sourcesets block in Gradle
+- [[OFBIZ-7979](https://issues.apache.org/jira/browse/OFBIZ-7979)] - Add UI labels for success / error messages in birt component
+- [[OFBIZ-7980](https://issues.apache.org/jira/browse/OFBIZ-7980)] - Add UI labels for success / error messages in common component
+- [[OFBIZ-7982](https://issues.apache.org/jira/browse/OFBIZ-7982)] - Enforce noninstantiability to ICalWorker class
+- [[OFBIZ-7983](https://issues.apache.org/jira/browse/OFBIZ-7983)] - Enforce noninstantiability to JNDIConfigUtil class
+- [[OFBIZ-7987](https://issues.apache.org/jira/browse/OFBIZ-7987)] - Add UI labels for success / error messages in content component
+- [[OFBIZ-7990](https://issues.apache.org/jira/browse/OFBIZ-7990)] - Add UI labels for success / error messages in ebay component
+- [[OFBIZ-7991](https://issues.apache.org/jira/browse/OFBIZ-7991)] - Add UI labels for success / error messages in example component
+- [[OFBIZ-7993](https://issues.apache.org/jira/browse/OFBIZ-7993)] - Add UI labels for success / error messages in oagis component
+- [[OFBIZ-7994](https://issues.apache.org/jira/browse/OFBIZ-7994)] - Add UI labels for success / error messages in order component
+- [[OFBIZ-7996](https://issues.apache.org/jira/browse/OFBIZ-7996)] - Add UI labels for success / error messages in party component
+- [[OFBIZ-7997](https://issues.apache.org/jira/browse/OFBIZ-7997)] - Add UI labels for success / error messages in scrum component
+- [[OFBIZ-7998](https://issues.apache.org/jira/browse/OFBIZ-7998)] - Add UI labels for success / error messages in service component
+- [[OFBIZ-7999](https://issues.apache.org/jira/browse/OFBIZ-7999)] - Add UI labels for success / error messages in workeffort component
+- [[OFBIZ-8000](https://issues.apache.org/jira/browse/OFBIZ-8000)] - Improvements in BudgetScenario entity definition and services
+- [[OFBIZ-8002](https://issues.apache.org/jira/browse/OFBIZ-8002)] - Add UI labels for success / error messages in marketing component
+- [[OFBIZ-8003](https://issues.apache.org/jira/browse/OFBIZ-8003)] - Improvements in FacilityGroupType entity definition and services
+- [[OFBIZ-8004](https://issues.apache.org/jira/browse/OFBIZ-8004)] - Add UI labels for success / error messages in solr component
+- [[OFBIZ-8005](https://issues.apache.org/jira/browse/OFBIZ-8005)] - Improvements in BudgetScenarioApplication entity definition and services
+- [[OFBIZ-8006](https://issues.apache.org/jira/browse/OFBIZ-8006)] - Improvements in BudgetScenarioRule entity definition and services
+- [[OFBIZ-8008](https://issues.apache.org/jira/browse/OFBIZ-8008)] - Improvements in GeoAssocType entity definition and services
+- [[OFBIZ-8009](https://issues.apache.org/jira/browse/OFBIZ-8009)] - Add UI labels for success / error messages in ebaystore component
+- [[OFBIZ-8011](https://issues.apache.org/jira/browse/OFBIZ-8011)] - Add UI labels for success / error messages in product component
+- [[OFBIZ-8012](https://issues.apache.org/jira/browse/OFBIZ-8012)] - Improvements in BudgetType entity definition and services
+- [[OFBIZ-8015](https://issues.apache.org/jira/browse/OFBIZ-8015)] - Improvements in BudgetTypeAttr entity definition and services
+- [[OFBIZ-8017](https://issues.apache.org/jira/browse/OFBIZ-8017)] - Improvements in GeoType entity definition and services
+- [[OFBIZ-8018](https://issues.apache.org/jira/browse/OFBIZ-8018)] - Improvements in CarrierShipmentBoxType entity definition and services
+- [[OFBIZ-8019](https://issues.apache.org/jira/browse/OFBIZ-8019)] - Improvements in FacilityTypeAttr entity definition and services
+- [[OFBIZ-8020](https://issues.apache.org/jira/browse/OFBIZ-8020)] - Improvements in CatalinaSession entity definition and services
+- [[OFBIZ-8022](https://issues.apache.org/jira/browse/OFBIZ-8022)] - Improvements in CommContentAssocType entity definition and services
+- [[OFBIZ-8023](https://issues.apache.org/jira/browse/OFBIZ-8023)] - Clean up commented out code in Free Marker Template for SecurityExt
+- [[OFBIZ-8025](https://issues.apache.org/jira/browse/OFBIZ-8025)] - Improvements in FinAccountAttribute entity definition and services
+- [[OFBIZ-8030](https://issues.apache.org/jira/browse/OFBIZ-8030)] - Improvements in FinAccountTransAttribute entity definition and services
+- [[OFBIZ-8031](https://issues.apache.org/jira/browse/OFBIZ-8031)] - Improvements in GlAccountCategoryType entity definition and services
+- [[OFBIZ-8032](https://issues.apache.org/jira/browse/OFBIZ-8032)] - AssetMaint : Remove unused imports from groovy files for code optimization.
+- [[OFBIZ-8033](https://issues.apache.org/jira/browse/OFBIZ-8033)] - Lucene : Remove unused imports from groovy files for code optimization.
+- [[OFBIZ-8034](https://issues.apache.org/jira/browse/OFBIZ-8034)] - Passport : Remove unused imports from groovy files for code optimization.
+- [[OFBIZ-8035](https://issues.apache.org/jira/browse/OFBIZ-8035)] - Clean up commented out code in Free Marker Template for Order
+- [[OFBIZ-8036](https://issues.apache.org/jira/browse/OFBIZ-8036)] - Clean up commented out code in Java source for Base component
+- [[OFBIZ-8037](https://issues.apache.org/jira/browse/OFBIZ-8037)] - Clean up commented out code in Java source for Common component
+- [[OFBIZ-8045](https://issues.apache.org/jira/browse/OFBIZ-8045)] - Accounting: Consistent form name
+- [[OFBIZ-8046](https://issues.apache.org/jira/browse/OFBIZ-8046)] - Content: Consistent form name
+- [[OFBIZ-8047](https://issues.apache.org/jira/browse/OFBIZ-8047)] - Improvements in CommunicationEventType entity definition and services
+- [[OFBIZ-8049](https://issues.apache.org/jira/browse/OFBIZ-8049)] - Improvements in Component entity definition and services
+- [[OFBIZ-8058](https://issues.apache.org/jira/browse/OFBIZ-8058)] - Improvements in ConfigOptionProductOption entity definition and services
+- [[OFBIZ-8059](https://issues.apache.org/jira/browse/OFBIZ-8059)] - Improvements in ContactListType entity definition and services
+- [[OFBIZ-8060](https://issues.apache.org/jira/browse/OFBIZ-8060)] - Improvements in ContactMechPurposeType entity definition and services
+- [[OFBIZ-8061](https://issues.apache.org/jira/browse/OFBIZ-8061)] - Improvements in ContactMechType entity definition and services
+- [[OFBIZ-8062](https://issues.apache.org/jira/browse/OFBIZ-8062)] - Improvements in ContactMechTypeAttr entity definition and services
+- [[OFBIZ-8064](https://issues.apache.org/jira/browse/OFBIZ-8064)] - Clean up commented out code in Free Marker Template for Party
+- [[OFBIZ-8065](https://issues.apache.org/jira/browse/OFBIZ-8065)] - Clean up commented out code in Free Marker Template for WorkEffort
+- [[OFBIZ-8066](https://issues.apache.org/jira/browse/OFBIZ-8066)] - Clean up commented out code in Free Marker Template for Product
+- [[OFBIZ-8067](https://issues.apache.org/jira/browse/OFBIZ-8067)] - Humanres: Consistent form name
+- [[OFBIZ-8068](https://issues.apache.org/jira/browse/OFBIZ-8068)] - Manufacturing: Consistent form name
+- [[OFBIZ-8069](https://issues.apache.org/jira/browse/OFBIZ-8069)] - Clean up commented out code in Groovy for Accounting
+- [[OFBIZ-8070](https://issues.apache.org/jira/browse/OFBIZ-8070)] - Clean up commented out code in Groovy for Content
+- [[OFBIZ-8071](https://issues.apache.org/jira/browse/OFBIZ-8071)] - Clean up commented out code in Groovy for Manufacturing
+- [[OFBIZ-8072](https://issues.apache.org/jira/browse/OFBIZ-8072)] - Clean up commented out code in Groovy for Marketing
+- [[OFBIZ-8073](https://issues.apache.org/jira/browse/OFBIZ-8073)] - Clean up commented out code in Groovy for WorkEffort
+- [[OFBIZ-8074](https://issues.apache.org/jira/browse/OFBIZ-8074)] - Clean up commented out code in Groovy for Order
+- [[OFBIZ-8075](https://issues.apache.org/jira/browse/OFBIZ-8075)] - Clean up commented out code in Groovy for Product
+- [[OFBIZ-8077](https://issues.apache.org/jira/browse/OFBIZ-8077)] - Marketing: Consistent form name
+- [[OFBIZ-8078](https://issues.apache.org/jira/browse/OFBIZ-8078)] - Order: Consistent form name
+- [[OFBIZ-8080](https://issues.apache.org/jira/browse/OFBIZ-8080)] - Improvements in ContactMechTypePurpose entity definition and services
+- [[OFBIZ-8081](https://issues.apache.org/jira/browse/OFBIZ-8081)] - Improvements in Container entity definition and services
+- [[OFBIZ-8082](https://issues.apache.org/jira/browse/OFBIZ-8082)] - Improvements in ContainerType entity definition and services
+- [[OFBIZ-8083](https://issues.apache.org/jira/browse/OFBIZ-8083)] - Improvements in CostComponentAttribute entity definition and services
+- [[OFBIZ-8084](https://issues.apache.org/jira/browse/OFBIZ-8084)] - Improvements in CostComponentType entity definition and services
+- [[OFBIZ-8085](https://issues.apache.org/jira/browse/OFBIZ-8085)] - Remove legal statement from existing readme files
+- [[OFBIZ-8086](https://issues.apache.org/jira/browse/OFBIZ-8086)] - Improvements in CostComponentTypeAttr entity definition and services
+- [[OFBIZ-8087](https://issues.apache.org/jira/browse/OFBIZ-8087)] - Improvements in CountryAddressFormat entity definition and services
+- [[OFBIZ-8088](https://issues.apache.org/jira/browse/OFBIZ-8088)] - Party: Consistent form name
+- [[OFBIZ-8089](https://issues.apache.org/jira/browse/OFBIZ-8089)] - Product: Consistent form name
+- [[OFBIZ-8090](https://issues.apache.org/jira/browse/OFBIZ-8090)] - Workeffort: Consistent form name
+- [[OFBIZ-8091](https://issues.apache.org/jira/browse/OFBIZ-8091)] - Clean up commented out code in XML for Common component
+- [[OFBIZ-8092](https://issues.apache.org/jira/browse/OFBIZ-8092)] - Improvements in CountryCapital entity definition and services
+- [[OFBIZ-8093](https://issues.apache.org/jira/browse/OFBIZ-8093)] - Improvements in CountryCode entity definition and services
+- [[OFBIZ-8094](https://issues.apache.org/jira/browse/OFBIZ-8094)] - Improvements in CountryTeleCode entity definition and services
+- [[OFBIZ-8095](https://issues.apache.org/jira/browse/OFBIZ-8095)] - Improvements in CustRequestCategory entity definition and services
+- [[OFBIZ-8096](https://issues.apache.org/jira/browse/OFBIZ-8096)] - Improvements in CustRequestCommEvent entity definition and services
+- [[OFBIZ-8099](https://issues.apache.org/jira/browse/OFBIZ-8099)] - Common: Consistent form name
+- [[OFBIZ-8100](https://issues.apache.org/jira/browse/OFBIZ-8100)] - Webtools: Consistent form name
+- [[OFBIZ-8101](https://issues.apache.org/jira/browse/OFBIZ-8101)] - Assetmaint: Consistent form name
+- [[OFBIZ-8102](https://issues.apache.org/jira/browse/OFBIZ-8102)] - Maximise the utilisation of the Label CommonStatus in various ecommerce forms
+- [[OFBIZ-8103](https://issues.apache.org/jira/browse/OFBIZ-8103)] - Bi: Consistent form name
+- [[OFBIZ-8104](https://issues.apache.org/jira/browse/OFBIZ-8104)] - Ebaystore: Consistent form name
+- [[OFBIZ-8105](https://issues.apache.org/jira/browse/OFBIZ-8105)] - Ecommerce: Consistent form name
+- [[OFBIZ-8106](https://issues.apache.org/jira/browse/OFBIZ-8106)] - Lucene: Consistent form name
+- [[OFBIZ-8107](https://issues.apache.org/jira/browse/OFBIZ-8107)] - Projectmgr: Consistent form name
+- [[OFBIZ-8108](https://issues.apache.org/jira/browse/OFBIZ-8108)] - Scrum: Consistent form name
+- [[OFBIZ-8122](https://issues.apache.org/jira/browse/OFBIZ-8122)] - Accounting: Consistent menu name
+- [[OFBIZ-8123](https://issues.apache.org/jira/browse/OFBIZ-8123)] - Commonext: Consistent menu name
+- [[OFBIZ-8124](https://issues.apache.org/jira/browse/OFBIZ-8124)] - Ecommerce: Consistent menu name
+- [[OFBIZ-8125](https://issues.apache.org/jira/browse/OFBIZ-8125)] - Order: Consistent menu name
+- [[OFBIZ-8126](https://issues.apache.org/jira/browse/OFBIZ-8126)] - Party: Consistent menu name
+- [[OFBIZ-8127](https://issues.apache.org/jira/browse/OFBIZ-8127)] - Lucene: Consistent menu name
+- [[OFBIZ-8128](https://issues.apache.org/jira/browse/OFBIZ-8128)] - Scrum: Consistent menu name
+- [[OFBIZ-8129](https://issues.apache.org/jira/browse/OFBIZ-8129)] - Webtools: Consistent menu name
+- [[OFBIZ-8130](https://issues.apache.org/jira/browse/OFBIZ-8130)] - Maximise the utilisation of common labels in myportal forms
+- [[OFBIZ-8131](https://issues.apache.org/jira/browse/OFBIZ-8131)] - Improvements in CustRequestResolution entity definition and services
+- [[OFBIZ-8132](https://issues.apache.org/jira/browse/OFBIZ-8132)] - Improvements in CustRequestType entity definition and services
+- [[OFBIZ-8133](https://issues.apache.org/jira/browse/OFBIZ-8133)] - Improvements in CustRequestTypeAttr entity definition and services
+- [[OFBIZ-8134](https://issues.apache.org/jira/browse/OFBIZ-8134)] - Improvements in CustomMethod entity definition and services
+- [[OFBIZ-8135](https://issues.apache.org/jira/browse/OFBIZ-8135)] - Improvements in CustomMethodType entity definition and services
+- [[OFBIZ-8140](https://issues.apache.org/jira/browse/OFBIZ-8140)] - Inconsistencies on the title and the label on button of create forms related to catalog.
+- [[OFBIZ-8141](https://issues.apache.org/jira/browse/OFBIZ-8141)] - Inconsistencies on the title and the label on button of create forms related to Facility.
+- [[OFBIZ-8144](https://issues.apache.org/jira/browse/OFBIZ-8144)] - Unit test case for service - createPartyGroup
+- [[OFBIZ-8145](https://issues.apache.org/jira/browse/OFBIZ-8145)] - Improvements in DataTemplateType entity definition and services
+- [[OFBIZ-8146](https://issues.apache.org/jira/browse/OFBIZ-8146)] - Improvements in Deduction entity definition and services
+- [[OFBIZ-8147](https://issues.apache.org/jira/browse/OFBIZ-8147)] - Improvements in DeductionType entity definition and services
+- [[OFBIZ-8148](https://issues.apache.org/jira/browse/OFBIZ-8148)] - Improvements in Deliverable entity definition and services
+- [[OFBIZ-8149](https://issues.apache.org/jira/browse/OFBIZ-8149)] - Improvements in DeliverableType entity definition and services
+- [[OFBIZ-8150](https://issues.apache.org/jira/browse/OFBIZ-8150)] - Improvements in Delivery entity definition and services
+- [[OFBIZ-8157](https://issues.apache.org/jira/browse/OFBIZ-8157)] - Improvements in EbayProductListingAttribute entity definition and services
+- [[OFBIZ-8158](https://issues.apache.org/jira/browse/OFBIZ-8158)] - Improvements in EmailTemplateSetting entity definition and services
+- [[OFBIZ-8159](https://issues.apache.org/jira/browse/OFBIZ-8159)] - Improvements in EmplPositionClassType entity definition and services
+- [[OFBIZ-8161](https://issues.apache.org/jira/browse/OFBIZ-8161)] - Improvements in DesiredFeature entity definition and services
+- [[OFBIZ-8162](https://issues.apache.org/jira/browse/OFBIZ-8162)] - Improvements in Document entity definition and services
+- [[OFBIZ-8163](https://issues.apache.org/jira/browse/OFBIZ-8163)] - Improvements in DocumentAttribute entity definition and services
+- [[OFBIZ-8164](https://issues.apache.org/jira/browse/OFBIZ-8164)] - Improvements in DocumentType entity definition and services
+- [[OFBIZ-8165](https://issues.apache.org/jira/browse/OFBIZ-8165)] - Improvements in DocumentTypeAttr entity definition and services
+- [[OFBIZ-8166](https://issues.apache.org/jira/browse/OFBIZ-8166)] - Improvements in EmplPositionTypeClass entity definition and services
+- [[OFBIZ-8167](https://issues.apache.org/jira/browse/OFBIZ-8167)] - Improvements in EmploymentAppSourceType entity definition and services
+- [[OFBIZ-8168](https://issues.apache.org/jira/browse/OFBIZ-8168)] - Improvements in EntityGroup entity definition and services
+- [[OFBIZ-8169](https://issues.apache.org/jira/browse/OFBIZ-8169)] - Improvements in EntityGroupEntry entity definition and services
+- [[OFBIZ-8170](https://issues.apache.org/jira/browse/OFBIZ-8170)] - Improvements in EntitySyncIncludeGroup entity definition and services
+- [[OFBIZ-8171](https://issues.apache.org/jira/browse/OFBIZ-8171)] - Improvements in EnumerationType entity definition and services
+- [[OFBIZ-8175](https://issues.apache.org/jira/browse/OFBIZ-8175)] - Make Create Menu tab bar for Agreement consistent
+- [[OFBIZ-8176](https://issues.apache.org/jira/browse/OFBIZ-8176)] - Make Create Menu tab bar for Billing Account consistent
+- [[OFBIZ-8177](https://issues.apache.org/jira/browse/OFBIZ-8177)] - Make Create Menu tab bar for Financial Account consistent
+- [[OFBIZ-8178](https://issues.apache.org/jira/browse/OFBIZ-8178)] - Make Create Menu tab bar for Fixed Assets consistent
+- [[OFBIZ-8180](https://issues.apache.org/jira/browse/OFBIZ-8180)] - Make Create Menu tab bar for Maintenance consistent
+- [[OFBIZ-8183](https://issues.apache.org/jira/browse/OFBIZ-8183)] - Make Create Menu tab bar for Feature Category consistent
+- [[OFBIZ-8184](https://issues.apache.org/jira/browse/OFBIZ-8184)] - Make Create Menu tab bar for Product Store consistent
+- [[OFBIZ-8185](https://issues.apache.org/jira/browse/OFBIZ-8185)] - Make Create Menu tab bar for DataResource consistent
+- [[OFBIZ-8186](https://issues.apache.org/jira/browse/OFBIZ-8186)] - Make Create Menu tab bar for Template consistent
+- [[OFBIZ-8187](https://issues.apache.org/jira/browse/OFBIZ-8187)] - Make Create Menu tab bar for CMS Content consistent
+- [[OFBIZ-8204](https://issues.apache.org/jira/browse/OFBIZ-8204)] - Improvements in ExampleFeatureApplType entity definition and services
+- [[OFBIZ-8205](https://issues.apache.org/jira/browse/OFBIZ-8205)] - Improvements in ExampleType entity definition and services
+- [[OFBIZ-8206](https://issues.apache.org/jira/browse/OFBIZ-8206)] - Improvements in FacilityCarrierShipment entity definition and services
+- [[OFBIZ-8207](https://issues.apache.org/jira/browse/OFBIZ-8207)] - Improvements in FacilityLocationGeoPoint entity definition and services
+- [[OFBIZ-8208](https://issues.apache.org/jira/browse/OFBIZ-8208)] - Improvements in FacilityType entity definition and services
+- [[OFBIZ-8209](https://issues.apache.org/jira/browse/OFBIZ-8209)] - Improvements in FinAccountTransType entity definition and services
+- [[OFBIZ-8210](https://issues.apache.org/jira/browse/OFBIZ-8210)] - Improvements in FinAccountTransTypeAttr entity definition and services
+- [[OFBIZ-8211](https://issues.apache.org/jira/browse/OFBIZ-8211)] - Improvements in FinAccountType entity definition and services
+- [[OFBIZ-8212](https://issues.apache.org/jira/browse/OFBIZ-8212)] - Improvements in FinAccountTypeAttr entity definition and services
+- [[OFBIZ-8213](https://issues.apache.org/jira/browse/OFBIZ-8213)] - Improvements in FixedAssetAttribute entity definition and services
+- [[OFBIZ-8214](https://issues.apache.org/jira/browse/OFBIZ-8214)] - Improvements in FixedAssetIdentType entity definition and services
+- [[OFBIZ-8215](https://issues.apache.org/jira/browse/OFBIZ-8215)] - Improvements in FixedAssetProductType entity definition and services
+- [[OFBIZ-8216](https://issues.apache.org/jira/browse/OFBIZ-8216)] - Improvements in FixedAssetStdCostType entity definition and services
+- [[OFBIZ-8217](https://issues.apache.org/jira/browse/OFBIZ-8217)] - Improvements in FixedAssetType entity definition and services
+- [[OFBIZ-8218](https://issues.apache.org/jira/browse/OFBIZ-8218)] - Improvements in FixedAssetTypeAttr entity definition and services
+- [[OFBIZ-8219](https://issues.apache.org/jira/browse/OFBIZ-8219)] - Improvements in GlAccountClass entity definition and services
+- [[OFBIZ-8220](https://issues.apache.org/jira/browse/OFBIZ-8220)] - Improvements in GlAccountGroup entity definition and services
+- [[OFBIZ-8221](https://issues.apache.org/jira/browse/OFBIZ-8221)] - Improvements in GlAccountGroupMember entity definition and services
+- [[OFBIZ-8233](https://issues.apache.org/jira/browse/OFBIZ-8233)] - Improvements in GlAccountGroupType entity definition and services
+- [[OFBIZ-8234](https://issues.apache.org/jira/browse/OFBIZ-8234)] - Improvements in GlAccountRole entity definition and services
+- [[OFBIZ-8235](https://issues.apache.org/jira/browse/OFBIZ-8235)] - Improvements in GlAccountType entity definition and services
+- [[OFBIZ-8236](https://issues.apache.org/jira/browse/OFBIZ-8236)] - Improvements in GlBudgetXref entity definition and services
+- [[OFBIZ-8237](https://issues.apache.org/jira/browse/OFBIZ-8237)] - Improvements in GlFiscalType entity definition and services
+- [[OFBIZ-8238](https://issues.apache.org/jira/browse/OFBIZ-8238)] - Improvements in GlResourceType entity definition and services
+- [[OFBIZ-8239](https://issues.apache.org/jira/browse/OFBIZ-8239)] - Improvements in GlXbrlClass entity definition and services
+- [[OFBIZ-8240](https://issues.apache.org/jira/browse/OFBIZ-8240)] - Improvements in GlResourceType entity definition and services
+- [[OFBIZ-8245](https://issues.apache.org/jira/browse/OFBIZ-8245)] - Improvements in GoodIdentificationType entity definition and services
+- [[OFBIZ-8246](https://issues.apache.org/jira/browse/OFBIZ-8246)] - Improvements in InventoryItemAttribute entity definition and services
+- [[OFBIZ-8247](https://issues.apache.org/jira/browse/OFBIZ-8247)] - Improvements in InventoryItemTempRes entity definition and services
+- [[OFBIZ-8248](https://issues.apache.org/jira/browse/OFBIZ-8248)] - Improvements in InventoryItemType entity definition and services
+- [[OFBIZ-8249](https://issues.apache.org/jira/browse/OFBIZ-8249)] - Improvements in InventoryItemTypeAttr entity definition and services
+- [[OFBIZ-8254](https://issues.apache.org/jira/browse/OFBIZ-8254)] - Pagination error in Accounting FinAccountForms
+- [[OFBIZ-8256](https://issues.apache.org/jira/browse/OFBIZ-8256)] - Improvements in InvoiceAttribute entity definition and services
+- [[OFBIZ-8257](https://issues.apache.org/jira/browse/OFBIZ-8257)] - Improvements in InvoiceContentType entity definition and services
+- [[OFBIZ-8258](https://issues.apache.org/jira/browse/OFBIZ-8258)] - Improvements in InvoiceItemAssocType entity definition and services
+- [[OFBIZ-8259](https://issues.apache.org/jira/browse/OFBIZ-8259)] - Improvements in InvoiceItemAttribute entity definition and services
+- [[OFBIZ-8260](https://issues.apache.org/jira/browse/OFBIZ-8260)] - Catalog: Align column titles in list forms
+- [[OFBIZ-8261](https://issues.apache.org/jira/browse/OFBIZ-8261)] - Improvements in InvoiceItemTypeAttr entity definition and services
+- [[OFBIZ-8263](https://issues.apache.org/jira/browse/OFBIZ-8263)] - Pagination error in Accounting FixedAssetForms
+- [[OFBIZ-8267](https://issues.apache.org/jira/browse/OFBIZ-8267)] - Improvements in InvoiceItemTypeMap entity definition and services
+- [[OFBIZ-8268](https://issues.apache.org/jira/browse/OFBIZ-8268)] - Improvements in InvoiceNote entity definition and services
+- [[OFBIZ-8269](https://issues.apache.org/jira/browse/OFBIZ-8269)] - Improvements in InvoiceTermAttribute entity definition and services
+- [[OFBIZ-8270](https://issues.apache.org/jira/browse/OFBIZ-8270)] - Improvements in InvoiceType entity definition and services
+- [[OFBIZ-8271](https://issues.apache.org/jira/browse/OFBIZ-8271)] - Improvements in InvoiceTypeAttr entity definition and services
+- [[OFBIZ-8272](https://issues.apache.org/jira/browse/OFBIZ-8272)] - Content: Align column titles in list forms
+- [[OFBIZ-8274](https://issues.apache.org/jira/browse/OFBIZ-8274)] - Improvements in MarketingCampaignNote entity definition and services
+- [[OFBIZ-8275](https://issues.apache.org/jira/browse/OFBIZ-8275)] - Remove obsolete popUpPrint functions from OfbizUtil.js
+- [[OFBIZ-8277](https://issues.apache.org/jira/browse/OFBIZ-8277)] - Improvements in MrpEventType entity definition and services
+- [[OFBIZ-8278](https://issues.apache.org/jira/browse/OFBIZ-8278)] - Accounting: Align column titles in list forms
+- [[OFBIZ-8279](https://issues.apache.org/jira/browse/OFBIZ-8279)] - Improvements in NeedType entity definition and services
+- [[OFBIZ-8280](https://issues.apache.org/jira/browse/OFBIZ-8280)] - Pagination error in Accounting PaymentGatewayConfigForms
+- [[OFBIZ-8281](https://issues.apache.org/jira/browse/OFBIZ-8281)] - Improvements in OrderAdjustmentAttribute entity definition and services
+- [[OFBIZ-8283](https://issues.apache.org/jira/browse/OFBIZ-8283)] - Improvements in OrderAdjustmentType entity definition and services
+- [[OFBIZ-8284](https://issues.apache.org/jira/browse/OFBIZ-8284)] - Improvements in OrderAdjustmentTypeAttr entity definition and services
+- [[OFBIZ-8285](https://issues.apache.org/jira/browse/OFBIZ-8285)] - Improvements in OrderAttribute entity definition and services
+- [[OFBIZ-8286](https://issues.apache.org/jira/browse/OFBIZ-8286)] - Improvements in OrderBlacklist entity definition and services
+- [[OFBIZ-8287](https://issues.apache.org/jira/browse/OFBIZ-8287)] - Improvements in OrderBlacklistType entity definition and services
+- [[OFBIZ-8288](https://issues.apache.org/jira/browse/OFBIZ-8288)] - Improvements in OrderContent entity definition and services
+- [[OFBIZ-8289](https://issues.apache.org/jira/browse/OFBIZ-8289)] - Improvements in OrderContentType entity definition and services
+- [[OFBIZ-8294](https://issues.apache.org/jira/browse/OFBIZ-8294)] - Convert updateDataCategory service from simple to entity-auto
+- [[OFBIZ-8295](https://issues.apache.org/jira/browse/OFBIZ-8295)] - Convert removeDataCategory service from simple to entity-auto
+- [[OFBIZ-8303](https://issues.apache.org/jira/browse/OFBIZ-8303)] - Improvements in QuantityBreakType entity definition and services
+- [[OFBIZ-8304](https://issues.apache.org/jira/browse/OFBIZ-8304)] - Improvements in QuoteTermAttribute entity definition and services
+- [[OFBIZ-8305](https://issues.apache.org/jira/browse/OFBIZ-8305)] - Improvements in QuoteType entity definition and services
+- [[OFBIZ-8306](https://issues.apache.org/jira/browse/OFBIZ-8306)] - Improvements in QuoteTypeAttr entity definition and services
+- [[OFBIZ-8307](https://issues.apache.org/jira/browse/OFBIZ-8307)] - Improvements in RateType entity definition and services
+- [[OFBIZ-8308](https://issues.apache.org/jira/browse/OFBIZ-8308)] - Improvements in RejectionReason entity definition and services
+- [[OFBIZ-8309](https://issues.apache.org/jira/browse/OFBIZ-8309)] - Improvements in ReorderGuideline entity definition and services
+- [[OFBIZ-8310](https://issues.apache.org/jira/browse/OFBIZ-8310)] - Improvements in RequirementAttribute entity definition and services
+- [[OFBIZ-8311](https://issues.apache.org/jira/browse/OFBIZ-8311)] - Improvements in RequirementBudgetAllocation entity definition and services
+- [[OFBIZ-8313](https://issues.apache.org/jira/browse/OFBIZ-8313)] - Improvements in RequirementCustRequest entity definition and services
+- [[OFBIZ-8314](https://issues.apache.org/jira/browse/OFBIZ-8314)] - Improvements in RequirementType entity definition and services
+- [[OFBIZ-8325](https://issues.apache.org/jira/browse/OFBIZ-8325)] - Improvements in RequirementTypeAttr entity definition and services
+- [[OFBIZ-8326](https://issues.apache.org/jira/browse/OFBIZ-8326)] - Improvements in RespondingParty entity definition and services
+- [[OFBIZ-8327](https://issues.apache.org/jira/browse/OFBIZ-8327)] - Improvements in ReturnAdjustmentType entity definition and services
+- [[OFBIZ-8328](https://issues.apache.org/jira/browse/OFBIZ-8328)] - Improvements in ReturnHeaderType entity definition and services
+- [[OFBIZ-8329](https://issues.apache.org/jira/browse/OFBIZ-8329)] - Improvements in ReturnItemType entity definition and services
+- [[OFBIZ-8330](https://issues.apache.org/jira/browse/OFBIZ-8330)] - Improvements in ReturnItemTypeMap entity definition and services
+- [[OFBIZ-8331](https://issues.apache.org/jira/browse/OFBIZ-8331)] - Improvements in ReturnReason entity definition and services
+- [[OFBIZ-8332](https://issues.apache.org/jira/browse/OFBIZ-8332)] - Improvements in ReturnType entity definition and services
+- [[OFBIZ-8333](https://issues.apache.org/jira/browse/OFBIZ-8333)] - Improvements in RoleType entity definition and services
+- [[OFBIZ-8334](https://issues.apache.org/jira/browse/OFBIZ-8334)] - Improvements in RoleTypeAttr entity definition and services
+- [[OFBIZ-8335](https://issues.apache.org/jira/browse/OFBIZ-8335)] - Improvements in SaleType entity definition and services
+- [[OFBIZ-8346](https://issues.apache.org/jira/browse/OFBIZ-8346)] - Convert updateDataResourceRole service from simple to entity-auto
+- [[OFBIZ-8347](https://issues.apache.org/jira/browse/OFBIZ-8347)] - Convert removeDataResourceRole service from simple to entity-auto
+- [[OFBIZ-8349](https://issues.apache.org/jira/browse/OFBIZ-8349)] - Convert createDataResourceType service from simple to entity-auto
+- [[OFBIZ-8350](https://issues.apache.org/jira/browse/OFBIZ-8350)] - Convert updateDataResourceType service from simple to entity-auto
+- [[OFBIZ-8351](https://issues.apache.org/jira/browse/OFBIZ-8351)] - Convert removeDataResourceType service from simple to entity-auto
+- [[OFBIZ-8352](https://issues.apache.org/jira/browse/OFBIZ-8352)] - Convert createDataResourceTypeAttr service from simple to entity-auto
+- [[OFBIZ-8353](https://issues.apache.org/jira/browse/OFBIZ-8353)] - Convert updateDataResourceTypeAttr service from simple to entity-auto
+- [[OFBIZ-8354](https://issues.apache.org/jira/browse/OFBIZ-8354)] - Convert removeDataResourceTypeAttr service from simple to entity-auto
+- [[OFBIZ-8355](https://issues.apache.org/jira/browse/OFBIZ-8355)] - Convert createCharacterSet service from simple to entity-auto
+- [[OFBIZ-8356](https://issues.apache.org/jira/browse/OFBIZ-8356)] - Convert updateCharacterSet service from simple to entity-auto
+- [[OFBIZ-8357](https://issues.apache.org/jira/browse/OFBIZ-8357)] - Convert removeCharacterSet service from simple to entity-auto
+- [[OFBIZ-8359](https://issues.apache.org/jira/browse/OFBIZ-8359)] - Convert createFileExtension service from simple to entity-auto
+- [[OFBIZ-8360](https://issues.apache.org/jira/browse/OFBIZ-8360)] - Convert updateFileExtension service from simple to entity-auto
+- [[OFBIZ-8361](https://issues.apache.org/jira/browse/OFBIZ-8361)] - Convert removeFileExtension service from simple to entity-auto
+- [[OFBIZ-8362](https://issues.apache.org/jira/browse/OFBIZ-8362)] - Convert createMetaDataPredicate service from simple to entity-auto
+- [[OFBIZ-8363](https://issues.apache.org/jira/browse/OFBIZ-8363)] - Convert updateMetaDataPredicate service from simple to entity-auto
+- [[OFBIZ-8364](https://issues.apache.org/jira/browse/OFBIZ-8364)] - Convert removeMetaDataPredicate service from simple to entity-auto
+- [[OFBIZ-8365](https://issues.apache.org/jira/browse/OFBIZ-8365)] - Convert createMimeType service from simple to entity-auto
+- [[OFBIZ-8366](https://issues.apache.org/jira/browse/OFBIZ-8366)] - Convert updateMimeType service from simple to entity-auto
+- [[OFBIZ-8367](https://issues.apache.org/jira/browse/OFBIZ-8367)] - Convert removeMimeType service from simple to entity-auto
+- [[OFBIZ-8368](https://issues.apache.org/jira/browse/OFBIZ-8368)] - Convert createMimeTypeHtmlTemplate service from simple to entity-auto
+- [[OFBIZ-8369](https://issues.apache.org/jira/browse/OFBIZ-8369)] - Convert updateMimeTypeHtmlTemplate service from simple to entity-auto
+- [[OFBIZ-8370](https://issues.apache.org/jira/browse/OFBIZ-8370)] - Convert removeMimeTypeHtmlTemplate service from simple to entity-auto
+- [[OFBIZ-8371](https://issues.apache.org/jira/browse/OFBIZ-8371)] - Convert updateElectronicText service from simple to entity-auto
+- [[OFBIZ-8372](https://issues.apache.org/jira/browse/OFBIZ-8372)] - Convert removeElectronicText service from simple to entity-auto
+- [[OFBIZ-8373](https://issues.apache.org/jira/browse/OFBIZ-8373)] - Convert createContactMechAttribute service from simple to entity-auto
+- [[OFBIZ-8374](https://issues.apache.org/jira/browse/OFBIZ-8374)] - Convert updateContactMechAttribute service from simple to entity-auto
+- [[OFBIZ-8375](https://issues.apache.org/jira/browse/OFBIZ-8375)] - Convert removeContactMechAttribute service from simple to entity-auto
+- [[OFBIZ-8377](https://issues.apache.org/jira/browse/OFBIZ-8377)] - Convert updateGlAccount service from simple to entity-auto
+- [[OFBIZ-8378](https://issues.apache.org/jira/browse/OFBIZ-8378)] - Convert deleteGlAccount service from simple to entity-auto
+- [[OFBIZ-8379](https://issues.apache.org/jira/browse/OFBIZ-8379)] - Convert updateGlAccountOrganization service from simple to entity-auto
+- [[OFBIZ-8380](https://issues.apache.org/jira/browse/OFBIZ-8380)] - Convert deleteGlAccountOrganization service from simple to entity-auto
+- [[OFBIZ-8381](https://issues.apache.org/jira/browse/OFBIZ-8381)] - Convert createGlJournal service from simple to entity-auto
+- [[OFBIZ-8382](https://issues.apache.org/jira/browse/OFBIZ-8382)] - Convert updateGlJournal service from simple to entity-auto
+- [[OFBIZ-8383](https://issues.apache.org/jira/browse/OFBIZ-8383)] - Convert deleteGlJournal service from simple to entity-auto
+- [[OFBIZ-8384](https://issues.apache.org/jira/browse/OFBIZ-8384)] - Convert deleteGlReconciliation service from simple to entity-auto
+- [[OFBIZ-8385](https://issues.apache.org/jira/browse/OFBIZ-8385)] - Convert createPartyGlAccount service from simple to entity-auto
+- [[OFBIZ-8386](https://issues.apache.org/jira/browse/OFBIZ-8386)] - Convert updatePartyGlAccount service from simple to entity-auto
+- [[OFBIZ-8387](https://issues.apache.org/jira/browse/OFBIZ-8387)] - Convert deletePartyGlAccount service from simple to entity-auto
+- [[OFBIZ-8388](https://issues.apache.org/jira/browse/OFBIZ-8388)] - Convert removeAddressMatchMap service from simple to entity-auto
+- [[OFBIZ-8389](https://issues.apache.org/jira/browse/OFBIZ-8389)] - Convert createReturnItemBilling service from simple to entity-auto
+- [[OFBIZ-8390](https://issues.apache.org/jira/browse/OFBIZ-8390)] - Convert createReturnItemResponse service from simple to entity-auto
+- [[OFBIZ-8391](https://issues.apache.org/jira/browse/OFBIZ-8391)] - Remove implementation for service &quot;removeOrderContactMech&quot; as this is already an entity-auto service.
+- [[OFBIZ-8392](https://issues.apache.org/jira/browse/OFBIZ-8392)] - Convert createVendorProduct service from simple to entity-auto
+- [[OFBIZ-8393](https://issues.apache.org/jira/browse/OFBIZ-8393)] - Convert deleteVendorProduct service from simple to entity-auto
+- [[OFBIZ-8394](https://issues.apache.org/jira/browse/OFBIZ-8394)] - Convert unassignPartyFromWorkEffort service from simple to entity-auto
+- [[OFBIZ-8395](https://issues.apache.org/jira/browse/OFBIZ-8395)] - Convert updateWorkEffortAssoc service from simple to entity-auto
+- [[OFBIZ-8396](https://issues.apache.org/jira/browse/OFBIZ-8396)] - Convert removeWorkEffortAssoc service from simple to entity-auto
+- [[OFBIZ-8397](https://issues.apache.org/jira/browse/OFBIZ-8397)] - Convert updateWorkEffortGoodStandard service from simple to entity-auto
+- [[OFBIZ-8398](https://issues.apache.org/jira/browse/OFBIZ-8398)] - Convert removeWorkEffortGoodStandard service from simple to entity-auto
+- [[OFBIZ-8399](https://issues.apache.org/jira/browse/OFBIZ-8399)] - Convert createWorkEffortSkillStandard service from simple to entity-auto
+- [[OFBIZ-8400](https://issues.apache.org/jira/browse/OFBIZ-8400)] - Convert updateWorkEffortSkillStandard service from simple to entity-auto
+- [[OFBIZ-8401](https://issues.apache.org/jira/browse/OFBIZ-8401)] - Convert deleteWorkEffortSkillStandard service from simple to entity-auto
+- [[OFBIZ-8402](https://issues.apache.org/jira/browse/OFBIZ-8402)] - Convert createWorkEffortInventoryProduced service from simple to entity-auto
+- [[OFBIZ-8403](https://issues.apache.org/jira/browse/OFBIZ-8403)] - Convert deleteWorkEffortInventoryProduced service from simple to entity-auto
+- [[OFBIZ-8404](https://issues.apache.org/jira/browse/OFBIZ-8404)] - Convert updateWorkEffortSurveyAppl service from simple to entity-auto
+- [[OFBIZ-8405](https://issues.apache.org/jira/browse/OFBIZ-8405)] - Convert deleteWorkEffortInventoryProduced service from simple to entity-auto
+- [[OFBIZ-8406](https://issues.apache.org/jira/browse/OFBIZ-8406)] - Convert updateWorkEffortSurveyAppl service from simple to entity-auto
+- [[OFBIZ-8407](https://issues.apache.org/jira/browse/OFBIZ-8407)] - Convert updatePayPalPaymentMethod service from simple to entity-auto
+- [[OFBIZ-8410](https://issues.apache.org/jira/browse/OFBIZ-8410)] - Running or debugging OFBiz inside Eclipse no longer works
+- [[OFBIZ-8412](https://issues.apache.org/jira/browse/OFBIZ-8412)] - Unit test case for service - createProduct
+- [[OFBIZ-8414](https://issues.apache.org/jira/browse/OFBIZ-8414)] - Accounting: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8415](https://issues.apache.org/jira/browse/OFBIZ-8415)] - Unit test case for service - createPartyAcctgPreference
+- [[OFBIZ-8416](https://issues.apache.org/jira/browse/OFBIZ-8416)] - Unit test case for service - updatePartyAcctgPreference
+- [[OFBIZ-8417](https://issues.apache.org/jira/browse/OFBIZ-8417)] - Unit test case for service - getPartyAccountingPreferences
+- [[OFBIZ-8418](https://issues.apache.org/jira/browse/OFBIZ-8418)] - Unit test case for service - setAcctgCompany
+- [[OFBIZ-8419](https://issues.apache.org/jira/browse/OFBIZ-8419)] - Unit test case for service - updateFXConversion
+- [[OFBIZ-8430](https://issues.apache.org/jira/browse/OFBIZ-8430)] - Improvements in SalesInvoiceItemFact entity definition and services
+- [[OFBIZ-8431](https://issues.apache.org/jira/browse/OFBIZ-8431)] - Improvements in SalesOpportunityCompetitor entity definition and services
+- [[OFBIZ-8432](https://issues.apache.org/jira/browse/OFBIZ-8432)] - Improvements in SalesOpportunityQuote entity definition and services
+- [[OFBIZ-8433](https://issues.apache.org/jira/browse/OFBIZ-8433)] - Improvements in SalesOpportunityRole entity definition and services
+- [[OFBIZ-8434](https://issues.apache.org/jira/browse/OFBIZ-8434)] - Improvements in SalesOpportunityStage entity definition and services
+- [[OFBIZ-8435](https://issues.apache.org/jira/browse/OFBIZ-8435)] - Improvements in SalesOpportunityTrckCode entity definition and services
+- [[OFBIZ-8436](https://issues.apache.org/jira/browse/OFBIZ-8436)] - Improvements in SalesOpportunityWorkEffort entity definition and services
+- [[OFBIZ-8437](https://issues.apache.org/jira/browse/OFBIZ-8437)] - Improvements in SalesOrderItemFact entity definition and services
+- [[OFBIZ-8438](https://issues.apache.org/jira/browse/OFBIZ-8438)] - Improvements in SecurityGroup entity definition and services
+- [[OFBIZ-8439](https://issues.apache.org/jira/browse/OFBIZ-8439)] - Improvements in SegmentGroupType entity definition and services
+- [[OFBIZ-8440](https://issues.apache.org/jira/browse/OFBIZ-8440)] - Improvements in SequenceValueItem entity definition and services
+- [[OFBIZ-8441](https://issues.apache.org/jira/browse/OFBIZ-8441)] - Improvements in SettlementTerm entity definition and services
+- [[OFBIZ-8442](https://issues.apache.org/jira/browse/OFBIZ-8442)] - WebPos : Remove unused imports from groovy files for code optimization.
+- [[OFBIZ-8443](https://issues.apache.org/jira/browse/OFBIZ-8443)] - Improvements in ShipmentAttribute entity definition and services
+- [[OFBIZ-8444](https://issues.apache.org/jira/browse/OFBIZ-8444)] - Improvements in ShipmentBoxType entity definition and services
+- [[OFBIZ-8446](https://issues.apache.org/jira/browse/OFBIZ-8446)] - Pagination error in Accounting PaymentGroupForms
+- [[OFBIZ-8449](https://issues.apache.org/jira/browse/OFBIZ-8449)] - Accounting-AR: Align column titles in list forms
+- [[OFBIZ-8452](https://issues.apache.org/jira/browse/OFBIZ-8452)] - Improvements in ShipmentContactMechType entity definition and services
+- [[OFBIZ-8453](https://issues.apache.org/jira/browse/OFBIZ-8453)] - Improvements in ShipmentCostEstimate entity definition and services
+- [[OFBIZ-8454](https://issues.apache.org/jira/browse/OFBIZ-8454)] - Improvements in ShipmentGatewayConfig entity definition and services
+- [[OFBIZ-8455](https://issues.apache.org/jira/browse/OFBIZ-8455)] - Improvements in ShipmentGatewayConfigType entity definition and services
+- [[OFBIZ-8456](https://issues.apache.org/jira/browse/OFBIZ-8456)] - HR: Align column titles in list forms
+- [[OFBIZ-8460](https://issues.apache.org/jira/browse/OFBIZ-8460)] - Improvements in ShipmentGatewayDhl entity definition and services
+- [[OFBIZ-8461](https://issues.apache.org/jira/browse/OFBIZ-8461)] - Improvements in ShipmentGatewayFedex entity definition and services
+- [[OFBIZ-8463](https://issues.apache.org/jira/browse/OFBIZ-8463)] - Improvements in ShipmentGatewayUps entity definition and services
+- [[OFBIZ-8464](https://issues.apache.org/jira/browse/OFBIZ-8464)] - Improvements in ShipmentGatewayUsps entity definition and services
+- [[OFBIZ-8465](https://issues.apache.org/jira/browse/OFBIZ-8465)] - Party : Remove unused imports from groovy files for code optimization
+- [[OFBIZ-8466](https://issues.apache.org/jira/browse/OFBIZ-8466)] - Improvements in ShipmentItemFeature entity definition and services
+- [[OFBIZ-8467](https://issues.apache.org/jira/browse/OFBIZ-8467)] - Manufacturing: Align column titles in list forms
+- [[OFBIZ-8468](https://issues.apache.org/jira/browse/OFBIZ-8468)] - Improvements in ShipmentReceipt entity definition and services
+- [[OFBIZ-8470](https://issues.apache.org/jira/browse/OFBIZ-8470)] - Improvements in ShipmentType entity definition and services
+- [[OFBIZ-8472](https://issues.apache.org/jira/browse/OFBIZ-8472)] - Improvements in ShipmentTypeAttr entity definition and services
+- [[OFBIZ-8473](https://issues.apache.org/jira/browse/OFBIZ-8473)] - Improvements in ShippingDocument entity definition and services
+- [[OFBIZ-8474](https://issues.apache.org/jira/browse/OFBIZ-8474)] - BI : Remove unused imports from groovy files for code optimization
+- [[OFBIZ-8475](https://issues.apache.org/jira/browse/OFBIZ-8475)] - Pagination error in Accounting TaxAuthorityForms
+- [[OFBIZ-8477](https://issues.apache.org/jira/browse/OFBIZ-8477)] - Improvements in ShoppingListItemSurvey entity definition and services
+- [[OFBIZ-8478](https://issues.apache.org/jira/browse/OFBIZ-8478)] - Improvements in ShoppingListType entity definition and services
+- [[OFBIZ-8479](https://issues.apache.org/jira/browse/OFBIZ-8479)] - Improvements in StandardLanguage entity definition and services
+- [[OFBIZ-8480](https://issues.apache.org/jira/browse/OFBIZ-8480)] - Facility: Align column titles in list forms
+- [[OFBIZ-8481](https://issues.apache.org/jira/browse/OFBIZ-8481)] - Improvements in StatusItem entity definition and services
+- [[OFBIZ-8482](https://issues.apache.org/jira/browse/OFBIZ-8482)] - Birt : Remove unused imports from groovy files for code optimization.
+- [[OFBIZ-8483](https://issues.apache.org/jira/browse/OFBIZ-8483)] - Example : Remove unused imports from groovy files for code optimization
+- [[OFBIZ-8484](https://issues.apache.org/jira/browse/OFBIZ-8484)] - Accounting : Remove unused imports from groovy files for code optimization.
+- [[OFBIZ-8485](https://issues.apache.org/jira/browse/OFBIZ-8485)] - EbayStore : Remove unused imports from groovy files for code optimization
+- [[OFBIZ-8488](https://issues.apache.org/jira/browse/OFBIZ-8488)] - ProjectMgr : Remove unused imports from groovy files for code optimization
+- [[OFBIZ-8490](https://issues.apache.org/jira/browse/OFBIZ-8490)] - Base: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8491](https://issues.apache.org/jira/browse/OFBIZ-8491)] - Catalina: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8492](https://issues.apache.org/jira/browse/OFBIZ-8492)] - Common: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8493](https://issues.apache.org/jira/browse/OFBIZ-8493)] - Content: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8494](https://issues.apache.org/jira/browse/OFBIZ-8494)] - Entity: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8495](https://issues.apache.org/jira/browse/OFBIZ-8495)] - Entityext: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8496](https://issues.apache.org/jira/browse/OFBIZ-8496)] - Manufacturing: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8497](https://issues.apache.org/jira/browse/OFBIZ-8497)] - Minilang: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8498](https://issues.apache.org/jira/browse/OFBIZ-8498)] - Order: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8499](https://issues.apache.org/jira/browse/OFBIZ-8499)] - Party: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8500](https://issues.apache.org/jira/browse/OFBIZ-8500)] - Product: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8501](https://issues.apache.org/jira/browse/OFBIZ-8501)] - Securityext: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8502](https://issues.apache.org/jira/browse/OFBIZ-8502)] - Service: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8503](https://issues.apache.org/jira/browse/OFBIZ-8503)] - Webapp: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8504](https://issues.apache.org/jira/browse/OFBIZ-8504)] - Widget: Use UtilValidate&#39;s isEmpty and isNotEmpty methods correctly
+- [[OFBIZ-8506](https://issues.apache.org/jira/browse/OFBIZ-8506)] - Unit test case for service - updateProduct
+- [[OFBIZ-8507](https://issues.apache.org/jira/browse/OFBIZ-8507)] - Unit test case for service - sendOrderConfirmation
+- [[OFBIZ-8509](https://issues.apache.org/jira/browse/OFBIZ-8509)] - Unit test case for service - copyPartyContactMechs
+- [[OFBIZ-8510](https://issues.apache.org/jira/browse/OFBIZ-8510)] - Unit test case for service - createCommunicationEvent
+- [[OFBIZ-8511](https://issues.apache.org/jira/browse/OFBIZ-8511)] - Unit test case for service - createCommunicationEventRole
+- [[OFBIZ-8512](https://issues.apache.org/jira/browse/OFBIZ-8512)] - Unit test case for service - createCommunicationEventRoleWithoutPermission
+- [[OFBIZ-8513](https://issues.apache.org/jira/browse/OFBIZ-8513)] - Unit test case for service - createCommunicationEventWithoutPermission
+- [[OFBIZ-8514](https://issues.apache.org/jira/browse/OFBIZ-8514)] - Unit test case for service - createContactMech
+- [[OFBIZ-8515](https://issues.apache.org/jira/browse/OFBIZ-8515)] - Unit test case for service - createEmailAddress
+- [[OFBIZ-8516](https://issues.apache.org/jira/browse/OFBIZ-8516)] - Unit test case for service - createPartyContactMech
+- [[OFBIZ-8517](https://issues.apache.org/jira/browse/OFBIZ-8517)] - Unit test case for service - createPartyContactMechPurpose
+- [[OFBIZ-8518](https://issues.apache.org/jira/browse/OFBIZ-8518)] - Unit test case for service - createPartyDataSource
+- [[OFBIZ-8519](https://issues.apache.org/jira/browse/OFBIZ-8519)] - Unit test case for service - createPartyEmailAddress
+- [[OFBIZ-8520](https://issues.apache.org/jira/browse/OFBIZ-8520)] - Unit test case for service - createPartyIdentifications
+- [[OFBIZ-8521](https://issues.apache.org/jira/browse/OFBIZ-8521)] - Unit test case for service - createPartyNote
+- [[OFBIZ-8523](https://issues.apache.org/jira/browse/OFBIZ-8523)] - Unit test case for service - createPartyRelationship
+- [[OFBIZ-8524](https://issues.apache.org/jira/browse/OFBIZ-8524)] - Unit test case for service - createPartyRelationshipAndRole
+- [[OFBIZ-8525](https://issues.apache.org/jira/browse/OFBIZ-8525)] - Unit test case for service - createPartyRelationshipContactAccount
+- [[OFBIZ-8526](https://issues.apache.org/jira/browse/OFBIZ-8526)] - Unit test case for service - createPartyRelationshipType
+- [[OFBIZ-8527](https://issues.apache.org/jira/browse/OFBIZ-8527)] - Unit test case for service - createPartyTelecomNumber
+- [[OFBIZ-8528](https://issues.apache.org/jira/browse/OFBIZ-8528)] - Unit test case for service - createPersonAndUserLogin
+- [[OFBIZ-8529](https://issues.apache.org/jira/browse/OFBIZ-8529)] - Unit test case for service - createPostalAddress
+- [[OFBIZ-8530](https://issues.apache.org/jira/browse/OFBIZ-8530)] - Unit test case for service - createGlAccountTypeDefault
+- [[OFBIZ-8531](https://issues.apache.org/jira/browse/OFBIZ-8531)] - Unit test case for service - createRoleType
+- [[OFBIZ-8532](https://issues.apache.org/jira/browse/OFBIZ-8532)] - Unit test case for service - removeGlAccountTypeDefault
+- [[OFBIZ-8533](https://issues.apache.org/jira/browse/OFBIZ-8533)] - Unit test case for service - addInvoiceItemTypeGlAssignment
+- [[OFBIZ-8534](https://issues.apache.org/jira/browse/OFBIZ-8534)] - Unit test case for service - removeInvoiceItemTypeGlAssignment
+- [[OFBIZ-8535](https://issues.apache.org/jira/browse/OFBIZ-8535)] - Unit test case for service - addPaymentTypeGlAssignment
+- [[OFBIZ-8536](https://issues.apache.org/jira/browse/OFBIZ-8536)] - Add Party Test case data
+- [[OFBIZ-8541](https://issues.apache.org/jira/browse/OFBIZ-8541)] - Unit test case for service - createTelecomNumber
+- [[OFBIZ-8542](https://issues.apache.org/jira/browse/OFBIZ-8542)] - Unit test case for service - createUpdatePartyRelationshipAndRoles
+- [[OFBIZ-8543](https://issues.apache.org/jira/browse/OFBIZ-8543)] - Unit test case for service - deleteCommunicationEvent
+- [[OFBIZ-8544](https://issues.apache.org/jira/browse/OFBIZ-8544)] - Unit test case for service - deleteCommunicationEventWorkEffort
+- [[OFBIZ-8545](https://issues.apache.org/jira/browse/OFBIZ-8545)] - Unit test case for service - deletePartyContactMechPurpose
+- [[OFBIZ-8546](https://issues.apache.org/jira/browse/OFBIZ-8546)] - Unit test case for service - deletePartyContactMechPurposeIfExists
+- [[OFBIZ-8548](https://issues.apache.org/jira/browse/OFBIZ-8548)] - Unit test case for service - deletePartyRelationship
+- [[OFBIZ-8549](https://issues.apache.org/jira/browse/OFBIZ-8549)] - Unit test case for service - deletePartyRole
+- [[OFBIZ-8550](https://issues.apache.org/jira/browse/OFBIZ-8550)] - Unit test case for service - findPartiesById
+- [[OFBIZ-8551](https://issues.apache.org/jira/browse/OFBIZ-8551)] - Unit test case for service - findPartyFromEmailAddress
+- [[OFBIZ-8552](https://issues.apache.org/jira/browse/OFBIZ-8552)] - Unit test case for service - findPartyFromTelephone
+- [[OFBIZ-8553](https://issues.apache.org/jira/browse/OFBIZ-8553)] - Unit test case for service - findPartyFromTelephoneComplete
+- [[OFBIZ-8554](https://issues.apache.org/jira/browse/OFBIZ-8554)] - Unit test case for service - removeCommunicationEventRole
+- [[OFBIZ-8555](https://issues.apache.org/jira/browse/OFBIZ-8555)] - Unit test case for service - setCommEventComplete
+- [[OFBIZ-8556](https://issues.apache.org/jira/browse/OFBIZ-8556)] - Unit test case for service - setCommunicationEventRoleStatus
+- [[OFBIZ-8557](https://issues.apache.org/jira/browse/OFBIZ-8557)] - Unit test case for service - setCommEventRoleToRead
+- [[OFBIZ-8558](https://issues.apache.org/jira/browse/OFBIZ-8558)] - Unit test case for service - setCommunicationEventStatus
+- [[OFBIZ-8559](https://issues.apache.org/jira/browse/OFBIZ-8559)] - Unit test case for service - updateCommunicationEvent
+- [[OFBIZ-8560](https://issues.apache.org/jira/browse/OFBIZ-8560)] - Unit test case for service - updateCommunicationEventRole
+- [[OFBIZ-8561](https://issues.apache.org/jira/browse/OFBIZ-8561)] - Unit test case for service - updateContactMech
+- [[OFBIZ-8562](https://issues.apache.org/jira/browse/OFBIZ-8562)] - Unit test case for service - updateEmailAddress
+- [[OFBIZ-8563](https://issues.apache.org/jira/browse/OFBIZ-8563)] - Unit test case for service - updatePartyEmailAddress
+- [[OFBIZ-8564](https://issues.apache.org/jira/browse/OFBIZ-8564)] - Unit test case for service - updatePartyGroup
+- [[OFBIZ-8565](https://issues.apache.org/jira/browse/OFBIZ-8565)] - Unit test case for service - updatePartyPostalAddress
+- [[OFBIZ-8566](https://issues.apache.org/jira/browse/OFBIZ-8566)] - Unit test case for service - updatePartyRelationship
+- [[OFBIZ-8567](https://issues.apache.org/jira/browse/OFBIZ-8567)] - Unit test case for service - updatePartyTelecomNumber
+- [[OFBIZ-8568](https://issues.apache.org/jira/browse/OFBIZ-8568)] - Unit test case for service - updatePerson
+- [[OFBIZ-8569](https://issues.apache.org/jira/browse/OFBIZ-8569)] - Unit test case for service - updatePostalAddress
+- [[OFBIZ-8570](https://issues.apache.org/jira/browse/OFBIZ-8570)] - Unit test case for service - updateTelecomNumber
+- [[OFBIZ-8571](https://issues.apache.org/jira/browse/OFBIZ-8571)] - Unit test case for service - duplicateProduct
+- [[OFBIZ-8572](https://issues.apache.org/jira/browse/OFBIZ-8572)] - Unit test case for service - deleteProductKeywords
+- [[OFBIZ-8573](https://issues.apache.org/jira/browse/OFBIZ-8573)] - Unit test case for service - createProductReview
+- [[OFBIZ-8574](https://issues.apache.org/jira/browse/OFBIZ-8574)] - Unit test case for service - updateProductReview
+- [[OFBIZ-8575](https://issues.apache.org/jira/browse/OFBIZ-8575)] - Unit test case for service - createProductPrice
+- [[OFBIZ-8576](https://issues.apache.org/jira/browse/OFBIZ-8576)] - Unit test case for service - updateProductPrice
+- [[OFBIZ-8577](https://issues.apache.org/jira/browse/OFBIZ-8577)] - Unit test case for service - deleteProductPrice
+- [[OFBIZ-8578](https://issues.apache.org/jira/browse/OFBIZ-8578)] - Unit test case for service - createProductCategory
+- [[OFBIZ-8581](https://issues.apache.org/jira/browse/OFBIZ-8581)] - Improvements in OrderItemAssoc entity definition and services
+- [[OFBIZ-8582](https://issues.apache.org/jira/browse/OFBIZ-8582)] - Improvements in OrderItemAssocType entity definition and services
+- [[OFBIZ-8583](https://issues.apache.org/jira/browse/OFBIZ-8583)] - Improvements in OrderItemContactMech entity definition and services
+- [[OFBIZ-8584](https://issues.apache.org/jira/browse/OFBIZ-8584)] - Improvements in OrderItemGroup entity definition and services
+- [[OFBIZ-8585](https://issues.apache.org/jira/browse/OFBIZ-8585)] - Improvements in OrderItemPriceInfo entity definition and services
+- [[OFBIZ-8586](https://issues.apache.org/jira/browse/OFBIZ-8586)] - Improvements in OrderItemRole entity definition and services
+- [[OFBIZ-8587](https://issues.apache.org/jira/browse/OFBIZ-8587)] - Improvements in OrderItemShipGrpInvRes entity definition and services
+- [[OFBIZ-8588](https://issues.apache.org/jira/browse/OFBIZ-8588)] - Improvements in OrderItemType entity definition and services
+- [[OFBIZ-8589](https://issues.apache.org/jira/browse/OFBIZ-8589)] - Improvements in OrderItemTypeAttr entity definition and services
+- [[OFBIZ-8590](https://issues.apache.org/jira/browse/OFBIZ-8590)] - Improvements in OrderNotification entity definition and services
+- [[OFBIZ-8591](https://issues.apache.org/jira/browse/OFBIZ-8591)] - Improvements in OrderProductPromoCode entity definition and services
+- [[OFBIZ-8592](https://issues.apache.org/jira/browse/OFBIZ-8592)] - Improvements in OrderRequirementCommitment entity definition and services
+- [[OFBIZ-8593](https://issues.apache.org/jira/browse/OFBIZ-8593)] - Improvements in OrderSummaryEntry entity definition and services
+- [[OFBIZ-8594](https://issues.apache.org/jira/browse/OFBIZ-8594)] - Improvements in OrderTermAttribute entity definition and services
+- [[OFBIZ-8595](https://issues.apache.org/jira/browse/OFBIZ-8595)] - Improvements in OrderType entity definition and services
+- [[OFBIZ-8596](https://issues.apache.org/jira/browse/OFBIZ-8596)] - Improvements in OrderTypeAttr entity definition and services
+- [[OFBIZ-8597](https://issues.apache.org/jira/browse/OFBIZ-8597)] - Unit test case for service - removePaymentTypeGlAssignment
+- [[OFBIZ-8598](https://issues.apache.org/jira/browse/OFBIZ-8598)] - Unit test case for service - addPaymentMethodTypeGlAssignment
+- [[OFBIZ-8599](https://issues.apache.org/jira/browse/OFBIZ-8599)] - Unit test case for service - removePaymentMethodTypeGlAssignment
+- [[OFBIZ-8600](https://issues.apache.org/jira/browse/OFBIZ-8600)] - Unit test case for service - getFXConversion
+- [[OFBIZ-8606](https://issues.apache.org/jira/browse/OFBIZ-8606)] - Improvements in PartyClassificationType entity definition and services
+- [[OFBIZ-8607](https://issues.apache.org/jira/browse/OFBIZ-8607)] - Improvements in PartyContentType entity definition and services
+- [[OFBIZ-8608](https://issues.apache.org/jira/browse/OFBIZ-8608)] - Improvements in PartyGeoPoint entity definition and services
+- [[OFBIZ-8609](https://issues.apache.org/jira/browse/OFBIZ-8609)] - Improvements in PartyIcsAvsOverride entity definition and services
+- [[OFBIZ-8610](https://issues.apache.org/jira/browse/OFBIZ-8610)] - Improvements in PartyIdentificationType entity definition and services
+- [[OFBIZ-8611](https://issues.apache.org/jira/browse/OFBIZ-8611)] - Improvements in PartyQualType entity definition and services
+- [[OFBIZ-8612](https://issues.apache.org/jira/browse/OFBIZ-8612)] - Improvements in PartyType entity definition and services
+- [[OFBIZ-8613](https://issues.apache.org/jira/browse/OFBIZ-8613)] - Improvements in PartyTypeAttr entity definition and services
+- [[OFBIZ-8614](https://issues.apache.org/jira/browse/OFBIZ-8614)] - Improvements in PaymentAttribute entity definition and services
+- [[OFBIZ-8615](https://issues.apache.org/jira/browse/OFBIZ-8615)] - Improvements in PaymentBudgetAllocation entity definition and services
+- [[OFBIZ-8616](https://issues.apache.org/jira/browse/OFBIZ-8616)] - Improvements in PaymentContentType entity definition and services
+- [[OFBIZ-8619](https://issues.apache.org/jira/browse/OFBIZ-8619)] - Unit test case for service - createWorkEffortAndPartyAssign
+- [[OFBIZ-8626](https://issues.apache.org/jira/browse/OFBIZ-8626)] - Unit test case for service - getPartyEmail
+- [[OFBIZ-8627](https://issues.apache.org/jira/browse/OFBIZ-8627)] - Unit test case for service - createAffiliate
+- [[OFBIZ-8628](https://issues.apache.org/jira/browse/OFBIZ-8628)] - Unit test case for service - updateAffiliate
+- [[OFBIZ-8629](https://issues.apache.org/jira/browse/OFBIZ-8629)] - Unit test case for service - getPartyMainRole
+- [[OFBIZ-8630](https://issues.apache.org/jira/browse/OFBIZ-8630)] - Unit test case for service - getPartyTelephone
+- [[OFBIZ-8631](https://issues.apache.org/jira/browse/OFBIZ-8631)] - Unit test case for service - quickCreateCustomer
+- [[OFBIZ-8632](https://issues.apache.org/jira/browse/OFBIZ-8632)] - Unit test case for service - createAddressMatchMap
+- [[OFBIZ-8633](https://issues.apache.org/jira/browse/OFBIZ-8633)] - Unit test case for service - removeAddressMatchMap
+- [[OFBIZ-8634](https://issues.apache.org/jira/browse/OFBIZ-8634)] - Unit test case for service - createPartyInvitation
+- [[OFBIZ-8635](https://issues.apache.org/jira/browse/OFBIZ-8635)] - Unit test case for service - updatePartyInvitation
+- [[OFBIZ-8636](https://issues.apache.org/jira/browse/OFBIZ-8636)] - Unit test case for service - deletePartyInvitation
+- [[OFBIZ-8637](https://issues.apache.org/jira/browse/OFBIZ-8637)] - Unit test case for service - getPartyPostalAddress
+- [[OFBIZ-8638](https://issues.apache.org/jira/browse/OFBIZ-8638)] - Unit test case for service - createPartyContactMechPurpose
+- [[OFBIZ-8639](https://issues.apache.org/jira/browse/OFBIZ-8639)] - Unit test case for service - createEmailAddressVerification
+- [[OFBIZ-8640](https://issues.apache.org/jira/browse/OFBIZ-8640)] - Unit test case for service - createPartyInvitationRoleAssoc
+- [[OFBIZ-8642](https://issues.apache.org/jira/browse/OFBIZ-8642)] - Unit test case for service - deletePartyInvitationRoleAssoc
+- [[OFBIZ-8643](https://issues.apache.org/jira/browse/OFBIZ-8643)] - Unit test case for service - updatePostalAddressAndPurposes
+- [[OFBIZ-8644](https://issues.apache.org/jira/browse/OFBIZ-8644)] - Unit test case for service - createPartyInvitationGroupAssoc
+- [[OFBIZ-8645](https://issues.apache.org/jira/browse/OFBIZ-8645)] - Unit test case for service - deletePartyInvitationGroupAssoc
+- [[OFBIZ-8646](https://issues.apache.org/jira/browse/OFBIZ-8646)] - Unit test case for service - clearAddressMatchMap
+- [[OFBIZ-8647](https://issues.apache.org/jira/browse/OFBIZ-8647)] - Improvements in PaymentGroupType entity definition and services
+- [[OFBIZ-8648](https://issues.apache.org/jira/browse/OFBIZ-8648)] - Improvements in PaymentMethodType entity definition and services
+- [[OFBIZ-8649](https://issues.apache.org/jira/browse/OFBIZ-8649)] - Improvements in PaymentType entity definition and services
+- [[OFBIZ-8650](https://issues.apache.org/jira/browse/OFBIZ-8650)] - Improvements in PaymentTypeAttr entity definition and services
+- [[OFBIZ-8651](https://issues.apache.org/jira/browse/OFBIZ-8651)] - Improvements in PerfRatingType entity definition and services
+- [[OFBIZ-8654](https://issues.apache.org/jira/browse/OFBIZ-8654)] - Unit test case for service - quickAddVariant
+- [[OFBIZ-8655](https://issues.apache.org/jira/browse/OFBIZ-8655)] - Unit test case for service - discontinueProductSales
+- [[OFBIZ-8656](https://issues.apache.org/jira/browse/OFBIZ-8656)] - Unit test case for service - findProductById
+- [[OFBIZ-8658](https://issues.apache.org/jira/browse/OFBIZ-8658)] - Convert CustRequestItemWorkEffort entity CRUD service to entity-auto
+- [[OFBIZ-8659](https://issues.apache.org/jira/browse/OFBIZ-8659)] - Convert CustRequestWorkEffort entity CRUD service to entity-auto
+- [[OFBIZ-8660](https://issues.apache.org/jira/browse/OFBIZ-8660)] - Convert OrderHeaderWorkEffort entity CRUD service to entity-auto
+- [[OFBIZ-8661](https://issues.apache.org/jira/browse/OFBIZ-8661)] - Convert WorkEffortContactMech entity CRUD service to entity-auto
+- [[OFBIZ-8662](https://issues.apache.org/jira/browse/OFBIZ-8662)] - Convert PartySkill entity CRUD service to entity-auto
+- [[OFBIZ-8663](https://issues.apache.org/jira/browse/OFBIZ-8663)] - Convert QuoteWorkEffort entity CRUD service to entity-auto
+- [[OFBIZ-8665](https://issues.apache.org/jira/browse/OFBIZ-8665)] - Convert ShoppingListWorkEffort entity CRUD service to entity-auto
+- [[OFBIZ-8666](https://issues.apache.org/jira/browse/OFBIZ-8666)] - Convert WorkEffortContent entity CRUD service to entity-auto
+- [[OFBIZ-8667](https://issues.apache.org/jira/browse/OFBIZ-8667)] - Convert WorkEffortGoodStandard entity CRUD service to entity-auto
+- [[OFBIZ-8668](https://issues.apache.org/jira/browse/OFBIZ-8668)] - Convert WorkRequirementFulfillment entity CRUD service to entity-auto
+- [[OFBIZ-8669](https://issues.apache.org/jira/browse/OFBIZ-8669)] - Unit test case for service - lookupParty
+- [[OFBIZ-8670](https://issues.apache.org/jira/browse/OFBIZ-8670)] - Add Workeffort and Timesheet Test case data
+- [[OFBIZ-8671](https://issues.apache.org/jira/browse/OFBIZ-8671)] - When we pass only pks in &quot;updateTimesheet&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8672](https://issues.apache.org/jira/browse/OFBIZ-8672)] - When we pass only pks in &quot;updateWorkEffort&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8673](https://issues.apache.org/jira/browse/OFBIZ-8673)] - Improve content service by moving permission at definition level
+- [[OFBIZ-8674](https://issues.apache.org/jira/browse/OFBIZ-8674)] - Improve rate amount service my moving the accounting permission service at definition level
+- [[OFBIZ-8675](https://issues.apache.org/jira/browse/OFBIZ-8675)] - When we pass only pks in &quot;updateInventoryItem&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8676](https://issues.apache.org/jira/browse/OFBIZ-8676)] - When we pass only pks in &quot;updateInventoryTransfer&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8677](https://issues.apache.org/jira/browse/OFBIZ-8677)] - Unit test case for service - deleteWorkEffort
+- [[OFBIZ-8678](https://issues.apache.org/jira/browse/OFBIZ-8678)] - Unit test case for service - copyWorkEffort
+- [[OFBIZ-8679](https://issues.apache.org/jira/browse/OFBIZ-8679)] - Unit test case for service - duplicateWorkEffort
+- [[OFBIZ-8680](https://issues.apache.org/jira/browse/OFBIZ-8680)] - When we pass only pks in &quot;updateContactListParty&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8681](https://issues.apache.org/jira/browse/OFBIZ-8681)] - Unit test case for service - makeCommunicationEventWorkEffort
+- [[OFBIZ-8682](https://issues.apache.org/jira/browse/OFBIZ-8682)] - Unit test case for service - assignPartyToWorkEffort
+- [[OFBIZ-8683](https://issues.apache.org/jira/browse/OFBIZ-8683)] - Unit test case for service - updatePartyToWorkEffortAssignment
+- [[OFBIZ-8685](https://issues.apache.org/jira/browse/OFBIZ-8685)] - Unit test case for service - deletePartyToWorkEffortAssignment
+- [[OFBIZ-8686](https://issues.apache.org/jira/browse/OFBIZ-8686)] - Unit test case for service - quickAssignPartyToWorkEffort
+- [[OFBIZ-8687](https://issues.apache.org/jira/browse/OFBIZ-8687)] - Unit test case for service - quickAssignPartyToWorkEffortWithRole
+- [[OFBIZ-8688](https://issues.apache.org/jira/browse/OFBIZ-8688)] - Unit test case for service - createWorkEffortNote
+- [[OFBIZ-8689](https://issues.apache.org/jira/browse/OFBIZ-8689)] - When we pass only pks in &quot;updatePartyToWorkEffortAssignment&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8690](https://issues.apache.org/jira/browse/OFBIZ-8690)] - Unit test case for service - updateWorkEffortNote
+- [[OFBIZ-8691](https://issues.apache.org/jira/browse/OFBIZ-8691)] - Unit test case for service - getWorkEffort
+- [[OFBIZ-8694](https://issues.apache.org/jira/browse/OFBIZ-8694)] - Unit test case for service - createWorkEffortAssoc
+- [[OFBIZ-8695](https://issues.apache.org/jira/browse/OFBIZ-8695)] - Unit test case for service - copyWorkEffortAssocs
+- [[OFBIZ-8696](https://issues.apache.org/jira/browse/OFBIZ-8696)] - Unit test case for service - createWorkEffortKeyword
+- [[OFBIZ-8697](https://issues.apache.org/jira/browse/OFBIZ-8697)] - Unit test case for service - deleteWorkEffortKeyword
+- [[OFBIZ-8698](https://issues.apache.org/jira/browse/OFBIZ-8698)] - When we pass only pks in &quot;updateInvoiceContent&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8699](https://issues.apache.org/jira/browse/OFBIZ-8699)] - Unit test case for service - deleteWorkEffortKeywords
+- [[OFBIZ-8700](https://issues.apache.org/jira/browse/OFBIZ-8700)] - Unit test case for service - createTimesheet
+- [[OFBIZ-8701](https://issues.apache.org/jira/browse/OFBIZ-8701)] - Unit test case for service - updateTimesheetToInProcess
+- [[OFBIZ-8702](https://issues.apache.org/jira/browse/OFBIZ-8702)] - Unit test case for service - updateTimesheet
+- [[OFBIZ-8703](https://issues.apache.org/jira/browse/OFBIZ-8703)] - Unit test case for service - deleteTimesheet
+- [[OFBIZ-8704](https://issues.apache.org/jira/browse/OFBIZ-8704)] - Unit test case for service - createTimesheets
+- [[OFBIZ-8705](https://issues.apache.org/jira/browse/OFBIZ-8705)] - Unit test case for service - createTimesheetForThisWeek
+- [[OFBIZ-8706](https://issues.apache.org/jira/browse/OFBIZ-8706)] - Unit test case for service - addTimesheetToNewInvoice
+- [[OFBIZ-8707](https://issues.apache.org/jira/browse/OFBIZ-8707)] - Unit test case for service - createTimeEntry
+- [[OFBIZ-8708](https://issues.apache.org/jira/browse/OFBIZ-8708)] - When we pass only pks in &quot;updateProductPromoCond&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8709](https://issues.apache.org/jira/browse/OFBIZ-8709)] - Unit test case for service - updateTimeEntry
+- [[OFBIZ-8710](https://issues.apache.org/jira/browse/OFBIZ-8710)] - Unit test case for service - deleteTimeEntry
+- [[OFBIZ-8711](https://issues.apache.org/jira/browse/OFBIZ-8711)] - Unit test case for service - getTimeEntryRate
+- [[OFBIZ-8712](https://issues.apache.org/jira/browse/OFBIZ-8712)] - Unit test case for service - unlinkInvoiceFromTimeEntry
+- [[OFBIZ-8719](https://issues.apache.org/jira/browse/OFBIZ-8719)] - Unit test case for service - cancelAgreement
+- [[OFBIZ-8720](https://issues.apache.org/jira/browse/OFBIZ-8720)] - Unit test case for service - copyAgreement
+- [[OFBIZ-8721](https://issues.apache.org/jira/browse/OFBIZ-8721)] - Unit test case for service - getCommissionForProduct
+- [[OFBIZ-8724](https://issues.apache.org/jira/browse/OFBIZ-8724)] - Improvements in PerfReviewItemType entity definition and services
+- [[OFBIZ-8725](https://issues.apache.org/jira/browse/OFBIZ-8725)] - Improvements in PeriodType entity definition and services
+- [[OFBIZ-8726](https://issues.apache.org/jira/browse/OFBIZ-8726)] - Improvements in PriorityType entity definition and services
+- [[OFBIZ-8727](https://issues.apache.org/jira/browse/OFBIZ-8727)] - Improvements in ProdCatalogCategoryType entity definition and services
+- [[OFBIZ-8728](https://issues.apache.org/jira/browse/OFBIZ-8728)] - Improvements in ProdCatalogInvFacility entity definition and services
+- [[OFBIZ-8729](https://issues.apache.org/jira/browse/OFBIZ-8729)] - Improvements in ProdConfItemContentType entity definition and services
+- [[OFBIZ-8730](https://issues.apache.org/jira/browse/OFBIZ-8730)] - Improvements in ProductAssocType entity definition and services
+- [[OFBIZ-8731](https://issues.apache.org/jira/browse/OFBIZ-8731)] - Improvements in ProductAverageCostType entity definition and services
+- [[OFBIZ-8732](https://issues.apache.org/jira/browse/OFBIZ-8732)] - Improvements in ProductCategoryContentType entity definition and services
+- [[OFBIZ-8733](https://issues.apache.org/jira/browse/OFBIZ-8733)] - Improvements in ProductCategoryType entity definition and services
+- [[OFBIZ-8734](https://issues.apache.org/jira/browse/OFBIZ-8734)] - Improvements in ProductCategoryTypeAttr entity definition and services
+- [[OFBIZ-8735](https://issues.apache.org/jira/browse/OFBIZ-8735)] - Improvements in ProductContentType entity definition and services
+- [[OFBIZ-8736](https://issues.apache.org/jira/browse/OFBIZ-8736)] - Improvements in ProductFeatureApplType entity definition and services
+- [[OFBIZ-8737](https://issues.apache.org/jira/browse/OFBIZ-8737)] - Improvements in ProductFeatureIactnType entity definition and services
+- [[OFBIZ-8739](https://issues.apache.org/jira/browse/OFBIZ-8739)] - Check the accounting permission for &#39;setPaymentStatus&#39; and &#39;voidPayment&#39; on definition level
+- [[OFBIZ-8747](https://issues.apache.org/jira/browse/OFBIZ-8747)] - Add Rate Test case data
+- [[OFBIZ-8749](https://issues.apache.org/jira/browse/OFBIZ-8749)] - Unit test case for service - createBudget
+- [[OFBIZ-8750](https://issues.apache.org/jira/browse/OFBIZ-8750)] - Unit test case for service - updateBudgetStatus
+- [[OFBIZ-8751](https://issues.apache.org/jira/browse/OFBIZ-8751)] - Unit test case for service - updateProductAverageCostOnReceiveInventory
+- [[OFBIZ-8752](https://issues.apache.org/jira/browse/OFBIZ-8752)] - Unit test case for service - getProductAverageCost
+- [[OFBIZ-8753](https://issues.apache.org/jira/browse/OFBIZ-8753)] - Unit test case for service - getRateAmount
+- [[OFBIZ-8754](https://issues.apache.org/jira/browse/OFBIZ-8754)] - Unit test case for service - deleteRateAmount
+- [[OFBIZ-8755](https://issues.apache.org/jira/browse/OFBIZ-8755)] - Unit test case for service - updateRateAmount
+- [[OFBIZ-8756](https://issues.apache.org/jira/browse/OFBIZ-8756)] - Unit test case for service - getRatesAmountsFromWorkEffortId
+- [[OFBIZ-8757](https://issues.apache.org/jira/browse/OFBIZ-8757)] - Unit test case for service - getRatesAmountsFromPartyId
+- [[OFBIZ-8758](https://issues.apache.org/jira/browse/OFBIZ-8758)] - Unit test case for service - getRatesAmountsFromEmplPositionTypeId
+- [[OFBIZ-8759](https://issues.apache.org/jira/browse/OFBIZ-8759)] - Unit test case for service - updatePartyRate
+- [[OFBIZ-8760](https://issues.apache.org/jira/browse/OFBIZ-8760)] - Unit test case for service - deletePartyRate
+- [[OFBIZ-8761](https://issues.apache.org/jira/browse/OFBIZ-8761)] - Unit test case for service - filterRateAmountList
+- [[OFBIZ-8762](https://issues.apache.org/jira/browse/OFBIZ-8762)] - Improvements in ProductMaintType entity definition and services
+- [[OFBIZ-8763](https://issues.apache.org/jira/browse/OFBIZ-8763)] - Improvements in ProductMeterType entity definition and services
+- [[OFBIZ-8764](https://issues.apache.org/jira/browse/OFBIZ-8764)] - Improvements in ProductOrderItem entity definition and services
+- [[OFBIZ-8765](https://issues.apache.org/jira/browse/OFBIZ-8765)] - Improvements in ProductPriceActionType entity definition and services
+- [[OFBIZ-8766](https://issues.apache.org/jira/browse/OFBIZ-8766)] - Improvements in ProductPriceAutoNotice entity definition and services
+- [[OFBIZ-8767](https://issues.apache.org/jira/browse/OFBIZ-8767)] - Improvements in ProductPricePurpose entity definition and services
+- [[OFBIZ-8768](https://issues.apache.org/jira/browse/OFBIZ-8768)] - Improvements in ProductPriceType entity definition and services
+- [[OFBIZ-8769](https://issues.apache.org/jira/browse/OFBIZ-8769)] - Improvements in ProductStoreGroupRole entity definition and services
+- [[OFBIZ-8770](https://issues.apache.org/jira/browse/OFBIZ-8770)] - Improvements in ProductStoreGroupRollup entity definition and services
+- [[OFBIZ-8771](https://issues.apache.org/jira/browse/OFBIZ-8771)] - Improvements in ProductStoreGroupType entity definition and services
+- [[OFBIZ-8772](https://issues.apache.org/jira/browse/OFBIZ-8772)] - Improvements in ProductType entity definition and services
+- [[OFBIZ-8773](https://issues.apache.org/jira/browse/OFBIZ-8773)] - Improvements in ProductTypeAttr entity definition and services
+- [[OFBIZ-8774](https://issues.apache.org/jira/browse/OFBIZ-8774)] - Improvements in StatusType entity definition and services
+- [[OFBIZ-8775](https://issues.apache.org/jira/browse/OFBIZ-8775)] - Improvements in StatusValidChange entity definition and services
+- [[OFBIZ-8776](https://issues.apache.org/jira/browse/OFBIZ-8776)] - Improvements in SubscriptionActivity entity definition and services
+- [[OFBIZ-8777](https://issues.apache.org/jira/browse/OFBIZ-8777)] - Improvements in SubscriptionAttribute entity definition and services
+- [[OFBIZ-8778](https://issues.apache.org/jira/browse/OFBIZ-8778)] - Improvements in SubscriptionType entity definition and services
+- [[OFBIZ-8779](https://issues.apache.org/jira/browse/OFBIZ-8779)] - Improvements in SubscriptionTypeAttr entity definition and services
+- [[OFBIZ-8780](https://issues.apache.org/jira/browse/OFBIZ-8780)] - Improvements in SupplierRatingType entity definition and services
+- [[OFBIZ-8781](https://issues.apache.org/jira/browse/OFBIZ-8781)] - Improvements in TaxAuthorityAssocType entity definition and services
+- [[OFBIZ-8782](https://issues.apache.org/jira/browse/OFBIZ-8782)] - Improvements in TaxAuthorityRateType entity definition and services
+- [[OFBIZ-8783](https://issues.apache.org/jira/browse/OFBIZ-8783)] - Improvements in TermType entity definition and services
+- [[OFBIZ-8784](https://issues.apache.org/jira/browse/OFBIZ-8784)] - Improvements in TermTypeAttr entity definition and services
+- [[OFBIZ-8785](https://issues.apache.org/jira/browse/OFBIZ-8785)] - Improvements in TestingSubtype entity definition and services
+- [[OFBIZ-8786](https://issues.apache.org/jira/browse/OFBIZ-8786)] - Improvements in TestingType entity definition and services
+- [[OFBIZ-8787](https://issues.apache.org/jira/browse/OFBIZ-8787)] - Improvements in Uom entity definition and services
+- [[OFBIZ-8788](https://issues.apache.org/jira/browse/OFBIZ-8788)] - Improvements in UomType entity definition and services
+- [[OFBIZ-8789](https://issues.apache.org/jira/browse/OFBIZ-8789)] - Improvements in UomGroup entity definition and services
+- [[OFBIZ-8790](https://issues.apache.org/jira/browse/OFBIZ-8790)] - Improvements in UserAgentType entity definition and services
+- [[OFBIZ-8791](https://issues.apache.org/jira/browse/OFBIZ-8791)] - Improvements in UserAgentMethodType entity definition and services
+- [[OFBIZ-8792](https://issues.apache.org/jira/browse/OFBIZ-8792)] - Improvements in UserPrefGroupType entity definition and services
+- [[OFBIZ-8793](https://issues.apache.org/jira/browse/OFBIZ-8793)] - Improvements in WebPreferenceType entity definition and services
+- [[OFBIZ-8794](https://issues.apache.org/jira/browse/OFBIZ-8794)] - Improvements in WorkEffortAssocAttribute entity definition and services
+- [[OFBIZ-8795](https://issues.apache.org/jira/browse/OFBIZ-8795)] - Improvements in WorkEffortAssocType entity definition and services
+- [[OFBIZ-8796](https://issues.apache.org/jira/browse/OFBIZ-8796)] - Improvements in WorkEffortAssocTypeAttr entity definition and services
+- [[OFBIZ-8797](https://issues.apache.org/jira/browse/OFBIZ-8797)] - Improvements in WorkEffortBilling entity definition and services
+- [[OFBIZ-8798](https://issues.apache.org/jira/browse/OFBIZ-8798)] - Improvements in WorkEffortContentType entity definition and services
+- [[OFBIZ-8799](https://issues.apache.org/jira/browse/OFBIZ-8799)] - Improvements in WorkEffortGoodStandardType entity definition and services
+- [[OFBIZ-8800](https://issues.apache.org/jira/browse/OFBIZ-8800)] - Improvements in WorkEffortPurposeType entity definition and services
+- [[OFBIZ-8801](https://issues.apache.org/jira/browse/OFBIZ-8801)] - Improvements in WorkEffortType entity definition and services
+- [[OFBIZ-8802](https://issues.apache.org/jira/browse/OFBIZ-8802)] - Improvements in WorkEffortTypeAttr entity definition and services
+- [[OFBIZ-8803](https://issues.apache.org/jira/browse/OFBIZ-8803)] - Improvements in WorkReqFulfType entity definition and services
+- [[OFBIZ-8805](https://issues.apache.org/jira/browse/OFBIZ-8805)] - Improvements in FinAccountRole entity definition and services
+- [[OFBIZ-8807](https://issues.apache.org/jira/browse/OFBIZ-8807)] - Improvements in ContactMechLink entity definition and services
+- [[OFBIZ-8814](https://issues.apache.org/jira/browse/OFBIZ-8814)] - Unit test case for service - createFinAccount
+- [[OFBIZ-8815](https://issues.apache.org/jira/browse/OFBIZ-8815)] - Unit test case for service - updateFinAccount
+- [[OFBIZ-8816](https://issues.apache.org/jira/browse/OFBIZ-8816)] - Unit test case for service - deleteFinAccount
+- [[OFBIZ-8817](https://issues.apache.org/jira/browse/OFBIZ-8817)] - Unit test case for service - createFinAccountStatus
+- [[OFBIZ-8818](https://issues.apache.org/jira/browse/OFBIZ-8818)] - Unit test case for service - createFinAccountTrans
+- [[OFBIZ-8819](https://issues.apache.org/jira/browse/OFBIZ-8819)] - Unit test case for service - createFinAccountRole
+- [[OFBIZ-8820](https://issues.apache.org/jira/browse/OFBIZ-8820)] - Unit test case for service - updateFinAccountRole
+- [[OFBIZ-8821](https://issues.apache.org/jira/browse/OFBIZ-8821)] - Unit test case for service - deleteFinAccountRole
+- [[OFBIZ-8823](https://issues.apache.org/jira/browse/OFBIZ-8823)] - Improve the work effort services to have generic permission check on defination
+- [[OFBIZ-8825](https://issues.apache.org/jira/browse/OFBIZ-8825)] - Improve the facility and related entities CRUD service to check permission at definition
+- [[OFBIZ-8827](https://issues.apache.org/jira/browse/OFBIZ-8827)] - Improve the ContactList and TrackingCode CRUD service to check marketing manager permission at definition
+- [[OFBIZ-8832](https://issues.apache.org/jira/browse/OFBIZ-8832)] - Unit test case for service - createFinAccountAuth
+- [[OFBIZ-8833](https://issues.apache.org/jira/browse/OFBIZ-8833)] - Unit test case for service - setFinAccountTransStatus
+- [[OFBIZ-8834](https://issues.apache.org/jira/browse/OFBIZ-8834)] - Improvements in BrowserType entity definition and services
+- [[OFBIZ-8835](https://issues.apache.org/jira/browse/OFBIZ-8835)] - Improvements in PlatformType entity definition and services
+- [[OFBIZ-8836](https://issues.apache.org/jira/browse/OFBIZ-8836)] - Improvements in ProtocolType entity definition and services
+- [[OFBIZ-8837](https://issues.apache.org/jira/browse/OFBIZ-8837)] - Improvements in ServerHitType entity definition and services
+- [[OFBIZ-8839](https://issues.apache.org/jira/browse/OFBIZ-8839)] - Improvements in UserAgent entity definition and services
+- [[OFBIZ-8840](https://issues.apache.org/jira/browse/OFBIZ-8840)] - Unit test case for service - cancelFixedAssetStdCost
+- [[OFBIZ-8841](https://issues.apache.org/jira/browse/OFBIZ-8841)] - Unit test case for service - createFixedAssetMaint
+- [[OFBIZ-8844](https://issues.apache.org/jira/browse/OFBIZ-8844)] - Unit test case for service - createFixedAssetMeter
+- [[OFBIZ-8846](https://issues.apache.org/jira/browse/OFBIZ-8846)] - Improvements in CommunicationEventPrpTyp entity definition and services
+- [[OFBIZ-8847](https://issues.apache.org/jira/browse/OFBIZ-8847)] - Improvements in CommunicationEventPurpose entity definition and services
+- [[OFBIZ-8850](https://issues.apache.org/jira/browse/OFBIZ-8850)] - Improve return and related entities CRUD service to check order permission at definition level
+- [[OFBIZ-8854](https://issues.apache.org/jira/browse/OFBIZ-8854)] - Unit test case for service - CreateOrderDeliverySchedule
+- [[OFBIZ-8855](https://issues.apache.org/jira/browse/OFBIZ-8855)] - Unit test case for service - CreateOrderItemChange
+- [[OFBIZ-8856](https://issues.apache.org/jira/browse/OFBIZ-8856)] - Unit test case for service - CreateOrderPaymentApplication
+- [[OFBIZ-8876](https://issues.apache.org/jira/browse/OFBIZ-8876)] - Improve the entity sync CRUD services by checking &#39;entitySyncPermissionCheck&#39; permission at definition
+- [[OFBIZ-8877](https://issues.apache.org/jira/browse/OFBIZ-8877)] - Unit test case for service - createInvoice
+- [[OFBIZ-8878](https://issues.apache.org/jira/browse/OFBIZ-8878)] - Unit test case for service - copyInvoice
+- [[OFBIZ-8879](https://issues.apache.org/jira/browse/OFBIZ-8879)] - Unit test case for service - getInvoice
+- [[OFBIZ-8880](https://issues.apache.org/jira/browse/OFBIZ-8880)] - Unit test case for service - setInvoiceStatus
+- [[OFBIZ-8881](https://issues.apache.org/jira/browse/OFBIZ-8881)] - Improvements in FinAccount entity definition and services
+- [[OFBIZ-8882](https://issues.apache.org/jira/browse/OFBIZ-8882)] - Unit test case for service - copyInvoiceToTemplate
+- [[OFBIZ-8883](https://issues.apache.org/jira/browse/OFBIZ-8883)] - Improvements in FinAccountRole entity definition and services
+- [[OFBIZ-8884](https://issues.apache.org/jira/browse/OFBIZ-8884)] - When we pass only pks in &quot;updateWorkEffortFixedAssetStd&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8885](https://issues.apache.org/jira/browse/OFBIZ-8885)] - When we pass only pks in &quot;updateContent&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8886](https://issues.apache.org/jira/browse/OFBIZ-8886)] - When we pass only pks in &quot;updateShipmentPackageRouteSeg&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8887](https://issues.apache.org/jira/browse/OFBIZ-8887)] - When we pass only pks in &quot;updateShipmentContactMech&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8888](https://issues.apache.org/jira/browse/OFBIZ-8888)] - Improvements in FinAccountTypeGlAccount entity definition and services
+- [[OFBIZ-8889](https://issues.apache.org/jira/browse/OFBIZ-8889)] - When we pass only pks in &quot;updateQuantityBreak&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8890](https://issues.apache.org/jira/browse/OFBIZ-8890)] - When we pass only pks in &quot;updateShipmentGatewayConfig&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8892](https://issues.apache.org/jira/browse/OFBIZ-8892)] - Improvements in VarianceReasonGlAccount entity definition and services
+- [[OFBIZ-8893](https://issues.apache.org/jira/browse/OFBIZ-8893)] - When we pass only pks in &quot;updateShipmentGatewayConfigType&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8894](https://issues.apache.org/jira/browse/OFBIZ-8894)] - Improvements in FixedAssetTypeGlAccount entity definition and services
+- [[OFBIZ-8895](https://issues.apache.org/jira/browse/OFBIZ-8895)] - Convert ShipmentContactMech entity CRUD service to entity-auto
+- [[OFBIZ-8896](https://issues.apache.org/jira/browse/OFBIZ-8896)] - Unit test case for service - createInvoiceItem
+- [[OFBIZ-8897](https://issues.apache.org/jira/browse/OFBIZ-8897)] - When we pass only pks in &quot;updateCommEventContentAssoc&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8898](https://issues.apache.org/jira/browse/OFBIZ-8898)] - Unit test case for service - createInvoiceStatus
+- [[OFBIZ-8899](https://issues.apache.org/jira/browse/OFBIZ-8899)] - Unit test case for service - createInvoiceRole
+- [[OFBIZ-8900](https://issues.apache.org/jira/browse/OFBIZ-8900)] - Unit test case for service - createInvoiceTerm
+- [[OFBIZ-8901](https://issues.apache.org/jira/browse/OFBIZ-8901)] - Unit test case for service - cancelInvoice
+- [[OFBIZ-8902](https://issues.apache.org/jira/browse/OFBIZ-8902)] - When we pass only pks in &quot;updateQuoteTerm&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8904](https://issues.apache.org/jira/browse/OFBIZ-8904)] - When we pass only pks in &quot;updateCarrierShipmentMethod&quot; service.All non-pk values are getting null.
+- [[OFBIZ-8909](https://issues.apache.org/jira/browse/OFBIZ-8909)] - Catch GenericEntityException and GenericServiceException and other exceptions instead of Exception in Java classes of accounting component
+- [[OFBIZ-8910](https://issues.apache.org/jira/browse/OFBIZ-8910)] - Catch GenericEntityException and GenericServiceException and other exceptions instead of Exception in Java classes of content component
+- [[OFBIZ-8911](https://issues.apache.org/jira/browse/OFBIZ-8911)] - Catch GenericEntityException and GenericServiceException and other exceptions instead of Exception in Java classes of manufacturing component
+- [[OFBIZ-8912](https://issues.apache.org/jira/browse/OFBIZ-8912)] - Catch GenericEntityException and GenericServiceException and other exceptions instead of Exception in Java classes of order component
+- [[OFBIZ-8913](https://issues.apache.org/jira/browse/OFBIZ-8913)] - Catch GenericEntityException and GenericServiceException and other exceptions instead of Exception in Java classes of party component
+- [[OFBIZ-8914](https://issues.apache.org/jira/browse/OFBIZ-8914)] - Catch GenericEntityException and GenericServiceException and other exceptions instead of Exception in Java classes of product component
+- [[OFBIZ-8915](https://issues.apache.org/jira/browse/OFBIZ-8915)] - Catch GenericEntityException and GenericServiceException and other exceptions instead of Exception in Java classes of workeffort component
+- [[OFBIZ-8916](https://issues.apache.org/jira/browse/OFBIZ-8916)] - Improvements in InvoiceTerm entity definition and services
+- [[OFBIZ-8917](https://issues.apache.org/jira/browse/OFBIZ-8917)] - Catch GenericEntityException and GenericServiceException and other exceptions instead of Exception in Java classes of framework component
+- [[OFBIZ-8918](https://issues.apache.org/jira/browse/OFBIZ-8918)] - Catch GenericEntityException and GenericServiceException and other exceptions instead of Exception in Java classes of framework/webtools component
+- [[OFBIZ-8919](https://issues.apache.org/jira/browse/OFBIZ-8919)] - Catch GenericEntityException and GenericServiceException and other exceptions instead of Exception in Java classes of specialpurpose/birt component
+- [[OFBIZ-8920](https://issues.apache.org/jira/browse/OFBIZ-8920)] - Catch GenericEntityException and GenericServiceException and other exceptions instead of Exception in Java classes of specialpurpose/ebay component
+- [[OFBIZ-8921](https://issues.apache.org/jira/browse/OFBIZ-8921)] - Catch GenericEntityException and GenericServiceException and other exceptions instead of Exception in Java classes of specialpurpose/ebaystore component
+- [[OFBIZ-8922](https://issues.apache.org/jira/browse/OFBIZ-8922)] - Catch GenericEntityException and GenericServiceException and other exceptions instead of Exception in Java classes of specialpurpose/solr component
+- [[OFBIZ-8923](https://issues.apache.org/jira/browse/OFBIZ-8923)] - Improvements in InvoiceContactMech entity definition and services
+- [[OFBIZ-8928](https://issues.apache.org/jira/browse/OFBIZ-8928)] - Improvements in InvoiceContent entity definition and services
+- [[OFBIZ-8940](https://issues.apache.org/jira/browse/OFBIZ-8940)] - Unit test case for service - CopyCustRequestItem
+- [[OFBIZ-8941](https://issues.apache.org/jira/browse/OFBIZ-8941)] - Unit test case for service - CopyQuoteItem
+- [[OFBIZ-8942](https://issues.apache.org/jira/browse/OFBIZ-8942)] - Unit test case for service - CreateATPRequirementsForOrder
+- [[OFBIZ-8943](https://issues.apache.org/jira/browse/OFBIZ-8943)] - Unit test case for service - CreateAutoRequirementsForOrder
+- [[OFBIZ-8944](https://issues.apache.org/jira/browse/OFBIZ-8944)] - Unit test case for service - CreateCustRequestAttribute
+- [[OFBIZ-8945](https://issues.apache.org/jira/browse/OFBIZ-8945)] - Unit test case for service - CreateCustRequestContent
+- [[OFBIZ-8946](https://issues.apache.org/jira/browse/OFBIZ-8946)] - Unit test case for service - CreateCustRequestItem
+- [[OFBIZ-8947](https://issues.apache.org/jira/browse/OFBIZ-8947)] - Unit test case for service - CreateCustRequestItemNote
+- [[OFBIZ-8948](https://issues.apache.org/jira/browse/OFBIZ-8948)] - Unit test case for service - CreateCustRequestNote
+- [[OFBIZ-8949](https://issues.apache.org/jira/browse/OFBIZ-8949)] - Unit test case for service - CreateCustRequestParty
+- [[OFBIZ-8950](https://issues.apache.org/jira/browse/OFBIZ-8950)] - Unit test case for service - CreateCustRequestStatus
+- [[OFBIZ-8951](https://issues.apache.org/jira/browse/OFBIZ-8951)] - Unit test case for service - CreateQuote
+- [[OFBIZ-8952](https://issues.apache.org/jira/browse/OFBIZ-8952)] - Unit test case for service - CreateQuoteAttribute
+- [[OFBIZ-8954](https://issues.apache.org/jira/browse/OFBIZ-8954)] - Unit test case for service - CreateQuoteRole
+- [[OFBIZ-8955](https://issues.apache.org/jira/browse/OFBIZ-8955)] - Unit test case for service - CreateRequirement
+- [[OFBIZ-8956](https://issues.apache.org/jira/browse/OFBIZ-8956)] - Unit test case for service - CreateRequirementFromItemATP
+- [[OFBIZ-8957](https://issues.apache.org/jira/browse/OFBIZ-8957)] - Unit test case for service - CreateRequirementRole
+- [[OFBIZ-8959](https://issues.apache.org/jira/browse/OFBIZ-8959)] - Unit test case for service - GetCustRequestsByRole
+- [[OFBIZ-8960](https://issues.apache.org/jira/browse/OFBIZ-8960)] - Unit test case for service - GetNextQuoteId
+- [[OFBIZ-8961](https://issues.apache.org/jira/browse/OFBIZ-8961)] - Unit test case for service - GetRequirementsForSupplier
+- [[OFBIZ-8962](https://issues.apache.org/jira/browse/OFBIZ-8962)] - Unit test case for service - SetCustRequestStatus
+- [[OFBIZ-8963](https://issues.apache.org/jira/browse/OFBIZ-8963)] - Unit test case for service - CreateQuoteCoefficient
+- [[OFBIZ-8964](https://issues.apache.org/jira/browse/OFBIZ-8964)] - Improvements in Addendum entity definition and services
+- [[OFBIZ-8966](https://issues.apache.org/jira/browse/OFBIZ-8966)] - Improvements in AgreementContentType entity definition and services
+- [[OFBIZ-8967](https://issues.apache.org/jira/browse/OFBIZ-8967)] - When we pass only pks in &quot;updateTelecomNumber&quot; service then all non-pk values are getting null
+- [[OFBIZ-8968](https://issues.apache.org/jira/browse/OFBIZ-8968)] - When we pass only pks in &quot;updateWorkEffortFixedAssetAssign&quot; service then all non-pk values are getting null
+- [[OFBIZ-8970](https://issues.apache.org/jira/browse/OFBIZ-8970)] - Improvements in ApplicationSandbox entity definition and services
+- [[OFBIZ-8971](https://issues.apache.org/jira/browse/OFBIZ-8971)] - When we pass only pks in &quot;updateRequirementRole&quot; service then all non-pk values are getting null
+- [[OFBIZ-8974](https://issues.apache.org/jira/browse/OFBIZ-8974)] - When we pass only pks in &quot;updateShipmentItem&quot; service then all non-pk values are getting null
+- [[OFBIZ-8975](https://issues.apache.org/jira/browse/OFBIZ-8975)] - When we pass only pks in &quot;updateShipmentPackage&quot; service then all non-pk values are getting null
+- [[OFBIZ-8976](https://issues.apache.org/jira/browse/OFBIZ-8976)] - When we pass only pks in &quot;updateShipmentPackageContent&quot; service then all non-pk values are getting null
+- [[OFBIZ-8977](https://issues.apache.org/jira/browse/OFBIZ-8977)] - When we pass only pks in &quot;updateItemIssuance&quot; service then all non-pk values are getting null
+- [[OFBIZ-8980](https://issues.apache.org/jira/browse/OFBIZ-8980)] - When we pass only pks in &quot;updateWebSiteContactList&quot; service then all non-pk values are getting null
+- [[OFBIZ-8981](https://issues.apache.org/jira/browse/OFBIZ-8981)] - When we pass only pks in &quot;updateContentAssoc&quot; service then all non-pk values are getting null
+- [[OFBIZ-8982](https://issues.apache.org/jira/browse/OFBIZ-8982)] - When we pass only pks in &quot;updateQuote&quot; service then all non-pk values are getting null
+- [[OFBIZ-8984](https://issues.apache.org/jira/browse/OFBIZ-8984)] - When we pass only pks in &quot;updateSalesForecast&quot; service then all non-pk values are getting null
+- [[OFBIZ-8985](https://issues.apache.org/jira/browse/OFBIZ-8985)] - When we pass only pks in &quot;updateShipmentRouteSegment&quot; service then all non-pk values are getting null
+- [[OFBIZ-8988](https://issues.apache.org/jira/browse/OFBIZ-8988)] - When we pass only pks in &quot;updateWorkEffortReview&quot; service then all non-pk values are getting null
+- [[OFBIZ-8993](https://issues.apache.org/jira/browse/OFBIZ-8993)] - Improvements in CartAbandonedLine entity definition and services
+- [[OFBIZ-8995](https://issues.apache.org/jira/browse/OFBIZ-8995)] - When we pass only pks in &quot;updateCustomTimePeriod&quot; service then all non-pk values are getting null
+- [[OFBIZ-8996](https://issues.apache.org/jira/browse/OFBIZ-8996)] - When we pass only pks in &quot;updateProductManufacturingRule&quot; service then all non-pk values are getting null
+- [[OFBIZ-8997](https://issues.apache.org/jira/browse/OFBIZ-8997)] - When we pass only pks in &quot;updateEntitySync&quot; service then all non-pk values are getting null
+- [[OFBIZ-8998](https://issues.apache.org/jira/browse/OFBIZ-8998)] - When we pass only pks in &quot;updateEntitySyncHistory&quot; service then all non-pk values are getting null
+- [[OFBIZ-8999](https://issues.apache.org/jira/browse/OFBIZ-8999)] - When we pass only pks in &quot;updateEntitySyncInclude&quot; service then all non-pk values are getting null
+- [[OFBIZ-9000](https://issues.apache.org/jira/browse/OFBIZ-9000)] - When we pass only pks in &quot;updateTrackingCodeType&quot; service then all non-pk values are getting null
+- [[OFBIZ-9001](https://issues.apache.org/jira/browse/OFBIZ-9001)] - When we pass only pks in &quot;updatePicklistBin&quot; service then all non-pk values are getting null
+- [[OFBIZ-9003](https://issues.apache.org/jira/browse/OFBIZ-9003)] - When we pass only pks in &quot;updatePicklistRolea&quot; service then all non-pk values are getting null
+- [[OFBIZ-9005](https://issues.apache.org/jira/browse/OFBIZ-9005)] - When we pass only pks in &quot;updateTrackingCodeOrder&quot; service then all non-pk values are getting null
+- [[OFBIZ-9007](https://issues.apache.org/jira/browse/OFBIZ-9007)] - When we pass only pks in &quot;updateQuoteItem&quot; service then all non-pk values are getting null
+- [[OFBIZ-9008](https://issues.apache.org/jira/browse/OFBIZ-9008)] - When we pass only pks in &quot;updateQuoteAttribute&quot; service then all non-pk values are getting null
+- [[OFBIZ-9010](https://issues.apache.org/jira/browse/OFBIZ-9010)] - When we pass only pks in &quot;updateQuoteAdjustment&quot; service then all non-pk values are getting null
+- [[OFBIZ-9017](https://issues.apache.org/jira/browse/OFBIZ-9017)] - When we pass only pks in &quot;updateCommunicationEventRole&quot; service then all non-pk values are getting null
+- [[OFBIZ-9018](https://issues.apache.org/jira/browse/OFBIZ-9018)] - When we pass only pks in &quot;updateCommunicationEventWorkEff&quot; service then all non-pk values are getting null
+- [[OFBIZ-9019](https://issues.apache.org/jira/browse/OFBIZ-9019)] - When we pass only pks in &quot;updateCustRequest&quot; service then all non-pk values are getting null
+- [[OFBIZ-9020](https://issues.apache.org/jira/browse/OFBIZ-9020)] - When we pass only pks in &quot;updateCustRequestItem&quot; service then all non-pk values are getting null
+- [[OFBIZ-9021](https://issues.apache.org/jira/browse/OFBIZ-9021)] - When we pass only pks in &quot;updateCustRequestParty&quot; service then all non-pk values are getting null
+- [[OFBIZ-9023](https://issues.apache.org/jira/browse/OFBIZ-9023)] - Refer to objects by their interfaces rather than class when instantiating Collection implementation classes in Java files of order component
+- [[OFBIZ-9026](https://issues.apache.org/jira/browse/OFBIZ-9026)] - Refer to objects by their interfaces rather than class when instantiating Collection implementation classes in Java files of product component
+- [[OFBIZ-9027](https://issues.apache.org/jira/browse/OFBIZ-9027)] - Refer to objects by their interfaces rather than class when instantiating Collection implementation classes in Java files of workeffort component
+- [[OFBIZ-9028](https://issues.apache.org/jira/browse/OFBIZ-9028)] - When we pass only pks in &quot;updateFixedAssetMaint&quot; service then all non-pk values are getting null
+- [[OFBIZ-9029](https://issues.apache.org/jira/browse/OFBIZ-9029)] - When we pass only pks in &quot;updateFixedAssetMeter&quot; service then all non-pk values are getting null
+- [[OFBIZ-9030](https://issues.apache.org/jira/browse/OFBIZ-9030)] - Refer to objects by their interfaces rather than class when instantiating Collection implementation classes in Java files of framework component
+- [[OFBIZ-9031](https://issues.apache.org/jira/browse/OFBIZ-9031)] - When we pass only pks in &quot;updateGlReconciliation&quot; service then all non-pk values are getting null
+- [[OFBIZ-9032](https://issues.apache.org/jira/browse/OFBIZ-9032)] - Refer to objects by their interfaces rather than class when instantiating Collection implementation classes in Java files of framework/webtools component
+- [[OFBIZ-9033](https://issues.apache.org/jira/browse/OFBIZ-9033)] - When we pass only pks in &quot;updateGlReconciliationEntry&quot; service then all non-pk values are getting null
+- [[OFBIZ-9034](https://issues.apache.org/jira/browse/OFBIZ-9034)] - Refer to objects by their interfaces rather than class when instantiating Collection implementation classes in Java files of specialpurpose/birt component
+- [[OFBIZ-9035](https://issues.apache.org/jira/browse/OFBIZ-9035)] - When we pass only pks in &quot;updateKeywordThesaurus&quot; service then all non-pk values are getting null
+- [[OFBIZ-9036](https://issues.apache.org/jira/browse/OFBIZ-9036)] - Refer to objects by their interfaces rather than class when instantiating Collection implementation classes in Java files of specialpurpose/ebaystore component
+- [[OFBIZ-9039](https://issues.apache.org/jira/browse/OFBIZ-9039)] - When we pass only pks in &quot;updateOrderNote&quot; service then all non-pk values are getting null
+- [[OFBIZ-9040](https://issues.apache.org/jira/browse/OFBIZ-9040)] - When we pass only pks in &quot;updatePartyRate&quot; service then all non-pk values are getting null
+- [[OFBIZ-9041](https://issues.apache.org/jira/browse/OFBIZ-9041)] - When we pass only pks in &quot;updatePartyRelationship&quot; service then all non-pk values are getting null
+- [[OFBIZ-9042](https://issues.apache.org/jira/browse/OFBIZ-9042)] - When we pass only pks in &quot;updatePartyTaxAuthInfo&quot; service then all non-pk values are getting null
+- [[OFBIZ-9058](https://issues.apache.org/jira/browse/OFBIZ-9058)] - When we pass only pks in &quot;updateProduct&quot; service then all non-pk values are getting null
+- [[OFBIZ-9059](https://issues.apache.org/jira/browse/OFBIZ-9059)] - When we pass only pks in &quot;updateProductCategory&quot; service then all non-pk values are getting null
+- [[OFBIZ-9060](https://issues.apache.org/jira/browse/OFBIZ-9060)] - When we pass only pks in &quot;updateProductCategoryAttribute&quot; service then all non-pk values are getting null
+- [[OFBIZ-9061](https://issues.apache.org/jira/browse/OFBIZ-9061)] - When we pass only pks in &quot;updateProductCategoryGlAccount&quot; service then all non-pk values are getting null
+- [[OFBIZ-9062](https://issues.apache.org/jira/browse/OFBIZ-9062)] - When we pass only pks in &quot;updateProductCategoryLink&quot; service then all non-pk values are getting null
+- [[OFBIZ-9064](https://issues.apache.org/jira/browse/OFBIZ-9064)] - When we pass only pks in &quot;updateProductContent&quot; service then all non-pk values are getting null
+- [[OFBIZ-9065](https://issues.apache.org/jira/browse/OFBIZ-9065)] - When we pass only pks in &quot;updateProductGroupOrder&quot; service then all non-pk values are getting null
+- [[OFBIZ-9069](https://issues.apache.org/jira/browse/OFBIZ-9069)] - When we pass only pks in &quot;updateProductReview&quot; service then all non-pk values are getting null
+- [[OFBIZ-9070](https://issues.apache.org/jira/browse/OFBIZ-9070)] - When we pass only pks in &quot;updateProductStore&quot; service then all non-pk values are getting null
+- [[OFBIZ-9071](https://issues.apache.org/jira/browse/OFBIZ-9071)] - When we pass only pks in &quot;updateRateAmount&quot; service then all non-pk values are getting null
+- [[OFBIZ-9072](https://issues.apache.org/jira/browse/OFBIZ-9072)] - When we pass only pks in &quot;updateReturnHeader&quot; service then all non-pk values are getting null
+- [[OFBIZ-9073](https://issues.apache.org/jira/browse/OFBIZ-9073)] - When we pass only pks in &quot;updateReturnItem&quot; service then all non-pk values are getting null
+- [[OFBIZ-9077](https://issues.apache.org/jira/browse/OFBIZ-9077)] - When we pass only pks in &quot;updateSubscriptionAttribute&quot; service then all non-pk values are getting null
+- [[OFBIZ-9081](https://issues.apache.org/jira/browse/OFBIZ-9081)] - Improvements in PaymentGatewayConfig entity definition and services
+- [[OFBIZ-9082](https://issues.apache.org/jira/browse/OFBIZ-9082)] - Improvements in PaymentGatewaySagePay entity definition and services
+- [[OFBIZ-9087](https://issues.apache.org/jira/browse/OFBIZ-9087)] - Improvements in PaymentGatewayAuthorizeNet entity definition and services
+- [[OFBIZ-9091](https://issues.apache.org/jira/browse/OFBIZ-9091)] - Improvements in PaymentGatewayClearCommerce entity definition and services
+- [[OFBIZ-9094](https://issues.apache.org/jira/browse/OFBIZ-9094)] - Incorrect required parameters for createCommContentDataResource service
+- [[OFBIZ-9095](https://issues.apache.org/jira/browse/OFBIZ-9095)] - Incorrect required parameters for assignTraining service
+- [[OFBIZ-9096](https://issues.apache.org/jira/browse/OFBIZ-9096)] - Incorrect required parameters for applyTraining service
+- [[OFBIZ-9097](https://issues.apache.org/jira/browse/OFBIZ-9097)] - Incorrect required parameters for createWorkEffortContactMech service
+- [[OFBIZ-9098](https://issues.apache.org/jira/browse/OFBIZ-9098)] - Incorrect required parameters for createWorkEffortKeyword service
+- [[OFBIZ-9099](https://issues.apache.org/jira/browse/OFBIZ-9099)] - Incorrect required parameters for createWorkEffortAndAssoc service
+- [[OFBIZ-9100](https://issues.apache.org/jira/browse/OFBIZ-9100)] - Incorrect required parameters for createPartyContactMech service
+- [[OFBIZ-9101](https://issues.apache.org/jira/browse/OFBIZ-9101)] - Incorrect required parameters for createCommEventWorkEffort service
+- [[OFBIZ-9102](https://issues.apache.org/jira/browse/OFBIZ-9102)] - Incorrect required parameters for updatePostalAddressAndPurposes service
+- [[OFBIZ-9103](https://issues.apache.org/jira/browse/OFBIZ-9103)] - Incorrect required parameters for sendContactUsEmailToCompany service
+- [[OFBIZ-9104](https://issues.apache.org/jira/browse/OFBIZ-9104)] - Incorrect required parameters for createContentAssoc service
+- [[OFBIZ-9105](https://issues.apache.org/jira/browse/OFBIZ-9105)] - Incorrect required parameters for updateContactListParty service
+- [[OFBIZ-9106](https://issues.apache.org/jira/browse/OFBIZ-9106)] - Incorrect required parameters for updateSingleContentPurpose service
+- [[OFBIZ-9107](https://issues.apache.org/jira/browse/OFBIZ-9107)] - Incorrect required parameters for updateContactListPartyNoUserLogin service
+- [[OFBIZ-9108](https://issues.apache.org/jira/browse/OFBIZ-9108)] - Incorrect required parameters for createUpdatePartyPostalAddress service

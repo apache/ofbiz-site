@@ -1,0 +1,21 @@
+{{/* navtrail.html — Breadcrumb trail (home / Section / Latest).
+    The middle segment is resolved based on data:
+      - Section posts        => Blog  -> /posts/
+      - "release-notes" section => Download -> /downloads/  (official: Download)
+      - "description" parameter => section URL (community, getting started, ...)
+    If not resolved: no middle segment (no dead <a href="">). */}}
+{{- $desc := .Params.description -}}
+{{- $trailURL := "" -}}
+{{- if eq .Section "posts" -}}
+  {{- $trailURL = "/posts/" -}}
+  {{- $desc = "Blog" -}}
+{{- else if eq .Section "release-notes" -}}
+  {{- $trailURL = "/downloads/" -}}
+  {{- $desc = "Download" -}}
+{{- else -}}
+  {{- $map := dict "community" "/getting-involved/" "getting started" "/developers/" "download" "/downloads/" -}}
+  {{- $trailURL = index $map (lower $desc) -}}
+{{- end -}}
+<a href="/" class="homeLink">home</a><span>/</span>
+{{- with $trailURL }}<a href="{{ . }}">{{ $desc }}</a><span>/</span>{{ end }}
+<span class="current">{{ .Params.trail_title | default .Title }}</span>

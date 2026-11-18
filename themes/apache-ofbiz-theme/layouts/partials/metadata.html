@@ -1,0 +1,16 @@
+{{/* Single block wrapper: in BS5, .row is a Flexbox—direct children become
+    Flex items (block); otherwise, the icon, date, and tags would stack
+    on separate lines. Inside the wrapper, they remain inline (BS2 style: a single line). */}}
+<div class="postMeta">
+{{ $dateTime := .PublishDate.Format "2006-01-02" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+<i class="icon-calendar"></i>
+<time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+{{ with .Params.tags }}
+<i class="icon-tag"></i>
+{{ range . }}
+{{ $href := print (absURL "tags/") (urlize .) }}
+<a class="btn btn-sm btn-outline-dark tag-btn" href="{{ $href }}">{{ . }}</a>
+{{ end }}
+{{ end }}
+</div>
