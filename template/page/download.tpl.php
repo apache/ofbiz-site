@@ -259,7 +259,7 @@ available <a href="<?= $base_url ?>security.html">here</a></p>
 
 
             <p>One of the reason we no longer create CVEs for post-auth attacks done using demo credentials is because
-            <a href="https://nightlies.apache.org/ofbiz/trunk/readme/html5/#security" target="external"> we highly suggest to OFBiz users to not use credentials demo in production</a>
+            <a href="https://cwiki.apache.org/confluence/display/OFBIZ/How+to+secure+your+deployment" target="external"> we highly suggest to OFBiz users to not use credentials demo in production</a>
              and we expect OFBiz users to do so.
             <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Keeping+OFBiz+secure" target="external"> We also warn our users on the "Keeping OFBiz secure wiki page".</a>
             And finally, mostly we reject post-auth vulnerabilities because we have a solid CSRF defense.</p>
