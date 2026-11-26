@@ -189,6 +189,6 @@ Once you have downloaded OFBiz it needs to be built before you can run it. To bu
 
 <h2 id="UsrDocs">Documentation and Help</h2>
 <div class="divider"><span></span></div>
-<p><a href="//cwiki.apache.org/confluence/display/OFBIZ/Documentation" target="external"><strong>User Documentation</strong></a></p>
+<p><a href="//cwiki.apache.org/confluence/display/OFBENDUSER/OFBiz+End+User+Docs+Home" target="external"><strong>User Documentation</strong></a></p>
 <p><a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="external"><strong>OFBiz Wiki</strong></a></p>
 <p><a href="/faqs" target="external"><strong>OFBiz Frequently Asked Questions (FAQs)</strong></a></p>
