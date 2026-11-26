@@ -44,6 +44,10 @@ Guides: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageI
 <p>OFBiz shows which orders are ready to pick, and staff pick them with a picklist. Packers check each item on the packing screen and complete the shipment.
 Guide: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=467436226">Pick, Pack and Ship an Order</a></p>
 
+<h3>Packing slips</h3>
+<p>Print a packing slip for each box. It lists the items inside, so the customer can check them.
+Guide: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=467436426">Print a Packing Slip</a></p>
+
 <h3>Pack one order into several boxes</h3>
 <p>Put the items of one order into several boxes on the packing screen. Each box gets its own weight and its own package record.
 Guide: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=467436297">Pack One Order into Several Boxes</a></p>
