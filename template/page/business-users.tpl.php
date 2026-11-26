@@ -196,7 +196,7 @@
               <div class="span10">
                 <h2>Documentation and Help</h2>
                 <div class="divider"><span></span></div>
-    <p><a href="//cwiki.apache.org/confluence/display/OFBIZ/Documentation" target="external"><strong>User Documentation</strong></a></p>
+    <p><a href="//cwiki.apache.org/confluence/display/OFBENDUSER/OFBiz+End+User+Docs+Home" target="external"><strong>User Documentation</strong></a></p>
                 <p><a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="external"><strong>OFBiz Wiki</strong></a></p>
     <p><a href="<?= $base_url ?>faqs.html" target="external"><strong>OFBiz Frequently Asked Questions (FAQs)</strong></a></p>
 
