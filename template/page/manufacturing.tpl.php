@@ -69,6 +69,9 @@
                 <h3>Production runs on their own</h3>
                 <p>Create a production run by hand, start its tasks, issue the parts, record what was made, and close it. The finished goods go into stock.
                 Guide: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=373886385">Creating Standalone Production Run in Apache OFBiz: A Step-by-Step Guide</a></p>
+                <h3>Work orders and their tasks</h3>
+                <p>Follow a work order from start to finish: its tasks, the parts it uses, and the goods it puts into stock.
+                Guide: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=467436441">Work Orders in Apache OFBiz: Production Runs, Tasks and Job Cards</a></p>
                 <h3>Buy the raw materials</h3>
                 <p>Turn the approved proposals to buy into purchase orders, grouped by supplier.
                 Guide: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=373886031">Creating Purchase Orders from MRP Recommendations in Apache OFBiz</a></p>
