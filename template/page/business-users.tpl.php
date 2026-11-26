@@ -64,9 +64,11 @@
                       <li class="active"> <a href="#tabs-v-1" data-toggle="tab"> Accounting </a> </li>
                       <li> <a href="#tabs-v-3" data-toggle="tab"> Manufacturing </a> </li>
           <li> <a href="#tabs-v-4" data-toggle="tab"> Human Resources </a> </li>
+          <li> <a href="#tabs-v-6" data-toggle="tab"> Warehouse Management </a> </li>
           <li> <a href="#tabs-v-5" data-toggle="tab"> Inventory Management </a> </li>
                       <li> <a href="#tabs-v-7" data-toggle="tab"> Catalog Management </a> </li>
-                      <li> <a href="#tabs-v-9" data-toggle="tab"> CRM & Order Management </a> </li>
+                      <li> <a href="#tabs-v-9" data-toggle="tab"> CRM </a> </li>
+                      <li> <a href="#tabs-v-8" data-toggle="tab"> Order Management </a> </li>
                <li> <a href="#tabs-v-10" data-toggle="tab"> e-Commerce / e-Shop </a> </li>
 
 
@@ -127,6 +129,20 @@
                        </div>
 
 
+          <div class="tab-pane" id="tabs-v-6">
+                        <ul class="iconsList">
+                     <li><i class="icon-pin"></i> Warehouses, locations and bins </li>
+                     <li><i class="icon-pin"></i> Receive and put away stock </li>
+                     <li><i class="icon-pin"></i> Pick, pack and ship orders </li>
+                     <li><i class="icon-pin"></i> Pack one order into several boxes </li>
+                     <li><i class="icon-pin"></i> Barcodes and scanners </li>
+                     <li><i class="icon-pin"></i> Move stock between warehouses </li>
+                     <li><i class="icon-pin"></i> Count stock and fix quantities </li>
+                     <li><i class="icon-pin"></i> Customer returns and returns to suppliers </li>
+            </ul>
+            <p><a href="<?= $base_url ?>warehouse-management.html"><strong>Learn more about warehouse management in OFBiz</strong></a></p>
+                      </div>
+
           <div class="tab-pane" id="tabs-v-7">
              <ul class="iconsList">
                      <li><i class="icon-pin"></i> Support unlimited stores, catalogs, categories, and products</li>
@@ -148,8 +164,17 @@
           <li><i class="icon-pin"></i> Shared Sales Team Documents, Calendar and Tasks </li>
        <li><i class="icon-pin"></i> Email Integration</li>
        <li><i class="icon-pin"></i> Customer Service and Case Managment</li>
-       <li><i class="icon-pin"></i> Quotes, Order Entry and Order Management</li>
        <li><i class="icon-pin"></i> Manage marketing campaign including tracking code reporting</li>
+            </ul>
+                      </div>
+
+           <div class="tab-pane" id="tabs-v-8">
+                        <ul class="iconsList">
+                     <li><i class="icon-pin"></i> Quotes, Order Entry and Order Management </li>
+                     <li><i class="icon-pin"></i> Prices, price rules, promotions and sales tax </li>
+                     <li><i class="icon-pin"></i> Invoices and payment capture </li>
+                     <li><i class="icon-pin"></i> Order changes and cancellations </li>
+                     <li><i class="icon-pin"></i> Recurring orders and subscriptions </li>
             </ul>
                       </div>
 
