@@ -50,7 +50,7 @@ hasChildren = true
 [[main]]
 parent = "Documentation"
 name = "User Documentation"
-url = "https://cwiki.apache.org/confluence/display/OFBIZ/Documentation"
+url = "https://cwiki.apache.org/confluence/display/OFBENDUSER/OFBiz+End+User+Docs+Home"
 weight = 1
 
 [[main]]
