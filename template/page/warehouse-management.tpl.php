@@ -106,7 +106,7 @@
               <div class="span10">
                 <h2>How it connects with the rest of OFBiz</h2>
                 <div class="divider"><span></span></div>
-                <p>Sales orders reserve stock in the warehouse, and purchase orders tell the warehouse what to receive. Receipts and stock counts also post to accounting. For stock levels, reorder points and lots, see <a href="<?= $base_url ?>business-users.html#UsrModules">Inventory Management</a>.</p>
+                <p>Sales orders reserve stock in the warehouse, and purchase orders tell the warehouse what to receive. Receipts and stock counts also post to accounting. For stock levels, reorder points and lots, see <a href="<?= $base_url ?>inventory-management.html">Inventory Management</a>.</p>
               </div>
             </section>
             <section id="WmsTry" class="slice row clearfix">

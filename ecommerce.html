@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<head>
+<meta charset="utf-8">
+<title>Open Source eCommerce | Apache OFBiz</title>
+<meta name="Description" content="Apache OFBiz has a free, open source online store. Customers browse, search, pay and track orders, on the same system as your stock and accounts." />
+<meta name="Robots" content="index,follow" />
+<!-- Mobile Specific Metas
+    ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS
+    ================================================== -->
+<!-- local fonts  -->
+<link type="text/css" id="fonts" rel="stylesheet" href="/css/fonts.css">
+<!-- Bootstrap  -->
+<link type="text/css" rel="stylesheet" href="https://ofbiz.apache.org/bootstrap/css/bootstrap.min.css">
+<!-- plugin css  -->
+<link rel="stylesheet" type="text/css" href="https://ofbiz.apache.org/js/plugins/pretty-photo/css/prettyPhoto.css" />
+<link rel="stylesheet" type="text/css" href="https://ofbiz.apache.org/js/plugins/rs-plugin/css/settings.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://ofbiz.apache.org/js/plugins/hoverdir/css/style.css">
+<!-- icon fonts -->
+<link type="text/css" rel="stylesheet" href="https://ofbiz.apache.org/font-icons/custom-icons/css/custom-icons.css">
+<link type="text/css" rel="stylesheet" href="https://ofbiz.apache.org/font-icons/custom-icons/css/custom-icons-ie7.css">
+<!-- Custom css -->
+<link type="text/css" rel="stylesheet" href="https://ofbiz.apache.org/css/layout.css">
+<link type="text/css" id="colors" rel="stylesheet" href="https://ofbiz.apache.org/css/colors.css">
+<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if gte IE 9]><style type="text/css">.iconBig, .active, .hover a , .Shover a { filter: none !important; } </style> <![endif]-->
+<script src="https://ofbiz.apache.org/js/modernizr-2.6.1.min.js"></script>
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="/images/favicon.ico">
+<link rel="apple-touch-icon" href="/images/apple-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+</head>
+<body>
+<!-- header -->
+<header id="mainHeader" class="clearfix">
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container"> <a href="https://ofbiz.apache.org/index.html" class="brand"><img src="https://ofbiz.apache.org/images/ofbiz_logo.png" alt="Apache OFBiz Logo"/></a>
+        <nav id="mainMenu" class="clearfix">
+          <ul>
+            <li><a href="https://ofbiz.apache.org/index.html" class="firstLevel">Home</a></li>
+            <li><a href="#" class="firstLevel">Getting Started</a>
+              <ul>
+                <li><a href="https://ofbiz.apache.org/developers.html" class="">Developers</a></li>
+                <li><a href="https://ofbiz.apache.org/business-users.html" class="last">Business Users</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="firstLevel">News</a>
+              <ul>
+                <li><a href="//blogs.apache.org/ofbiz/" target="external" class="last">Blog</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="firstLevel">Documentation</a>
+              <ul>
+                <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Documentation" target="external" class="">User Documentation</a></li>
+                <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Technical+Documentation" target="external" class="">Technical Documentation</a></li>
+                <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="external" class="">Wiki</a></li>
+                <li><a href="#" class="firstLevel">API Reference</a>
+                  <ul>
+                    <li title="Trunk API">
+                      <a href="https://nightlies.apache.org/ofbiz/trunk/javadoc/" target="external">Trunk API</a>
+                    </li>
+                    <li title="Stable release  API">
+                      <a href="https://nightlies.apache.org/ofbiz/stable/javadoc/" target="external">Stable Release API</a>
+                    </li>
+                    <li title="Next release API">
+                      <a href="https://nightlies.apache.org/ofbiz/next/javadoc/" target="external">Next Release API</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="firstLevel">Community</a>
+              <ul>
+                <li><a href="https://ofbiz.apache.org/getting-involved.html">Getting Involved</a></li>
+                <li><a href="https://ofbiz.apache.org/mailing-lists.html">Mailing Lists</a></li>
+                <li><a href="https://ofbiz.apache.org/source-repositories.html">Source Repository</a></li>
+                <li><a href="https://ofbiz.apache.org/download.html">Downloads</a></li>
+                <li><a href="https://s.apache.org/dsj2p" target="external" >Issue Tracker</a></li>
+                <li><a href="https://ofbiz.apache.org/faqs.html" class="last">FAQ</a></li>
+              </ul>
+            </li>
+            <li><a href="https://ofbiz.apache.org/ofbiz-demos.html" class="firstLevel">Demos</a></li>
+            <li><a href="https://ofbiz.apache.org/download.html" class="firstLevel">Download</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- header -->
+<!-- globalWrapper -->
+<div id="globalWrapper">
+
+  <!-- page content -->
+ <section id="content" class="fullWidth">
+    <header class="headerPage">
+      <div class="container clearfix">
+        <div class="row">
+          <h1 class="span8">Open Source eCommerce</h1>
+          <div class="span4" id="navTrail"> <a href="https://ofbiz.apache.org/index.html" class="homeLink">home</a><span>/</span><a href="https://ofbiz.apache.org/business-users.html#UsrModules">Modules</a><span>/</span><span class="current">e-Commerce</span> </div>
+        </div>
+      </div>
+    </header>
+  <section id="content" class="features" >
+    <div class="slice clearfix">
+      <div class="container">
+        <div class="row ">
+          <aside class="span2 PortfolioStickyMenu" id="sidebar">
+            <ul  id="subnav" class="nav nav-stacked sidenav scrollspyNav">
+              <li> <a href="#Ecom1"> Who it is for </a> </li>
+              <li> <a href="#Ecom2"> Features </a> </li>
+              <li> <a href="#Ecom3"> How it connects </a> </li>
+              <li> <a href="#Ecom4"> Try it </a> </li>
+              <li> <a href="#Ecom5"> Questions </a> </li>
+              <li> <a href="#Ecom6"> Get help </a> </li>
+            </ul>
+          </aside>
+          <div class="span10">
+            <section class="slice row clearfix">
+              <div class="span10">
+                <p>Apache OFBiz includes an online store for your own website. Customers browse your catalog, fill a cart and check out. Each order lands in the same system as your stock and accounting. It is free and open source under the Apache License 2.0.</p>
+              </div>
+            </section>
+            <section id="Ecom1" class="slice row clearfix">
+              <div class="span10">
+                <h2>Who it is for</h2>
+                <div class="divider"><span></span></div>
+                <ul class="iconsList">
+                  <li><i class="icon-pin"></i> Businesses that want their own web store, not a store on someone else's platform.</li>
+                  <li><i class="icon-pin"></i> Companies that want web orders, stock and invoices in one system.</li>
+                  <li><i class="icon-pin"></i> Businesses that sell to other businesses, with quotes and purchase order numbers.</li>
+                </ul>
+              </div>
+            </section>
+            <section id="Ecom2" class="slice row clearfix">
+              <div class="span10">
+                <h2>What the OFBiz online store does</h2>
+                <div class="divider"><span></span></div>
+                <h3>A store front for each store</h3>
+                <p>The online store shows the catalog of one product store. Its prices, promotions, tax and shipping all come from the Catalog application. Customers can choose their language and currency.
+                Where: Catalog &gt; Stores</p>
+                <h3>Browse and search products</h3>
+                <p>Customers browse by category and open a page for each product. They choose a variant, such as color and size. They search by keyword and compare products side by side.
+                Where: online store &gt; category and product pages</p>
+                <h3>Cross-sell and recently viewed</h3>
+                <p>Each product page can show related products, such as accessories or a better model. The store also lists the products the customer looked at last.
+                Where: Catalog &gt; Products &gt; Associations</p>
+                <h3>Cart and checkout</h3>
+                <p>Customers add items, change quantities and check out. They pick a ship-to address and a shipping method. One order can ship to several addresses. Guests can check out without an account, on a single checkout page.
+                Where: online store &gt; cart</p>
+                <h3>Customer accounts and order history</h3>
+                <p>Customers register and keep their addresses and saved payment methods. They see their past orders and the status of each one. They can cancel an item that has not shipped.
+                Where: online store &gt; My Account</p>
+                <h3>Promotions and coupon codes</h3>
+                <p>Promotions set up in the Catalog apply in the cart. Customers enter coupon codes at checkout and see the discount at once.
+                Guide: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=467436336">Set Up Promotions and Coupon Codes in Apache OFBiz</a></p>
+                <h3>Gift cards</h3>
+                <p>Customers buy gift cards and pay with them. They can check a gift card balance online.
+                Where: online store &gt; My Account</p>
+                <h3>Shopping lists and repeat orders</h3>
+                <p>Customers save products in shopping lists for later. A list can be set to order again on a schedule, such as every month.
+                Guide: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=467436351">Set Up Recurring Orders and Subscriptions in Apache OFBiz</a></p>
+                <h3>Payment options</h3>
+                <p>Each store chooses which payment types it accepts. Options include card, bank account, gift card, cash on delivery and pay later. Card payments need a connection to your payment provider.
+                Where: Catalog &gt; Stores &gt; Payments</p>
+                <h3>Customer returns</h3>
+                <p>Customers ask to return items from a past order. Staff then receive the return in the Order application and refund the customer.
+                Where: online store &gt; Order History</p>
+                <h3>Business customers</h3>
+                <p>Business customers can enter their own purchase order number. They can turn a cart into a request for a quote. Then they order from the accepted quote.
+                Where: online store &gt; Quotes</p>
+                <h3>Reviews, blog and forum</h3>
+                <p>Customers write product reviews. Each store sets whether staff approve them first. The store can also hold a blog and a forum.
+                Where: Catalog &gt; Reviews</p>
+              </div>
+            </section>
+            <section id="Ecom3" class="slice row clearfix">
+              <div class="span10">
+                <h2>How it connects with the rest of OFBiz</h2>
+                <div class="divider"><span></span></div>
+                <p>Web orders appear in the same Order application as phone orders. They reserve stock, and the warehouse picks and ships them. Products, prices and promotions come from the Catalog. See <a href="https://ofbiz.apache.org/order-management.html">Order Management</a>, <a href="https://ofbiz.apache.org/catalog-management.html">Catalog Management</a> and <a href="https://ofbiz.apache.org/warehouse-management.html">Warehouse Management</a>.</p>
+              </div>
+            </section>
+            <section id="Ecom4" class="slice row clearfix">
+              <div class="span10">
+                <h2>Try it</h2>
+                <div class="divider"><span></span></div>
+                <ul class="iconsList">
+                  <li><i class="icon-pin"></i> Open the <a href="https://ofbiz.apache.org/ofbiz-demos.html">public demo store</a>. The demo also has the back office.</li>
+                  <li><i class="icon-pin"></i> <a href="https://ofbiz.apache.org/download.html">Download Apache OFBiz</a> and add the ecommerce plugin.</li>
+                  <li><i class="icon-pin"></i> Read the order guides on the wiki: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=467436386">Apache OFBiz for Order Management</a>.</li>
+                </ul>
+              </div>
+            </section>
+            <section id="Ecom5" class="slice row clearfix">
+              <div class="span10">
+                <h2>Questions and answers</h2>
+                <div class="divider"><span></span></div>
+                <h3>Is Apache OFBiz free?</h3>
+                <p>Yes. It is open source under the Apache License 2.0. You can use it, change it and run it at no cost.</p>
+                <h3>Is the online store part of the main download?</h3>
+                <p>No. It is a plugin, an add-on you install separately. Its orders land in the same Order application.</p>
+                <h3>Can I take card payments?</h3>
+                <p>Yes, but you need a developer to connect your payment provider. OFBiz does not ship ready connections to payment providers today.</p>
+                <h3>Can I change how the store looks?</h3>
+                <p>Yes. The store pages are templates that a web developer can change. Expect design work before you go live.</p>
+                <h3>Do I need technical skills to set it up?</h3>
+                <p>Yes. OFBiz runs on Java, and setup needs some technical work. The <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Apache+OFBiz+Service+Providers">service providers list</a> names people who can help.</p>
+              </div>
+            </section>
+            <section id="Ecom6" class="slice row clearfix">
+              <div class="span10">
+                <h2>Get help</h2>
+                <div class="divider"><span></span></div>
+                <p>Ask questions on the <a href="https://ofbiz.apache.org/mailing-lists.html">user mailing list</a>. See who uses OFBiz on the <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Apache+OFBiz+User+List">user list</a>, and find help on the <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Apache+OFBiz+Service+Providers">service providers list</a>.</p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ </section>
+<!-- footer -->
+<footer class="footer1">
+  <div class="container" id="footer">
+    <div class="row">
+      <div class="span6 timelineWidget">
+      </div>
+      <div class="span3 contactWidget">
+        <h2>Contact Community</h2>
+        <div class="divider"><span></span></div>
+        <ul>
+          <li><a href="https://ofbiz.apache.org/mailing-lists.html">Mailing Lists</a></li>
+          <li><a href="https://ofbiz.apache.org/source-repositories.html">Source Repository (Git)</a></li>
+          <li><a href="https://s.apache.org/dsj2p" target="external">Issue Tracker (Jira)</a></li>
+          <li><a href="//www.youtube.com/user/ofbiz" target="external">OFBiz Youtube Channel</a></li>
+          <li><a href="//vimeo.com/channels/apacheofbiz" target="external">OFBiz Vimeo Channel</a></li>
+          <li>
+            <a href="//s.apache.org/ofbiz-slack-channel" target="external">OFBiz Chat</a><br/>
+            <span class="footer-note">
+              Note: To chat with users and developers of Apache OFBiz.
+              <br>Please create a Slack account using <a href="//s.apache.org/slack-invite" target="external">this invite link</a> and
+              <a href="//s.apache.org/ofbiz-slack-channel" target="external">join the <b>#ofbiz channel</b>.</a>
+              Please do <b>not</b> ask OFBiz questions in the #general channel.
+            </span>
+          </li>
+          <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Apache+OFBiz+PMC+Members+and+Committers" target="external">Who we are</a></li>
+        </ul>
+      </div>
+      <div class="span3 sociallWidget">
+        <h2>ASF Information</h2>
+        <div class="divider"><span></span></div>
+        <ul>
+          <li><a href="https://www.apache.org/foundation/" target="external">Apache Software Foundation</a></li>
+          <li><a href="https://privacy.apache.org/policies/privacy-policy-public.html" target="external">Privacy Policy</a></li>
+          <li><a href="https://www.apache.org/events/current-event" target="external">Events</a></li>
+          <li><a href="https://www.apache.org/foundation/sponsorship.html" target="external">Sponsorship</a>
+             and <a href="https://www.apache.org/foundation/contributing.html" target="external">Donations</a>
+          </li>
+          <li><a href="https://www.apache.org/foundation/thanks.html" target="external">Thanks</a></li>
+          <li><a href="https://ofbiz.apache.org/security.html">Security</a></li>
+          <li><a href="https://www.apache.org/licenses/" target="external">License</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<footer class="footer2" id="footerRights">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <p>
+          Copyright © 2026 The Apache Software Foundation.
+          <a href="https://www.apache.org/licenses/" target="external">Licensed under the  Apache License, Version 2.0</a>.<br/>
+          Apache OFBiz, OFBiz, the project logo and the Apache feather logo are trademarks of <a href="https://www.apache.org/" target="external">The Apache Software Foundation.</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer -->
+</div>
+<!-- globalWrapper -->
+<script type="text/javascript" src="https://ofbiz.apache.org/js/plugins/respond/respond.min.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/js/jquery-migrate-1.0.0.min.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/js/plugins/jquery-browser-plugin/jquery.browser.min.js"></script>
+<!-- third party plugins  -->
+<script type="text/javascript" src="https://ofbiz.apache.org/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/bootstrap/js/bootstrap-carousel.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/js/plugins/easing/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/js/plugins/pretty-photo/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/js/plugins/hoverdir/jquery.hoverdir.js"></script>
+<!-- jQuery KenBurn Slider  -->
+<script type="text/javascript" src="https://ofbiz.apache.org/js/plugins/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/js/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!-- Custom  -->
+<script type="text/javascript" src="https://ofbiz.apache.org/js/custom.js"></script>
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before
+"trackPageView" */
+  /* We explicitly disable cookie tracking to avoid privacy issues */
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '21']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</body>
+</html>

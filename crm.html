@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<head>
+<meta charset="utf-8">
+<title>Open Source CRM | Apache OFBiz</title>
+<meta name="Description" content="Apache OFBiz includes a free, open source CRM. Track leads, contacts and accounts, follow sales opportunities, and run marketing campaigns." />
+<meta name="Robots" content="index,follow" />
+<!-- Mobile Specific Metas
+    ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS
+    ================================================== -->
+<!-- local fonts  -->
+<link type="text/css" id="fonts" rel="stylesheet" href="/css/fonts.css">
+<!-- Bootstrap  -->
+<link type="text/css" rel="stylesheet" href="https://ofbiz.apache.org/bootstrap/css/bootstrap.min.css">
+<!-- plugin css  -->
+<link rel="stylesheet" type="text/css" href="https://ofbiz.apache.org/js/plugins/pretty-photo/css/prettyPhoto.css" />
+<link rel="stylesheet" type="text/css" href="https://ofbiz.apache.org/js/plugins/rs-plugin/css/settings.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://ofbiz.apache.org/js/plugins/hoverdir/css/style.css">
+<!-- icon fonts -->
+<link type="text/css" rel="stylesheet" href="https://ofbiz.apache.org/font-icons/custom-icons/css/custom-icons.css">
+<link type="text/css" rel="stylesheet" href="https://ofbiz.apache.org/font-icons/custom-icons/css/custom-icons-ie7.css">
+<!-- Custom css -->
+<link type="text/css" rel="stylesheet" href="https://ofbiz.apache.org/css/layout.css">
+<link type="text/css" id="colors" rel="stylesheet" href="https://ofbiz.apache.org/css/colors.css">
+<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if gte IE 9]><style type="text/css">.iconBig, .active, .hover a , .Shover a { filter: none !important; } </style> <![endif]-->
+<script src="https://ofbiz.apache.org/js/modernizr-2.6.1.min.js"></script>
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="/images/favicon.ico">
+<link rel="apple-touch-icon" href="/images/apple-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+</head>
+<body>
+<!-- header -->
+<header id="mainHeader" class="clearfix">
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container"> <a href="https://ofbiz.apache.org/index.html" class="brand"><img src="https://ofbiz.apache.org/images/ofbiz_logo.png" alt="Apache OFBiz Logo"/></a>
+        <nav id="mainMenu" class="clearfix">
+          <ul>
+            <li><a href="https://ofbiz.apache.org/index.html" class="firstLevel">Home</a></li>
+            <li><a href="#" class="firstLevel">Getting Started</a>
+              <ul>
+                <li><a href="https://ofbiz.apache.org/developers.html" class="">Developers</a></li>
+                <li><a href="https://ofbiz.apache.org/business-users.html" class="last">Business Users</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="firstLevel">News</a>
+              <ul>
+                <li><a href="//blogs.apache.org/ofbiz/" target="external" class="last">Blog</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="firstLevel">Documentation</a>
+              <ul>
+                <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Documentation" target="external" class="">User Documentation</a></li>
+                <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Technical+Documentation" target="external" class="">Technical Documentation</a></li>
+                <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Home" target="external" class="">Wiki</a></li>
+                <li><a href="#" class="firstLevel">API Reference</a>
+                  <ul>
+                    <li title="Trunk API">
+                      <a href="https://nightlies.apache.org/ofbiz/trunk/javadoc/" target="external">Trunk API</a>
+                    </li>
+                    <li title="Stable release  API">
+                      <a href="https://nightlies.apache.org/ofbiz/stable/javadoc/" target="external">Stable Release API</a>
+                    </li>
+                    <li title="Next release API">
+                      <a href="https://nightlies.apache.org/ofbiz/next/javadoc/" target="external">Next Release API</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="firstLevel">Community</a>
+              <ul>
+                <li><a href="https://ofbiz.apache.org/getting-involved.html">Getting Involved</a></li>
+                <li><a href="https://ofbiz.apache.org/mailing-lists.html">Mailing Lists</a></li>
+                <li><a href="https://ofbiz.apache.org/source-repositories.html">Source Repository</a></li>
+                <li><a href="https://ofbiz.apache.org/download.html">Downloads</a></li>
+                <li><a href="https://s.apache.org/dsj2p" target="external" >Issue Tracker</a></li>
+                <li><a href="https://ofbiz.apache.org/faqs.html" class="last">FAQ</a></li>
+              </ul>
+            </li>
+            <li><a href="https://ofbiz.apache.org/ofbiz-demos.html" class="firstLevel">Demos</a></li>
+            <li><a href="https://ofbiz.apache.org/download.html" class="firstLevel">Download</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- header -->
+<!-- globalWrapper -->
+<div id="globalWrapper">
+
+  <!-- page content -->
+ <section id="content" class="fullWidth">
+    <header class="headerPage">
+      <div class="container clearfix">
+        <div class="row">
+          <h1 class="span8">Open Source CRM</h1>
+          <div class="span4" id="navTrail"> <a href="https://ofbiz.apache.org/index.html" class="homeLink">home</a><span>/</span><a href="https://ofbiz.apache.org/business-users.html#UsrModules">Modules</a><span>/</span><span class="current">CRM</span> </div>
+        </div>
+      </div>
+    </header>
+  <section id="content" class="features" >
+    <div class="slice clearfix">
+      <div class="container">
+        <div class="row ">
+          <aside class="span2 PortfolioStickyMenu" id="sidebar">
+            <ul  id="subnav" class="nav nav-stacked sidenav scrollspyNav">
+              <li> <a href="#Crm1"> Who it is for </a> </li>
+              <li> <a href="#Crm2"> Features </a> </li>
+              <li> <a href="#Crm3"> How it connects </a> </li>
+              <li> <a href="#Crm4"> Try it </a> </li>
+              <li> <a href="#Crm5"> Questions </a> </li>
+              <li> <a href="#Crm6"> Get help </a> </li>
+            </ul>
+          </aside>
+          <div class="span10">
+            <section class="slice row clearfix">
+              <div class="span10">
+                <p>Apache OFBiz helps a sales team track leads, contacts and sales opportunities, from the first call to the order. Its CRM shares one database with orders, so a won deal becomes an order in the same system. It is free and open source under the Apache License 2.0.</p>
+              </div>
+            </section>
+            <section id="Crm1" class="slice row clearfix">
+              <div class="span10">
+                <h2>Who it is for</h2>
+                <div class="divider"><span></span></div>
+                <ul class="iconsList">
+                  <li><i class="icon-pin"></i> Sales teams that sell to businesses and follow each deal through stages.</li>
+                  <li><i class="icon-pin"></i> Businesses that want customer records, orders and invoices in one system.</li>
+                  <li><i class="icon-pin"></i> Marketing teams that send campaigns to lists of contacts.</li>
+                </ul>
+              </div>
+            </section>
+            <section id="Crm2" class="slice row clearfix">
+              <div class="span10">
+                <h2>What OFBiz does for sales and marketing</h2>
+                <div class="divider"><span></span></div>
+                <h3>Leads</h3>
+                <p>Add a lead in a few seconds with the quick add form, or enter the full details with the company, address and email. You can also create a lead from a vCard, and merge two leads that are the same person.
+                User manual: <a href="https://nightlies.apache.org/ofbiz/stable/ofbiz/html5/user-manual.html#_sfa_leads_findlist_screen">SFA, Leads</a></p>
+                <h3>Turn a lead into a contact and an account</h3>
+                <p>When a lead becomes real, convert it. OFBiz turns the person into a contact and the company into an account.
+                User manual: <a href="https://nightlies.apache.org/ofbiz/stable/ofbiz/html5/user-manual.html#_sfa_leads_findlist_screen">SFA, Leads</a></p>
+                <h3>Contacts and accounts</h3>
+                <p>Keep each company as an account, and each person as a contact with addresses, phone numbers and email addresses. A contact can be exported as a vCard.
+                User manual: <a href="https://nightlies.apache.org/ofbiz/stable/ofbiz/html5/user-manual.html#_sfa_accounts_findlist_screen">SFA, Accounts and Contacts</a></p>
+                <h3>Sales opportunities</h3>
+                <p>Follow each deal with an estimated amount, a probability, a close date and the next step. Move it through stages such as Prospect, Proposal, Quoted and Closed.
+                User manual: <a href="https://nightlies.apache.org/ofbiz/stable/ofbiz/html5/user-manual.html#_sfa_salesopportunity_findlist_screen">SFA, Sales Opportunities</a></p>
+                <h3>Sales forecasts</h3>
+                <p>Set a quota and a forecast amount for each sales period. Compare what the team expects with what it must reach.
+                User manual: <a href="https://nightlies.apache.org/ofbiz/stable/ofbiz/html5/user-manual.html#_sfa">SFA</a></p>
+                <h3>Calls, emails and meetings</h3>
+                <p>Log each call, email and meeting with a customer as an event, and assign follow-up tasks.
+                User manual: <a href="https://nightlies.apache.org/ofbiz/stable/ofbiz/html5/user-manual.html#_sfa">SFA</a></p>
+                <h3>Marketing campaigns and contact lists</h3>
+                <p>Plan marketing campaigns, and build contact lists by hand or by importing contacts. Group customers into segments, and use tracking codes to see which campaign brought each visitor.
+                User manual: <a href="https://nightlies.apache.org/ofbiz/stable/ofbiz/html5/user-manual.html#_marketing_contact_lists">Marketing, Contact Lists</a></p>
+                <h3>Customer requests</h3>
+                <p>Record what a customer asks for, such as a quote, information or support, and follow it until it is answered.
+                Where: Order &gt; Requests</p>
+                <p><img src="https://ofbiz.apache.org/images/modules/crm-1-lead.png" alt="A lead with the company, address and email" style="max-width: 100%;"/><br/>A lead with the company, address and email.</p>
+                <p><img src="https://ofbiz.apache.org/images/modules/crm-2-opportunity.png" alt="A sales opportunity with amount, probability, stage and next step" style="max-width: 100%;"/><br/>A sales opportunity with amount, probability, stage and next step.</p>
+              </div>
+            </section>
+            <section id="Crm3" class="slice row clearfix">
+              <div class="span10">
+                <h2>How it connects with the rest of OFBiz</h2>
+                <div class="divider"><span></span></div>
+                <p>Leads, contacts and accounts are the same customer records that orders and invoices use. When a deal is won, staff enter the order for the same customer. See <a href="https://ofbiz.apache.org/order-management.html">Order Management</a>.</p>
+              </div>
+            </section>
+            <section id="Crm4" class="slice row clearfix">
+              <div class="span10">
+                <h2>Try it</h2>
+                <div class="divider"><span></span></div>
+                <ul class="iconsList">
+                  <li><i class="icon-pin"></i> Open the <a href="https://ofbiz.apache.org/ofbiz-demos.html">public demo</a> and go to the SFA application. SFA stands for sales force automation.</li>
+                  <li><i class="icon-pin"></i> <a href="https://ofbiz.apache.org/download.html">Download Apache OFBiz</a> and run it on your own computer.</li>
+                  <li><i class="icon-pin"></i> Read the <a href="https://nightlies.apache.org/ofbiz/stable/ofbiz/html5/user-manual.html#_sfa">SFA and Marketing chapters of the OFBiz user manual</a>.</li>
+                </ul>
+              </div>
+            </section>
+            <section id="Crm5" class="slice row clearfix">
+              <div class="span10">
+                <h2>Questions and answers</h2>
+                <div class="divider"><span></span></div>
+                <h3>Is Apache OFBiz free?</h3>
+                <p>Yes. It is open source under the Apache License 2.0. You can use it, change it and run it at no cost.</p>
+                <h3>Can I use the CRM on its own?</h3>
+                <p>Yes, but it is built to work with the rest of OFBiz. Its customer records are the same ones that orders and invoices use.</p>
+                <h3>Is there a mobile app?</h3>
+                <p>No. OFBiz runs in a web browser.</p>
+                <h3>Do I need technical skills to set it up?</h3>
+                <p>Yes. OFBiz runs on Java, and setup needs some technical work. The <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Apache+OFBiz+Service+Providers">service providers list</a> names people who can help.</p>
+              </div>
+            </section>
+            <section id="Crm6" class="slice row clearfix">
+              <div class="span10">
+                <h2>Get help</h2>
+                <div class="divider"><span></span></div>
+                <p>Ask questions on the <a href="https://ofbiz.apache.org/mailing-lists.html">user mailing list</a>. See who uses OFBiz on the <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Apache+OFBiz+User+List">user list</a>, and find help on the <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Apache+OFBiz+Service+Providers">service providers list</a>.</p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ </section>
+<!-- footer -->
+<footer class="footer1">
+  <div class="container" id="footer">
+    <div class="row">
+      <div class="span6 timelineWidget">
+      </div>
+      <div class="span3 contactWidget">
+        <h2>Contact Community</h2>
+        <div class="divider"><span></span></div>
+        <ul>
+          <li><a href="https://ofbiz.apache.org/mailing-lists.html">Mailing Lists</a></li>
+          <li><a href="https://ofbiz.apache.org/source-repositories.html">Source Repository (Git)</a></li>
+          <li><a href="https://s.apache.org/dsj2p" target="external">Issue Tracker (Jira)</a></li>
+          <li><a href="//www.youtube.com/user/ofbiz" target="external">OFBiz Youtube Channel</a></li>
+          <li><a href="//vimeo.com/channels/apacheofbiz" target="external">OFBiz Vimeo Channel</a></li>
+          <li>
+            <a href="//s.apache.org/ofbiz-slack-channel" target="external">OFBiz Chat</a><br/>
+            <span class="footer-note">
+              Note: To chat with users and developers of Apache OFBiz.
+              <br>Please create a Slack account using <a href="//s.apache.org/slack-invite" target="external">this invite link</a> and
+              <a href="//s.apache.org/ofbiz-slack-channel" target="external">join the <b>#ofbiz channel</b>.</a>
+              Please do <b>not</b> ask OFBiz questions in the #general channel.
+            </span>
+          </li>
+          <li><a href="//cwiki.apache.org/confluence/display/OFBIZ/Apache+OFBiz+PMC+Members+and+Committers" target="external">Who we are</a></li>
+        </ul>
+      </div>
+      <div class="span3 sociallWidget">
+        <h2>ASF Information</h2>
+        <div class="divider"><span></span></div>
+        <ul>
+          <li><a href="https://www.apache.org/foundation/" target="external">Apache Software Foundation</a></li>
+          <li><a href="https://privacy.apache.org/policies/privacy-policy-public.html" target="external">Privacy Policy</a></li>
+          <li><a href="https://www.apache.org/events/current-event" target="external">Events</a></li>
+          <li><a href="https://www.apache.org/foundation/sponsorship.html" target="external">Sponsorship</a>
+             and <a href="https://www.apache.org/foundation/contributing.html" target="external">Donations</a>
+          </li>
+          <li><a href="https://www.apache.org/foundation/thanks.html" target="external">Thanks</a></li>
+          <li><a href="https://ofbiz.apache.org/security.html">Security</a></li>
+          <li><a href="https://www.apache.org/licenses/" target="external">License</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<footer class="footer2" id="footerRights">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <p>
+          Copyright © 2026 The Apache Software Foundation.
+          <a href="https://www.apache.org/licenses/" target="external">Licensed under the  Apache License, Version 2.0</a>.<br/>
+          Apache OFBiz, OFBiz, the project logo and the Apache feather logo are trademarks of <a href="https://www.apache.org/" target="external">The Apache Software Foundation.</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer -->
+</div>
+<!-- globalWrapper -->
+<script type="text/javascript" src="https://ofbiz.apache.org/js/plugins/respond/respond.min.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/js/jquery-migrate-1.0.0.min.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/js/plugins/jquery-browser-plugin/jquery.browser.min.js"></script>
+<!-- third party plugins  -->
+<script type="text/javascript" src="https://ofbiz.apache.org/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/bootstrap/js/bootstrap-carousel.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/js/plugins/easing/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/js/plugins/pretty-photo/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/js/plugins/hoverdir/jquery.hoverdir.js"></script>
+<!-- jQuery KenBurn Slider  -->
+<script type="text/javascript" src="https://ofbiz.apache.org/js/plugins/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="https://ofbiz.apache.org/js/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!-- Custom  -->
+<script type="text/javascript" src="https://ofbiz.apache.org/js/custom.js"></script>
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before
+"trackPageView" */
+  /* We explicitly disable cookie tracking to avoid privacy issues */
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '21']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</body>
+</html>
