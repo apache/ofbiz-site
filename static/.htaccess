@@ -5,6 +5,11 @@ RewriteCond %{REQUEST_URI} !^/dtds
 RewriteCond %{REQUEST_URI} !^/dtds/(.*)$
 RewriteRule ^\/?(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 
-RewriteRule ^documentation.html /index.html [R=301,NC,L]
-RewriteRule ^community.html /getting-involved.html [R=301,NC,L]
-RewriteRule ^release-notes-([0-9]+\.[0-9]+\.[0-9]+)\.html$ /release-notes/$1.html [R=301,NC,L]
+RewriteRule ^documentation\.html$ / [R=301,NC,L]
+RewriteRule ^community\.html$ /getting-involved/ [R=301,NC,L]
+RewriteRule ^about-ofbiz\.html$ / [R=301,NC,L]
+RewriteRule ^download\.html$ /downloads/ [R=301,NC,L]
+RewriteRule ^(business-users|developers|faqs|getting-involved|mailing-lists|ofbiz-demos|security|service-providers|source-repositories|user-stories)\.html$ /$1/ [R=301,L]
+RewriteRule ^release-notes-([0-9]+\.[0-9]+\.[0-9]+)\.html$ /release-notes/release-notes-$1/ [R=301,NC,L]
+RewriteRule ^release-notes/([0-9]+\.[0-9]+\.[0-9]+)\.html$ /release-notes/release-notes-$1/ [R=301,NC,L]
+RewriteRule ^blog/?$ /posts/ [R=301,NC,L]
