@@ -23,7 +23,7 @@ sections:
 <div class="divider"><span></span></div>
 <ul class="iconsList">
   <li><i class="icon-pin"></i> Sales and customer service teams who enter orders for customers, for example by phone.</li>
-  <li><i class="icon-pin"></i> Businesses that sell through a web store and a back office at the same time.</li>
+  <li><i class="icon-pin"></i> Businesses that sell through an online store and a back office at the same time.</li>
   <li><i class="icon-pin"></i> Teams that want orders, stock and accounting in one system.</li>
 </ul>
 
@@ -45,7 +45,7 @@ Guide: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId
 <p>Set up tax rates by country, state, county and postal code. OFBiz adds the right tax lines to each order, and leaves out customers who are tax exempt.
 Guide: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=467436340">Set Up Sales Tax for Orders in Apache OFBiz</a></p>
 <h3>Invoices and card payments</h3>
-<p>OFBiz creates the sales invoice when the order is packed. With a payment provider connected, a card is authorized when the order is placed. Trunk ships no provider connections, so a developer must add one.
+<p>OFBiz creates the sales invoice when the order is packed. With a payment provider connected, a card is authorized when the order is placed. Release 24.09 includes code for some providers, such as PayPal and Authorize.Net. This code was removed from trunk, the code for the next release. On trunk, a developer must add your provider.
 Guide: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=467436343">Invoice and Capture Payment for a Sales Order in Apache OFBiz</a></p>
 <h3>Change or cancel an order</h3>
 <p>Change quantities and prices, add items, or cancel one item or the whole order. OFBiz updates the stock reservations, and you can change any quantity that has not shipped.

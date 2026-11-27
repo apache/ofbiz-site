@@ -108,7 +108,7 @@ Guides: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageI
 <h3>Does it work with barcode scanners?</h3>
 <p>Yes. Any scanner that types like a keyboard works. OFBiz has no separate scanner app.</p>
 <h3>Can it print carrier shipping labels?</h3>
-<p>Not today. OFBiz has no built-in connection to carriers such as UPS or FedEx. You print the label in the carrier's own tool, and record the tracking number in OFBiz.</p>
+<p>Release 24.09 includes code for UPS, FedEx, DHL and USPS. This code was removed from trunk, the code for the next release. Without a carrier connection, you print the label in the carrier's own tool, and record the tracking number in OFBiz.</p>
 <h3>Do I need technical skills to set it up?</h3>
 <p>Yes. OFBiz runs on Java, and setup needs some technical work. The <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Apache+OFBiz+Service+Providers">service providers list</a> names people who can help.</p>
 

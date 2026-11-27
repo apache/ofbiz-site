@@ -85,7 +85,7 @@ Where: Catalog &gt; Reviews</p>
 <h3>Is the online store part of the main download?</h3>
 <p>No. It is a plugin, an add-on you install separately. Its orders land in the same Order application.</p>
 <h3>Can I take card payments?</h3>
-<p>Yes, but you need a developer to connect your payment provider. OFBiz does not ship ready connections to payment providers today.</p>
+<p>Yes. Release 24.09 includes code for some payment providers, such as PayPal and Authorize.Net. This code was removed from trunk, the code for the next release. On trunk, a developer must connect your payment provider.</p>
 <h3>Can I change how the store looks?</h3>
 <p>Yes. The store pages are templates that a web developer can change. Expect design work before you go live.</p>
 <h3>Do I need technical skills to set it up?</h3>

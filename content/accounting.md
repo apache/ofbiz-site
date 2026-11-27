@@ -36,7 +36,7 @@ User manual: <a href="https://nightlies.apache.org/ofbiz/stable/ofbiz/html5/user
 <p>OFBiz writes the ledger entries for you when the work is done. Goods received and goods shipped create entries. So do ready invoices, and payments received or sent. A stock count difference and a production run post too.
 User manual: <a href="https://nightlies.apache.org/ofbiz/stable/ofbiz/html5/user-manual.html#_organization_gl_settings">Accounting, Organization GL Settings</a></p>
 <h3>Sales invoices and card payments</h3>
-<p>OFBiz creates the sales invoice when an order is packed. With a payment provider connected, a card is authorized when the order is placed and charged when the invoice is ready. Trunk ships no provider connections, so a developer must add one.
+<p>OFBiz creates the sales invoice when an order is packed. With a payment provider connected, a card is authorized when the order is placed and charged when the invoice is ready. Release 24.09 includes code for some providers, such as PayPal and Authorize.Net. This code was removed from trunk, the code for the next release. On trunk, a developer must add your provider.
 Guide: <a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=467436343">Invoice and Capture Payment for a Sales Order in Apache OFBiz</a></p>
 <h3>Purchase invoices</h3>
 <p>When a supplier shipment is fully received, OFBiz prepares the purchase invoice. It uses the received quantities and the prices on the purchase order. Staff check it, fix any differences and approve it.
