@@ -137,7 +137,7 @@ Run the following command for MS Windows
 
 <p></p>
 
-**NOTE**: That quotes are needed for the Unix based command. For further details and a full list of all available OFBiz Gradle commands, please take a look at the main <a href="//nightlies.apache.org/ofbiz/trunk/readme/html5/README.html" target="external">**README file.**</a> <br> If you are an user migrating from a version which uses Ant you might be interested by: <a href="//cwiki.apache.org/confluence/display/OFBIZ/From+Ant+to+Gradle+-+trunk+version" target="external">**From Ant to Gradle**</a>
+**NOTE**: That quotes are needed for the Unix based command. For further details and a full list of all available OFBiz Gradle commands, please take a look at the main <a href="https://github.com/apache/ofbiz-framework/blob/trunk/README.md#quick-reference" target="external">**README file.**</a> <br> If you are an user migrating from a version which uses Ant you might be interested by: <a href="//cwiki.apache.org/confluence/display/OFBIZ/From+Ant+to+Gradle+-+trunk+version" target="external">**From Ant to Gradle**</a>
 
 <p></p>
 
