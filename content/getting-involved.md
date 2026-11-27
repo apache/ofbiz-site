@@ -61,7 +61,7 @@ Our <strong>dev@ofbiz.apache.org mailing list</strong> is where additions or cha
 
 Our <strong>user@ofbiz.apache.org mailing list</strong> is for our users. Use this list to ask questions and get advice on setting up OFBiz and also if you are an end-user interested in helping other OFBiz users.
 
-Our [mailing lists](https://ofbiz.apache.org/mailing-lists.html) are also a great place for you to introduce yourself and join our community.
+Our [mailing lists](/mailing-lists/) are also a great place for you to introduce yourself and join our community.
 
 <h2 id="GInvFindBugs">Reporting Bugs</h2>
 <div class="divider"><span></span></div>

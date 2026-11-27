@@ -29,7 +29,7 @@ Everything except the plugins directory has been moved from http://svn.apache.or
 <p></p>
 
 The plugins directory has been moved to a brand new repository <strong>http://svn.apache.org/repos/asf/ofbiz/ofbiz-plugins/trunk</strong>.<p></p>
-For more information and full details of these changes please refer to our <a href="http://ofbiz.apache.org/source-repositories.html">OFBiz Source Repositories page </a>
+For more information and full details of these changes please refer to our <a href="/source-repositories/">OFBiz Source Repositories page </a>
 
 ## New PMC Member and New Committer
 

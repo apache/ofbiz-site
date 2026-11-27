@@ -17,7 +17,7 @@ The Apache OFBiz community is pleased to announce the new release "Apache OFBiz 
 - \* Numerous features, bug fixes and refactoring of the code base.
 
 <br>
-For more details please refer to the release notes, <a href="http://ofbiz.apache.org/release-notes-16.11.01.html"> http://ofbiz.apache.org/release-notes-16.11.01.html. </a>
+For more details please refer to the release notes, <a href="/release-notes/release-notes-16.11.01/"> https://ofbiz.apache.org/release-notes/release-notes-16.11.01/. </a>
 <br>
 All users of previous releases including:
 <br>
@@ -26,7 +26,7 @@ All users of previous releases including:
 - \* Apache OFBiz 12.04.\*
 - \* Apache OFBiz 11.04.\*
 
-are encouraged to upgrade to this last version and to get in touch with the community (at user@ofbiz.apache.org) to provide feedback or to receive help in the upgrade. <br><br>The release file can be downloaded following the instructions in the OFBiz download page: <br> <a href="http://ofbiz.apache.org/download.html">http://ofbiz.apache.org/download.html</a> <br> <a href="http://ofbiz.apache.org/download.html#vulnerabilities">http://ofbiz.apache.org/download.html#vulnerabilities</a> <br>
+are encouraged to upgrade to this last version and to get in touch with the community (at user@ofbiz.apache.org) to provide feedback or to receive help in the upgrade. <br><br>The release file can be downloaded following the instructions in the OFBiz download page: <br> <a href="/downloads/">https://ofbiz.apache.org/downloads/</a> <br> <a href="/security/#list-of-known-vulnerabilities">https://ofbiz.apache.org/security/#list-of-known-vulnerabilities</a> <br>
 
 **Special Dedication**
 

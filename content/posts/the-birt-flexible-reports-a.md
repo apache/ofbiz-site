@@ -38,7 +38,7 @@ To create reports in OFBiz with Birt before the OFBiz Flexible Reports, you had 
 
 Now you can see the advantages that OFBiz Flexible Reports has over what was previously available in OFBiz.
 
-Thanks for taking the time to read this post and please feel free to provide your comments and feedback. For any questions please use the [Apache OFBiz User Mailing list](http://ofbiz.apache.org/mailing-lists.html).
+Thanks for taking the time to read this post and please feel free to provide your comments and feedback. For any questions please use the [Apache OFBiz User Mailing list](/mailing-lists/).
 
 **This blog post was written by** <span style="color: rgb(34, 34, 34); font-family: arial,sans-serif; font-size: 12.8px; white-space: nowrap; --darkreader-inline-color:#303436;" data-darkreader-inline-color="">**Jacques Le Roux**</span>**, Apache OFBiz PMC Member, Committer and ASF Member.**
 

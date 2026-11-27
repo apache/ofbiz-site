@@ -16,7 +16,7 @@ Apache OFBiz® is an open source product for the automation of enterprise proces
 
 <p></p>
 
-"Apache OFBiz 16.11.03" is the latest and greatest release of OFBiz; for more details of the changes introduced with this new version please refer to <a href="http://ofbiz.apache.org/release-notes-16.11.03.html">  http://ofbiz.apache.org/release-notes-16.11.03.html.</a>
+"Apache OFBiz 16.11.03" is the latest and greatest release of OFBiz; for more details of the changes introduced with this new version please refer to <a href="/release-notes/release-notes-16.11.03/">  https://ofbiz.apache.org/release-notes/release-notes-16.11.03/.</a>
 
 <p></p>
 
@@ -24,7 +24,7 @@ The release file can be downloaded following the instructions in the OFBizdownlo
 
 <p></p>
 
- <a href="http://ofbiz.apache.org/download.html">http://ofbiz.apache.org/download.html </a>
+ <a href="/downloads/">https://ofbiz.apache.org/downloads/ </a>
 
 <p></p>
 

@@ -14,9 +14,9 @@ Welcome to our regular monthly round-up of OFBiz news. This month we have more n
 
 ### Apache OFBiz&nbsp;16.11.05 Released!
 
-During this month the community announced the release of 16.11.05. The new release consolidates all work done since the previous release in January 2018. The release file can be downloaded following the instructions in the&nbsp;<a href="https://ofbiz.apache.org/download.html" style="color: #1155cc;">OFBiz Downloads</a>&nbsp;page. Please refer to the&nbsp;<a href="https://ofbiz.apache.org/release-notes-16.11.05.html" style="color: #1155cc;">Release Notes</a>&nbsp;for more details of the changes introduced with this new version.&nbsp;&nbsp;
+During this month the community announced the release of 16.11.05. The new release consolidates all work done since the previous release in January 2018. The release file can be downloaded following the instructions in the&nbsp;<a href="/downloads/" style="color: #1155cc;">OFBiz Downloads</a>&nbsp;page. Please refer to the&nbsp;<a href="/release-notes/release-notes-16.11.05/" style="color: #1155cc;">Release Notes</a>&nbsp;for more details of the changes introduced with this new version.&nbsp;&nbsp;
 
-Please note that a security vulnerability has been reported in OFBiz releases 16.11.01 to 16.11.04. It is highly recommended that you upgrade to the 16.11.05 release to mitigate this vulnerability. Details can be found on the&nbsp;<a href="https://ofbiz.apache.org/security.html" style="color: #1155cc;">Security</a>&nbsp;page and following&nbsp;<a href="https://markmail.org/message/y2f5c7b6rnrvhkaf" style="color: #1155cc;">mail thread</a>.&nbsp;
+Please note that a security vulnerability has been reported in OFBiz releases 16.11.01 to 16.11.04. It is highly recommended that you upgrade to the 16.11.05 release to mitigate this vulnerability. Details can be found on the&nbsp;<a href="/security/" style="color: #1155cc;">Security</a>&nbsp;page and following&nbsp;<a href="https://markmail.org/message/y2f5c7b6rnrvhkaf" style="color: #1155cc;">mail thread</a>.&nbsp;
 
 ### <br>Solr&nbsp;upgraded to version 7.5.0
 

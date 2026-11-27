@@ -25,7 +25,7 @@ As we entered into the new Year 2021, we present to you some highlights from the
 
 ### Apache OFBiz&nbsp;17.12.05 Released!
 
-During this month the community announced the release of 17.12.05. The new release consolidates all work done since the previous release in July 2020.<br><br>The release file can be downloaded following the instructions on the Downloads page:<br><a href="https://ofbiz.apache.org/download.html" target="_blank">https://ofbiz.apache.org/download.html</a><br><br> Please refer to the Release Notes<span style="color: rgb(17, 85, 204); --darkreader-inline-color:#3e609c;" data-darkreader-inline-color=""></span> for more details of the changes introduced with this new version:<br><a href="https://ofbiz.apache.org/release-notes-17.12.05.html" target="_blank">https://ofbiz.apache.org/release-notes-17.12.05.html</a><br>
+During this month the community announced the release of 17.12.05. The new release consolidates all work done since the previous release in July 2020.<br><br>The release file can be downloaded following the instructions on the Downloads page:<br><a href="/downloads/" target="_blank">https://ofbiz.apache.org/downloads/</a><br><br> Please refer to the Release Notes<span style="color: rgb(17, 85, 204); --darkreader-inline-color:#3e609c;" data-darkreader-inline-color=""></span> for more details of the changes introduced with this new version:<br><a href="/release-notes/release-notes-17.12.05/" target="_blank">https://ofbiz.apache.org/release-notes/release-notes-17.12.05/</a><br>
 
 Please note that a security vulnerability has been reported for the previous releases. It is highly recommended that you upgrade to the 17.12.05 release to mitigate this vulnerability.&nbsp; <br>
 
