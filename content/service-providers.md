@@ -1,7 +1,6 @@
 ---
-title: "Apache OFBiz Service Providers"
+title: "Service Providers"
 layout: "page"
-trail_title: "Service Providers"
 description: "community"
 metaDescription: "Find companies and people who help with Apache OFBiz: setup, hosting, training, support and custom development."
 ---

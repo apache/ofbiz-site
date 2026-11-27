@@ -1,14 +1,13 @@
 ---
-title: "Apache OFBiz User Stories"
+title: "User Stories"
 layout: "page"
-trail_title: "User Stories"
 description: "community"
 metaDescription: "Businesses around the world run Apache OFBiz. Read their stories and see the list of known OFBiz users."
 ---
 <p>Businesses around the world run Apache OFBiz. You do not have to tell anyone when you use it, so the full number is not known.</p>
 <h2>Stannah, United Kingdom</h2>
 <div class="divider"><span></span></div>
-<p>Stannah makes stairlifts. It runs OFBiz across many business areas, for 5 subsidiaries in 8 countries and about 1,800 users.</p>
+<p>Stannah makes stairlifts. In its story on the wiki, it planned to roll out OFBiz to 5 companies in 8 countries, for about 1,800 users. At that time, the first company was live.</p>
 <p>Modules used: Budgeting, Human Resources, Facility, Manufacturing, Order Management, Payments, Catalog, Pricing.</p>
 <h2>More stories</h2>
 <div class="divider"><span></span></div>
