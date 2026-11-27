@@ -2,6 +2,7 @@ baseURL = 'https://ofbiz.apache.org/'
 locale = 'en-us'
 title = 'Apache OFBiz'
 theme = 'apache-ofbiz-theme'
+enableRobotsTXT = true
 
 [permalinks]
 post = "/:slug/"

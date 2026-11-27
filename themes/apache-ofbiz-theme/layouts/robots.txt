@@ -1,0 +1,9 @@
+{{- if eq site.BaseURL "https://ofbiz.apache.org/" -}}
+User-agent: *
+Disallow:
+
+Sitemap: {{ "sitemap.xml" | absURL }}
+{{- else -}}
+User-agent: *
+Disallow: /
+{{- end }}
