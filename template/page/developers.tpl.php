@@ -66,6 +66,8 @@
       <br><code>$ git checkout releaseVersionNumber</code></li>
   <li><i class="icon-pin"></i> <strong>branch release24.09 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-plugins.git ofbiz-plugins</code></li>
   <li><code>$ git checkout releaseVersionNumber</code></li>
+  <li><i class="icon-pin"></i> <strong>branch release26.11 (next)</strong>: <code>$ git clone https://github.com/apache/ofbiz-framework.git ofbiz-framework</code></li>
+  <li><i class="icon-pin"></i> <strong>branch release26.11 (next)</strong>: <code>$ git clone https://github.com/apache/ofbiz-plugins.git ofbiz-plugins</code></li>
 </ul>
 
     </div>
