@@ -1,4 +1,5 @@
 ---
+metaDescription: "Get started with Apache OFBiz development: download the source, build and run it with Gradle, and find tutorials and documentation."
 title: "Developers"
 date: "2023-03-08"
 description: "Getting Started"

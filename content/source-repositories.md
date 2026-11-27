@@ -1,4 +1,5 @@
 ---
+metaDescription: "Get the Apache OFBiz source code from Git: the framework, plugins, tools and website repositories, trunk and release branches."
 layout: "page"
 title: "OFBiz Source Repository"
 trail_title: "Source Repository"

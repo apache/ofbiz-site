@@ -1,4 +1,5 @@
 ---
+metaDescription: "The Apache OFBiz security model and policy, how to report a vulnerability, how to deploy securely, and the list of known vulnerabilities."
 layout: "page"
 title: "Apache OFBiz Security"
 trail_title: "Security"

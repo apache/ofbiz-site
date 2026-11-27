@@ -1,4 +1,5 @@
 ---
+metaDescription: "Subscribe to the Apache OFBiz mailing lists for users, developers, commits and notifications, or unsubscribe."
 layout: "page"
 title: "Apache OFBiz Mailing Lists"
 trail_title: "Mailing Lists"

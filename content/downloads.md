@@ -1,4 +1,5 @@
 ---
+metaDescription: "Download Apache OFBiz releases, with SHA512 checksums and signatures to verify them, and release notes for each version."
 title: "Downloads"
 layout: "pagedwnld"
 description: "Community"

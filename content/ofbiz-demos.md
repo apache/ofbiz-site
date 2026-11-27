@@ -1,4 +1,5 @@
 ---
+metaDescription: "Try Apache OFBiz online, on the 24.09 release and on trunk, with a web store and the back-office applications."
 title: "OFBiz Demos"
 trail_title: "Demos"
 layout: "page"
