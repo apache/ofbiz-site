@@ -20,7 +20,7 @@ Picking is often the biggest cost in a warehouse. Pickers walk a lot. A good pic
 
 ## How does Apache OFBiz handle picking?
 
-Apache OFBiz is a free, open source ERP. The warehouse's Picking tab lists the orders ready to pick. An order is ready when its stock is reserved in a pick location.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. The warehouse's Picking tab lists the orders ready to pick. An order is ready when its stock is reserved in a pick location.
 
 ![The Picking tab with an order ready to pick](/images/posts/order-picking/picking.png)
 

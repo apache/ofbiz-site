@@ -21,7 +21,7 @@ When the customer accepts, the quote becomes a sales order. The agreed prices mu
 
 ## How does Apache OFBiz handle sales quotes?
 
-Apache OFBiz is a free, open source ERP. You create quotes in the Order application:
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. You create quotes in the Order application:
 
 1. Create the quote for the customer.
 2. Add the items. OFBiz fills in the normal price for this customer and store.

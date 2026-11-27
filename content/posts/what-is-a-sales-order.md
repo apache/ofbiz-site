@@ -22,7 +22,7 @@ A sales order is not an invoice. The order says what to deliver. The invoice, se
 
 ## How does Apache OFBiz handle sales orders?
 
-Apache OFBiz is a free, open source ERP. Orders come from its web store, or staff enter them in the Order application, for example during a phone call.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. Orders come from its web store, or staff enter them in the Order application, for example during a phone call.
 
 When staff add a product, OFBiz sets the price from the store's prices and price rules. Store promotions apply by themselves. Under each line, staff see the stock on hand and the stock available.
 

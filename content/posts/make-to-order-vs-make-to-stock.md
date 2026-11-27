@@ -25,7 +25,7 @@ Many manufacturers do both, for different products.
 
 ## How does Apache OFBiz handle both?
 
-Apache OFBiz is a free, open source ERP. It plans both with MRP, material requirements planning. MRP compares demand with stock and with production already planned. For each shortfall, it proposes a requirement to make the product.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. It plans both with MRP, material requirements planning. MRP compares demand with stock and with production already planned. For each shortfall, it proposes a requirement to make the product.
 
 **Make to order.** The approved sales order is the demand. In a test with the OFBiz demo data, two orders asked for 3 Gizmo Gift Sets, and none were in stock. MRP proposed making 3.
 

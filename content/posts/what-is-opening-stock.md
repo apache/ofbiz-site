@@ -24,7 +24,7 @@ The unit cost matters. Without it, the system cannot tell you what your stock is
 
 ## How does Apache OFBiz handle opening stock?
 
-Apache OFBiz is a free, open source ERP. It has no special screen for opening stock. The simplest way is to receive the stock without a purchase order.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. It has no special screen for opening stock. The simplest way is to receive the stock without a purchase order.
 
 1. In the Facility application, open the warehouse and click Receive Inventory.
 2. Leave the purchase order number empty, and enter the product.

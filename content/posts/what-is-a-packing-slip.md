@@ -22,7 +22,7 @@ The last point matters for larger orders. If the customer opens one box of two, 
 
 ## How does Apache OFBiz print packing slips?
 
-Apache OFBiz is a free, open source ERP. When staff finish packing an order, OFBiz creates a shipment. Every shipment has a packing slip that you can print as a PDF.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. When staff finish packing an order, OFBiz creates a shipment. Every shipment has a packing slip that you can print as a PDF.
 
 OFBiz prints one page for each box. Each page shows:
 

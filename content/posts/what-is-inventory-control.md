@@ -22,7 +22,7 @@ A business with good inventory control can answer four questions at any time:
 
 ## How does Apache OFBiz handle inventory control?
 
-Apache OFBiz is a free, open source ERP. It records each batch of stock as an inventory item. An inventory item belongs to one warehouse, and usually to one location, such as a shelf or a bin.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. It records each batch of stock as an inventory item. An inventory item belongs to one warehouse, and usually to one location, such as a shelf or a bin.
 
 For every product, OFBiz keeps two numbers:
 

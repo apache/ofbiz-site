@@ -22,7 +22,7 @@ Cycle counting has two benefits. The warehouse keeps working. And errors are fou
 
 ## How does Apache OFBiz handle stock counts?
 
-Apache OFBiz is a free, open source ERP. It records each batch of stock as an inventory item, usually in one location.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. It records each batch of stock as an inventory item, usually in one location.
 
 To count, staff open the warehouse's Physical Inventory tab and search for a product. OFBiz lists each inventory item, with its quantity on hand.
 

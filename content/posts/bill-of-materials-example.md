@@ -20,7 +20,7 @@ When parts are made from other parts, the BOM has levels. This is a multi-level 
 
 ## A two-level example in Apache OFBiz
 
-Apache OFBiz is a free, open source ERP. We built this example on the OFBiz demo data. A Gizmo Gift Set is made of:
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. We built this example on the OFBiz demo data. A Gizmo Gift Set is made of:
 
 - Level 1: 1 Gizmo Basket and 2 Micro Chrome Widgets.
 - Level 2: each Gizmo Basket is made of 1 Tiny Gizmo, 2 Nan Gizmos and 3 Rainbow Gizmos.

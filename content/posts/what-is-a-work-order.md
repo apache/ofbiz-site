@@ -20,7 +20,7 @@ Some businesses call it a production order. Each step on it is sometimes called 
 
 ## How does Apache OFBiz handle work orders?
 
-Apache OFBiz is a free, open source ERP. In OFBiz, a work order is a production run, and each step is a production run task. The machine on each task is called a work center.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. In OFBiz, a work order is a production run, and each step is a production run task. The machine on each task is called a work center.
 
 When you create a production run, OFBiz copies the steps from the routing and the parts from the bill of materials. Staff then work through the run:
 

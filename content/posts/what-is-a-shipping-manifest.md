@@ -28,7 +28,7 @@ A carrier uses it to check that every box was handed over. A receiving warehouse
 
 ## How does Apache OFBiz print shipping manifests?
 
-Apache OFBiz is a free, open source ERP. Every shipment in OFBiz has a manifest that you can print as a PDF. To print it, open the shipment in the Facility application and click Generate Shipment Manifest Report.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. Every shipment in OFBiz has a manifest that you can print as a PDF. To print it, open the shipment in the Facility application and click Generate Shipment Manifest Report.
 
 ![The button that prints the manifest for a shipment](/images/posts/shipping-manifest/manifest-button.png)
 

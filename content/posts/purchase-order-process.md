@@ -20,7 +20,7 @@ A purchase order, or PO, tells a supplier what to deliver, how many, at what pri
 
 ## How does Apache OFBiz handle purchase orders?
 
-Apache OFBiz is a free, open source ERP. Before you start, each supplier needs a price for each product it sells you. OFBiz uses these prices on every order.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. Before you start, each supplier needs a price for each product it sells you. OFBiz uses these prices on every order.
 
 In the Order application, the buyer chooses the supplier and adds the products. OFBiz takes the unit price from the supplier's price, for that quantity and currency.
 

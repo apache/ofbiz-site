@@ -20,7 +20,7 @@ It has two parts. Barcodes are printed on products, orders and boxes. Scanners r
 
 ## How does Apache OFBiz use barcodes?
 
-Apache OFBiz is a free, open source ERP. It needs no special scanner app. A normal USB or Bluetooth scanner works like a keyboard. It types the code into the field that has the cursor.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. It needs no special scanner app. A normal USB or Bluetooth scanner works like a keyboard. It types the code into the field that has the cursor.
 
 OFBiz prints barcodes on:
 

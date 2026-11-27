@@ -22,7 +22,7 @@ Many blanket orders also set a total quantity or a total amount for the period.
 
 ## How does Apache OFBiz handle it?
 
-Apache OFBiz is a free, open source ERP. It keeps the agreed prices in a supplier agreement. The agreement names the supplier, the dates it is valid, and a fixed price for each product.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. It keeps the agreed prices in a supplier agreement. The agreement names the supplier, the dates it is valid, and a fixed price for each product.
 
 In a test with the OFBiz demo data, we agreed a price of 10.00 for Round Gizmo with a supplier. The price shows on the product.
 

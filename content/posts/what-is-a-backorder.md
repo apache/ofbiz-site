@@ -27,7 +27,7 @@ Taking backorders keeps the sale. But the business must know which orders are wa
 
 ## How does Apache OFBiz handle backorders?
 
-Apache OFBiz is a free, open source ERP. It tracks two numbers for every product in every warehouse:
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. It tracks two numbers for every product in every warehouse:
 
 - Quantity on hand (QOH): the units on the shelf.
 - Available to promise (ATP): the units no order has reserved yet.

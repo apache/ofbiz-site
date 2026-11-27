@@ -20,7 +20,7 @@ The simplest way to replenish is a reorder point. A reorder point is the stock l
 
 ## How does Apache OFBiz handle replenishment?
 
-Apache OFBiz is a free, open source ERP. For each product in each warehouse, you set two numbers:
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. For each product in each warehouse, you set two numbers:
 
 - Minimum Stock, the reorder point.
 - Reorder Quantity, how many units to buy.

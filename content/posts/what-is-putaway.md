@@ -20,7 +20,7 @@ Good putaway saves time later. When stock sits in the right place, pickers find 
 
 ## How does Apache OFBiz handle putaway?
 
-Apache OFBiz is a free, open source ERP. Each product can have home locations in a warehouse. A location can be a pick location or a bulk location.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. Each product can have home locations in a warehouse. A location can be a pick location or a bulk location.
 
 When staff receive stock, OFBiz offers the product's home locations. Staff choose one, and the stock is recorded there.
 

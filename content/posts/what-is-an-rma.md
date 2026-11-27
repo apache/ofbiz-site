@@ -21,7 +21,7 @@ Without an RMA, parcels arrive with no record. Nobody knows which order they cam
 
 ## How does Apache OFBiz handle customer returns?
 
-Apache OFBiz is a free, open source ERP. In OFBiz, the RMA is the return record, with its own return number.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. In OFBiz, the RMA is the return record, with its own return number.
 
 1. Customer service creates the return for the customer.
 2. They load the order's lines, and choose the quantity and a reason for each one.

@@ -25,7 +25,7 @@ Most of the time, the two give the same result. They differ when a newer deliver
 
 ## How does Apache OFBiz handle FEFO?
 
-Apache OFBiz is a free, open source ERP. It records each batch you receive as an inventory item. An inventory item can hold a lot number, a serial number and an expiry date.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. It records each batch you receive as an inventory item. An inventory item can hold a lot number, a serial number and an expiry date.
 
 To ship by expiry date, you set the store's Reserve Order Enum ID to FIFO Expire. When an order comes in, OFBiz then reserves the inventory items with the earliest expiry date first.
 

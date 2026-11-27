@@ -21,13 +21,13 @@ Good supplier data saves the buyer time. Every purchase order then gets the righ
 
 ## How does Apache OFBiz handle supplier management?
 
-Apache OFBiz is a free, open source ERP. A supplier is a company in OFBiz with the role Supplier. Only companies with this role appear in the supplier lists.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. A supplier is a company in OFBiz with the role Supplier. Only companies with this role appear in the supplier lists.
 
 For each product, the Suppliers tab lists who sells it. Each row holds the supplier's price, its product code and name, the minimum order quantity, the lead time and whether it is the main supplier.
 
 In a test with the OFBiz demo data, we added a new supplier. It sells Round Gizmo under its own code GPS-2644, for 12.50 USD, with 7 days lead time.
 
-![The supplier's price, code and lead time on the product's Suppliers tab](/images/posts/supplier-management/product-suppliers.png)
+![The supplier row for Round Gizmo, with the supplier's code, price and lead time](/images/posts/supplier-management/product-suppliers.png)
 
 ## How do purchase orders use this data?
 
@@ -37,7 +37,7 @@ When a buyer adds a product to a purchase order, OFBiz takes the price from that
 
 If the supplier has no valid price for the product, OFBiz does not add it to the order. This stops orders to the wrong supplier.
 
-Other parts of OFBiz use the same data. Planning uses the lead time. Dropshipping uses the main supplier.
+Other parts of OFBiz use the same data. Planning uses the lead time. Dropshipping uses the suppliers marked as able to dropship.
 
 ## Try it yourself
 

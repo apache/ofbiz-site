@@ -20,7 +20,7 @@ With a stock ledger, you can explain any stock number. If the shelf has 10 units
 
 ## How does Apache OFBiz keep a stock ledger?
 
-Apache OFBiz is a free, open source ERP. It records each batch of stock as an inventory item. Every change to an inventory item is saved as a line in its history. You see it on the item's Inventory Details tab.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. It records each batch of stock as an inventory item. Every change to an inventory item is saved as a line in its history. You see it on the item's Inventory Details tab.
 
 OFBiz tracks two numbers on each line:
 

@@ -20,7 +20,7 @@ It is also called a return to vendor, or a supplier return. Many suppliers give 
 
 ## How does Apache OFBiz handle purchase returns?
 
-Apache OFBiz is a free, open source ERP. You create the return from the purchase order:
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. You create the return from the purchase order:
 
 1. Open the purchase order and click Create Return.
 2. Enter the quantity to return and a reason, such as Defective Item.

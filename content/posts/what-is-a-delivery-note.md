@@ -28,15 +28,11 @@ A delivery note usually shows no prices. In many countries it is also called a p
 
 ## How does Apache OFBiz print delivery notes?
 
-Apache OFBiz is a free, open source ERP. In OFBiz, the delivery note is called the packing slip. Every shipment has one, printed as a PDF, with one page for each box.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. In OFBiz, the delivery note is called the packing slip. Every shipment has one, printed as a PDF, with one page for each box.
 
 Each page shows the shipment and box number, the order number, the ship-to address and the shipping method. It lists each product with the quantity ordered, the quantity in this box, and the quantity in the whole shipment.
 
-In a test with the OFBiz demo data, one order for 2 Round Gizmos was packed into two boxes. OFBiz printed two pages, one for each box.
-
-![The delivery note for box 1 of 2 on the shipment](/images/posts/packing-slip/packing-slip-box-1.png)
-
-You can print it right after packing, or later from the sales order.
+You can print it right after packing, or later from the sales order. Our post [What Is a Packing Slip?](/posts/what-is-a-packing-slip/) shows a tested example with two boxes.
 
 The layout is a template, so a developer can change it. For example, they can add a line for the receiver's signature.
 
@@ -44,8 +40,5 @@ The layout is a template, so a developer can change it. For example, they can ad
 
 Our step-by-step guide shows where to print it:
 [Print a Packing Slip in Apache OFBiz](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=467436426).
-
-To learn more about the packing slip itself, read our post
-[What Is a Packing Slip?](/posts/what-is-a-packing-slip/).
 
 You can [try the public demo](/ofbiz-demos/), or [download Apache OFBiz](/downloads/) and run it on your own computer.

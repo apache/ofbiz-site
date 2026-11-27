@@ -20,7 +20,7 @@ Many businesses use it for products that are large, slow-selling or costly to st
 
 ## How does Apache OFBiz handle dropshipping?
 
-Apache OFBiz is a free, open source ERP. You mark a product for dropship with one of two settings:
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. You mark a product for dropship with one of two settings:
 
 - Drop-ship only: every unit goes by dropship.
 - Auto drop-ship on low quantity: OFBiz ships what it can from stock. Only the missing units go by dropship.

@@ -20,7 +20,7 @@ A requisition stays inside the company. A purchase order goes to the supplier. T
 
 ## How does Apache OFBiz handle purchase requisitions?
 
-Apache OFBiz is a free, open source ERP. In OFBiz, a purchase requisition is called a requirement. Staff can create one by hand. OFBiz also creates them by itself, for example when stock falls below its minimum.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. In OFBiz, a purchase requisition is called a requirement. Staff can create one by hand. OFBiz also creates them by itself, for example when stock falls below its minimum.
 
 The flow has three steps:
 

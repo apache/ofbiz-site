@@ -20,7 +20,7 @@ Buyers send RFQs to get the best price before they place an order. They often as
 
 ## How does Apache OFBiz handle supplier quotes?
 
-Apache OFBiz is a free, open source ERP. It records each supplier's answer as a purchase quote.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. It records each supplier's answer as a purchase quote.
 
 OFBiz does not send the RFQ itself. You ask the supplier by email or phone, as usual. When the supplier answers, you record the quote in the Order application:
 

@@ -25,7 +25,7 @@ Take 10 units on the shelf, with open orders for 4 of them. QOH is 10. ATP is 6.
 
 ## How does Apache OFBiz handle ATP?
 
-Apache OFBiz is a free, open source ERP. It keeps both numbers for every batch of stock, called an inventory item. It shows them for every product, in every warehouse.
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. It keeps both numbers for every batch of stock, called an inventory item. It shows them for every product, in every warehouse.
 
 In the OFBiz demo data, Round Gizmo showed 507 units on hand and 503 available. The other 4 units were reserved for orders.
 

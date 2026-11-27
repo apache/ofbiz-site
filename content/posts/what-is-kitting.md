@@ -23,10 +23,10 @@ There are two common ways to handle a kit:
 
 ## How does Apache OFBiz handle kits?
 
-Apache OFBiz is a free, open source ERP. In OFBiz, a kit is a product of type Marketing Package. It has two kinds:
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. In OFBiz, a kit is a product of type Marketing Package. It has two kinds:
 
-- **Pick kit.** OFBiz reserves the parts, and staff pack them together. You keep no stock of the kit itself.
-- **Auto kit.** OFBiz builds the kit from its parts with a production run, then reserves the kit.
+- **Pick kit** (type Marketing Package: Pick Assembly). OFBiz reserves the parts, and staff pack them together. You keep no stock of the kit itself.
+- **Auto kit** (type Marketing Package: Auto Manufactured). OFBiz builds the kit from its parts with a production run, then reserves the kit.
 
 In a test with the OFBiz demo data, a Gizmo Basket kit holds 1 Tiny Gizmo, 2 Nan Gizmos and 3 Rainbow Gizmos.
 

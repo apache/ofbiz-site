@@ -21,7 +21,7 @@ Without a plan, parts run out, machines sit idle, and orders ship late.
 
 ## How does Apache OFBiz handle production planning?
 
-Apache OFBiz is a free, open source ERP. It answers each question with one part of its Manufacturing application:
+Apache OFBiz is a free, open source ERP. An ERP (enterprise resource planning) system runs orders, stock, buying and production in one place. It answers each question with one part of its Manufacturing application:
 
 - **Parts:** a bill of materials lists every part of a product, to any depth.
 - **Steps:** a routing lists the steps that make a product. Each step names a machine, called a work center, and the time it takes.
