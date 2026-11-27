@@ -2,99 +2,19 @@
 title: "User Stories"
 layout: "page"
 description: "community"
+metaDescription: "Businesses around the world run Apache OFBiz. Read their stories and see the list of known OFBiz users."
 ---
-<header class="col-12">
-
-<div class="row">
-
-<div class="col-8"> <img src="/images/portfolio/project1.jpg" alt="project title"> </div>
-
-<div class="col-4">
-
-<nav id="projectsNav">
-
-- <a href="" class="btn btn-3d btnSmall">Previous</a>
-- <a href="" class="btn btn-3d btnSmall">Next</a>
-
-</nav>
-
+<p>Businesses around the world run Apache OFBiz. You do not have to tell anyone when you use it, so the full number is not known.</p>
+<h2>Stannah, United Kingdom</h2>
 <div class="divider"><span></span></div>
-
-Add some details about this
-
-### Client
-
-Stannah
-
-### OFBiz Modules Used
-
-Budgeting, Human Resources, Facility, Manufacturing, Order Management, Payments, Catalog, Pricing
-
-<div id="shareme" data-text="Check out this great #themeforest item 'OHMY! HTML5, CSS3, Bootstrap website template"> </div>
-
-</div>
-
-</div>
-
-</header>
-
-<div class="container clearfix" id="otherProjects">
-
-<div class="row da-thumbs">
-
-<div class="col-12">
-
-## Other works <span>in this category</span>
-
+<p>Stannah makes stairlifts. In its story on the wiki, it planned to roll out OFBiz to 5 companies in 8 countries, for about 1,800 users. At that time, the first company was live.</p>
+<p>Modules used: Budgeting, Human Resources, Facility, Manufacturing, Order Management, Payments, Catalog, Pricing.</p>
+<h2>More stories</h2>
 <div class="divider"><span></span></div>
-
-</div>
-
-<article class="col-4 bloc">
-<a href="/user-stories/">
-
-<section class="imgWrapper"> <img src="/images/portfolio/vign2.jpg" alt=""/></section>
-
-<div> <span class="iconWrapper iconLink"><i class="icon-search"></i></span> </div>
-
-</a>
-
-### Lorem ipsum dolor sit amet
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate nunc ut tellus sollicitudin placerat. Sed ac consectetur leo. Pellentesque habitant morbi tristique senectus et netus... <a href="#" class="moreLink">&rarr; read more</a>
-
-</article>
-
-<article class="col-4 bloc">
-<a href="/user-stories/">
-
-<section class="imgWrapper"> <img src="/images/portfolio/vign5.jpg" alt=""/></section>
-
-<div> <span class="iconWrapper iconLink"><i class="icon-search"></i></span> </div>
-
-</a>
-
-### Lorem ipsum dolor sit amet
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate nunc ut tellus sollicitudin placerat. Sed ac consectetur leo. Pellentesque habitant morbi tristique senectus et netus... <a href="#" class="moreLink">&rarr; read more</a>
-
-</article>
-
-<article class="col-4 bloc">
-<a href="/user-stories/">
-
-<section class="imgWrapper"> <img src="/images/portfolio/vign9.jpg" alt=""/></section>
-
-<div> <span class="iconWrapper iconLink"><i class="icon-search"></i></span> </div>
-
-</a>
-
-### Lorem ipsum dolor sit amet
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate nunc ut tellus sollicitudin placerat. Sed ac consectetur leo. Pellentesque habitant morbi tristique senectus et netus... <a href="#" class="moreLink">&rarr; read more</a>
-
-</article>
-
-</div>
-
-</div>
+<ul class="iconsList">
+  <li><i class="icon-pin"></i> Read stories in the users' own words: <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Apache+OFBiz+User+Stories">Apache OFBiz User Stories</a></li>
+  <li><i class="icon-pin"></i> See known OFBiz users, and products built on OFBiz: <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Apache+OFBiz+User+List">Apache OFBiz User List</a></li>
+</ul>
+<h2>Tell us your story</h2>
+<div class="divider"><span></span></div>
+<p>Do you run OFBiz? Add your site to the <a href="https://cwiki.apache.org/confluence/display/OFBIZ/Apache+OFBiz+User+List">wiki user list</a>, or tell us on the <a href="/mailing-lists/">user mailing list</a>.</p>
