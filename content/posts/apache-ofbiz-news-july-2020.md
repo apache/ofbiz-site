@@ -14,9 +14,9 @@ Welcome to our regular monthly round-up of OFBiz news. This month we have news a
 
 ### Apache OFBiz&nbsp;17.12.04 Released!
 
-During this month the community announced the release of 17.12.04. The new release consolidates all work done since the previous release in April 2020. The release file can be downloaded following the instructions in the&nbsp;<a href="https://ofbiz.apache.org/download.html" style="color: #1155cc;">OFBiz Downloads</a>&nbsp;page. Please refer to the&nbsp;<a href="https://ofbiz.apache.org/release-notes-17.12.04.html" style="color: #1155cc;">Release Notes</a>&nbsp;for more details of the changes introduced with this new version.&nbsp;&nbsp;
+During this month the community announced the release of 17.12.04. The new release consolidates all work done since the previous release in April 2020. The release file can be downloaded following the instructions in the&nbsp;<a href="/downloads/" style="color: #1155cc;">OFBiz Downloads</a>&nbsp;page. Please refer to the&nbsp;<a href="/release-notes/release-notes-17.12.04/" style="color: #1155cc;">Release Notes</a>&nbsp;for more details of the changes introduced with this new version.&nbsp;&nbsp;
 
-Please note that a security vulnerability has been reported for the previous OFBiz releases. It is highly recommended that you upgrade to the 17.12.04 release to mitigate this vulnerability. Details can be found on the&nbsp;<a href="https://ofbiz.apache.org/security.html" style="color: #1155cc;">Security</a>&nbsp;page, mail [thread1](https://markmail.org/message/vxzbxad2lr2zxw2d), and <a href="https://markmail.org/message/ro4tdr2dpr2ixlfx" style="color: #1155cc;">thread2</a>.&nbsp;
+Please note that a security vulnerability has been reported for the previous OFBiz releases. It is highly recommended that you upgrade to the 17.12.04 release to mitigate this vulnerability. Details can be found on the&nbsp;<a href="/security/" style="color: #1155cc;">Security</a>&nbsp;page, mail [thread1](https://markmail.org/message/vxzbxad2lr2zxw2d), and <a href="https://markmail.org/message/ro4tdr2dpr2ixlfx" style="color: #1155cc;">thread2</a>.&nbsp;
 
 ### New PMC Members
 

@@ -32,7 +32,7 @@ Recently the project setup a new mailing list where people can report any securi
 
 <p></p>
 
-Details of any OFBiz security vulnerabilities are published under the <a href="http://ofbiz.apache.org/download.html">Security Vulnerabilities </a> section of our Downloads Page.
+Details of any OFBiz security vulnerabilities are published under the <a href="/security/#list-of-known-vulnerabilities">Security Vulnerabilities </a> section of our Security page.
 Please check this page regularly for the latest information.
 
 ## Preparing for a new OFBiz Release

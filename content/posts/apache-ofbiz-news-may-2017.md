@@ -16,11 +16,11 @@ During this month the community announced the release of 16.11.02. This release 
 
 <p></p>
 
-The release file can be downloaded following the instructions in the OFBiz <a href="http://ofbiz.apache.org/download.html" target="_blank" rel="noopener">Downloads page.</a>
+The release file can be downloaded following the instructions in the OFBiz <a href="/downloads/" target="_blank" rel="noopener">Downloads page.</a>
 
 <p></p>
 
-Please refer to the <a href="http://ofbiz.apache.org/release-notes-16.11.02.html" target="_blank" rel="noopener">Release Notes</a> for more details of the changes introduced with this new version.
+Please refer to the <a href="/release-notes/release-notes-16.11.02/" target="_blank" rel="noopener">Release Notes</a> for more details of the changes introduced with this new version.
 
 <p></p>
 

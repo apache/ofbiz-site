@@ -42,7 +42,7 @@ There are two ways to download the OFBiz source code
 
 ### 1. Using a Download Mirror
 
-Download your required version from one of our [download mirrors](https://ofbiz.apache.org/download.html) and extract the zip file
+Download your required version from one of our [download mirrors](/downloads/) and extract the zip file
 
 ### 2. Checkout the Source Code
 
@@ -59,7 +59,7 @@ We have split OFBiz into ofbiz-framework and ofbiz-plugins, so if you want to us
 <li><i class="icon-pin"></i> <strong>ofbiz-plugins trunk</strong> : <code>$ git clone https://github.com/apache/ofbiz-plugins.git plugins </code></li>
 <li><i class="icon-pin"></i> <strong>branch release24.09 (stable)</strong>: <code>$ git clone https://github.com/apache/ofbiz-framework.git ofbiz-framework</code></li>
 <li>If you don't want to use the HEAD version (Git default, with last bug fixes), you can update the tags before.
-<br>You can refer to the <a href="https://ofbiz.apache.org/download.html">site download page</a> for the stable version to use.
+<br>You can refer to the <a href="/downloads/">site download page</a> for the stable version to use.
 <br>Note that you need to add "release"in the name  before, like in "release24.09.07", eg with releaseVersionNumber as a var:
 <br><code>git fetch --all --tags</code>
 <br><code>$ git checkout releaseVersionNumber</code></li>
@@ -202,4 +202,4 @@ After consulting the documentation you still have questions,please feel free to 
 <h2 id="DevDemo">Demo</h2>
 <div class="divider"><span></span></div>
 
-Try out our OFBiz demo - [**OFBiz Demos**](https://ofbiz.apache.org/ofbiz-demos.html)
+Try out our OFBiz demo - [**OFBiz Demos**](/ofbiz-demos/)

@@ -12,8 +12,8 @@ Welcome to our regular monthly round-up of OFBiz news. This month we have news a
 
 ## Apache OFBiz 16.11.03 Released
 
-During this month the community announced the release of 16.11.03. The new release consolidates all work done since the previous release in November last year. The release file can be downloaded following the instructions in the OFBiz <a href="http://ofbiz.apache.org/download.html" target="_blank" rel="noopener">Downloads page.</a>
-Please refer to the <a href="http://ofbiz.apache.org/release-notes-16.11.03.html" target="_blank" rel="noopener">Release Notes</a> for more details of the changes introduced with this new version.
+During this month the community announced the release of 16.11.03. The new release consolidates all work done since the previous release in November last year. The release file can be downloaded following the instructions in the OFBiz <a href="/downloads/" target="_blank" rel="noopener">Downloads page.</a>
+Please refer to the <a href="/release-notes/release-notes-16.11.03/" target="_blank" rel="noopener">Release Notes</a> for more details of the changes introduced with this new version.
 
 Thanks very much to Scott Provost for highlighting a bug in our recent 16.11.02 release and to the OFBiz community for working together to fix the reported problem and getting the new release out so quickly to users.
 

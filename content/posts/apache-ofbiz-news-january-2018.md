@@ -12,9 +12,9 @@ Welcome to our regular monthly round-up of OFBiz news. This month we have news a
 
 ## 16.11.04 Released!
 
-In early January OFBiz 16.11.04 was released. The new release consolidates all work done since the previous release 16.11.03 in July last year. The release file can be downloaded following the instructions on the <a href="http://ofbiz.apache.org/download.html" target="_blank" rel="noopener">OFBiz Downloads page</a>. Please refer to the <a href="http://ofbiz.apache.org/release-notes-16.11.04.html" target="_blank" rel="noopener">Release Notes</a> for more details of the changes introduced with this new version.
+In early January OFBiz 16.11.04 was released. The new release consolidates all work done since the previous release 16.11.03 in July last year. The release file can be downloaded following the instructions on the <a href="/downloads/" target="_blank" rel="noopener">OFBiz Downloads page</a>. Please refer to the <a href="/release-notes/release-notes-16.11.04/" target="_blank" rel="noopener">Release Notes</a> for more details of the changes introduced with this new version.
 
-Please note that a security vulnerability has been reported in OFBiz releases 16.11.01 to 16.11.03. It is highly recommended that you upgrade to the 16.11.04 release to mitigate this vulnerability. Details can be found on "Security Vulnerabilities" section of the <a href="http://ofbiz.apache.org/download.html" target="_blank" rel="noopener">OFBiz Downloads page</a>.
+Please note that a security vulnerability has been reported in OFBiz releases 16.11.01 to 16.11.03. It is highly recommended that you upgrade to the 16.11.04 release to mitigate this vulnerability. Details can be found on "Security Vulnerabilities" section of the <a href="/security/#list-of-known-vulnerabilities" target="_blank" rel="noopener">OFBiz Security page</a>.
 
 ## OFBiz as a Kibble Demo Project
 
