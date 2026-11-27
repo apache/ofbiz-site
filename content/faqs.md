@@ -1,4 +1,5 @@
 ---
+metaDescription: "Answers to common questions about Apache OFBiz: what it is, whether it is free, who owns it and who maintains it."
 layout: "FAQS"
 title: "Frequently Asked Questions"
 trail_title: "faq"

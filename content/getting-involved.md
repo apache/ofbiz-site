@@ -1,4 +1,5 @@
 ---
+metaDescription: "Join the Apache OFBiz community: follow what is happening, report bugs, and contribute code, fixes and documentation."
 title: "Getting Involved"
 layout: "page"
 description: "Community"

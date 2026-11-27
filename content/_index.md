@@ -1,4 +1,5 @@
 ---
+metaDescription: "Apache OFBiz is a free, open source ERP for order management, inventory, warehouse, manufacturing, CRM and e-commerce."
 slides:
   - transition: "fade"
     slotamount: "1"
