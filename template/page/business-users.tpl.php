@@ -64,9 +64,11 @@
                       <li class="active"> <a href="#tabs-v-1" data-toggle="tab"> Accounting </a> </li>
                       <li> <a href="#tabs-v-3" data-toggle="tab"> Manufacturing </a> </li>
           <li> <a href="#tabs-v-4" data-toggle="tab"> Human Resources </a> </li>
+          <li> <a href="#tabs-v-6" data-toggle="tab"> Warehouse Management </a> </li>
           <li> <a href="#tabs-v-5" data-toggle="tab"> Inventory Management </a> </li>
                       <li> <a href="#tabs-v-7" data-toggle="tab"> Catalog Management </a> </li>
-                      <li> <a href="#tabs-v-9" data-toggle="tab"> CRM & Order Management </a> </li>
+                      <li> <a href="#tabs-v-9" data-toggle="tab"> CRM </a> </li>
+                      <li> <a href="#tabs-v-8" data-toggle="tab"> Order Management </a> </li>
                <li> <a href="#tabs-v-10" data-toggle="tab"> e-Commerce / e-Shop </a> </li>
 
 
@@ -80,10 +82,10 @@
        <li><i class="icon-pin"></i> Agreement contracts and Credit management</li>
        <li><i class="icon-pin"></i> Asset Management including Depreciation</li>
        <li><i class="icon-pin"></i> Budgeting Management</li>
-       <li><i class="icon-pin"></i> Support for payment gateways and payment processing</li>
        <li><i class="icon-pin"></i> Financial Reporting </li>
            <li><i class="icon-pin"></i> Fully integrated with Order Management, Inventory, Purchasing and Manufacturing out of the box</li>
             </ul>
+            <p><a href="<?= $base_url ?>accounting.html"><strong>Learn more about accounting in OFBiz</strong></a></p>
 
                       </div>
                       
@@ -98,6 +100,7 @@
        <li><i class="icon-pin"></i> Raw Material Procurement</li>
        <li><i class="icon-pin"></i> Manufacturing Reporting</li>
       </ul>
+            <p><a href="<?= $base_url ?>manufacturing.html"><strong>Learn more about manufacturing in OFBiz</strong></a></p>
                        </div>
 
           <div class="tab-pane" id="tabs-v-4">
@@ -110,6 +113,7 @@
        <li><i class="icon-pin"></i> Employee Expenses</li>
        <li><i class="icon-pin"></i> Training</li>
       </ul>
+            <p><a href="<?= $base_url ?>human-resources.html"><strong>Learn more about human resources in OFBiz</strong></a></p>
                        </div>
 
             <div class="tab-pane" id="tabs-v-5">
@@ -119,13 +123,28 @@
            <li><i class="icon-pin"></i> Inventory Locations </li>
           <li><i class="icon-pin"></i> Serialized on non serialized Inventory </li>
        <li><i class="icon-pin"></i> Lot Management</li>
-       <li><i class="icon-pin"></i> Shipment Integration</li>
+       <li><i class="icon-pin"></i> Shipment packages and tracking numbers</li>
        <li><i class="icon-pin"></i> Picklist and Package Management</li>
        <li><i class="icon-pin"></i> Receiving </li>
         <li><i class="icon-pin"></i> Returns </li>
       </ul>
+            <p><a href="<?= $base_url ?>inventory-management.html"><strong>Learn more about inventory management in OFBiz</strong></a></p>
                        </div>
 
+
+          <div class="tab-pane" id="tabs-v-6">
+                        <ul class="iconsList">
+                     <li><i class="icon-pin"></i> Warehouses, locations and bins </li>
+                     <li><i class="icon-pin"></i> Receive and put away stock </li>
+                     <li><i class="icon-pin"></i> Pick, pack and ship orders </li>
+                     <li><i class="icon-pin"></i> Pack one order into several boxes </li>
+                     <li><i class="icon-pin"></i> Barcodes and scanners </li>
+                     <li><i class="icon-pin"></i> Move stock between warehouses </li>
+                     <li><i class="icon-pin"></i> Count stock and fix quantities </li>
+                     <li><i class="icon-pin"></i> Customer returns and returns to suppliers </li>
+            </ul>
+            <p><a href="<?= $base_url ?>warehouse-management.html"><strong>Learn more about warehouse management in OFBiz</strong></a></p>
+                      </div>
 
           <div class="tab-pane" id="tabs-v-7">
              <ul class="iconsList">
@@ -134,10 +153,10 @@
         <li><i class="icon-pin"></i> Gift Certificates and gift cards</li>
           <li><i class="icon-pin"></i> Price rules for customer or group-specific pricing </li>
        <li><i class="icon-pin"></i> Online store promotion engine</li>
-       <li><i class="icon-pin"></i> Integration with major payment gateway providers</li>
-       <li><i class="icon-pin"></i> Fully integrated online and Point of Sales (POS) stores out-of-the-box</li>
-       <li><i class="icon-pin"></i> Keyword search capability in all the applications using hibernate search</li>
+       <li><i class="icon-pin"></i> Online store available as a separate plugin</li>
+       <li><i class="icon-pin"></i> Keyword search with a thesaurus</li>
       </ul>
+            <p><a href="<?= $base_url ?>catalog-management.html"><strong>Learn more about product catalog management in OFBiz</strong></a></p>
                        </div>
 
 
@@ -148,9 +167,20 @@
           <li><i class="icon-pin"></i> Shared Sales Team Documents, Calendar and Tasks </li>
        <li><i class="icon-pin"></i> Email Integration</li>
        <li><i class="icon-pin"></i> Customer Service and Case Managment</li>
-       <li><i class="icon-pin"></i> Quotes, Order Entry and Order Management</li>
        <li><i class="icon-pin"></i> Manage marketing campaign including tracking code reporting</li>
             </ul>
+            <p><a href="<?= $base_url ?>crm.html"><strong>Learn more about CRM in OFBiz</strong></a></p>
+                      </div>
+
+           <div class="tab-pane" id="tabs-v-8">
+                        <ul class="iconsList">
+                     <li><i class="icon-pin"></i> Quotes, Order Entry and Order Management </li>
+                     <li><i class="icon-pin"></i> Prices, price rules, promotions and sales tax </li>
+                     <li><i class="icon-pin"></i> Invoices and payment capture </li>
+                     <li><i class="icon-pin"></i> Order changes and cancellations </li>
+                     <li><i class="icon-pin"></i> Recurring orders and subscriptions </li>
+            </ul>
+            <p><a href="<?= $base_url ?>order-management.html"><strong>Learn more about order management in OFBiz</strong></a></p>
                       </div>
 
            <div class="tab-pane" id="tabs-v-10">
@@ -161,10 +191,10 @@
        <li><i class="icon-pin"></i> Gift Certificates and Gift Cards</li>
        <li><i class="icon-pin"></i> Pricing rules and Discounts</li>
        <li><i class="icon-pin"></i> Online store promotion engine</li>
-       <li><i class="icon-pin"></i> Integrations with payment gateways</li>
        <li><i class="icon-pin"></i> Product searching </li>
         <li><i class="icon-pin"></i> Customer portal </li>
           </ul>
+            <p><a href="<?= $base_url ?>ecommerce.html"><strong>Learn more about the online store in OFBiz</strong></a></p>
                       </div>
 
                     </div>

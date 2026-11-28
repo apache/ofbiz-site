@@ -2,12 +2,13 @@
 /*
  * arguments:
  *   $head_title
+ *   $head_description (optional)
  */
 ?>
 <meta charset="utf-8">
 <?php print $head_title; ?>
 
-<meta name="Description" content="OFBiz is an open source enterprise automation software project licensed under the Apache License. It means you are not alone and can work with many others." />
+<meta name="Description" content="<?= isset($head_description) ? $head_description : 'OFBiz is an open source enterprise automation software project licensed under the Apache License. It means you are not alone and can work with many others.' ?>" />
 <meta name="Robots" content="index,follow" />
 <!-- Mobile Specific Metas
     ================================================== -->
